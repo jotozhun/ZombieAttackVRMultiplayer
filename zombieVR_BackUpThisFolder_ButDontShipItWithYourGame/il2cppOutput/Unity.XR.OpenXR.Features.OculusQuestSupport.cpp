@@ -235,7 +235,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenXRFeature__ctor_m120460E34ECC22ED2DB
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78158
+// Method Definition Index: 96883
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t43A5F7D0A2DEBD6989F287FB9EBB93116E0C1939 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mA6C08ED6DC318DD3A8E6454728AD08B818197F58 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -248,6 +248,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t43A5F7D0A2DEBD6989F287FB9EBB9
 	}
 	MonoScriptData_t43A5F7D0A2DEBD6989F287FB9EBB93116E0C1939 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	MonoScriptData_t43A5F7D0A2DEBD6989F287FB9EBB93116E0C1939 V_1;
+	memset((&V_1), 0, sizeof(V_1));
 	{
 		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_t43A5F7D0A2DEBD6989F287FB9EBB93116E0C1939));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)104));
@@ -266,10 +268,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t43A5F7D0A2DEBD6989F287FB9EBB9
 		(&V_0)->___TotalTypes = 1;
 		(&V_0)->___IsEditorOnly = (bool)0;
 		MonoScriptData_t43A5F7D0A2DEBD6989F287FB9EBB93116E0C1939 L_6 = V_0;
-		return L_6;
+		V_1 = L_6;
+		goto IL_0057;
+	}
+
+IL_0057:
+	{
+		MonoScriptData_t43A5F7D0A2DEBD6989F287FB9EBB93116E0C1939 L_7 = V_1;
+		return L_7;
 	}
 }
-// Method Definition Index: 78159
+// Method Definition Index: 96884
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mC59A944338EC4FB4DE91E7F383E0F66EF4CF100C (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tE9026CF1E86D87DDCF6F0A6D3247DB611A1A7778* __this, const RuntimeMethod* method) 
 {
 	{
@@ -355,7 +364,7 @@ IL2CPP_EXTERN_C void MonoScriptData_t43A5F7D0A2DEBD6989F287FB9EBB93116E0C1939_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78160
+// Method Definition Index: 96885
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OculusQuestFeature__ctor_mF38393F1A5FA04C3AF781D82EC58A4CBB9D85AA2 (OculusQuestFeature_tF5FA7128BB36F546D5CF7094A93B812DAC667810* __this, const RuntimeMethod* method) 
 {
 	{

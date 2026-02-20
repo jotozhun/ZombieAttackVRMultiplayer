@@ -394,6 +394,7 @@ IL2CPP_EXTERN_C RuntimeClass* Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E
 IL2CPP_EXTERN_C RuntimeClass* Action_1_tFAB0B519749BBE2B7AAD946105FAE8116636A8BC_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Action_1_tFF0F3D982F6CEB68CBA322555CBBEE6AE1D2519C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Action_2_tB79528C85CFEF7DFF52C575DDAA398D2FE6BC333_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* BindingsGroup_tD5EC90BB10F9D310FE467A7E3A4CAE2E32D0397A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11_il2cpp_TypeInfo_var;
@@ -417,6 +418,7 @@ IL2CPP_EXTERN_C RuntimeClass* List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B_i
 IL2CPP_EXTERN_C RuntimeClass* List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* MovementDirection_tCAD7DEA53759ECE3132FEB72767B4A528AD0F0A7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* PermissionCallbacks_t6C5002298E6649261FCB52C244695459E5C9890F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* PermissionRequestGroup_t646393166A187662C80A26CCE0F96A87C449EC8E_il2cpp_TypeInfo_var;
@@ -459,6 +461,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral9A6A18E5289758325C81123AD9F04DC1AF11E63A
 IL2CPP_EXTERN_C String_t* _stringLiteral9B4FEEFA76B93D58B6E47CD9FF76F6E287D0D321;
 IL2CPP_EXTERN_C String_t* _stringLiteral9BCF8359B4696020E13074D2CCAD8107559B7426;
 IL2CPP_EXTERN_C String_t* _stringLiteral9FC59D8986B846D2BF95AF308D4A1BDF1803347C;
+IL2CPP_EXTERN_C String_t* _stringLiteralA3FB88DDD46531AE82CBA3C68DE5F2B43578B1DA;
 IL2CPP_EXTERN_C String_t* _stringLiteralA57AEAE61C9F78184B0CE4087DA4123B3923189D;
 IL2CPP_EXTERN_C String_t* _stringLiteralA73F4360C56103ED788368C9769D9E67B8857E15;
 IL2CPP_EXTERN_C String_t* _stringLiteralAE556C5D923A68B00D17767856C66003D52D6CEC;
@@ -471,6 +474,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralC62C64F00567C5368CAE37F4E64E1E82FF785677
 IL2CPP_EXTERN_C String_t* _stringLiteralCAC9FA4EA913C7FEEEFEEA8D8C3FEF0ADF872886;
 IL2CPP_EXTERN_C String_t* _stringLiteralCC1949C1D0086ABC05350D1316E5E3882205544C;
 IL2CPP_EXTERN_C String_t* _stringLiteralD37B382C1D3DE2BC274D3AF06C5B5C0484887B86;
+IL2CPP_EXTERN_C String_t* _stringLiteralD689EACA9A810383FB2DD66A0BB9FAE341BDC5F6;
 IL2CPP_EXTERN_C String_t* _stringLiteralDF603F67558A1179B2C28C9A1043178A91F18A45;
 IL2CPP_EXTERN_C String_t* _stringLiteralF35C02D0118C69B6ADE22DDE2F7B35FDD2B1AD7C;
 IL2CPP_EXTERN_C String_t* _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D;
@@ -3974,6 +3978,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector2_op_Equality_m6F2E069A50E787D131261E5CB25FC9E03F95B5E1_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_lhs, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_rhs, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ContinuousMoveProvider_ComputeDesiredMove_mE4E902533BB6627AE8922B9EA5C8A55672B98C00 (ContinuousMoveProvider_t1F9AD0924053780B7CF1F5C80D672C5D850C47B9* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_input, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 TransformExtensions_GetWorldPose_m08E343202174666DFF9A07560AB1A72ACD0DDCF1 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_transform, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987 (String_t* ___0_format, RuntimeObject* ___1_arg0, RuntimeObject* ___2_arg1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Assert_IsTrue_m390B3F48332F46CE76AB45491A60ACDCCF521AAE (bool ___0_condition, String_t* ___1_message, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* ContinuousMoveProvider_get_leftHandMoveInput_m2B7F6358E442942C20D0667A234A29BE0CBAEB8E_inline (ContinuousMoveProvider_t1F9AD0924053780B7CF1F5C80D672C5D850C47B9* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* ContinuousMoveProvider_get_rightHandMoveInput_mAA26C39B1CC43915801850C74CF96888DA4CBB7B_inline (ContinuousMoveProvider_t1F9AD0924053780B7CF1F5C80D672C5D850C47B9* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, float ___2_t, const RuntimeMethod* method) ;
@@ -4178,8 +4184,8 @@ inline void UnityEvent_1_RemoveListener_m5F1198F13FB2222BE8AABD6454B4D21086D0A13
 {
 	((  void (*) (UnityEvent_1_tEEB36A367DCB5867E93AAF6BECAF3558CA71BECB*, UnityAction_1_t8EC357AF4FBD2A0C4A575C4BBD0B3A81029E43A9*, const RuntimeMethod*))UnityEvent_1_RemoveListener_m5F1198F13FB2222BE8AABD6454B4D21086D0A130_gshared)(__this, ___0_call, method);
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11 Selectable_get_colors_mB53E365D02351D4B64084295C4B2A7AF2DEC4750_inline (Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* __this, const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ColorBlock_set_normalColor_m3EBF594F6FA2C6494ACA9FCB9B458807D85B96F8_inline (ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11 Selectable_get_colors_mB53E365D02351D4B64084295C4B2A7AF2DEC4750 (Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorBlock_set_normalColor_m3EBF594F6FA2C6494ACA9FCB9B458807D85B96F8 (ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Selectable_set_colors_m0A49ED3ACD6647B7E5A2DA10B3D417E8FE1BE55A (Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* __this, ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11 ___0_value, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, const RuntimeMethod* method) ;
 inline RuntimeObject* Component_GetComponentInParent_TisIMultiPokeStateDataProvider_tD966DFBE873FAF8D39E820B94A6795B4A2EFA73F_m547FA5110DC4523EAC78FD8D62A6E0EA8378AB58 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
@@ -4266,7 +4272,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75079
+// Method Definition Index: 93526
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tF9EE5700FE294192BCCF3A806545924097754811 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m379D45294C561A6E22B6F4EC0E6C65A641669052 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4279,6 +4285,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tF9EE5700FE294192BCCF3A8065459
 	}
 	MonoScriptData_tF9EE5700FE294192BCCF3A806545924097754811 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	MonoScriptData_tF9EE5700FE294192BCCF3A806545924097754811 V_1;
+	memset((&V_1), 0, sizeof(V_1));
 	{
 		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_tF9EE5700FE294192BCCF3A806545924097754811));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)1647));
@@ -4297,10 +4305,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tF9EE5700FE294192BCCF3A8065459
 		(&V_0)->___TotalTypes = ((int32_t)19);
 		(&V_0)->___IsEditorOnly = (bool)0;
 		MonoScriptData_tF9EE5700FE294192BCCF3A806545924097754811 L_6 = V_0;
-		return L_6;
+		V_1 = L_6;
+		goto IL_005f;
+	}
+
+IL_005f:
+	{
+		MonoScriptData_tF9EE5700FE294192BCCF3A806545924097754811 L_7 = V_1;
+		return L_7;
 	}
 }
-// Method Definition Index: 75080
+// Method Definition Index: 93527
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m311E3588D507C8044943F51C544BF0D4E06473E8 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t7F3C3A50366CF113FB2477B5D320146F6A3F7D8A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4386,7 +4401,7 @@ IL2CPP_EXTERN_C void MonoScriptData_tF9EE5700FE294192BCCF3A806545924097754811_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75081
+// Method Definition Index: 93528
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* IncrementUIText_get_text_mEE9AC522102D09B1CDE167EA4E3379C6405FCC4E (IncrementUIText_tF29B22345E086474C294CAFCFCEF0F336CA34359* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4395,7 +4410,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E6
 		return L_0;
 	}
 }
-// Method Definition Index: 75082
+// Method Definition Index: 93529
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IncrementUIText_set_text_m77A3581107A2AD2C94A2410B6E2AF024DA5E6A7F (IncrementUIText_tF29B22345E086474C294CAFCFCEF0F336CA34359* __this, Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -4406,7 +4421,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IncrementUIText_set_text_m77A3581107A2AD
 		return;
 	}
 }
-// Method Definition Index: 75083
+// Method Definition Index: 93530
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IncrementUIText_Awake_mC97B06670534A04F0A2C68E119D8D1391236BA56 (IncrementUIText_tF29B22345E086474C294CAFCFCEF0F336CA34359* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4417,15 +4432,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IncrementUIText_Awake_mC97B06670534A04F0
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAE556C5D923A68B00D17767856C66003D52D6CEC);
 		s_Il2CppMethodInitialized = true;
 	}
+	bool V_0 = false;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/IncrementUIText.cs:31>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___m_Text;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_1)
+		V_0 = L_1;
+		bool L_2 = V_0;
+		if (!L_2)
 		{
-			goto IL_0019;
+			goto IL_001d;
 		}
 	}
 	{
@@ -4434,13 +4452,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IncrementUIText_Awake_mC97B06670534A04F0
 		Debug_LogWarning_m23033D7E2F0F298BE465B7F3A63CDF40A4EB70EB(_stringLiteralAE556C5D923A68B00D17767856C66003D52D6CEC, __this, NULL);
 	}
 
-IL_0019:
+IL_001d:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/IncrementUIText.cs:33>
 		return;
 	}
 }
-// Method Definition Index: 75084
+// Method Definition Index: 93531
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IncrementUIText_IncrementText_m8E724ACEA196D506DEEA23752B3950D25883BFEA (IncrementUIText_tF29B22345E086474C294CAFCFCEF0F336CA34359* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4449,6 +4467,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IncrementUIText_IncrementText_m8E724ACEA
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	bool V_0 = false;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/IncrementUIText.cs:40>
 		int32_t L_0 = __this->___m_Count;
@@ -4458,28 +4477,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IncrementUIText_IncrementText_m8E724ACEA
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
 		L_2 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_2)
+		V_0 = L_2;
+		bool L_3 = V_0;
+		if (!L_3)
 		{
-			goto IL_0032;
+			goto IL_0036;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/IncrementUIText.cs:42>
-		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_3 = __this->___m_Text;
-		int32_t* L_4 = (int32_t*)(&__this->___m_Count);
-		String_t* L_5;
-		L_5 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_4, NULL);
-		NullCheck(L_3);
-		VirtualActionInvoker1< String_t* >::Invoke(75, L_3, L_5);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_4 = __this->___m_Text;
+		int32_t* L_5 = (int32_t*)(&__this->___m_Count);
+		String_t* L_6;
+		L_6 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_5, NULL);
+		NullCheck(L_4);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_4, L_6);
 	}
 
-IL_0032:
+IL_0036:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/IncrementUIText.cs:43>
 		return;
 	}
 }
-// Method Definition Index: 75085
+// Method Definition Index: 93532
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IncrementUIText__ctor_m4699F30CF0F521FCC7C05391C13F1711B78CA9EA (IncrementUIText_tF29B22345E086474C294CAFCFCEF0F336CA34359* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4495,7 +4516,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IncrementUIText__ctor_m4699F30CF0F521FCC
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75086
+// Method Definition Index: 93533
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* MultiAnchorTeleportReticle_get_timerProgressFilledImage_mD063D79A5AE6A4DF69A5124830AC65763421105F (MultiAnchorTeleportReticle_t4D51659966078FEA51FBCD719B78BE3479F7A357* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4504,7 +4525,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Image_tBC1D03F63BF71132E9A5E472B8742F172A011E
 		return L_0;
 	}
 }
-// Method Definition Index: 75087
+// Method Definition Index: 93534
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiAnchorTeleportReticle_set_timerProgressFilledImage_mCD63152891F26C34BD99CF47040FA718C6047929 (MultiAnchorTeleportReticle_t4D51659966078FEA51FBCD719B78BE3479F7A357* __this, Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -4515,7 +4536,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiAnchorTeleportReticle_set_timerProg
 		return;
 	}
 }
-// Method Definition Index: 75088
+// Method Definition Index: 93535
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* MultiAnchorTeleportReticle_get_destinationIndicator_mD0B1C671B8D888D7FF748CCD05679AAED43FF6B3 (MultiAnchorTeleportReticle_t4D51659966078FEA51FBCD719B78BE3479F7A357* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4524,7 +4545,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		return L_0;
 	}
 }
-// Method Definition Index: 75089
+// Method Definition Index: 93536
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiAnchorTeleportReticle_set_destinationIndicator_mBC1CB49CF3D0023C6D8A416D8A2B73A670D074E8 (MultiAnchorTeleportReticle_t4D51659966078FEA51FBCD719B78BE3479F7A357* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -4535,7 +4556,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiAnchorTeleportReticle_set_destinati
 		return;
 	}
 }
-// Method Definition Index: 75090
+// Method Definition Index: 93537
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* MultiAnchorTeleportReticle_get_potentialDestinationIndicator_m78CDBECFD55188EB14C08879A8760D65AAF64418 (MultiAnchorTeleportReticle_t4D51659966078FEA51FBCD719B78BE3479F7A357* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4544,7 +4565,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		return L_0;
 	}
 }
-// Method Definition Index: 75091
+// Method Definition Index: 93538
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiAnchorTeleportReticle_set_potentialDestinationIndicator_m1079C828E069DE1448BA741C0892B45840C30775 (MultiAnchorTeleportReticle_t4D51659966078FEA51FBCD719B78BE3479F7A357* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -4555,7 +4576,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiAnchorTeleportReticle_set_potential
 		return;
 	}
 }
-// Method Definition Index: 75092
+// Method Definition Index: 93539
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float MultiAnchorTeleportReticle_get_potentialIndicatorUpdateFrequency_m1B6912BBE7610E4E3D1ACE1B23856D17B327729E (MultiAnchorTeleportReticle_t4D51659966078FEA51FBCD719B78BE3479F7A357* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4564,7 +4585,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float MultiAnchorTeleportReticle_get_potentia
 		return L_0;
 	}
 }
-// Method Definition Index: 75093
+// Method Definition Index: 93540
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiAnchorTeleportReticle_set_potentialIndicatorUpdateFrequency_mF5A07CFC52577193DF9BCE39444CDF2861CD79C5 (MultiAnchorTeleportReticle_t4D51659966078FEA51FBCD719B78BE3479F7A357* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -4574,7 +4595,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiAnchorTeleportReticle_set_potential
 		return;
 	}
 }
-// Method Definition Index: 75094
+// Method Definition Index: 93541
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiAnchorTeleportReticle_OnReticleAttached_mE2646981377553ED97C69026FF7FF59495D12C97 (MultiAnchorTeleportReticle_t4D51659966078FEA51FBCD719B78BE3479F7A357* __this, XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4* ___0_interactable, RuntimeObject* ___1_reticleProvider, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4586,6 +4607,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiAnchorTeleportReticle_OnReticleAtta
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	bool V_0 = false;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs:73>
 		XRBaseInteractable_t76185BD6DF3BC86B3CDD82E6368C3C7157E39AE4* L_0 = ___0_interactable;
@@ -4612,29 +4634,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiAnchorTeleportReticle_OnReticleAtta
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
 		L_6 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_6)
+		V_0 = L_6;
+		bool L_7 = V_0;
+		if (!L_7)
 		{
-			goto IL_004f;
+			goto IL_0057;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs:79>
-		return;
+		goto IL_006f;
 	}
 
-IL_004f:
+IL_0057:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs:81>
-		TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* L_7 = __this->___m_AnchorVolume;
-		Action_1_t3F0A0FBA4DF1005A2F3BF6F5A9AD5645222F8D31* L_8 = (Action_1_t3F0A0FBA4DF1005A2F3BF6F5A9AD5645222F8D31*)il2cpp_codegen_object_new(Action_1_t3F0A0FBA4DF1005A2F3BF6F5A9AD5645222F8D31_il2cpp_TypeInfo_var);
-		Action_1__ctor_m119FC84288B3E5166500AB8D976F6135420BCAEC(L_8, __this, (intptr_t)((void*)MultiAnchorTeleportReticle_OnDestinationAnchorChanged_mB76D507A3C08350961E25C93D15EAC90A3492A20_RuntimeMethod_var), NULL);
-		NullCheck(L_7);
-		TeleportationMultiAnchorVolume_add_destinationAnchorChanged_mFB365E430B9DF8C9F48465905563E149030C8C80(L_7, L_8, NULL);
+		TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* L_8 = __this->___m_AnchorVolume;
+		Action_1_t3F0A0FBA4DF1005A2F3BF6F5A9AD5645222F8D31* L_9 = (Action_1_t3F0A0FBA4DF1005A2F3BF6F5A9AD5645222F8D31*)il2cpp_codegen_object_new(Action_1_t3F0A0FBA4DF1005A2F3BF6F5A9AD5645222F8D31_il2cpp_TypeInfo_var);
+		Action_1__ctor_m119FC84288B3E5166500AB8D976F6135420BCAEC(L_9, __this, (intptr_t)((void*)MultiAnchorTeleportReticle_OnDestinationAnchorChanged_mB76D507A3C08350961E25C93D15EAC90A3492A20_RuntimeMethod_var), NULL);
+		NullCheck(L_8);
+		TeleportationMultiAnchorVolume_add_destinationAnchorChanged_mFB365E430B9DF8C9F48465905563E149030C8C80(L_8, L_9, NULL);
+	}
+
+IL_006f:
+	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs:82>
 		return;
 	}
 }
-// Method Definition Index: 75095
+// Method Definition Index: 93542
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiAnchorTeleportReticle_OnReticleDetaching_mB310FBFA67487393F22A7A3B5DDDEE71D34B5A97 (MultiAnchorTeleportReticle_t4D51659966078FEA51FBCD719B78BE3479F7A357* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4645,38 +4673,45 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiAnchorTeleportReticle_OnReticleDeta
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	bool V_0 = false;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs:87>
 		TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* L_0 = __this->___m_AnchorVolume;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_1)
+		V_0 = L_1;
+		bool L_2 = V_0;
+		if (!L_2)
 		{
-			goto IL_000f;
+			goto IL_0013;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs:88>
-		return;
+		goto IL_0032;
 	}
 
-IL_000f:
+IL_0013:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs:90>
-		TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* L_2 = __this->___m_AnchorVolume;
-		Action_1_t3F0A0FBA4DF1005A2F3BF6F5A9AD5645222F8D31* L_3 = (Action_1_t3F0A0FBA4DF1005A2F3BF6F5A9AD5645222F8D31*)il2cpp_codegen_object_new(Action_1_t3F0A0FBA4DF1005A2F3BF6F5A9AD5645222F8D31_il2cpp_TypeInfo_var);
-		Action_1__ctor_m119FC84288B3E5166500AB8D976F6135420BCAEC(L_3, __this, (intptr_t)((void*)MultiAnchorTeleportReticle_OnDestinationAnchorChanged_mB76D507A3C08350961E25C93D15EAC90A3492A20_RuntimeMethod_var), NULL);
-		NullCheck(L_2);
-		TeleportationMultiAnchorVolume_remove_destinationAnchorChanged_mD878285F1E46919DDE67A207280D713F637E52E9(L_2, L_3, NULL);
+		TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* L_3 = __this->___m_AnchorVolume;
+		Action_1_t3F0A0FBA4DF1005A2F3BF6F5A9AD5645222F8D31* L_4 = (Action_1_t3F0A0FBA4DF1005A2F3BF6F5A9AD5645222F8D31*)il2cpp_codegen_object_new(Action_1_t3F0A0FBA4DF1005A2F3BF6F5A9AD5645222F8D31_il2cpp_TypeInfo_var);
+		Action_1__ctor_m119FC84288B3E5166500AB8D976F6135420BCAEC(L_4, __this, (intptr_t)((void*)MultiAnchorTeleportReticle_OnDestinationAnchorChanged_mB76D507A3C08350961E25C93D15EAC90A3492A20_RuntimeMethod_var), NULL);
+		NullCheck(L_3);
+		TeleportationMultiAnchorVolume_remove_destinationAnchorChanged_mD878285F1E46919DDE67A207280D713F637E52E9(L_3, L_4, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs:91>
 		__this->___m_AnchorVolume = (TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_AnchorVolume), (void*)(TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0*)NULL);
+	}
+
+IL_0032:
+	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs:92>
 		return;
 	}
 }
-// Method Definition Index: 75096
+// Method Definition Index: 93543
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiAnchorTeleportReticle_Update_mAE39347D4801FCD736E53CD5FB27BB674EFEDDE4 (MultiAnchorTeleportReticle_t4D51659966078FEA51FBCD719B78BE3479F7A357* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4686,73 +4721,82 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiAnchorTeleportReticle_Update_mAE393
 		s_Il2CppMethodInitialized = true;
 	}
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_0 = NULL;
+	bool V_1 = false;
+	bool V_2 = false;
+	bool V_3 = false;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs:99>
 		TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* L_0 = __this->___m_AnchorVolume;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_1)
+		V_1 = L_1;
+		bool L_2 = V_1;
+		if (!L_2)
 		{
-			goto IL_000f;
+			goto IL_0013;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs:100>
-		return;
+		goto IL_007d;
 	}
 
-IL_000f:
+IL_0013:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs:102>
-		TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* L_2 = __this->___m_AnchorVolume;
-		NullCheck(L_2);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
-		L_3 = TeleportationMultiAnchorVolume_get_destinationAnchor_m8867AD0C9F209FBEAC8E14A53887547329C4D1E8_inline(L_2, NULL);
-		V_0 = L_3;
+		TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* L_3 = __this->___m_AnchorVolume;
+		NullCheck(L_3);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
+		L_4 = TeleportationMultiAnchorVolume_get_destinationAnchor_m8867AD0C9F209FBEAC8E14A53887547329C4D1E8_inline(L_3, NULL);
+		V_0 = L_4;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs:103>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = V_0;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_5;
-		L_5 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_5)
+		bool L_6;
+		L_6 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_2 = L_6;
+		bool L_7 = V_2;
+		if (!L_7)
 		{
-			goto IL_003b;
+			goto IL_0044;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs:105>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___m_DestinationIndicator;
-		NullCheck(L_6);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7;
-		L_7 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_6, NULL);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8 = V_0;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->___m_DestinationIndicator;
 		NullCheck(L_8);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
-		L_9 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_8, NULL);
-		MultiAnchorTeleportReticle_PointAtTarget_m68DA8B5FE3864AEF55E72A3FCCC53E2805A16F9B(L_7, L_9, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9;
+		L_9 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_8, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10 = V_0;
+		NullCheck(L_10);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
+		L_11 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_10, NULL);
+		MultiAnchorTeleportReticle_PointAtTarget_m68DA8B5FE3864AEF55E72A3FCCC53E2805A16F9B(L_9, L_11, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs:106>
-		return;
+		goto IL_007d;
 	}
 
-IL_003b:
+IL_0044:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs:109>
-		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_10 = __this->___m_TimerProgressFilledImage;
-		TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* L_11 = __this->___m_AnchorVolume;
-		NullCheck(L_11);
-		float L_12;
-		L_12 = TeleportationMultiAnchorVolume_get_destinationEvaluationProgress_mA00FA8BCF4AC4B9A68AEA8A12B38C90AC35B4021_inline(L_11, NULL);
-		NullCheck(L_10);
-		Image_set_fillAmount_m8A9B55F47F966A3214EAC4ACBFE198776A98FAA7(L_10, L_12, NULL);
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_12 = __this->___m_TimerProgressFilledImage;
+		TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* L_13 = __this->___m_AnchorVolume;
+		NullCheck(L_13);
+		float L_14;
+		L_14 = TeleportationMultiAnchorVolume_get_destinationEvaluationProgress_mA00FA8BCF4AC4B9A68AEA8A12B38C90AC35B4021_inline(L_13, NULL);
+		NullCheck(L_12);
+		Image_set_fillAmount_m8A9B55F47F966A3214EAC4ACBFE198776A98FAA7(L_12, L_14, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs:110>
-		float L_13;
-		L_13 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
-		float L_14 = __this->___m_LastPotentialIndicatorUpdateTime;
-		float L_15 = __this->___m_PotentialIndicatorUpdateFrequency;
-		if ((!(((float)((float)il2cpp_codegen_subtract(L_13, L_14))) >= ((float)L_15))))
+		float L_15;
+		L_15 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		float L_16 = __this->___m_LastPotentialIndicatorUpdateTime;
+		float L_17 = __this->___m_PotentialIndicatorUpdateFrequency;
+		V_3 = (bool)((((int32_t)((!(((float)((float)il2cpp_codegen_subtract(L_15, L_16))) >= ((float)L_17)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_18 = V_3;
+		if (!L_18)
 		{
-			goto IL_006b;
+			goto IL_007d;
 		}
 	}
 	{
@@ -4760,13 +4804,13 @@ IL_003b:
 		MultiAnchorTeleportReticle_UpdatePotentialDestinationIndicator_m514BE4CB5D1FCB70B038C8DAB9FFA001EA568506(__this, NULL);
 	}
 
-IL_006b:
+IL_007d:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs:112>
 		return;
 	}
 }
-// Method Definition Index: 75097
+// Method Definition Index: 93544
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiAnchorTeleportReticle_UpdatePotentialDestinationIndicator_m514BE4CB5D1FCB70B038C8DAB9FFA001EA568506 (MultiAnchorTeleportReticle_t4D51659966078FEA51FBCD719B78BE3479F7A357* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4782,6 +4826,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiAnchorTeleportReticle_UpdatePotenti
 	int32_t V_0 = 0;
 	List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* V_1 = NULL;
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_2 = NULL;
+	bool V_3 = false;
+	bool V_4 = false;
+	bool V_5 = false;
+	int32_t G_B5_0 = 0;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs:116>
 		float L_0;
@@ -4798,116 +4846,135 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiAnchorTeleportReticle_UpdatePotenti
 		NullCheck(L_3);
 		bool L_4;
 		L_4 = TeleportVolumeDestinationSettings_get_pollForDestinationChange_m8B84DAB7771B97C759D574E6BF02CA1A6B79AAD9_inline(L_3, NULL);
-		if (L_4)
+		V_3 = (bool)((((int32_t)L_4) == ((int32_t)0))? 1 : 0);
+		bool L_5 = V_3;
+		if (!L_5)
 		{
-			goto IL_002f;
+			goto IL_003b;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs:119>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___m_PotentialDestinationIndicator;
-		NullCheck(L_5);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)0, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___m_PotentialDestinationIndicator;
+		NullCheck(L_6);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)0, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs:120>
-		return;
+		goto IL_00d0;
 	}
 
-IL_002f:
+IL_003b:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs:123>
-		TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* L_6 = __this->___m_AnchorVolume;
-		NullCheck(L_6);
-		RuntimeObject* L_7;
-		L_7 = TeleportationMultiAnchorVolume_get_destinationEvaluationFilter_mB029DABA22AA9BB224FE18EF80D059D7F04BCEC5(L_6, NULL);
-		TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* L_8 = __this->___m_AnchorVolume;
+		TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* L_7 = __this->___m_AnchorVolume;
 		NullCheck(L_7);
-		int32_t L_9;
-		L_9 = InterfaceFuncInvoker1< int32_t, TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* >::Invoke(0, ITeleportationVolumeAnchorFilter_tEB8EF834201983BE3F798013E13B3C1E59CF8D06_il2cpp_TypeInfo_var, L_7, L_8);
-		V_0 = L_9;
+		RuntimeObject* L_8;
+		L_8 = TeleportationMultiAnchorVolume_get_destinationEvaluationFilter_mB029DABA22AA9BB224FE18EF80D059D7F04BCEC5(L_7, NULL);
+		TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* L_9 = __this->___m_AnchorVolume;
+		NullCheck(L_8);
+		int32_t L_10;
+		L_10 = InterfaceFuncInvoker1< int32_t, TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* >::Invoke(0, ITeleportationVolumeAnchorFilter_tEB8EF834201983BE3F798013E13B3C1E59CF8D06_il2cpp_TypeInfo_var, L_8, L_9);
+		V_0 = L_10;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs:124>
-		TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* L_10 = __this->___m_AnchorVolume;
-		NullCheck(L_10);
-		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_11;
-		L_11 = TeleportationMultiAnchorVolume_get_anchorTransforms_m0D5B37776E774893D31FB4BCE7A5159814E352F9_inline(L_10, NULL);
-		V_1 = L_11;
+		TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* L_11 = __this->___m_AnchorVolume;
+		NullCheck(L_11);
+		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_12;
+		L_12 = TeleportationMultiAnchorVolume_get_anchorTransforms_m0D5B37776E774893D31FB4BCE7A5159814E352F9_inline(L_11, NULL);
+		V_1 = L_12;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs:125>
-		int32_t L_12 = V_0;
-		if ((((int32_t)L_12) < ((int32_t)0)))
+		int32_t L_13 = V_0;
+		if ((((int32_t)L_13) < ((int32_t)0)))
 		{
-			goto IL_005f;
+			goto IL_0070;
 		}
 	}
 	{
-		int32_t L_13 = V_0;
-		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_14 = V_1;
-		NullCheck(L_14);
-		int32_t L_15;
-		L_15 = List_1_get_Count_mB5E64608D47703A98476E026480AE38671047C87_inline(L_14, List_1_get_Count_mB5E64608D47703A98476E026480AE38671047C87_RuntimeMethod_var);
-		if ((((int32_t)L_13) < ((int32_t)L_15)))
-		{
-			goto IL_006c;
-		}
+		int32_t L_14 = V_0;
+		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_15 = V_1;
+		NullCheck(L_15);
+		int32_t L_16;
+		L_16 = List_1_get_Count_mB5E64608D47703A98476E026480AE38671047C87_inline(L_15, List_1_get_Count_mB5E64608D47703A98476E026480AE38671047C87_RuntimeMethod_var);
+		G_B5_0 = ((((int32_t)((((int32_t)L_14) < ((int32_t)L_16))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_0071;
 	}
 
-IL_005f:
+IL_0070:
+	{
+		G_B5_0 = 1;
+	}
+
+IL_0071:
+	{
+		V_4 = (bool)G_B5_0;
+		bool L_17 = V_4;
+		if (!L_17)
+		{
+			goto IL_0087;
+		}
+	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs:127>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = __this->___m_PotentialDestinationIndicator;
-		NullCheck(L_16);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_16, (bool)0, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = __this->___m_PotentialDestinationIndicator;
+		NullCheck(L_18);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_18, (bool)0, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs:128>
-		return;
+		goto IL_00d0;
 	}
 
-IL_006c:
+IL_0087:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs:131>
-		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_17 = V_1;
-		int32_t L_18 = V_0;
-		NullCheck(L_17);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_19;
-		L_19 = List_1_get_Item_m8EAA91B4CE37CBB6C720FD238E4505097B29FFDA(L_17, L_18, List_1_get_Item_m8EAA91B4CE37CBB6C720FD238E4505097B29FFDA_RuntimeMethod_var);
-		V_2 = L_19;
+		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_19 = V_1;
+		int32_t L_20 = V_0;
+		NullCheck(L_19);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_21;
+		L_21 = List_1_get_Item_m8EAA91B4CE37CBB6C720FD238E4505097B29FFDA(L_19, L_20, List_1_get_Item_m8EAA91B4CE37CBB6C720FD238E4505097B29FFDA_RuntimeMethod_var);
+		V_2 = L_21;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs:132>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_20 = V_2;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_22 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_21;
-		L_21 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_20, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_21)
+		bool L_23;
+		L_23 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_22, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_5 = L_23;
+		bool L_24 = V_5;
+		if (!L_24)
 		{
-			goto IL_008a;
+			goto IL_00ac;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs:134>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22 = __this->___m_PotentialDestinationIndicator;
-		NullCheck(L_22);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_22, (bool)0, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25 = __this->___m_PotentialDestinationIndicator;
+		NullCheck(L_25);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_25, (bool)0, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs:135>
-		return;
+		goto IL_00d0;
 	}
 
-IL_008a:
+IL_00ac:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs:138>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23 = __this->___m_PotentialDestinationIndicator;
-		NullCheck(L_23);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_23, (bool)1, NULL);
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs:139>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24 = __this->___m_PotentialDestinationIndicator;
-		NullCheck(L_24);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_25;
-		L_25 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_24, NULL);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_26 = V_2;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_26 = __this->___m_PotentialDestinationIndicator;
 		NullCheck(L_26);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27;
-		L_27 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_26, NULL);
-		MultiAnchorTeleportReticle_PointAtTarget_m68DA8B5FE3864AEF55E72A3FCCC53E2805A16F9B(L_25, L_27, NULL);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_26, (bool)1, NULL);
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs:139>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_27 = __this->___m_PotentialDestinationIndicator;
+		NullCheck(L_27);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_28;
+		L_28 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_27, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_29 = V_2;
+		NullCheck(L_29);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_30;
+		L_30 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_29, NULL);
+		MultiAnchorTeleportReticle_PointAtTarget_m68DA8B5FE3864AEF55E72A3FCCC53E2805A16F9B(L_28, L_30, NULL);
+	}
+
+IL_00d0:
+	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs:140>
 		return;
 	}
 }
-// Method Definition Index: 75098
+// Method Definition Index: 93545
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiAnchorTeleportReticle_OnDestinationAnchorChanged_mB76D507A3C08350961E25C93D15EAC90A3492A20 (MultiAnchorTeleportReticle_t4D51659966078FEA51FBCD719B78BE3479F7A357* __this, TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* ___0_anchorVolume, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4917,6 +4984,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiAnchorTeleportReticle_OnDestination
 		s_Il2CppMethodInitialized = true;
 	}
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_0 = NULL;
+	bool V_1 = false;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs:144>
 		TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* L_0 = ___0_anchorVolume;
@@ -4929,52 +4997,58 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiAnchorTeleportReticle_OnDestination
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
 		L_3 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_3)
+		V_1 = L_3;
+		bool L_4 = V_1;
+		if (!L_4)
 		{
-			goto IL_004f;
+			goto IL_0059;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs:147>
-		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_4 = __this->___m_TimerProgressFilledImage;
-		NullCheck(L_4);
-		Image_set_fillAmount_m8A9B55F47F966A3214EAC4ACBFE198776A98FAA7(L_4, (1.0f), NULL);
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs:148>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___m_PotentialDestinationIndicator;
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_5 = __this->___m_TimerProgressFilledImage;
 		NullCheck(L_5);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)0, NULL);
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs:149>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___m_DestinationIndicator;
+		Image_set_fillAmount_m8A9B55F47F966A3214EAC4ACBFE198776A98FAA7(L_5, (1.0f), NULL);
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs:148>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___m_PotentialDestinationIndicator;
 		NullCheck(L_6);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)1, NULL);
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs:150>
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)0, NULL);
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs:149>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->___m_DestinationIndicator;
 		NullCheck(L_7);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
-		L_8 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_7, NULL);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9 = V_0;
-		NullCheck(L_9);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
-		L_10 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_9, NULL);
-		MultiAnchorTeleportReticle_PointAtTarget_m68DA8B5FE3864AEF55E72A3FCCC53E2805A16F9B(L_8, L_10, NULL);
-		return;
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_7, (bool)1, NULL);
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs:150>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->___m_DestinationIndicator;
+		NullCheck(L_8);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9;
+		L_9 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_8, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10 = V_0;
+		NullCheck(L_10);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
+		L_11 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_10, NULL);
+		MultiAnchorTeleportReticle_PointAtTarget_m68DA8B5FE3864AEF55E72A3FCCC53E2805A16F9B(L_9, L_11, NULL);
+		goto IL_0079;
 	}
 
-IL_004f:
+IL_0059:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs:154>
-		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_11 = __this->___m_TimerProgressFilledImage;
-		NullCheck(L_11);
-		Image_set_fillAmount_m8A9B55F47F966A3214EAC4ACBFE198776A98FAA7(L_11, (0.0f), NULL);
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs:155>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->___m_DestinationIndicator;
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_12 = __this->___m_TimerProgressFilledImage;
 		NullCheck(L_12);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_12, (bool)0, NULL);
+		Image_set_fillAmount_m8A9B55F47F966A3214EAC4ACBFE198776A98FAA7(L_12, (0.0f), NULL);
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs:155>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = __this->___m_DestinationIndicator;
+		NullCheck(L_13);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_13, (bool)0, NULL);
+	}
+
+IL_0079:
+	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Scripts/MultiAnchorTeleportReticle.cs:157>
 		return;
 	}
 }
-// Method Definition Index: 75099
+// Method Definition Index: 93546
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiAnchorTeleportReticle_PointAtTarget_m68DA8B5FE3864AEF55E72A3FCCC53E2805A16F9B (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_indicatorTransform, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_targetPosition, const RuntimeMethod* method) 
 {
 	{
@@ -4999,7 +5073,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiAnchorTeleportReticle_PointAtTarget
 		return;
 	}
 }
-// Method Definition Index: 75100
+// Method Definition Index: 93547
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiAnchorTeleportReticle__ctor_mDFD090626804291A85F87F65C0364E644E8C679C (MultiAnchorTeleportReticle_t4D51659966078FEA51FBCD719B78BE3479F7A357* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5017,7 +5091,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MultiAnchorTeleportReticle__ctor_mDFD090
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75101
+// Method Definition Index: 93548
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ClimbTeleportInteractor_t9AD38301B02FCB18FB1FB1B84192C05C731D1083* ClimbTeleportDestinationIndicator_get_climbTeleportInteractor_m7D72326121F7F8D85696530CB3DBD74CC3B7EE91 (ClimbTeleportDestinationIndicator_t95EC8E13B0E057810A00B57C40978485340B4458* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5026,7 +5100,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ClimbTeleportInteractor_t9AD38301B02FCB18FB1F
 		return L_0;
 	}
 }
-// Method Definition Index: 75102
+// Method Definition Index: 93549
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClimbTeleportDestinationIndicator_set_climbTeleportInteractor_m73F00DFB7D342DD36A1AEFDD12EEF578A3338A43 (ClimbTeleportDestinationIndicator_t95EC8E13B0E057810A00B57C40978485340B4458* __this, ClimbTeleportInteractor_t9AD38301B02FCB18FB1FB1B84192C05C731D1083* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -5037,7 +5111,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClimbTeleportDestinationIndicator_set_cl
 		return;
 	}
 }
-// Method Definition Index: 75103
+// Method Definition Index: 93550
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ClimbTeleportDestinationIndicator_get_pointerPrefab_m756EC38FEF6CD700628DE348CC9B9314DFFAE601 (ClimbTeleportDestinationIndicator_t95EC8E13B0E057810A00B57C40978485340B4458* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5046,7 +5120,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		return L_0;
 	}
 }
-// Method Definition Index: 75104
+// Method Definition Index: 93551
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClimbTeleportDestinationIndicator_set_pointerPrefab_mFF535081916EDD6A212C9426408A50622AE17119 (ClimbTeleportDestinationIndicator_t95EC8E13B0E057810A00B57C40978485340B4458* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -5057,7 +5131,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClimbTeleportDestinationIndicator_set_po
 		return;
 	}
 }
-// Method Definition Index: 75105
+// Method Definition Index: 93552
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ClimbTeleportDestinationIndicator_get_pointerDistance_m5570B990CFFDB453865B4300AA7DBD1004B091DD (ClimbTeleportDestinationIndicator_t95EC8E13B0E057810A00B57C40978485340B4458* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5066,7 +5140,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ClimbTeleportDestinationIndicator_get_p
 		return L_0;
 	}
 }
-// Method Definition Index: 75106
+// Method Definition Index: 93553
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClimbTeleportDestinationIndicator_set_pointerDistance_m4CC6EFB4A610F81F52733DE67108A00864667D8E (ClimbTeleportDestinationIndicator_t95EC8E13B0E057810A00B57C40978485340B4458* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -5076,7 +5150,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClimbTeleportDestinationIndicator_set_po
 		return;
 	}
 }
-// Method Definition Index: 75107
+// Method Definition Index: 93554
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClimbTeleportDestinationIndicator_OnEnable_m8276E674B059917E933568878F7FBF12F83167A7 (ClimbTeleportDestinationIndicator_t95EC8E13B0E057810A00B57C40978485340B4458* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5095,26 +5169,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClimbTeleportDestinationIndicator_OnEnab
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD37B382C1D3DE2BC274D3AF06C5B5C0484887B86);
 		s_Il2CppMethodInitialized = true;
 	}
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs:62>
 		ClimbTeleportInteractor_t9AD38301B02FCB18FB1FB1B84192C05C731D1083* L_0 = __this->___m_ClimbTeleportInteractor;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_1)
+		V_0 = L_1;
+		bool L_2 = V_0;
+		if (!L_2)
 		{
-			goto IL_002d;
+			goto IL_003b;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs:64>
-		ClimbTeleportInteractor_t9AD38301B02FCB18FB1FB1B84192C05C731D1083** L_2 = (ClimbTeleportInteractor_t9AD38301B02FCB18FB1FB1B84192C05C731D1083**)(&__this->___m_ClimbTeleportInteractor);
+		ClimbTeleportInteractor_t9AD38301B02FCB18FB1FB1B84192C05C731D1083** L_3 = (ClimbTeleportInteractor_t9AD38301B02FCB18FB1FB1B84192C05C731D1083**)(&__this->___m_ClimbTeleportInteractor);
 		il2cpp_codegen_runtime_class_init_inline(ComponentLocatorUtility_1_tAC18A5A61768B450C48B27C88825DF21A564EFE7_il2cpp_TypeInfo_var);
-		bool L_3;
-		L_3 = ComponentLocatorUtility_1_TryFindComponent_m95BCBE83B3C4A1C9218DFDF113FFACB3E8CDBCA7(L_2, ComponentLocatorUtility_1_TryFindComponent_m95BCBE83B3C4A1C9218DFDF113FFACB3E8CDBCA7_RuntimeMethod_var);
-		if (L_3)
+		bool L_4;
+		L_4 = ComponentLocatorUtility_1_TryFindComponent_m95BCBE83B3C4A1C9218DFDF113FFACB3E8CDBCA7(L_3, ComponentLocatorUtility_1_TryFindComponent_m95BCBE83B3C4A1C9218DFDF113FFACB3E8CDBCA7_RuntimeMethod_var);
+		V_1 = (bool)((((int32_t)L_4) == ((int32_t)0))? 1 : 0);
+		bool L_5 = V_1;
+		if (!L_5)
 		{
-			goto IL_002d;
+			goto IL_003a;
 		}
 	}
 	{
@@ -5124,34 +5204,42 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClimbTeleportDestinationIndicator_OnEnab
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs:67>
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs:68>
-		return;
+		goto IL_0075;
 	}
 
-IL_002d:
+IL_003a:
+	{
+	}
+
+IL_003b:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs:72>
-		ClimbTeleportInteractor_t9AD38301B02FCB18FB1FB1B84192C05C731D1083* L_4 = __this->___m_ClimbTeleportInteractor;
-		NullCheck(L_4);
-		HoverEnterEvent_t2BDBCA14FF94DA18C9AC12B43297F6C1641788AB* L_5;
-		L_5 = XRBaseInteractor_get_hoverEntered_m513A1A0A4F630E37B1C72C0AEAC851EAF9252EE1_inline(L_4, NULL);
-		UnityAction_1_t7821A7EA54C56577CDB3A8CF220894E704C5E906* L_6 = (UnityAction_1_t7821A7EA54C56577CDB3A8CF220894E704C5E906*)il2cpp_codegen_object_new(UnityAction_1_t7821A7EA54C56577CDB3A8CF220894E704C5E906_il2cpp_TypeInfo_var);
-		UnityAction_1__ctor_m3C8E30AEA90302CA8E564E339058E839E40196F4(L_6, __this, (intptr_t)((void*)ClimbTeleportDestinationIndicator_OnInteractorHoverEntered_mE5C10F13BAE27A02F1D23AAB83CB7BEEE503A566_RuntimeMethod_var), NULL);
-		NullCheck(L_5);
-		UnityEvent_1_AddListener_mAC66156659CCBF4F403AA58A3029F740AB221D8F(L_5, L_6, UnityEvent_1_AddListener_mAC66156659CCBF4F403AA58A3029F740AB221D8F_RuntimeMethod_var);
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs:73>
-		ClimbTeleportInteractor_t9AD38301B02FCB18FB1FB1B84192C05C731D1083* L_7 = __this->___m_ClimbTeleportInteractor;
+		ClimbTeleportInteractor_t9AD38301B02FCB18FB1FB1B84192C05C731D1083* L_6 = __this->___m_ClimbTeleportInteractor;
+		NullCheck(L_6);
+		HoverEnterEvent_t2BDBCA14FF94DA18C9AC12B43297F6C1641788AB* L_7;
+		L_7 = XRBaseInteractor_get_hoverEntered_m513A1A0A4F630E37B1C72C0AEAC851EAF9252EE1_inline(L_6, NULL);
+		UnityAction_1_t7821A7EA54C56577CDB3A8CF220894E704C5E906* L_8 = (UnityAction_1_t7821A7EA54C56577CDB3A8CF220894E704C5E906*)il2cpp_codegen_object_new(UnityAction_1_t7821A7EA54C56577CDB3A8CF220894E704C5E906_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_m3C8E30AEA90302CA8E564E339058E839E40196F4(L_8, __this, (intptr_t)((void*)ClimbTeleportDestinationIndicator_OnInteractorHoverEntered_mE5C10F13BAE27A02F1D23AAB83CB7BEEE503A566_RuntimeMethod_var), NULL);
 		NullCheck(L_7);
-		HoverExitEvent_t256704BC79FE0AA61EB2DE3FDDF43A1FC97F5832* L_8;
-		L_8 = XRBaseInteractor_get_hoverExited_m06044A674CF3046BC7538BBB86A387C03D8AE459_inline(L_7, NULL);
-		UnityAction_1_tEA316A79555AFDC4BC3AC6593643EDAF90C8898B* L_9 = (UnityAction_1_tEA316A79555AFDC4BC3AC6593643EDAF90C8898B*)il2cpp_codegen_object_new(UnityAction_1_tEA316A79555AFDC4BC3AC6593643EDAF90C8898B_il2cpp_TypeInfo_var);
-		UnityAction_1__ctor_m917A650EF730B0F8CDB9227A03A45B24FB54BCF8(L_9, __this, (intptr_t)((void*)ClimbTeleportDestinationIndicator_OnInteractorHoverExited_m0FD7540E9118A636666D699F21D07E3FD115BB27_RuntimeMethod_var), NULL);
-		NullCheck(L_8);
-		UnityEvent_1_AddListener_m05144EB9F3BFA975DF4C33D66491674CFDF53722(L_8, L_9, UnityEvent_1_AddListener_m05144EB9F3BFA975DF4C33D66491674CFDF53722_RuntimeMethod_var);
+		UnityEvent_1_AddListener_mAC66156659CCBF4F403AA58A3029F740AB221D8F(L_7, L_8, UnityEvent_1_AddListener_mAC66156659CCBF4F403AA58A3029F740AB221D8F_RuntimeMethod_var);
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs:73>
+		ClimbTeleportInteractor_t9AD38301B02FCB18FB1FB1B84192C05C731D1083* L_9 = __this->___m_ClimbTeleportInteractor;
+		NullCheck(L_9);
+		HoverExitEvent_t256704BC79FE0AA61EB2DE3FDDF43A1FC97F5832* L_10;
+		L_10 = XRBaseInteractor_get_hoverExited_m06044A674CF3046BC7538BBB86A387C03D8AE459_inline(L_9, NULL);
+		UnityAction_1_tEA316A79555AFDC4BC3AC6593643EDAF90C8898B* L_11 = (UnityAction_1_tEA316A79555AFDC4BC3AC6593643EDAF90C8898B*)il2cpp_codegen_object_new(UnityAction_1_tEA316A79555AFDC4BC3AC6593643EDAF90C8898B_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_m917A650EF730B0F8CDB9227A03A45B24FB54BCF8(L_11, __this, (intptr_t)((void*)ClimbTeleportDestinationIndicator_OnInteractorHoverExited_m0FD7540E9118A636666D699F21D07E3FD115BB27_RuntimeMethod_var), NULL);
+		NullCheck(L_10);
+		UnityEvent_1_AddListener_m05144EB9F3BFA975DF4C33D66491674CFDF53722(L_10, L_11, UnityEvent_1_AddListener_m05144EB9F3BFA975DF4C33D66491674CFDF53722_RuntimeMethod_var);
+	}
+
+IL_0075:
+	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs:74>
 		return;
 	}
 }
-// Method Definition Index: 75108
+// Method Definition Index: 93555
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClimbTeleportDestinationIndicator_OnDisable_mE5FACA9EA0819CD24BC58AF06F4C348B89871664 (ClimbTeleportDestinationIndicator_t95EC8E13B0E057810A00B57C40978485340B4458* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5168,6 +5256,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClimbTeleportDestinationIndicator_OnDisa
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_RemoveListener_mB0EAA6A1EA777B455A6D9493E09DB3FA63B1FB78_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs:81>
 		ClimbTeleportDestinationIndicator_HideIndicator_m75D683EB16C609A5B4A884E29AA507EDA2B070AC(__this, NULL);
@@ -5176,63 +5266,67 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClimbTeleportDestinationIndicator_OnDisa
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_1)
+		V_0 = L_1;
+		bool L_2 = V_0;
+		if (!L_2)
 		{
-			goto IL_0032;
+			goto IL_0039;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs:85>
-		TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* L_2 = __this->___m_ActiveTeleportVolume;
-		Action_1_t3F0A0FBA4DF1005A2F3BF6F5A9AD5645222F8D31* L_3 = (Action_1_t3F0A0FBA4DF1005A2F3BF6F5A9AD5645222F8D31*)il2cpp_codegen_object_new(Action_1_t3F0A0FBA4DF1005A2F3BF6F5A9AD5645222F8D31_il2cpp_TypeInfo_var);
-		Action_1__ctor_m119FC84288B3E5166500AB8D976F6135420BCAEC(L_3, __this, (intptr_t)((void*)ClimbTeleportDestinationIndicator_OnClimbTeleportDestinationAnchorChanged_m959E66F69F6F86274CD38FF03814864A1D0A4C48_RuntimeMethod_var), NULL);
-		NullCheck(L_2);
-		TeleportationMultiAnchorVolume_remove_destinationAnchorChanged_mD878285F1E46919DDE67A207280D713F637E52E9(L_2, L_3, NULL);
+		TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* L_3 = __this->___m_ActiveTeleportVolume;
+		Action_1_t3F0A0FBA4DF1005A2F3BF6F5A9AD5645222F8D31* L_4 = (Action_1_t3F0A0FBA4DF1005A2F3BF6F5A9AD5645222F8D31*)il2cpp_codegen_object_new(Action_1_t3F0A0FBA4DF1005A2F3BF6F5A9AD5645222F8D31_il2cpp_TypeInfo_var);
+		Action_1__ctor_m119FC84288B3E5166500AB8D976F6135420BCAEC(L_4, __this, (intptr_t)((void*)ClimbTeleportDestinationIndicator_OnClimbTeleportDestinationAnchorChanged_m959E66F69F6F86274CD38FF03814864A1D0A4C48_RuntimeMethod_var), NULL);
+		NullCheck(L_3);
+		TeleportationMultiAnchorVolume_remove_destinationAnchorChanged_mD878285F1E46919DDE67A207280D713F637E52E9(L_3, L_4, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs:86>
 		__this->___m_ActiveTeleportVolume = (TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ActiveTeleportVolume), (void*)(TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0*)NULL);
 	}
 
-IL_0032:
+IL_0039:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs:89>
-		ClimbTeleportInteractor_t9AD38301B02FCB18FB1FB1B84192C05C731D1083* L_4 = __this->___m_ClimbTeleportInteractor;
+		ClimbTeleportInteractor_t9AD38301B02FCB18FB1FB1B84192C05C731D1083* L_5 = __this->___m_ClimbTeleportInteractor;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_5;
-		L_5 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_5)
+		bool L_6;
+		L_6 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_1 = L_6;
+		bool L_7 = V_1;
+		if (!L_7)
 		{
-			goto IL_0078;
+			goto IL_0085;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs:91>
-		ClimbTeleportInteractor_t9AD38301B02FCB18FB1FB1B84192C05C731D1083* L_6 = __this->___m_ClimbTeleportInteractor;
-		NullCheck(L_6);
-		HoverEnterEvent_t2BDBCA14FF94DA18C9AC12B43297F6C1641788AB* L_7;
-		L_7 = XRBaseInteractor_get_hoverEntered_m513A1A0A4F630E37B1C72C0AEAC851EAF9252EE1_inline(L_6, NULL);
-		UnityAction_1_t7821A7EA54C56577CDB3A8CF220894E704C5E906* L_8 = (UnityAction_1_t7821A7EA54C56577CDB3A8CF220894E704C5E906*)il2cpp_codegen_object_new(UnityAction_1_t7821A7EA54C56577CDB3A8CF220894E704C5E906_il2cpp_TypeInfo_var);
-		UnityAction_1__ctor_m3C8E30AEA90302CA8E564E339058E839E40196F4(L_8, __this, (intptr_t)((void*)ClimbTeleportDestinationIndicator_OnInteractorHoverEntered_mE5C10F13BAE27A02F1D23AAB83CB7BEEE503A566_RuntimeMethod_var), NULL);
-		NullCheck(L_7);
-		UnityEvent_1_RemoveListener_m171EFC9F72CB58EDA4139097DDCA155A3D9C7D33(L_7, L_8, UnityEvent_1_RemoveListener_m171EFC9F72CB58EDA4139097DDCA155A3D9C7D33_RuntimeMethod_var);
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs:92>
-		ClimbTeleportInteractor_t9AD38301B02FCB18FB1FB1B84192C05C731D1083* L_9 = __this->___m_ClimbTeleportInteractor;
+		ClimbTeleportInteractor_t9AD38301B02FCB18FB1FB1B84192C05C731D1083* L_8 = __this->___m_ClimbTeleportInteractor;
+		NullCheck(L_8);
+		HoverEnterEvent_t2BDBCA14FF94DA18C9AC12B43297F6C1641788AB* L_9;
+		L_9 = XRBaseInteractor_get_hoverEntered_m513A1A0A4F630E37B1C72C0AEAC851EAF9252EE1_inline(L_8, NULL);
+		UnityAction_1_t7821A7EA54C56577CDB3A8CF220894E704C5E906* L_10 = (UnityAction_1_t7821A7EA54C56577CDB3A8CF220894E704C5E906*)il2cpp_codegen_object_new(UnityAction_1_t7821A7EA54C56577CDB3A8CF220894E704C5E906_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_m3C8E30AEA90302CA8E564E339058E839E40196F4(L_10, __this, (intptr_t)((void*)ClimbTeleportDestinationIndicator_OnInteractorHoverEntered_mE5C10F13BAE27A02F1D23AAB83CB7BEEE503A566_RuntimeMethod_var), NULL);
 		NullCheck(L_9);
-		HoverExitEvent_t256704BC79FE0AA61EB2DE3FDDF43A1FC97F5832* L_10;
-		L_10 = XRBaseInteractor_get_hoverExited_m06044A674CF3046BC7538BBB86A387C03D8AE459_inline(L_9, NULL);
-		UnityAction_1_tEA316A79555AFDC4BC3AC6593643EDAF90C8898B* L_11 = (UnityAction_1_tEA316A79555AFDC4BC3AC6593643EDAF90C8898B*)il2cpp_codegen_object_new(UnityAction_1_tEA316A79555AFDC4BC3AC6593643EDAF90C8898B_il2cpp_TypeInfo_var);
-		UnityAction_1__ctor_m917A650EF730B0F8CDB9227A03A45B24FB54BCF8(L_11, __this, (intptr_t)((void*)ClimbTeleportDestinationIndicator_OnInteractorHoverExited_m0FD7540E9118A636666D699F21D07E3FD115BB27_RuntimeMethod_var), NULL);
-		NullCheck(L_10);
-		UnityEvent_1_RemoveListener_mB0EAA6A1EA777B455A6D9493E09DB3FA63B1FB78(L_10, L_11, UnityEvent_1_RemoveListener_mB0EAA6A1EA777B455A6D9493E09DB3FA63B1FB78_RuntimeMethod_var);
+		UnityEvent_1_RemoveListener_m171EFC9F72CB58EDA4139097DDCA155A3D9C7D33(L_9, L_10, UnityEvent_1_RemoveListener_m171EFC9F72CB58EDA4139097DDCA155A3D9C7D33_RuntimeMethod_var);
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs:92>
+		ClimbTeleportInteractor_t9AD38301B02FCB18FB1FB1B84192C05C731D1083* L_11 = __this->___m_ClimbTeleportInteractor;
+		NullCheck(L_11);
+		HoverExitEvent_t256704BC79FE0AA61EB2DE3FDDF43A1FC97F5832* L_12;
+		L_12 = XRBaseInteractor_get_hoverExited_m06044A674CF3046BC7538BBB86A387C03D8AE459_inline(L_11, NULL);
+		UnityAction_1_tEA316A79555AFDC4BC3AC6593643EDAF90C8898B* L_13 = (UnityAction_1_tEA316A79555AFDC4BC3AC6593643EDAF90C8898B*)il2cpp_codegen_object_new(UnityAction_1_tEA316A79555AFDC4BC3AC6593643EDAF90C8898B_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_m917A650EF730B0F8CDB9227A03A45B24FB54BCF8(L_13, __this, (intptr_t)((void*)ClimbTeleportDestinationIndicator_OnInteractorHoverExited_m0FD7540E9118A636666D699F21D07E3FD115BB27_RuntimeMethod_var), NULL);
+		NullCheck(L_12);
+		UnityEvent_1_RemoveListener_mB0EAA6A1EA777B455A6D9493E09DB3FA63B1FB78(L_12, L_13, UnityEvent_1_RemoveListener_mB0EAA6A1EA777B455A6D9493E09DB3FA63B1FB78_RuntimeMethod_var);
 	}
 
-IL_0078:
+IL_0085:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs:94>
 		return;
 	}
 }
-// Method Definition Index: 75109
+// Method Definition Index: 93556
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClimbTeleportDestinationIndicator_OnInteractorHoverEntered_mE5C10F13BAE27A02F1D23AAB83CB7BEEE503A566 (ClimbTeleportDestinationIndicator_t95EC8E13B0E057810A00B57C40978485340B4458* __this, HoverEnterEventArgs_t4BCFA6BFD8D007CEE2D72D9D61DAED6C72F8CE2E* ___0_args, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5245,6 +5339,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClimbTeleportDestinationIndicator_OnInte
 		s_Il2CppMethodInitialized = true;
 	}
 	TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* V_0 = NULL;
+	bool V_1 = false;
+	bool V_2 = false;
+	int32_t G_B3_0 = 0;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs:98>
 		TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* L_0 = __this->___m_ActiveTeleportVolume;
@@ -5253,7 +5350,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClimbTeleportDestinationIndicator_OnInte
 		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (L_1)
 		{
-			goto IL_001d;
+			goto IL_0024;
 		}
 	}
 	{
@@ -5263,56 +5360,73 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClimbTeleportDestinationIndicator_OnInte
 		L_3 = HoverEnterEventArgs_get_interactableObject_m62A4C0C6E6587F019618B675201AE325F8144B75(L_2, NULL);
 		V_0 = ((TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0*)IsInstClass((RuntimeObject*)L_3, TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0_il2cpp_TypeInfo_var));
 		TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* L_4 = V_0;
-		if (L_4)
+		G_B3_0 = ((((int32_t)((!(((RuntimeObject*)(TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0*)L_4) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_0025;
+	}
+
+IL_0024:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_0025:
+	{
+		V_1 = (bool)G_B3_0;
+		bool L_5 = V_1;
+		if (!L_5)
 		{
-			goto IL_001e;
+			goto IL_002b;
 		}
 	}
-
-IL_001d:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs:99>
-		return;
+		goto IL_006c;
 	}
 
-IL_001e:
+IL_002b:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs:101>
-		TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* L_5 = V_0;
-		__this->___m_ActiveTeleportVolume = L_5;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ActiveTeleportVolume), (void*)L_5);
+		TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* L_6 = V_0;
+		__this->___m_ActiveTeleportVolume = L_6;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ActiveTeleportVolume), (void*)L_6);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs:102>
-		TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* L_6 = __this->___m_ActiveTeleportVolume;
-		NullCheck(L_6);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7;
-		L_7 = TeleportationMultiAnchorVolume_get_destinationAnchor_m8867AD0C9F209FBEAC8E14A53887547329C4D1E8_inline(L_6, NULL);
+		TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* L_7 = __this->___m_ActiveTeleportVolume;
+		NullCheck(L_7);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
+		L_8 = TeleportationMultiAnchorVolume_get_destinationAnchor_m8867AD0C9F209FBEAC8E14A53887547329C4D1E8_inline(L_7, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_8;
-		L_8 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_7, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_8)
+		bool L_9;
+		L_9 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_2 = L_9;
+		bool L_10 = V_2;
+		if (!L_10)
 		{
-			goto IL_0044;
+			goto IL_0054;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs:103>
-		TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* L_9 = __this->___m_ActiveTeleportVolume;
-		ClimbTeleportDestinationIndicator_OnClimbTeleportDestinationAnchorChanged_m959E66F69F6F86274CD38FF03814864A1D0A4C48(__this, L_9, NULL);
+		TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* L_11 = __this->___m_ActiveTeleportVolume;
+		ClimbTeleportDestinationIndicator_OnClimbTeleportDestinationAnchorChanged_m959E66F69F6F86274CD38FF03814864A1D0A4C48(__this, L_11, NULL);
 	}
 
-IL_0044:
+IL_0054:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs:105>
-		TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* L_10 = __this->___m_ActiveTeleportVolume;
-		Action_1_t3F0A0FBA4DF1005A2F3BF6F5A9AD5645222F8D31* L_11 = (Action_1_t3F0A0FBA4DF1005A2F3BF6F5A9AD5645222F8D31*)il2cpp_codegen_object_new(Action_1_t3F0A0FBA4DF1005A2F3BF6F5A9AD5645222F8D31_il2cpp_TypeInfo_var);
-		Action_1__ctor_m119FC84288B3E5166500AB8D976F6135420BCAEC(L_11, __this, (intptr_t)((void*)ClimbTeleportDestinationIndicator_OnClimbTeleportDestinationAnchorChanged_m959E66F69F6F86274CD38FF03814864A1D0A4C48_RuntimeMethod_var), NULL);
-		NullCheck(L_10);
-		TeleportationMultiAnchorVolume_add_destinationAnchorChanged_mFB365E430B9DF8C9F48465905563E149030C8C80(L_10, L_11, NULL);
+		TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* L_12 = __this->___m_ActiveTeleportVolume;
+		Action_1_t3F0A0FBA4DF1005A2F3BF6F5A9AD5645222F8D31* L_13 = (Action_1_t3F0A0FBA4DF1005A2F3BF6F5A9AD5645222F8D31*)il2cpp_codegen_object_new(Action_1_t3F0A0FBA4DF1005A2F3BF6F5A9AD5645222F8D31_il2cpp_TypeInfo_var);
+		Action_1__ctor_m119FC84288B3E5166500AB8D976F6135420BCAEC(L_13, __this, (intptr_t)((void*)ClimbTeleportDestinationIndicator_OnClimbTeleportDestinationAnchorChanged_m959E66F69F6F86274CD38FF03814864A1D0A4C48_RuntimeMethod_var), NULL);
+		NullCheck(L_12);
+		TeleportationMultiAnchorVolume_add_destinationAnchorChanged_mFB365E430B9DF8C9F48465905563E149030C8C80(L_12, L_13, NULL);
+	}
+
+IL_006c:
+	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs:106>
 		return;
 	}
 }
-// Method Definition Index: 75110
+// Method Definition Index: 93557
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClimbTeleportDestinationIndicator_OnInteractorHoverExited_m0FD7540E9118A636666D699F21D07E3FD115BB27 (ClimbTeleportDestinationIndicator_t95EC8E13B0E057810A00B57C40978485340B4458* __this, HoverExitEventArgs_tFFBECDDAF90BF90AA3B7282FAEF1D8E5D19A5AD6* ___0_args, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5325,6 +5439,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClimbTeleportDestinationIndicator_OnInte
 		s_Il2CppMethodInitialized = true;
 	}
 	TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* V_0 = NULL;
+	bool V_1 = false;
+	int32_t G_B3_0 = 0;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs:110>
 		HoverExitEventArgs_tFFBECDDAF90BF90AA3B7282FAEF1D8E5D19A5AD6* L_0 = ___0_args;
@@ -5335,7 +5451,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClimbTeleportDestinationIndicator_OnInte
 		TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* L_2 = V_0;
 		if (!L_2)
 		{
-			goto IL_001d;
+			goto IL_001e;
 		}
 	}
 	{
@@ -5344,36 +5460,51 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClimbTeleportDestinationIndicator_OnInte
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
 		L_5 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_3, L_4, NULL);
-		if (!L_5)
-		{
-			goto IL_001e;
-		}
-	}
-
-IL_001d:
-	{
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs:111>
-		return;
+		G_B3_0 = ((int32_t)(L_5));
+		goto IL_001f;
 	}
 
 IL_001e:
 	{
+		G_B3_0 = 1;
+	}
+
+IL_001f:
+	{
+		V_1 = (bool)G_B3_0;
+		bool L_6 = V_1;
+		if (!L_6)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs:111>
+		goto IL_004b;
+	}
+
+IL_0025:
+	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs:113>
 		ClimbTeleportDestinationIndicator_HideIndicator_m75D683EB16C609A5B4A884E29AA507EDA2B070AC(__this, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs:114>
-		TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* L_6 = __this->___m_ActiveTeleportVolume;
-		Action_1_t3F0A0FBA4DF1005A2F3BF6F5A9AD5645222F8D31* L_7 = (Action_1_t3F0A0FBA4DF1005A2F3BF6F5A9AD5645222F8D31*)il2cpp_codegen_object_new(Action_1_t3F0A0FBA4DF1005A2F3BF6F5A9AD5645222F8D31_il2cpp_TypeInfo_var);
-		Action_1__ctor_m119FC84288B3E5166500AB8D976F6135420BCAEC(L_7, __this, (intptr_t)((void*)ClimbTeleportDestinationIndicator_OnClimbTeleportDestinationAnchorChanged_m959E66F69F6F86274CD38FF03814864A1D0A4C48_RuntimeMethod_var), NULL);
-		NullCheck(L_6);
-		TeleportationMultiAnchorVolume_remove_destinationAnchorChanged_mD878285F1E46919DDE67A207280D713F637E52E9(L_6, L_7, NULL);
+		TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* L_7 = __this->___m_ActiveTeleportVolume;
+		Action_1_t3F0A0FBA4DF1005A2F3BF6F5A9AD5645222F8D31* L_8 = (Action_1_t3F0A0FBA4DF1005A2F3BF6F5A9AD5645222F8D31*)il2cpp_codegen_object_new(Action_1_t3F0A0FBA4DF1005A2F3BF6F5A9AD5645222F8D31_il2cpp_TypeInfo_var);
+		Action_1__ctor_m119FC84288B3E5166500AB8D976F6135420BCAEC(L_8, __this, (intptr_t)((void*)ClimbTeleportDestinationIndicator_OnClimbTeleportDestinationAnchorChanged_m959E66F69F6F86274CD38FF03814864A1D0A4C48_RuntimeMethod_var), NULL);
+		NullCheck(L_7);
+		TeleportationMultiAnchorVolume_remove_destinationAnchorChanged_mD878285F1E46919DDE67A207280D713F637E52E9(L_7, L_8, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs:115>
 		__this->___m_ActiveTeleportVolume = (TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ActiveTeleportVolume), (void*)(TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0*)NULL);
+	}
+
+IL_004b:
+	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs:116>
 		return;
 	}
 }
-// Method Definition Index: 75111
+// Method Definition Index: 93558
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClimbTeleportDestinationIndicator_OnClimbTeleportDestinationAnchorChanged_m959E66F69F6F86274CD38FF03814864A1D0A4C48 (ClimbTeleportDestinationIndicator_t95EC8E13B0E057810A00B57C40978485340B4458* __this, TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* ___0_teleportVolume, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5393,8 +5524,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClimbTeleportDestinationIndicator_OnClim
 	memset((&V_4), 0, sizeof(V_4));
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_5;
 	memset((&V_5), 0, sizeof(V_5));
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_6;
-	memset((&V_6), 0, sizeof(V_6));
+	bool V_6 = false;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_7;
+	memset((&V_7), 0, sizeof(V_7));
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs:120>
 		ClimbTeleportDestinationIndicator_HideIndicator_m75D683EB16C609A5B4A884E29AA507EDA2B070AC(__this, NULL);
@@ -5409,109 +5541,115 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClimbTeleportDestinationIndicator_OnClim
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
 		L_3 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_3)
+		V_6 = L_3;
+		bool L_4 = V_6;
+		if (!L_4)
 		{
-			goto IL_0017;
+			goto IL_0021;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs:124>
-		return;
+		goto IL_00cb;
 	}
 
-IL_0017:
+IL_0021:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs:126>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___m_PointerPrefab;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___m_PointerPrefab;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
-		L_5 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3(L_4, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3_RuntimeMethod_var);
-		NullCheck(L_5);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
-		L_6 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_5, NULL);
-		__this->___m_PointerInstance = L_6;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_PointerInstance), (void*)L_6);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
+		L_6 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3(L_5, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3_RuntimeMethod_var);
+		NullCheck(L_6);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7;
+		L_7 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_6, NULL);
+		__this->___m_PointerInstance = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_PointerInstance), (void*)L_7);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs:127>
-		TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* L_7 = ___0_teleportVolume;
-		NullCheck(L_7);
-		TeleportationProvider_t3FAF889EFC7631ED0DA49A1E0C4CAD650002A9E5* L_8;
-		L_8 = BaseTeleportationInteractable_get_teleportationProvider_m80FF22AB2B013021B56E36C74FA82EA819222E5D_inline(L_7, NULL);
+		TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* L_8 = ___0_teleportVolume;
 		NullCheck(L_8);
-		LocomotionMediator_tFF0E600A153C909C211466942B7D4C3DA6105AD6* L_9;
-		L_9 = LocomotionProvider_get_mediator_m7ED478A25CC3F307D84C6A1F81ACC26231E94B5D_inline(L_8, NULL);
+		TeleportationProvider_t3FAF889EFC7631ED0DA49A1E0C4CAD650002A9E5* L_9;
+		L_9 = BaseTeleportationInteractable_get_teleportationProvider_m80FF22AB2B013021B56E36C74FA82EA819222E5D_inline(L_8, NULL);
 		NullCheck(L_9);
-		XROrigin_t5E534A6D886991AF3C1C64127E19A3A510009CFE* L_10;
-		L_10 = LocomotionMediator_get_xrOrigin_mF16601BBA48F6C7D13E600FC6CD426D067582170(L_9, NULL);
+		LocomotionMediator_tFF0E600A153C909C211466942B7D4C3DA6105AD6* L_10;
+		L_10 = LocomotionProvider_get_mediator_m7ED478A25CC3F307D84C6A1F81ACC26231E94B5D_inline(L_9, NULL);
 		NullCheck(L_10);
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_11;
-		L_11 = XROrigin_get_Camera_m8959027D616F5BD9AEAE3E41ADEE23BBC2CE3629_inline(L_10, NULL);
+		XROrigin_t5E534A6D886991AF3C1C64127E19A3A510009CFE* L_11;
+		L_11 = LocomotionMediator_get_xrOrigin_mF16601BBA48F6C7D13E600FC6CD426D067582170(L_10, NULL);
 		NullCheck(L_11);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12;
-		L_12 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_11, NULL);
-		V_1 = L_12;
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_12;
+		L_12 = XROrigin_get_Camera_m8959027D616F5BD9AEAE3E41ADEE23BBC2CE3629_inline(L_11, NULL);
+		NullCheck(L_12);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13;
+		L_13 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_12, NULL);
+		V_1 = L_13;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs:128>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13 = V_1;
-		NullCheck(L_13);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
-		L_14 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_13, NULL);
-		V_2 = L_14;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_14 = V_1;
+		NullCheck(L_14);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15;
+		L_15 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_14, NULL);
+		V_2 = L_15;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs:129>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_15 = V_0;
-		NullCheck(L_15);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16;
-		L_16 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_15, NULL);
-		V_3 = L_16;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16 = V_0;
+		NullCheck(L_16);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17;
+		L_17 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_16, NULL);
+		V_3 = L_17;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs:130>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_17 = V_1;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = V_3;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19 = V_2;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20;
-		L_20 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_18, L_19, NULL);
-		NullCheck(L_17);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_18 = V_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19 = V_3;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = V_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21;
-		L_21 = Transform_InverseTransformDirection_m69C077B881A98B08C7F231EFC49429C906FBC575(L_17, L_20, NULL);
-		V_4 = L_21;
+		L_21 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_19, L_20, NULL);
+		NullCheck(L_18);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22;
+		L_22 = Transform_InverseTransformDirection_m69C077B881A98B08C7F231EFC49429C906FBC575(L_18, L_21, NULL);
+		V_4 = L_22;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs:131>
 		(&V_4)->___z = (0.0f);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs:132>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_22 = V_1;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23 = V_4;
-		NullCheck(L_22);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24;
-		L_24 = Transform_TransformDirection_m9BE1261DF2D48B7A4A27D31EE24D2D97F89E7757(L_22, L_23, NULL);
-		V_6 = L_24;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_23 = V_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = V_4;
+		NullCheck(L_23);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25;
-		L_25 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_6), NULL);
-		V_5 = L_25;
+		L_25 = Transform_TransformDirection_m9BE1261DF2D48B7A4A27D31EE24D2D97F89E7757(L_23, L_24, NULL);
+		V_7 = L_25;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26;
+		L_26 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_7), NULL);
+		V_5 = L_26;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs:133>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_26 = __this->___m_PointerInstance;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27 = V_3;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28 = V_5;
-		float L_29 = __this->___m_PointerDistance;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_30;
-		L_30 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_28, L_29, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_27 = __this->___m_PointerInstance;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28 = V_3;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_29 = V_5;
+		float L_30 = __this->___m_PointerDistance;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_31;
-		L_31 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_27, L_30, NULL);
-		NullCheck(L_26);
-		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_26, L_31, NULL);
+		L_31 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_29, L_30, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32;
+		L_32 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_28, L_31, NULL);
+		NullCheck(L_27);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_27, L_32, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs:134>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_32 = __this->___m_PointerInstance;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33 = V_5;
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_34 = V_1;
-		NullCheck(L_34);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_35;
-		L_35 = Transform_get_forward_mFCFACF7165FDAB21E80E384C494DF278386CEE2F(L_34, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_33 = __this->___m_PointerInstance;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_34 = V_5;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_35 = V_1;
+		NullCheck(L_35);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_36;
-		L_36 = Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_inline(L_35, NULL);
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_37;
-		L_37 = Quaternion_LookRotation_mFB02EDC8F733774DFAC3BEA4B4BB265A228F8307(L_33, L_36, NULL);
-		NullCheck(L_32);
-		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_32, L_37, NULL);
+		L_36 = Transform_get_forward_mFCFACF7165FDAB21E80E384C494DF278386CEE2F(L_35, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_37;
+		L_37 = Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_inline(L_36, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_38;
+		L_38 = Quaternion_LookRotation_mFB02EDC8F733774DFAC3BEA4B4BB265A228F8307(L_34, L_37, NULL);
+		NullCheck(L_33);
+		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_33, L_38, NULL);
+	}
+
+IL_00cb:
+	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs:135>
 		return;
 	}
 }
-// Method Definition Index: 75112
+// Method Definition Index: 93559
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClimbTeleportDestinationIndicator_HideIndicator_m75D683EB16C609A5B4A884E29AA507EDA2B070AC (ClimbTeleportDestinationIndicator_t95EC8E13B0E057810A00B57C40978485340B4458* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5520,34 +5658,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClimbTeleportDestinationIndicator_HideIn
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	bool V_0 = false;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs:139>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___m_PointerInstance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_1)
+		V_0 = L_1;
+		bool L_2 = V_0;
+		if (!L_2)
 		{
-			goto IL_001e;
+			goto IL_0022;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs:140>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->___m_PointerInstance;
-		NullCheck(L_2);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
-		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_2, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = __this->___m_PointerInstance;
+		NullCheck(L_3);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
+		L_4 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_3, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_3, NULL);
+		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_4, NULL);
 	}
 
-IL_001e:
+IL_0022:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs:141>
 		return;
 	}
 }
-// Method Definition Index: 75113
+// Method Definition Index: 93560
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClimbTeleportDestinationIndicator__ctor_m58657562C63389620E972C16E3379BE5CF898D42 (ClimbTeleportDestinationIndicator_t95EC8E13B0E057810A00B57C40978485340B4458* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5565,7 +5706,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClimbTeleportDestinationIndicator__ctor_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75114
+// Method Definition Index: 93561
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerAnimator_OnEnable_m49452C705735CDF9CC1C8B2B043B786CCAD06723 (ControllerAnimator_t4F826CECB4A9FBEFDD4EB07B4C5104EFDAFC0D88* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5576,12 +5717,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerAnimator_OnEnable_m49452C70573
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral362752735A1275A35E486D0F84ACEF478DC7C88E);
 		s_Il2CppMethodInitialized = true;
 	}
-	XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* G_B6_0 = NULL;
-	XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* G_B5_0 = NULL;
-	XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* G_B9_0 = NULL;
-	XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* G_B8_0 = NULL;
-	XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* G_B12_0 = NULL;
+	bool V_0 = false;
+	int32_t G_B4_0 = 0;
+	XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* G_B8_0 = NULL;
+	XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* G_B7_0 = NULL;
 	XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* G_B11_0 = NULL;
+	XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* G_B10_0 = NULL;
+	XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* G_B14_0 = NULL;
+	XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* G_B13_0 = NULL;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerAnimator.cs:43>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___m_ThumbstickTransform;
@@ -5590,7 +5733,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerAnimator_OnEnable_m49452C70573
 		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (L_1)
 		{
-			goto IL_002a;
+			goto IL_002b;
 		}
 	}
 	{
@@ -5600,7 +5743,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerAnimator_OnEnable_m49452C70573
 		L_3 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (L_3)
 		{
-			goto IL_002a;
+			goto IL_002b;
 		}
 	}
 	{
@@ -5608,99 +5751,114 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerAnimator_OnEnable_m49452C70573
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
 		L_5 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_5)
-		{
-			goto IL_004d;
-		}
+		G_B4_0 = ((int32_t)(L_5));
+		goto IL_002c;
 	}
 
-IL_002a:
+IL_002b:
+	{
+		G_B4_0 = 1;
+	}
+
+IL_002c:
+	{
+		V_0 = (bool)G_B4_0;
+		bool L_6 = V_0;
+		if (!L_6)
+		{
+			goto IL_0057;
+		}
+	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerAnimator.cs:45>
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerAnimator.cs:46>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
-		L_6 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
-		NullCheck(L_6);
-		String_t* L_7;
-		L_7 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_6, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
+		L_7 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		NullCheck(L_7);
 		String_t* L_8;
-		L_8 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral362752735A1275A35E486D0F84ACEF478DC7C88E, L_7, NULL);
+		L_8 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_7, NULL);
+		String_t* L_9;
+		L_9 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral362752735A1275A35E486D0F84ACEF478DC7C88E, L_8, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogWarning_m23033D7E2F0F298BE465B7F3A63CDF40A4EB70EB(L_8, __this, NULL);
+		Debug_LogWarning_m23033D7E2F0F298BE465B7F3A63CDF40A4EB70EB(L_9, __this, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerAnimator.cs:47>
-		return;
+		goto IL_008d;
 	}
 
-IL_004d:
+IL_0057:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerAnimator.cs:50>
-		XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* L_9 = __this->___m_StickInput;
-		XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* L_10 = L_9;
-		if (L_10)
+		XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* L_10 = __this->___m_StickInput;
+		XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* L_11 = L_10;
+		if (L_11)
 		{
-			G_B6_0 = L_10;
-			goto IL_0059;
+			G_B8_0 = L_11;
+			goto IL_0063;
 		}
-		G_B5_0 = L_10;
+		G_B7_0 = L_11;
 	}
 	{
-		goto IL_005e;
+		goto IL_0069;
 	}
 
-IL_0059:
+IL_0063:
 	{
-		NullCheck(G_B6_0);
-		XRInputValueReader_EnableDirectActionIfModeUsed_m6194760B90FB92168D6DDCC80C20DD180169ACB2(G_B6_0, NULL);
+		NullCheck(G_B8_0);
+		XRInputValueReader_EnableDirectActionIfModeUsed_m6194760B90FB92168D6DDCC80C20DD180169ACB2(G_B8_0, NULL);
 	}
 
-IL_005e:
+IL_0069:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerAnimator.cs:51>
-		XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* L_11 = __this->___m_TriggerInput;
-		XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* L_12 = L_11;
-		if (L_12)
+		XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* L_12 = __this->___m_TriggerInput;
+		XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* L_13 = L_12;
+		if (L_13)
 		{
-			G_B9_0 = L_12;
-			goto IL_006a;
+			G_B11_0 = L_13;
+			goto IL_0075;
 		}
-		G_B8_0 = L_12;
+		G_B10_0 = L_13;
 	}
 	{
-		goto IL_006f;
+		goto IL_007b;
 	}
 
-IL_006a:
+IL_0075:
 	{
-		NullCheck(G_B9_0);
-		XRInputValueReader_EnableDirectActionIfModeUsed_m6194760B90FB92168D6DDCC80C20DD180169ACB2(G_B9_0, NULL);
+		NullCheck(G_B11_0);
+		XRInputValueReader_EnableDirectActionIfModeUsed_m6194760B90FB92168D6DDCC80C20DD180169ACB2(G_B11_0, NULL);
 	}
 
-IL_006f:
+IL_007b:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerAnimator.cs:52>
-		XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* L_13 = __this->___m_GripInput;
-		XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* L_14 = L_13;
-		if (L_14)
+		XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* L_14 = __this->___m_GripInput;
+		XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* L_15 = L_14;
+		if (L_15)
 		{
-			G_B12_0 = L_14;
-			goto IL_007a;
+			G_B14_0 = L_15;
+			goto IL_0087;
 		}
-		G_B11_0 = L_14;
+		G_B13_0 = L_15;
 	}
 	{
-		return;
+		goto IL_008d;
 	}
 
-IL_007a:
+IL_0087:
 	{
-		NullCheck(G_B12_0);
-		XRInputValueReader_EnableDirectActionIfModeUsed_m6194760B90FB92168D6DDCC80C20DD180169ACB2(G_B12_0, NULL);
+		NullCheck(G_B14_0);
+		XRInputValueReader_EnableDirectActionIfModeUsed_m6194760B90FB92168D6DDCC80C20DD180169ACB2(G_B14_0, NULL);
+	}
+
+IL_008d:
+	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerAnimator.cs:53>
 		return;
 	}
 }
-// Method Definition Index: 75115
+// Method Definition Index: 93562
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerAnimator_OnDisable_m7C7FF729D582D65F7CDBD5F6E0744CDF1B512288 (ControllerAnimator_t4F826CECB4A9FBEFDD4EB07B4C5104EFDAFC0D88* __this, const RuntimeMethod* method) 
 {
 	XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* G_B2_0 = NULL;
@@ -5716,21 +5874,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerAnimator_OnDisable_m7C7FF729D5
 		if (L_1)
 		{
 			G_B2_0 = L_1;
-			goto IL_000c;
+			goto IL_000d;
 		}
 		G_B1_0 = L_1;
 	}
 	{
-		goto IL_0011;
+		goto IL_0013;
 	}
 
-IL_000c:
+IL_000d:
 	{
 		NullCheck(G_B2_0);
 		XRInputValueReader_DisableDirectActionIfModeUsed_m533212E2020FD7FA589B8B9F536BD7DC6E8048BC(G_B2_0, NULL);
 	}
 
-IL_0011:
+IL_0013:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerAnimator.cs:58>
 		XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* L_2 = __this->___m_TriggerInput;
@@ -5738,21 +5896,21 @@ IL_0011:
 		if (L_3)
 		{
 			G_B5_0 = L_3;
-			goto IL_001d;
+			goto IL_001f;
 		}
 		G_B4_0 = L_3;
 	}
 	{
-		goto IL_0022;
+		goto IL_0025;
 	}
 
-IL_001d:
+IL_001f:
 	{
 		NullCheck(G_B5_0);
 		XRInputValueReader_DisableDirectActionIfModeUsed_m533212E2020FD7FA589B8B9F536BD7DC6E8048BC(G_B5_0, NULL);
 	}
 
-IL_0022:
+IL_0025:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerAnimator.cs:59>
 		XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* L_4 = __this->___m_GripInput;
@@ -5760,23 +5918,27 @@ IL_0022:
 		if (L_5)
 		{
 			G_B8_0 = L_5;
-			goto IL_002d;
+			goto IL_0031;
 		}
 		G_B7_0 = L_5;
 	}
 	{
-		return;
+		goto IL_0037;
 	}
 
-IL_002d:
+IL_0031:
 	{
 		NullCheck(G_B8_0);
 		XRInputValueReader_DisableDirectActionIfModeUsed_m533212E2020FD7FA589B8B9F536BD7DC6E8048BC(G_B8_0, NULL);
+	}
+
+IL_0037:
+	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerAnimator.cs:60>
 		return;
 	}
 }
-// Method Definition Index: 75116
+// Method Definition Index: 93563
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerAnimator_Update_m2FF0B6DD834D1214F437FDB1BFF80226B8732E2C (ControllerAnimator_t4F826CECB4A9FBEFDD4EB07B4C5104EFDAFC0D88* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5786,123 +5948,132 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerAnimator_Update_m2FF0B6DD834D1
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRInputValueReader_1_ReadValue_mAFA366F0FF0345B1A9F16C19F1815D10E427860D_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	float V_1 = 0.0f;
-	float V_2 = 0.0f;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_3;
-	memset((&V_3), 0, sizeof(V_3));
+	bool V_0 = false;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	bool V_2 = false;
+	float V_3 = 0.0f;
+	bool V_4 = false;
+	float V_5 = 0.0f;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_6;
+	memset((&V_6), 0, sizeof(V_6));
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerAnimator.cs:64>
 		XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* L_0 = __this->___m_StickInput;
-		if (!L_0)
+		V_0 = (bool)((!(((RuntimeObject*)(XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
 		{
-			goto IL_004f;
+			goto IL_0058;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerAnimator.cs:66>
-		XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* L_1 = __this->___m_StickInput;
-		NullCheck(L_1);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2;
-		L_2 = XRInputValueReader_1_ReadValue_m5F62621C89CC35067EDFEAE1EBBE315554767369(L_1, XRInputValueReader_1_ReadValue_m5F62621C89CC35067EDFEAE1EBBE315554767369_RuntimeMethod_var);
-		V_0 = L_2;
+		XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* L_2 = __this->___m_StickInput;
+		NullCheck(L_2);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3;
+		L_3 = XRInputValueReader_1_ReadValue_m5F62621C89CC35067EDFEAE1EBBE315554767369(L_2, XRInputValueReader_1_ReadValue_m5F62621C89CC35067EDFEAE1EBBE315554767369_RuntimeMethod_var);
+		V_1 = L_3;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerAnimator.cs:67>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = __this->___m_ThumbstickTransform;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = V_0;
-		float L_5 = L_4.___y;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_6 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___m_StickRotationRange);
-		float L_7 = L_6->___x;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8 = V_0;
-		float L_9 = L_8.___x;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_10 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___m_StickRotationRange);
-		float L_11 = L_10->___y;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_12;
-		L_12 = Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline(((float)il2cpp_codegen_multiply(((-L_5)), L_7)), (0.0f), ((float)il2cpp_codegen_multiply(((-L_9)), L_11)), NULL);
-		NullCheck(L_3);
-		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_3, L_12, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = __this->___m_ThumbstickTransform;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_5 = V_1;
+		float L_6 = L_5.___y;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_7 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___m_StickRotationRange);
+		float L_8 = L_7->___x;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_9 = V_1;
+		float L_10 = L_9.___x;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_11 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___m_StickRotationRange);
+		float L_12 = L_11->___y;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_13;
+		L_13 = Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline(((float)il2cpp_codegen_multiply(((-L_6)), L_8)), (0.0f), ((float)il2cpp_codegen_multiply(((-L_10)), L_12)), NULL);
+		NullCheck(L_4);
+		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_4, L_13, NULL);
 	}
 
-IL_004f:
+IL_0058:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerAnimator.cs:70>
-		XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* L_13 = __this->___m_TriggerInput;
-		if (!L_13)
+		XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* L_14 = __this->___m_TriggerInput;
+		V_2 = (bool)((!(((RuntimeObject*)(XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5*)L_14) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_15 = V_2;
+		if (!L_15)
 		{
-			goto IL_0099;
+			goto IL_00aa;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerAnimator.cs:72>
-		XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* L_14 = __this->___m_TriggerInput;
-		NullCheck(L_14);
-		float L_15;
-		L_15 = XRInputValueReader_1_ReadValue_mAFA366F0FF0345B1A9F16C19F1815D10E427860D(L_14, XRInputValueReader_1_ReadValue_mAFA366F0FF0345B1A9F16C19F1815D10E427860D_RuntimeMethod_var);
-		V_1 = L_15;
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerAnimator.cs:73>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16 = __this->___m_TriggerTransform;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_17 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___m_TriggerXAxisRotationRange);
-		float L_18 = L_17->___x;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_19 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___m_TriggerXAxisRotationRange);
-		float L_20 = L_19->___y;
-		float L_21 = V_1;
-		float L_22;
-		L_22 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_18, L_20, L_21, NULL);
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_23;
-		L_23 = Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline(L_22, (0.0f), (0.0f), NULL);
+		XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* L_16 = __this->___m_TriggerInput;
 		NullCheck(L_16);
-		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_16, L_23, NULL);
+		float L_17;
+		L_17 = XRInputValueReader_1_ReadValue_mAFA366F0FF0345B1A9F16C19F1815D10E427860D(L_16, XRInputValueReader_1_ReadValue_mAFA366F0FF0345B1A9F16C19F1815D10E427860D_RuntimeMethod_var);
+		V_3 = L_17;
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerAnimator.cs:73>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_18 = __this->___m_TriggerTransform;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_19 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___m_TriggerXAxisRotationRange);
+		float L_20 = L_19->___x;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_21 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___m_TriggerXAxisRotationRange);
+		float L_22 = L_21->___y;
+		float L_23 = V_3;
+		float L_24;
+		L_24 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_20, L_22, L_23, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_25;
+		L_25 = Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline(L_24, (0.0f), (0.0f), NULL);
+		NullCheck(L_18);
+		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_18, L_25, NULL);
 	}
 
-IL_0099:
+IL_00aa:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerAnimator.cs:76>
-		XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* L_24 = __this->___m_GripInput;
-		if (!L_24)
+		XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* L_26 = __this->___m_GripInput;
+		V_4 = (bool)((!(((RuntimeObject*)(XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5*)L_26) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_27 = V_4;
+		if (!L_27)
 		{
-			goto IL_00f1;
+			goto IL_0111;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerAnimator.cs:78>
-		XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* L_25 = __this->___m_GripInput;
-		NullCheck(L_25);
-		float L_26;
-		L_26 = XRInputValueReader_1_ReadValue_mAFA366F0FF0345B1A9F16C19F1815D10E427860D(L_25, XRInputValueReader_1_ReadValue_mAFA366F0FF0345B1A9F16C19F1815D10E427860D_RuntimeMethod_var);
-		V_2 = L_26;
+		XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* L_28 = __this->___m_GripInput;
+		NullCheck(L_28);
+		float L_29;
+		L_29 = XRInputValueReader_1_ReadValue_mAFA366F0FF0345B1A9F16C19F1815D10E427860D(L_28, XRInputValueReader_1_ReadValue_mAFA366F0FF0345B1A9F16C19F1815D10E427860D_RuntimeMethod_var);
+		V_5 = L_29;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerAnimator.cs:79>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_27 = __this->___m_GripTransform;
-		NullCheck(L_27);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28;
-		L_28 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_27, NULL);
-		V_3 = L_28;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_30 = __this->___m_GripTransform;
+		NullCheck(L_30);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_31;
+		L_31 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_30, NULL);
+		V_6 = L_31;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerAnimator.cs:80>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_29 = __this->___m_GripTransform;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_30 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___m_GripRightRange);
-		float L_31 = L_30->___x;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_32 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___m_GripRightRange);
-		float L_33 = L_32->___y;
-		float L_34 = V_2;
-		float L_35;
-		L_35 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_31, L_33, L_34, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_36 = V_3;
-		float L_37 = L_36.___y;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_38 = V_3;
-		float L_39 = L_38.___z;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_40;
-		memset((&L_40), 0, sizeof(L_40));
-		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_40), L_35, L_37, L_39, NULL);
-		NullCheck(L_29);
-		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_29, L_40, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_32 = __this->___m_GripTransform;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_33 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___m_GripRightRange);
+		float L_34 = L_33->___x;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_35 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___m_GripRightRange);
+		float L_36 = L_35->___y;
+		float L_37 = V_5;
+		float L_38;
+		L_38 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_34, L_36, L_37, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_39 = V_6;
+		float L_40 = L_39.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_41 = V_6;
+		float L_42 = L_41.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_43;
+		memset((&L_43), 0, sizeof(L_43));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_43), L_38, L_40, L_42, NULL);
+		NullCheck(L_32);
+		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_32, L_43, NULL);
 	}
 
-IL_00f1:
+IL_0111:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerAnimator.cs:82>
 		return;
 	}
 }
-// Method Definition Index: 75117
+// Method Definition Index: 93564
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerAnimator__ctor_mF97513FB229FDBDD116366C0525E7CFF7E3E39C7 (ControllerAnimator_t4F826CECB4A9FBEFDD4EB07B4C5104EFDAFC0D88* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5960,7 +6131,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerAnimator__ctor_mF97513FB229FDB
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75118
+// Method Definition Index: 93565
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ControllerInputActionManager_get_smoothMotionEnabled_mC5C5B0DDFFB3B0C7CF992B514957970320126873 (ControllerInputActionManager_t869A70AE3B62565ADCF8E113AFEF37D3B0DBE90B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5969,7 +6140,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ControllerInputActionManager_get_smoothM
 		return L_0;
 	}
 }
-// Method Definition Index: 75119
+// Method Definition Index: 93566
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_set_smoothMotionEnabled_m914EA661A51A5360145D8F43F7672EC9296F1558 (ControllerInputActionManager_t869A70AE3B62565ADCF8E113AFEF37D3B0DBE90B* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -5982,7 +6153,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_set_smoothM
 		return;
 	}
 }
-// Method Definition Index: 75120
+// Method Definition Index: 93567
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ControllerInputActionManager_get_smoothTurnEnabled_m8BA6BF2C1FAD34B8421ADC63FDAC051C753EB641 (ControllerInputActionManager_t869A70AE3B62565ADCF8E113AFEF37D3B0DBE90B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5991,7 +6162,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ControllerInputActionManager_get_smoothT
 		return L_0;
 	}
 }
-// Method Definition Index: 75121
+// Method Definition Index: 93568
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_set_smoothTurnEnabled_m2B6FAA6FD9D16B5831A70012A6EAB7B3ED3A8CD0 (ControllerInputActionManager_t869A70AE3B62565ADCF8E113AFEF37D3B0DBE90B* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -6004,7 +6175,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_set_smoothT
 		return;
 	}
 }
-// Method Definition Index: 75122
+// Method Definition Index: 93569
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ControllerInputActionManager_get_uiScrollingEnabled_mBA69FF5A5CA03AC72AB6E055F0CF7744F7491225 (ControllerInputActionManager_t869A70AE3B62565ADCF8E113AFEF37D3B0DBE90B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6013,7 +6184,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ControllerInputActionManager_get_uiScrol
 		return L_0;
 	}
 }
-// Method Definition Index: 75123
+// Method Definition Index: 93570
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_set_uiScrollingEnabled_m8E2885761274BE5200ECBB0D7C1C65A83CA313D0 (ControllerInputActionManager_t869A70AE3B62565ADCF8E113AFEF37D3B0DBE90B* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -6026,7 +6197,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_set_uiScrol
 		return;
 	}
 }
-// Method Definition Index: 75124
+// Method Definition Index: 93571
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_SetupInteractorEvents_m7F89872A6155BDE25310FD98301E0E80D41C277C (ControllerInputActionManager_t869A70AE3B62565ADCF8E113AFEF37D3B0DBE90B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6058,260 +6229,281 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_SetupIntera
 	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* V_2 = NULL;
 	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* V_3 = NULL;
 	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* V_4 = NULL;
+	bool V_5 = false;
+	bool V_6 = false;
+	bool V_7 = false;
+	bool V_8 = false;
+	bool V_9 = false;
+	bool V_10 = false;
+	bool V_11 = false;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:143>
 		NearFarInteractor_t43B1C14C2D72CB717E3624B0759E265F5D215E9C* L_0 = __this->___m_NearFarInteractor;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_1)
+		V_5 = L_1;
+		bool L_2 = V_5;
+		if (!L_2)
 		{
-			goto IL_006d;
+			goto IL_0077;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:145>
-		NearFarInteractor_t43B1C14C2D72CB717E3624B0759E265F5D215E9C* L_2 = __this->___m_NearFarInteractor;
-		NullCheck(L_2);
-		UIHoverEnterEvent_t4C957A3405A5D9CB867C5EC446620BB4BA7E7298* L_3;
-		L_3 = NearFarInteractor_get_uiHoverEntered_m65F1C9ACE7F1CB3BB9ED747BADFA954AB92547C3_inline(L_2, NULL);
-		UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7* L_4 = (UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7*)il2cpp_codegen_object_new(UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7_il2cpp_TypeInfo_var);
-		UnityAction_1__ctor_mD4F2DD3BDD2495C5DBD9B73FDA365B7A05DBF472(L_4, __this, (intptr_t)((void*)ControllerInputActionManager_OnUIHoverEntered_m7747AA4001671507477941139B2049FF990A20D9_RuntimeMethod_var), NULL);
+		NearFarInteractor_t43B1C14C2D72CB717E3624B0759E265F5D215E9C* L_3 = __this->___m_NearFarInteractor;
 		NullCheck(L_3);
-		UnityEvent_1_AddListener_mFFC598528B87DB66F65FC395BA09A0319CD2BE0E(L_3, L_4, UnityEvent_1_AddListener_mFFC598528B87DB66F65FC395BA09A0319CD2BE0E_RuntimeMethod_var);
+		UIHoverEnterEvent_t4C957A3405A5D9CB867C5EC446620BB4BA7E7298* L_4;
+		L_4 = NearFarInteractor_get_uiHoverEntered_m65F1C9ACE7F1CB3BB9ED747BADFA954AB92547C3_inline(L_3, NULL);
+		UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7* L_5 = (UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7*)il2cpp_codegen_object_new(UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mD4F2DD3BDD2495C5DBD9B73FDA365B7A05DBF472(L_5, __this, (intptr_t)((void*)ControllerInputActionManager_OnUIHoverEntered_m7747AA4001671507477941139B2049FF990A20D9_RuntimeMethod_var), NULL);
+		NullCheck(L_4);
+		UnityEvent_1_AddListener_mFFC598528B87DB66F65FC395BA09A0319CD2BE0E(L_4, L_5, UnityEvent_1_AddListener_mFFC598528B87DB66F65FC395BA09A0319CD2BE0E_RuntimeMethod_var);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:146>
-		NearFarInteractor_t43B1C14C2D72CB717E3624B0759E265F5D215E9C* L_5 = __this->___m_NearFarInteractor;
-		NullCheck(L_5);
-		UIHoverExitEvent_t63E5E9C921AFB8E2CB9CA4D32882DD4F62CD509B* L_6;
-		L_6 = NearFarInteractor_get_uiHoverExited_m3AB20DCF61C075D2138CD150711808D13F0CD5E0_inline(L_5, NULL);
-		UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7* L_7 = (UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7*)il2cpp_codegen_object_new(UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7_il2cpp_TypeInfo_var);
-		UnityAction_1__ctor_mD4F2DD3BDD2495C5DBD9B73FDA365B7A05DBF472(L_7, __this, (intptr_t)((void*)ControllerInputActionManager_OnUIHoverExited_m20EE4DA45F2465E8A6425E87F69020C5882533C4_RuntimeMethod_var), NULL);
+		NearFarInteractor_t43B1C14C2D72CB717E3624B0759E265F5D215E9C* L_6 = __this->___m_NearFarInteractor;
 		NullCheck(L_6);
-		UnityEvent_1_AddListener_mFFC598528B87DB66F65FC395BA09A0319CD2BE0E(L_6, L_7, UnityEvent_1_AddListener_mFFC598528B87DB66F65FC395BA09A0319CD2BE0E_RuntimeMethod_var);
+		UIHoverExitEvent_t63E5E9C921AFB8E2CB9CA4D32882DD4F62CD509B* L_7;
+		L_7 = NearFarInteractor_get_uiHoverExited_m3AB20DCF61C075D2138CD150711808D13F0CD5E0_inline(L_6, NULL);
+		UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7* L_8 = (UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7*)il2cpp_codegen_object_new(UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mD4F2DD3BDD2495C5DBD9B73FDA365B7A05DBF472(L_8, __this, (intptr_t)((void*)ControllerInputActionManager_OnUIHoverExited_m20EE4DA45F2465E8A6425E87F69020C5882533C4_RuntimeMethod_var), NULL);
+		NullCheck(L_7);
+		UnityEvent_1_AddListener_mFFC598528B87DB66F65FC395BA09A0319CD2BE0E(L_7, L_8, UnityEvent_1_AddListener_mFFC598528B87DB66F65FC395BA09A0319CD2BE0E_RuntimeMethod_var);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:147>
-		BindingsGroup_tD5EC90BB10F9D310FE467A7E3A4CAE2E32D0397A* L_8 = __this->___m_BindingsGroup;
-		NearFarInteractor_t43B1C14C2D72CB717E3624B0759E265F5D215E9C* L_9 = __this->___m_NearFarInteractor;
-		NullCheck(L_9);
-		RuntimeObject* L_10;
-		L_10 = NearFarInteractor_get_selectionRegion_mAF70B4BAD5B46F12A8EE31F17313A82A7BE93394_inline(L_9, NULL);
-		Action_1_tBE69AE2445D01D21514F8979242309AE250C59D3* L_11 = (Action_1_tBE69AE2445D01D21514F8979242309AE250C59D3*)il2cpp_codegen_object_new(Action_1_tBE69AE2445D01D21514F8979242309AE250C59D3_il2cpp_TypeInfo_var);
-		Action_1__ctor_mF08A1A6C71D02099C731EE6C46B17B1205BBCC6D(L_11, __this, (intptr_t)((void*)ControllerInputActionManager_OnNearFarSelectionRegionChanged_m726DFC0ACC75AB83814D394FFD8CD764EF071757_RuntimeMethod_var), NULL);
+		BindingsGroup_tD5EC90BB10F9D310FE467A7E3A4CAE2E32D0397A* L_9 = __this->___m_BindingsGroup;
+		NearFarInteractor_t43B1C14C2D72CB717E3624B0759E265F5D215E9C* L_10 = __this->___m_NearFarInteractor;
 		NullCheck(L_10);
-		RuntimeObject* L_12;
-		L_12 = InterfaceFuncInvoker1< RuntimeObject*, Action_1_tBE69AE2445D01D21514F8979242309AE250C59D3* >::Invoke(0, IReadOnlyBindableVariable_1_t1F2BE9E50402E707C90C41C06974ED824C410440_il2cpp_TypeInfo_var, L_10, L_11);
-		NullCheck(L_8);
-		BindingsGroup_AddBinding_m18697E73861A1C67DE0674F162B43CCE9E67C89B(L_8, L_12, NULL);
+		RuntimeObject* L_11;
+		L_11 = NearFarInteractor_get_selectionRegion_mAF70B4BAD5B46F12A8EE31F17313A82A7BE93394_inline(L_10, NULL);
+		Action_1_tBE69AE2445D01D21514F8979242309AE250C59D3* L_12 = (Action_1_tBE69AE2445D01D21514F8979242309AE250C59D3*)il2cpp_codegen_object_new(Action_1_tBE69AE2445D01D21514F8979242309AE250C59D3_il2cpp_TypeInfo_var);
+		Action_1__ctor_mF08A1A6C71D02099C731EE6C46B17B1205BBCC6D(L_12, __this, (intptr_t)((void*)ControllerInputActionManager_OnNearFarSelectionRegionChanged_m726DFC0ACC75AB83814D394FFD8CD764EF071757_RuntimeMethod_var), NULL);
+		NullCheck(L_11);
+		RuntimeObject* L_13;
+		L_13 = InterfaceFuncInvoker1< RuntimeObject*, Action_1_tBE69AE2445D01D21514F8979242309AE250C59D3* >::Invoke(0, IReadOnlyBindableVariable_1_t1F2BE9E50402E707C90C41C06974ED824C410440_il2cpp_TypeInfo_var, L_11, L_12);
+		NullCheck(L_9);
+		BindingsGroup_AddBinding_m18697E73861A1C67DE0674F162B43CCE9E67C89B(L_9, L_13, NULL);
 	}
 
-IL_006d:
+IL_0077:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:150>
-		XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* L_13 = __this->___m_RayInteractor;
+		XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* L_14 = __this->___m_RayInteractor;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_14;
-		L_14 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_13, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_14)
+		bool L_15;
+		L_15 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_14, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_6 = L_15;
+		bool L_16 = V_6;
+		if (!L_16)
 		{
-			goto IL_00eb;
+			goto IL_00ff;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:152>
-		XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* L_15 = __this->___m_RayInteractor;
-		NullCheck(L_15);
-		SelectEnterEvent_tBA2614C8C25D8794D5804C4F66195D74E64FC5D0* L_16;
-		L_16 = XRBaseInteractor_get_selectEntered_mC85EF4187B4575CF00CE7E0957DE5D0E11FAA524_inline(L_15, NULL);
-		UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B* L_17 = (UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B*)il2cpp_codegen_object_new(UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B_il2cpp_TypeInfo_var);
-		UnityAction_1__ctor_mEE39E1A87376378311B4931978E8E07E589E9A24(L_17, __this, (intptr_t)((void*)ControllerInputActionManager_OnRaySelectEntered_m05A00F5AC9CC73F9641F03CE853F21F20338B7B2_RuntimeMethod_var), NULL);
-		NullCheck(L_16);
-		UnityEvent_1_AddListener_mAE71681FB0832FD7DBA813E5ADDBA574EA32EED2(L_16, L_17, UnityEvent_1_AddListener_mAE71681FB0832FD7DBA813E5ADDBA574EA32EED2_RuntimeMethod_var);
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:153>
-		XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* L_18 = __this->___m_RayInteractor;
+		XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* L_17 = __this->___m_RayInteractor;
+		NullCheck(L_17);
+		SelectEnterEvent_tBA2614C8C25D8794D5804C4F66195D74E64FC5D0* L_18;
+		L_18 = XRBaseInteractor_get_selectEntered_mC85EF4187B4575CF00CE7E0957DE5D0E11FAA524_inline(L_17, NULL);
+		UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B* L_19 = (UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B*)il2cpp_codegen_object_new(UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mEE39E1A87376378311B4931978E8E07E589E9A24(L_19, __this, (intptr_t)((void*)ControllerInputActionManager_OnRaySelectEntered_m05A00F5AC9CC73F9641F03CE853F21F20338B7B2_RuntimeMethod_var), NULL);
 		NullCheck(L_18);
-		SelectExitEvent_t15DC0A39F9657BA9E6BAE6250D8D64C9671201F6* L_19;
-		L_19 = XRBaseInteractor_get_selectExited_m680D2E90A7CAA747EB07AAE7427A287E7D49A370_inline(L_18, NULL);
-		UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E* L_20 = (UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E*)il2cpp_codegen_object_new(UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E_il2cpp_TypeInfo_var);
-		UnityAction_1__ctor_mD74501F5FCCC37863163D5E7155B6C8B9B366C40(L_20, __this, (intptr_t)((void*)ControllerInputActionManager_OnRaySelectExited_m2043AA63005912E1603B0017B70B7A089888E0B9_RuntimeMethod_var), NULL);
-		NullCheck(L_19);
-		UnityEvent_1_AddListener_mB662756036996A6B6F83F6492CE9E26797AF9602(L_19, L_20, UnityEvent_1_AddListener_mB662756036996A6B6F83F6492CE9E26797AF9602_RuntimeMethod_var);
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:154>
-		XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* L_21 = __this->___m_RayInteractor;
+		UnityEvent_1_AddListener_mAE71681FB0832FD7DBA813E5ADDBA574EA32EED2(L_18, L_19, UnityEvent_1_AddListener_mAE71681FB0832FD7DBA813E5ADDBA574EA32EED2_RuntimeMethod_var);
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:153>
+		XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* L_20 = __this->___m_RayInteractor;
+		NullCheck(L_20);
+		SelectExitEvent_t15DC0A39F9657BA9E6BAE6250D8D64C9671201F6* L_21;
+		L_21 = XRBaseInteractor_get_selectExited_m680D2E90A7CAA747EB07AAE7427A287E7D49A370_inline(L_20, NULL);
+		UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E* L_22 = (UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E*)il2cpp_codegen_object_new(UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mD74501F5FCCC37863163D5E7155B6C8B9B366C40(L_22, __this, (intptr_t)((void*)ControllerInputActionManager_OnRaySelectExited_m2043AA63005912E1603B0017B70B7A089888E0B9_RuntimeMethod_var), NULL);
 		NullCheck(L_21);
-		UIHoverEnterEvent_t4C957A3405A5D9CB867C5EC446620BB4BA7E7298* L_22;
-		L_22 = XRRayInteractor_get_uiHoverEntered_m22CB14AC1A11633A125A0EA0EC0099EC1476F03E_inline(L_21, NULL);
-		UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7* L_23 = (UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7*)il2cpp_codegen_object_new(UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7_il2cpp_TypeInfo_var);
-		UnityAction_1__ctor_mD4F2DD3BDD2495C5DBD9B73FDA365B7A05DBF472(L_23, __this, (intptr_t)((void*)ControllerInputActionManager_OnUIHoverEntered_m7747AA4001671507477941139B2049FF990A20D9_RuntimeMethod_var), NULL);
-		NullCheck(L_22);
-		UnityEvent_1_AddListener_mFFC598528B87DB66F65FC395BA09A0319CD2BE0E(L_22, L_23, UnityEvent_1_AddListener_mFFC598528B87DB66F65FC395BA09A0319CD2BE0E_RuntimeMethod_var);
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:155>
-		XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* L_24 = __this->___m_RayInteractor;
+		UnityEvent_1_AddListener_mB662756036996A6B6F83F6492CE9E26797AF9602(L_21, L_22, UnityEvent_1_AddListener_mB662756036996A6B6F83F6492CE9E26797AF9602_RuntimeMethod_var);
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:154>
+		XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* L_23 = __this->___m_RayInteractor;
+		NullCheck(L_23);
+		UIHoverEnterEvent_t4C957A3405A5D9CB867C5EC446620BB4BA7E7298* L_24;
+		L_24 = XRRayInteractor_get_uiHoverEntered_m22CB14AC1A11633A125A0EA0EC0099EC1476F03E_inline(L_23, NULL);
+		UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7* L_25 = (UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7*)il2cpp_codegen_object_new(UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mD4F2DD3BDD2495C5DBD9B73FDA365B7A05DBF472(L_25, __this, (intptr_t)((void*)ControllerInputActionManager_OnUIHoverEntered_m7747AA4001671507477941139B2049FF990A20D9_RuntimeMethod_var), NULL);
 		NullCheck(L_24);
-		UIHoverExitEvent_t63E5E9C921AFB8E2CB9CA4D32882DD4F62CD509B* L_25;
-		L_25 = XRRayInteractor_get_uiHoverExited_m33429ECD32C826D9FA13A0E87C37B44CD63FDBB1_inline(L_24, NULL);
-		UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7* L_26 = (UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7*)il2cpp_codegen_object_new(UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7_il2cpp_TypeInfo_var);
-		UnityAction_1__ctor_mD4F2DD3BDD2495C5DBD9B73FDA365B7A05DBF472(L_26, __this, (intptr_t)((void*)ControllerInputActionManager_OnUIHoverExited_m20EE4DA45F2465E8A6425E87F69020C5882533C4_RuntimeMethod_var), NULL);
-		NullCheck(L_25);
-		UnityEvent_1_AddListener_mFFC598528B87DB66F65FC395BA09A0319CD2BE0E(L_25, L_26, UnityEvent_1_AddListener_mFFC598528B87DB66F65FC395BA09A0319CD2BE0E_RuntimeMethod_var);
+		UnityEvent_1_AddListener_mFFC598528B87DB66F65FC395BA09A0319CD2BE0E(L_24, L_25, UnityEvent_1_AddListener_mFFC598528B87DB66F65FC395BA09A0319CD2BE0E_RuntimeMethod_var);
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:155>
+		XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* L_26 = __this->___m_RayInteractor;
+		NullCheck(L_26);
+		UIHoverExitEvent_t63E5E9C921AFB8E2CB9CA4D32882DD4F62CD509B* L_27;
+		L_27 = XRRayInteractor_get_uiHoverExited_m33429ECD32C826D9FA13A0E87C37B44CD63FDBB1_inline(L_26, NULL);
+		UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7* L_28 = (UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7*)il2cpp_codegen_object_new(UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mD4F2DD3BDD2495C5DBD9B73FDA365B7A05DBF472(L_28, __this, (intptr_t)((void*)ControllerInputActionManager_OnUIHoverExited_m20EE4DA45F2465E8A6425E87F69020C5882533C4_RuntimeMethod_var), NULL);
+		NullCheck(L_27);
+		UnityEvent_1_AddListener_mFFC598528B87DB66F65FC395BA09A0319CD2BE0E(L_27, L_28, UnityEvent_1_AddListener_mFFC598528B87DB66F65FC395BA09A0319CD2BE0E_RuntimeMethod_var);
 	}
 
-IL_00eb:
+IL_00ff:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:158>
-		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_27 = __this->___m_TeleportMode;
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_28;
-		L_28 = ControllerInputActionManager_GetInputAction_m2F95F2340B1602E3787F34FDA150C47AB95068AE(L_27, NULL);
-		V_0 = L_28;
+		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_29 = __this->___m_TeleportMode;
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_30;
+		L_30 = ControllerInputActionManager_GetInputAction_m2F95F2340B1602E3787F34FDA150C47AB95068AE(L_29, NULL);
+		V_0 = L_30;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:159>
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_29 = V_0;
-		if (!L_29)
-		{
-			goto IL_0142;
-		}
-	}
-	{
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:161>
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_30 = V_0;
-		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_31 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
-		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_31, __this, (intptr_t)((void*)ControllerInputActionManager_OnStartTeleport_mE7F99274DE90EC5AD8234BB0D6010C5FC96AC9FE_RuntimeMethod_var), NULL);
-		NullCheck(L_30);
-		InputAction_add_performed_m0337FFA16EBEF7AE365C3B558CFDFF7BB9747B54(L_30, L_31, NULL);
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:162>
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_32 = V_0;
-		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_33 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
-		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_33, __this, (intptr_t)((void*)ControllerInputActionManager_OnStartLocomotion_m2753A0F4D2ECB0DC422EEE2D1B6BEC4C149EE11C_RuntimeMethod_var), NULL);
-		NullCheck(L_32);
-		InputAction_add_performed_m0337FFA16EBEF7AE365C3B558CFDFF7BB9747B54(L_32, L_33, NULL);
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:163>
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_34 = V_0;
-		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_35 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
-		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_35, __this, (intptr_t)((void*)ControllerInputActionManager_OnCancelTeleport_m4BDF184D63E154479DDB39CEF5798CD7F69563DF_RuntimeMethod_var), NULL);
-		NullCheck(L_34);
-		InputAction_add_canceled_m69EC253E21CC314BFB350A86E294D0651F5ECA77(L_34, L_35, NULL);
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:164>
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_36 = V_0;
-		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_37 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
-		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_37, __this, (intptr_t)((void*)ControllerInputActionManager_OnStopLocomotion_m19B6191B67AFEE79180D158CB052307E0ACF4B42_RuntimeMethod_var), NULL);
-		NullCheck(L_36);
-		InputAction_add_canceled_m69EC253E21CC314BFB350A86E294D0651F5ECA77(L_36, L_37, NULL);
-	}
-
-IL_0142:
-	{
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:167>
-		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_38 = __this->___m_TeleportModeCancel;
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_39;
-		L_39 = ControllerInputActionManager_GetInputAction_m2F95F2340B1602E3787F34FDA150C47AB95068AE(L_38, NULL);
-		V_1 = L_39;
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:168>
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_40 = V_1;
-		if (!L_40)
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_31 = V_0;
+		V_7 = (bool)((!(((RuntimeObject*)(InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD*)L_31) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_32 = V_7;
+		if (!L_32)
 		{
 			goto IL_0163;
 		}
 	}
 	{
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:170>
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_41 = V_1;
-		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_42 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
-		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_42, __this, (intptr_t)((void*)ControllerInputActionManager_OnCancelTeleport_m4BDF184D63E154479DDB39CEF5798CD7F69563DF_RuntimeMethod_var), NULL);
-		NullCheck(L_41);
-		InputAction_add_performed_m0337FFA16EBEF7AE365C3B558CFDFF7BB9747B54(L_41, L_42, NULL);
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:161>
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_33 = V_0;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_34 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_34, __this, (intptr_t)((void*)ControllerInputActionManager_OnStartTeleport_mE7F99274DE90EC5AD8234BB0D6010C5FC96AC9FE_RuntimeMethod_var), NULL);
+		NullCheck(L_33);
+		InputAction_add_performed_m0337FFA16EBEF7AE365C3B558CFDFF7BB9747B54(L_33, L_34, NULL);
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:162>
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_35 = V_0;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_36 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_36, __this, (intptr_t)((void*)ControllerInputActionManager_OnStartLocomotion_m2753A0F4D2ECB0DC422EEE2D1B6BEC4C149EE11C_RuntimeMethod_var), NULL);
+		NullCheck(L_35);
+		InputAction_add_performed_m0337FFA16EBEF7AE365C3B558CFDFF7BB9747B54(L_35, L_36, NULL);
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:163>
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_37 = V_0;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_38 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_38, __this, (intptr_t)((void*)ControllerInputActionManager_OnCancelTeleport_m4BDF184D63E154479DDB39CEF5798CD7F69563DF_RuntimeMethod_var), NULL);
+		NullCheck(L_37);
+		InputAction_add_canceled_m69EC253E21CC314BFB350A86E294D0651F5ECA77(L_37, L_38, NULL);
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:164>
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_39 = V_0;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_40 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_40, __this, (intptr_t)((void*)ControllerInputActionManager_OnStopLocomotion_m19B6191B67AFEE79180D158CB052307E0ACF4B42_RuntimeMethod_var), NULL);
+		NullCheck(L_39);
+		InputAction_add_canceled_m69EC253E21CC314BFB350A86E294D0651F5ECA77(L_39, L_40, NULL);
 	}
 
 IL_0163:
 	{
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:173>
-		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_43 = __this->___m_Move;
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_44;
-		L_44 = ControllerInputActionManager_GetInputAction_m2F95F2340B1602E3787F34FDA150C47AB95068AE(L_43, NULL);
-		V_2 = L_44;
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:174>
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_45 = V_2;
-		if (!L_45)
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:167>
+		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_41 = __this->___m_TeleportModeCancel;
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_42;
+		L_42 = ControllerInputActionManager_GetInputAction_m2F95F2340B1602E3787F34FDA150C47AB95068AE(L_41, NULL);
+		V_1 = L_42;
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:168>
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_43 = V_1;
+		V_8 = (bool)((!(((RuntimeObject*)(InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD*)L_43) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_44 = V_8;
+		if (!L_44)
 		{
-			goto IL_0196;
+			goto IL_018e;
+		}
+	}
+	{
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:170>
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_45 = V_1;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_46 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_46, __this, (intptr_t)((void*)ControllerInputActionManager_OnCancelTeleport_m4BDF184D63E154479DDB39CEF5798CD7F69563DF_RuntimeMethod_var), NULL);
+		NullCheck(L_45);
+		InputAction_add_performed_m0337FFA16EBEF7AE365C3B558CFDFF7BB9747B54(L_45, L_46, NULL);
+	}
+
+IL_018e:
+	{
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:173>
+		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_47 = __this->___m_Move;
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_48;
+		L_48 = ControllerInputActionManager_GetInputAction_m2F95F2340B1602E3787F34FDA150C47AB95068AE(L_47, NULL);
+		V_2 = L_48;
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:174>
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_49 = V_2;
+		V_9 = (bool)((!(((RuntimeObject*)(InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD*)L_49) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_50 = V_9;
+		if (!L_50)
+		{
+			goto IL_01cc;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:176>
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_46 = V_2;
-		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_47 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
-		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_47, __this, (intptr_t)((void*)ControllerInputActionManager_OnStartLocomotion_m2753A0F4D2ECB0DC422EEE2D1B6BEC4C149EE11C_RuntimeMethod_var), NULL);
-		NullCheck(L_46);
-		InputAction_add_started_m850C46EBBEEFB3F9760AA83BFD6ECA00850657E5(L_46, L_47, NULL);
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_51 = V_2;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_52 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_52, __this, (intptr_t)((void*)ControllerInputActionManager_OnStartLocomotion_m2753A0F4D2ECB0DC422EEE2D1B6BEC4C149EE11C_RuntimeMethod_var), NULL);
+		NullCheck(L_51);
+		InputAction_add_started_m850C46EBBEEFB3F9760AA83BFD6ECA00850657E5(L_51, L_52, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:177>
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_48 = V_2;
-		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_49 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
-		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_49, __this, (intptr_t)((void*)ControllerInputActionManager_OnStopLocomotion_m19B6191B67AFEE79180D158CB052307E0ACF4B42_RuntimeMethod_var), NULL);
-		NullCheck(L_48);
-		InputAction_add_canceled_m69EC253E21CC314BFB350A86E294D0651F5ECA77(L_48, L_49, NULL);
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_53 = V_2;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_54 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_54, __this, (intptr_t)((void*)ControllerInputActionManager_OnStopLocomotion_m19B6191B67AFEE79180D158CB052307E0ACF4B42_RuntimeMethod_var), NULL);
+		NullCheck(L_53);
+		InputAction_add_canceled_m69EC253E21CC314BFB350A86E294D0651F5ECA77(L_53, L_54, NULL);
 	}
 
-IL_0196:
+IL_01cc:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:180>
-		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_50 = __this->___m_Turn;
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_51;
-		L_51 = ControllerInputActionManager_GetInputAction_m2F95F2340B1602E3787F34FDA150C47AB95068AE(L_50, NULL);
-		V_3 = L_51;
+		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_55 = __this->___m_Turn;
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_56;
+		L_56 = ControllerInputActionManager_GetInputAction_m2F95F2340B1602E3787F34FDA150C47AB95068AE(L_55, NULL);
+		V_3 = L_56;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:181>
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_52 = V_3;
-		if (!L_52)
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_57 = V_3;
+		V_10 = (bool)((!(((RuntimeObject*)(InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD*)L_57) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_58 = V_10;
+		if (!L_58)
 		{
-			goto IL_01c9;
+			goto IL_020a;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:183>
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_53 = V_3;
-		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_54 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
-		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_54, __this, (intptr_t)((void*)ControllerInputActionManager_OnStartLocomotion_m2753A0F4D2ECB0DC422EEE2D1B6BEC4C149EE11C_RuntimeMethod_var), NULL);
-		NullCheck(L_53);
-		InputAction_add_started_m850C46EBBEEFB3F9760AA83BFD6ECA00850657E5(L_53, L_54, NULL);
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_59 = V_3;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_60 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_60, __this, (intptr_t)((void*)ControllerInputActionManager_OnStartLocomotion_m2753A0F4D2ECB0DC422EEE2D1B6BEC4C149EE11C_RuntimeMethod_var), NULL);
+		NullCheck(L_59);
+		InputAction_add_started_m850C46EBBEEFB3F9760AA83BFD6ECA00850657E5(L_59, L_60, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:184>
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_55 = V_3;
-		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_56 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
-		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_56, __this, (intptr_t)((void*)ControllerInputActionManager_OnStopLocomotion_m19B6191B67AFEE79180D158CB052307E0ACF4B42_RuntimeMethod_var), NULL);
-		NullCheck(L_55);
-		InputAction_add_canceled_m69EC253E21CC314BFB350A86E294D0651F5ECA77(L_55, L_56, NULL);
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_61 = V_3;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_62 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_62, __this, (intptr_t)((void*)ControllerInputActionManager_OnStopLocomotion_m19B6191B67AFEE79180D158CB052307E0ACF4B42_RuntimeMethod_var), NULL);
+		NullCheck(L_61);
+		InputAction_add_canceled_m69EC253E21CC314BFB350A86E294D0651F5ECA77(L_61, L_62, NULL);
 	}
 
-IL_01c9:
+IL_020a:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:187>
-		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_57 = __this->___m_SnapTurn;
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_58;
-		L_58 = ControllerInputActionManager_GetInputAction_m2F95F2340B1602E3787F34FDA150C47AB95068AE(L_57, NULL);
-		V_4 = L_58;
+		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_63 = __this->___m_SnapTurn;
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_64;
+		L_64 = ControllerInputActionManager_GetInputAction_m2F95F2340B1602E3787F34FDA150C47AB95068AE(L_63, NULL);
+		V_4 = L_64;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:188>
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_59 = V_4;
-		if (!L_59)
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_65 = V_4;
+		V_11 = (bool)((!(((RuntimeObject*)(InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD*)L_65) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_66 = V_11;
+		if (!L_66)
 		{
-			goto IL_0200;
+			goto IL_024c;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:190>
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_60 = V_4;
-		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_61 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
-		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_61, __this, (intptr_t)((void*)ControllerInputActionManager_OnStartLocomotion_m2753A0F4D2ECB0DC422EEE2D1B6BEC4C149EE11C_RuntimeMethod_var), NULL);
-		NullCheck(L_60);
-		InputAction_add_started_m850C46EBBEEFB3F9760AA83BFD6ECA00850657E5(L_60, L_61, NULL);
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_67 = V_4;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_68 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_68, __this, (intptr_t)((void*)ControllerInputActionManager_OnStartLocomotion_m2753A0F4D2ECB0DC422EEE2D1B6BEC4C149EE11C_RuntimeMethod_var), NULL);
+		NullCheck(L_67);
+		InputAction_add_started_m850C46EBBEEFB3F9760AA83BFD6ECA00850657E5(L_67, L_68, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:191>
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_62 = V_4;
-		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_63 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
-		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_63, __this, (intptr_t)((void*)ControllerInputActionManager_OnStopLocomotion_m19B6191B67AFEE79180D158CB052307E0ACF4B42_RuntimeMethod_var), NULL);
-		NullCheck(L_62);
-		InputAction_add_canceled_m69EC253E21CC314BFB350A86E294D0651F5ECA77(L_62, L_63, NULL);
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_69 = V_4;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_70 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_70, __this, (intptr_t)((void*)ControllerInputActionManager_OnStopLocomotion_m19B6191B67AFEE79180D158CB052307E0ACF4B42_RuntimeMethod_var), NULL);
+		NullCheck(L_69);
+		InputAction_add_canceled_m69EC253E21CC314BFB350A86E294D0651F5ECA77(L_69, L_70, NULL);
 	}
 
-IL_0200:
+IL_024c:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:193>
 		return;
 	}
 }
-// Method Definition Index: 75125
+// Method Definition Index: 93572
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_TeardownInteractorEvents_m79A27CF5E55A5C7B53253C22644424811781A312 (ControllerInputActionManager_t869A70AE3B62565ADCF8E113AFEF37D3B0DBE90B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6340,6 +6532,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_TeardownInt
 	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* V_2 = NULL;
 	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* V_3 = NULL;
 	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* V_4 = NULL;
+	bool V_5 = false;
+	bool V_6 = false;
+	bool V_7 = false;
+	bool V_8 = false;
+	bool V_9 = false;
+	bool V_10 = false;
+	bool V_11 = false;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:197>
 		BindingsGroup_tD5EC90BB10F9D310FE467A7E3A4CAE2E32D0397A* L_0 = __this->___m_BindingsGroup;
@@ -6350,241 +6549,255 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_TeardownInt
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
 		L_2 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_2)
+		V_5 = L_2;
+		bool L_3 = V_5;
+		if (!L_3)
 		{
-			goto IL_0051;
+			goto IL_005b;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:201>
-		NearFarInteractor_t43B1C14C2D72CB717E3624B0759E265F5D215E9C* L_3 = __this->___m_NearFarInteractor;
-		NullCheck(L_3);
-		UIHoverEnterEvent_t4C957A3405A5D9CB867C5EC446620BB4BA7E7298* L_4;
-		L_4 = NearFarInteractor_get_uiHoverEntered_m65F1C9ACE7F1CB3BB9ED747BADFA954AB92547C3_inline(L_3, NULL);
-		UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7* L_5 = (UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7*)il2cpp_codegen_object_new(UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7_il2cpp_TypeInfo_var);
-		UnityAction_1__ctor_mD4F2DD3BDD2495C5DBD9B73FDA365B7A05DBF472(L_5, __this, (intptr_t)((void*)ControllerInputActionManager_OnUIHoverEntered_m7747AA4001671507477941139B2049FF990A20D9_RuntimeMethod_var), NULL);
+		NearFarInteractor_t43B1C14C2D72CB717E3624B0759E265F5D215E9C* L_4 = __this->___m_NearFarInteractor;
 		NullCheck(L_4);
-		UnityEvent_1_RemoveListener_m01B6B9BBA6AC264F094CE87EA45D542DCAD7B59E(L_4, L_5, UnityEvent_1_RemoveListener_m01B6B9BBA6AC264F094CE87EA45D542DCAD7B59E_RuntimeMethod_var);
+		UIHoverEnterEvent_t4C957A3405A5D9CB867C5EC446620BB4BA7E7298* L_5;
+		L_5 = NearFarInteractor_get_uiHoverEntered_m65F1C9ACE7F1CB3BB9ED747BADFA954AB92547C3_inline(L_4, NULL);
+		UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7* L_6 = (UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7*)il2cpp_codegen_object_new(UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mD4F2DD3BDD2495C5DBD9B73FDA365B7A05DBF472(L_6, __this, (intptr_t)((void*)ControllerInputActionManager_OnUIHoverEntered_m7747AA4001671507477941139B2049FF990A20D9_RuntimeMethod_var), NULL);
+		NullCheck(L_5);
+		UnityEvent_1_RemoveListener_m01B6B9BBA6AC264F094CE87EA45D542DCAD7B59E(L_5, L_6, UnityEvent_1_RemoveListener_m01B6B9BBA6AC264F094CE87EA45D542DCAD7B59E_RuntimeMethod_var);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:202>
-		NearFarInteractor_t43B1C14C2D72CB717E3624B0759E265F5D215E9C* L_6 = __this->___m_NearFarInteractor;
-		NullCheck(L_6);
-		UIHoverExitEvent_t63E5E9C921AFB8E2CB9CA4D32882DD4F62CD509B* L_7;
-		L_7 = NearFarInteractor_get_uiHoverExited_m3AB20DCF61C075D2138CD150711808D13F0CD5E0_inline(L_6, NULL);
-		UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7* L_8 = (UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7*)il2cpp_codegen_object_new(UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7_il2cpp_TypeInfo_var);
-		UnityAction_1__ctor_mD4F2DD3BDD2495C5DBD9B73FDA365B7A05DBF472(L_8, __this, (intptr_t)((void*)ControllerInputActionManager_OnUIHoverExited_m20EE4DA45F2465E8A6425E87F69020C5882533C4_RuntimeMethod_var), NULL);
+		NearFarInteractor_t43B1C14C2D72CB717E3624B0759E265F5D215E9C* L_7 = __this->___m_NearFarInteractor;
 		NullCheck(L_7);
-		UnityEvent_1_RemoveListener_m01B6B9BBA6AC264F094CE87EA45D542DCAD7B59E(L_7, L_8, UnityEvent_1_RemoveListener_m01B6B9BBA6AC264F094CE87EA45D542DCAD7B59E_RuntimeMethod_var);
+		UIHoverExitEvent_t63E5E9C921AFB8E2CB9CA4D32882DD4F62CD509B* L_8;
+		L_8 = NearFarInteractor_get_uiHoverExited_m3AB20DCF61C075D2138CD150711808D13F0CD5E0_inline(L_7, NULL);
+		UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7* L_9 = (UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7*)il2cpp_codegen_object_new(UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mD4F2DD3BDD2495C5DBD9B73FDA365B7A05DBF472(L_9, __this, (intptr_t)((void*)ControllerInputActionManager_OnUIHoverExited_m20EE4DA45F2465E8A6425E87F69020C5882533C4_RuntimeMethod_var), NULL);
+		NullCheck(L_8);
+		UnityEvent_1_RemoveListener_m01B6B9BBA6AC264F094CE87EA45D542DCAD7B59E(L_8, L_9, UnityEvent_1_RemoveListener_m01B6B9BBA6AC264F094CE87EA45D542DCAD7B59E_RuntimeMethod_var);
 	}
 
-IL_0051:
+IL_005b:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:205>
-		XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* L_9 = __this->___m_RayInteractor;
+		XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* L_10 = __this->___m_RayInteractor;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_10;
-		L_10 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_9, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_10)
+		bool L_11;
+		L_11 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_10, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_6 = L_11;
+		bool L_12 = V_6;
+		if (!L_12)
 		{
-			goto IL_00cf;
+			goto IL_00e3;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:207>
-		XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* L_11 = __this->___m_RayInteractor;
-		NullCheck(L_11);
-		SelectEnterEvent_tBA2614C8C25D8794D5804C4F66195D74E64FC5D0* L_12;
-		L_12 = XRBaseInteractor_get_selectEntered_mC85EF4187B4575CF00CE7E0957DE5D0E11FAA524_inline(L_11, NULL);
-		UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B* L_13 = (UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B*)il2cpp_codegen_object_new(UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B_il2cpp_TypeInfo_var);
-		UnityAction_1__ctor_mEE39E1A87376378311B4931978E8E07E589E9A24(L_13, __this, (intptr_t)((void*)ControllerInputActionManager_OnRaySelectEntered_m05A00F5AC9CC73F9641F03CE853F21F20338B7B2_RuntimeMethod_var), NULL);
-		NullCheck(L_12);
-		UnityEvent_1_RemoveListener_m1008B118B379B498B23E13BB88779719C22EB9EB(L_12, L_13, UnityEvent_1_RemoveListener_m1008B118B379B498B23E13BB88779719C22EB9EB_RuntimeMethod_var);
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:208>
-		XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* L_14 = __this->___m_RayInteractor;
+		XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* L_13 = __this->___m_RayInteractor;
+		NullCheck(L_13);
+		SelectEnterEvent_tBA2614C8C25D8794D5804C4F66195D74E64FC5D0* L_14;
+		L_14 = XRBaseInteractor_get_selectEntered_mC85EF4187B4575CF00CE7E0957DE5D0E11FAA524_inline(L_13, NULL);
+		UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B* L_15 = (UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B*)il2cpp_codegen_object_new(UnityAction_1_t6D7C8D94300AACA6B0CFB2228AA5572CFBF0531B_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mEE39E1A87376378311B4931978E8E07E589E9A24(L_15, __this, (intptr_t)((void*)ControllerInputActionManager_OnRaySelectEntered_m05A00F5AC9CC73F9641F03CE853F21F20338B7B2_RuntimeMethod_var), NULL);
 		NullCheck(L_14);
-		SelectExitEvent_t15DC0A39F9657BA9E6BAE6250D8D64C9671201F6* L_15;
-		L_15 = XRBaseInteractor_get_selectExited_m680D2E90A7CAA747EB07AAE7427A287E7D49A370_inline(L_14, NULL);
-		UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E* L_16 = (UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E*)il2cpp_codegen_object_new(UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E_il2cpp_TypeInfo_var);
-		UnityAction_1__ctor_mD74501F5FCCC37863163D5E7155B6C8B9B366C40(L_16, __this, (intptr_t)((void*)ControllerInputActionManager_OnRaySelectExited_m2043AA63005912E1603B0017B70B7A089888E0B9_RuntimeMethod_var), NULL);
-		NullCheck(L_15);
-		UnityEvent_1_RemoveListener_m4353C3D43531002B6FBE7556246DB0A261672F9B(L_15, L_16, UnityEvent_1_RemoveListener_m4353C3D43531002B6FBE7556246DB0A261672F9B_RuntimeMethod_var);
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:209>
-		XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* L_17 = __this->___m_RayInteractor;
+		UnityEvent_1_RemoveListener_m1008B118B379B498B23E13BB88779719C22EB9EB(L_14, L_15, UnityEvent_1_RemoveListener_m1008B118B379B498B23E13BB88779719C22EB9EB_RuntimeMethod_var);
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:208>
+		XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* L_16 = __this->___m_RayInteractor;
+		NullCheck(L_16);
+		SelectExitEvent_t15DC0A39F9657BA9E6BAE6250D8D64C9671201F6* L_17;
+		L_17 = XRBaseInteractor_get_selectExited_m680D2E90A7CAA747EB07AAE7427A287E7D49A370_inline(L_16, NULL);
+		UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E* L_18 = (UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E*)il2cpp_codegen_object_new(UnityAction_1_tD4A8B5CFDB30ABDE869D801066212B20B4D61D6E_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mD74501F5FCCC37863163D5E7155B6C8B9B366C40(L_18, __this, (intptr_t)((void*)ControllerInputActionManager_OnRaySelectExited_m2043AA63005912E1603B0017B70B7A089888E0B9_RuntimeMethod_var), NULL);
 		NullCheck(L_17);
-		UIHoverEnterEvent_t4C957A3405A5D9CB867C5EC446620BB4BA7E7298* L_18;
-		L_18 = XRRayInteractor_get_uiHoverEntered_m22CB14AC1A11633A125A0EA0EC0099EC1476F03E_inline(L_17, NULL);
-		UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7* L_19 = (UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7*)il2cpp_codegen_object_new(UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7_il2cpp_TypeInfo_var);
-		UnityAction_1__ctor_mD4F2DD3BDD2495C5DBD9B73FDA365B7A05DBF472(L_19, __this, (intptr_t)((void*)ControllerInputActionManager_OnUIHoverEntered_m7747AA4001671507477941139B2049FF990A20D9_RuntimeMethod_var), NULL);
-		NullCheck(L_18);
-		UnityEvent_1_RemoveListener_m01B6B9BBA6AC264F094CE87EA45D542DCAD7B59E(L_18, L_19, UnityEvent_1_RemoveListener_m01B6B9BBA6AC264F094CE87EA45D542DCAD7B59E_RuntimeMethod_var);
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:210>
-		XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* L_20 = __this->___m_RayInteractor;
+		UnityEvent_1_RemoveListener_m4353C3D43531002B6FBE7556246DB0A261672F9B(L_17, L_18, UnityEvent_1_RemoveListener_m4353C3D43531002B6FBE7556246DB0A261672F9B_RuntimeMethod_var);
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:209>
+		XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* L_19 = __this->___m_RayInteractor;
+		NullCheck(L_19);
+		UIHoverEnterEvent_t4C957A3405A5D9CB867C5EC446620BB4BA7E7298* L_20;
+		L_20 = XRRayInteractor_get_uiHoverEntered_m22CB14AC1A11633A125A0EA0EC0099EC1476F03E_inline(L_19, NULL);
+		UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7* L_21 = (UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7*)il2cpp_codegen_object_new(UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mD4F2DD3BDD2495C5DBD9B73FDA365B7A05DBF472(L_21, __this, (intptr_t)((void*)ControllerInputActionManager_OnUIHoverEntered_m7747AA4001671507477941139B2049FF990A20D9_RuntimeMethod_var), NULL);
 		NullCheck(L_20);
-		UIHoverExitEvent_t63E5E9C921AFB8E2CB9CA4D32882DD4F62CD509B* L_21;
-		L_21 = XRRayInteractor_get_uiHoverExited_m33429ECD32C826D9FA13A0E87C37B44CD63FDBB1_inline(L_20, NULL);
-		UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7* L_22 = (UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7*)il2cpp_codegen_object_new(UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7_il2cpp_TypeInfo_var);
-		UnityAction_1__ctor_mD4F2DD3BDD2495C5DBD9B73FDA365B7A05DBF472(L_22, __this, (intptr_t)((void*)ControllerInputActionManager_OnUIHoverExited_m20EE4DA45F2465E8A6425E87F69020C5882533C4_RuntimeMethod_var), NULL);
-		NullCheck(L_21);
-		UnityEvent_1_RemoveListener_m01B6B9BBA6AC264F094CE87EA45D542DCAD7B59E(L_21, L_22, UnityEvent_1_RemoveListener_m01B6B9BBA6AC264F094CE87EA45D542DCAD7B59E_RuntimeMethod_var);
+		UnityEvent_1_RemoveListener_m01B6B9BBA6AC264F094CE87EA45D542DCAD7B59E(L_20, L_21, UnityEvent_1_RemoveListener_m01B6B9BBA6AC264F094CE87EA45D542DCAD7B59E_RuntimeMethod_var);
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:210>
+		XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* L_22 = __this->___m_RayInteractor;
+		NullCheck(L_22);
+		UIHoverExitEvent_t63E5E9C921AFB8E2CB9CA4D32882DD4F62CD509B* L_23;
+		L_23 = XRRayInteractor_get_uiHoverExited_m33429ECD32C826D9FA13A0E87C37B44CD63FDBB1_inline(L_22, NULL);
+		UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7* L_24 = (UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7*)il2cpp_codegen_object_new(UnityAction_1_tF84284B75FFACCEAC80371566C7B8164DD76E4E7_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mD4F2DD3BDD2495C5DBD9B73FDA365B7A05DBF472(L_24, __this, (intptr_t)((void*)ControllerInputActionManager_OnUIHoverExited_m20EE4DA45F2465E8A6425E87F69020C5882533C4_RuntimeMethod_var), NULL);
+		NullCheck(L_23);
+		UnityEvent_1_RemoveListener_m01B6B9BBA6AC264F094CE87EA45D542DCAD7B59E(L_23, L_24, UnityEvent_1_RemoveListener_m01B6B9BBA6AC264F094CE87EA45D542DCAD7B59E_RuntimeMethod_var);
 	}
 
-IL_00cf:
+IL_00e3:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:213>
-		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_23 = __this->___m_TeleportMode;
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_24;
-		L_24 = ControllerInputActionManager_GetInputAction_m2F95F2340B1602E3787F34FDA150C47AB95068AE(L_23, NULL);
-		V_0 = L_24;
+		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_25 = __this->___m_TeleportMode;
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_26;
+		L_26 = ControllerInputActionManager_GetInputAction_m2F95F2340B1602E3787F34FDA150C47AB95068AE(L_25, NULL);
+		V_0 = L_26;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:214>
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_25 = V_0;
-		if (!L_25)
-		{
-			goto IL_0126;
-		}
-	}
-	{
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:216>
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_26 = V_0;
-		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_27 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
-		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_27, __this, (intptr_t)((void*)ControllerInputActionManager_OnStartTeleport_mE7F99274DE90EC5AD8234BB0D6010C5FC96AC9FE_RuntimeMethod_var), NULL);
-		NullCheck(L_26);
-		InputAction_remove_performed_m1BE84CED38F11F17C825FA782B35C92D708E6E44(L_26, L_27, NULL);
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:217>
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_28 = V_0;
-		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_29 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
-		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_29, __this, (intptr_t)((void*)ControllerInputActionManager_OnStartLocomotion_m2753A0F4D2ECB0DC422EEE2D1B6BEC4C149EE11C_RuntimeMethod_var), NULL);
-		NullCheck(L_28);
-		InputAction_remove_performed_m1BE84CED38F11F17C825FA782B35C92D708E6E44(L_28, L_29, NULL);
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:218>
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_30 = V_0;
-		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_31 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
-		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_31, __this, (intptr_t)((void*)ControllerInputActionManager_OnCancelTeleport_m4BDF184D63E154479DDB39CEF5798CD7F69563DF_RuntimeMethod_var), NULL);
-		NullCheck(L_30);
-		InputAction_remove_canceled_m7CF8D377C61DB1290E153C56312A7C075544AF7F(L_30, L_31, NULL);
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:219>
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_32 = V_0;
-		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_33 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
-		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_33, __this, (intptr_t)((void*)ControllerInputActionManager_OnStopLocomotion_m19B6191B67AFEE79180D158CB052307E0ACF4B42_RuntimeMethod_var), NULL);
-		NullCheck(L_32);
-		InputAction_remove_canceled_m7CF8D377C61DB1290E153C56312A7C075544AF7F(L_32, L_33, NULL);
-	}
-
-IL_0126:
-	{
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:222>
-		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_34 = __this->___m_TeleportModeCancel;
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_35;
-		L_35 = ControllerInputActionManager_GetInputAction_m2F95F2340B1602E3787F34FDA150C47AB95068AE(L_34, NULL);
-		V_1 = L_35;
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:223>
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_36 = V_1;
-		if (!L_36)
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_27 = V_0;
+		V_7 = (bool)((!(((RuntimeObject*)(InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD*)L_27) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_28 = V_7;
+		if (!L_28)
 		{
 			goto IL_0147;
 		}
 	}
 	{
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:225>
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_37 = V_1;
-		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_38 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
-		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_38, __this, (intptr_t)((void*)ControllerInputActionManager_OnCancelTeleport_m4BDF184D63E154479DDB39CEF5798CD7F69563DF_RuntimeMethod_var), NULL);
-		NullCheck(L_37);
-		InputAction_remove_performed_m1BE84CED38F11F17C825FA782B35C92D708E6E44(L_37, L_38, NULL);
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:216>
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_29 = V_0;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_30 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_30, __this, (intptr_t)((void*)ControllerInputActionManager_OnStartTeleport_mE7F99274DE90EC5AD8234BB0D6010C5FC96AC9FE_RuntimeMethod_var), NULL);
+		NullCheck(L_29);
+		InputAction_remove_performed_m1BE84CED38F11F17C825FA782B35C92D708E6E44(L_29, L_30, NULL);
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:217>
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_31 = V_0;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_32 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_32, __this, (intptr_t)((void*)ControllerInputActionManager_OnStartLocomotion_m2753A0F4D2ECB0DC422EEE2D1B6BEC4C149EE11C_RuntimeMethod_var), NULL);
+		NullCheck(L_31);
+		InputAction_remove_performed_m1BE84CED38F11F17C825FA782B35C92D708E6E44(L_31, L_32, NULL);
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:218>
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_33 = V_0;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_34 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_34, __this, (intptr_t)((void*)ControllerInputActionManager_OnCancelTeleport_m4BDF184D63E154479DDB39CEF5798CD7F69563DF_RuntimeMethod_var), NULL);
+		NullCheck(L_33);
+		InputAction_remove_canceled_m7CF8D377C61DB1290E153C56312A7C075544AF7F(L_33, L_34, NULL);
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:219>
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_35 = V_0;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_36 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_36, __this, (intptr_t)((void*)ControllerInputActionManager_OnStopLocomotion_m19B6191B67AFEE79180D158CB052307E0ACF4B42_RuntimeMethod_var), NULL);
+		NullCheck(L_35);
+		InputAction_remove_canceled_m7CF8D377C61DB1290E153C56312A7C075544AF7F(L_35, L_36, NULL);
 	}
 
 IL_0147:
 	{
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:228>
-		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_39 = __this->___m_Move;
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_40;
-		L_40 = ControllerInputActionManager_GetInputAction_m2F95F2340B1602E3787F34FDA150C47AB95068AE(L_39, NULL);
-		V_2 = L_40;
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:229>
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_41 = V_2;
-		if (!L_41)
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:222>
+		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_37 = __this->___m_TeleportModeCancel;
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_38;
+		L_38 = ControllerInputActionManager_GetInputAction_m2F95F2340B1602E3787F34FDA150C47AB95068AE(L_37, NULL);
+		V_1 = L_38;
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:223>
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_39 = V_1;
+		V_8 = (bool)((!(((RuntimeObject*)(InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD*)L_39) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_40 = V_8;
+		if (!L_40)
 		{
-			goto IL_017a;
+			goto IL_0172;
+		}
+	}
+	{
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:225>
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_41 = V_1;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_42 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_42, __this, (intptr_t)((void*)ControllerInputActionManager_OnCancelTeleport_m4BDF184D63E154479DDB39CEF5798CD7F69563DF_RuntimeMethod_var), NULL);
+		NullCheck(L_41);
+		InputAction_remove_performed_m1BE84CED38F11F17C825FA782B35C92D708E6E44(L_41, L_42, NULL);
+	}
+
+IL_0172:
+	{
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:228>
+		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_43 = __this->___m_Move;
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_44;
+		L_44 = ControllerInputActionManager_GetInputAction_m2F95F2340B1602E3787F34FDA150C47AB95068AE(L_43, NULL);
+		V_2 = L_44;
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:229>
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_45 = V_2;
+		V_9 = (bool)((!(((RuntimeObject*)(InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD*)L_45) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_46 = V_9;
+		if (!L_46)
+		{
+			goto IL_01b0;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:231>
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_42 = V_2;
-		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_43 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
-		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_43, __this, (intptr_t)((void*)ControllerInputActionManager_OnStartLocomotion_m2753A0F4D2ECB0DC422EEE2D1B6BEC4C149EE11C_RuntimeMethod_var), NULL);
-		NullCheck(L_42);
-		InputAction_remove_started_m0B782C3E7D5EA619502E7079E1271108A3183D68(L_42, L_43, NULL);
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_47 = V_2;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_48 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_48, __this, (intptr_t)((void*)ControllerInputActionManager_OnStartLocomotion_m2753A0F4D2ECB0DC422EEE2D1B6BEC4C149EE11C_RuntimeMethod_var), NULL);
+		NullCheck(L_47);
+		InputAction_remove_started_m0B782C3E7D5EA619502E7079E1271108A3183D68(L_47, L_48, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:232>
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_44 = V_2;
-		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_45 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
-		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_45, __this, (intptr_t)((void*)ControllerInputActionManager_OnStopLocomotion_m19B6191B67AFEE79180D158CB052307E0ACF4B42_RuntimeMethod_var), NULL);
-		NullCheck(L_44);
-		InputAction_remove_canceled_m7CF8D377C61DB1290E153C56312A7C075544AF7F(L_44, L_45, NULL);
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_49 = V_2;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_50 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_50, __this, (intptr_t)((void*)ControllerInputActionManager_OnStopLocomotion_m19B6191B67AFEE79180D158CB052307E0ACF4B42_RuntimeMethod_var), NULL);
+		NullCheck(L_49);
+		InputAction_remove_canceled_m7CF8D377C61DB1290E153C56312A7C075544AF7F(L_49, L_50, NULL);
 	}
 
-IL_017a:
+IL_01b0:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:235>
-		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_46 = __this->___m_Turn;
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_47;
-		L_47 = ControllerInputActionManager_GetInputAction_m2F95F2340B1602E3787F34FDA150C47AB95068AE(L_46, NULL);
-		V_3 = L_47;
+		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_51 = __this->___m_Turn;
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_52;
+		L_52 = ControllerInputActionManager_GetInputAction_m2F95F2340B1602E3787F34FDA150C47AB95068AE(L_51, NULL);
+		V_3 = L_52;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:236>
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_48 = V_3;
-		if (!L_48)
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_53 = V_3;
+		V_10 = (bool)((!(((RuntimeObject*)(InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD*)L_53) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_54 = V_10;
+		if (!L_54)
 		{
-			goto IL_01ad;
+			goto IL_01ee;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:238>
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_49 = V_3;
-		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_50 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
-		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_50, __this, (intptr_t)((void*)ControllerInputActionManager_OnStartLocomotion_m2753A0F4D2ECB0DC422EEE2D1B6BEC4C149EE11C_RuntimeMethod_var), NULL);
-		NullCheck(L_49);
-		InputAction_remove_started_m0B782C3E7D5EA619502E7079E1271108A3183D68(L_49, L_50, NULL);
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_55 = V_3;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_56 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_56, __this, (intptr_t)((void*)ControllerInputActionManager_OnStartLocomotion_m2753A0F4D2ECB0DC422EEE2D1B6BEC4C149EE11C_RuntimeMethod_var), NULL);
+		NullCheck(L_55);
+		InputAction_remove_started_m0B782C3E7D5EA619502E7079E1271108A3183D68(L_55, L_56, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:239>
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_51 = V_3;
-		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_52 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
-		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_52, __this, (intptr_t)((void*)ControllerInputActionManager_OnStopLocomotion_m19B6191B67AFEE79180D158CB052307E0ACF4B42_RuntimeMethod_var), NULL);
-		NullCheck(L_51);
-		InputAction_remove_canceled_m7CF8D377C61DB1290E153C56312A7C075544AF7F(L_51, L_52, NULL);
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_57 = V_3;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_58 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_58, __this, (intptr_t)((void*)ControllerInputActionManager_OnStopLocomotion_m19B6191B67AFEE79180D158CB052307E0ACF4B42_RuntimeMethod_var), NULL);
+		NullCheck(L_57);
+		InputAction_remove_canceled_m7CF8D377C61DB1290E153C56312A7C075544AF7F(L_57, L_58, NULL);
 	}
 
-IL_01ad:
+IL_01ee:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:242>
-		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_53 = __this->___m_SnapTurn;
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_54;
-		L_54 = ControllerInputActionManager_GetInputAction_m2F95F2340B1602E3787F34FDA150C47AB95068AE(L_53, NULL);
-		V_4 = L_54;
+		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_59 = __this->___m_SnapTurn;
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_60;
+		L_60 = ControllerInputActionManager_GetInputAction_m2F95F2340B1602E3787F34FDA150C47AB95068AE(L_59, NULL);
+		V_4 = L_60;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:243>
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_55 = V_4;
-		if (!L_55)
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_61 = V_4;
+		V_11 = (bool)((!(((RuntimeObject*)(InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD*)L_61) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_62 = V_11;
+		if (!L_62)
 		{
-			goto IL_01e4;
+			goto IL_0230;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:245>
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_56 = V_4;
-		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_57 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
-		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_57, __this, (intptr_t)((void*)ControllerInputActionManager_OnStartLocomotion_m2753A0F4D2ECB0DC422EEE2D1B6BEC4C149EE11C_RuntimeMethod_var), NULL);
-		NullCheck(L_56);
-		InputAction_remove_started_m0B782C3E7D5EA619502E7079E1271108A3183D68(L_56, L_57, NULL);
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_63 = V_4;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_64 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_64, __this, (intptr_t)((void*)ControllerInputActionManager_OnStartLocomotion_m2753A0F4D2ECB0DC422EEE2D1B6BEC4C149EE11C_RuntimeMethod_var), NULL);
+		NullCheck(L_63);
+		InputAction_remove_started_m0B782C3E7D5EA619502E7079E1271108A3183D68(L_63, L_64, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:246>
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_58 = V_4;
-		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_59 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
-		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_59, __this, (intptr_t)((void*)ControllerInputActionManager_OnStopLocomotion_m19B6191B67AFEE79180D158CB052307E0ACF4B42_RuntimeMethod_var), NULL);
-		NullCheck(L_58);
-		InputAction_remove_canceled_m7CF8D377C61DB1290E153C56312A7C075544AF7F(L_58, L_59, NULL);
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_65 = V_4;
+		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_66 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_66, __this, (intptr_t)((void*)ControllerInputActionManager_OnStopLocomotion_m19B6191B67AFEE79180D158CB052307E0ACF4B42_RuntimeMethod_var), NULL);
+		NullCheck(L_65);
+		InputAction_remove_canceled_m7CF8D377C61DB1290E153C56312A7C075544AF7F(L_65, L_66, NULL);
 	}
 
-IL_01e4:
+IL_0230:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:248>
 		return;
 	}
 }
-// Method Definition Index: 75126
+// Method Definition Index: 93573
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_OnStartTeleport_mE7F99274DE90EC5AD8234BB0D6010C5FC96AC9FE (ControllerInputActionManager_t869A70AE3B62565ADCF8E113AFEF37D3B0DBE90B* __this, CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 ___0_context, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6595,8 +6808,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_OnStartTele
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_Invoke_m2DA1D95CA656B45F334764F0D14DC4FC105D3206_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	UnityEvent_1_tA1590A7C4E6E0836296B3C1CD3F16A1819EB7117* G_B9_0 = NULL;
-	UnityEvent_1_tA1590A7C4E6E0836296B3C1CD3F16A1819EB7117* G_B8_0 = NULL;
+	bool V_0 = false;
+	bool V_1 = false;
+	bool V_2 = false;
+	int32_t G_B7_0 = 0;
+	UnityEvent_1_tA1590A7C4E6E0836296B3C1CD3F16A1819EB7117* G_B11_0 = NULL;
+	UnityEvent_1_tA1590A7C4E6E0836296B3C1CD3F16A1819EB7117* G_B10_0 = NULL;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:252>
 		__this->___m_PostponedDeactivateTeleport = (bool)0;
@@ -6605,104 +6822,125 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_OnStartTele
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_1)
+		V_0 = L_1;
+		bool L_2 = V_0;
+		if (!L_2)
 		{
-			goto IL_0026;
+			goto IL_002a;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:255>
-		XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* L_2 = __this->___m_TeleportInteractor;
-		NullCheck(L_2);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
-		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_2, NULL);
+		XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* L_3 = __this->___m_TeleportInteractor;
 		NullCheck(L_3);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)1, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
+		L_4 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_3, NULL);
+		NullCheck(L_4);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, (bool)1, NULL);
 	}
 
-IL_0026:
+IL_002a:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:257>
-		XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* L_4 = __this->___m_RayInteractor;
+		XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* L_5 = __this->___m_RayInteractor;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_5;
-		L_5 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_5)
+		bool L_6;
+		L_6 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_1 = L_6;
+		bool L_7 = V_1;
+		if (!L_7)
 		{
-			goto IL_0045;
+			goto IL_004c;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:258>
-		XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* L_6 = __this->___m_RayInteractor;
-		NullCheck(L_6);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
-		L_7 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_6, NULL);
-		NullCheck(L_7);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_7, (bool)0, NULL);
+		XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* L_8 = __this->___m_RayInteractor;
+		NullCheck(L_8);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9;
+		L_9 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_8, NULL);
+		NullCheck(L_9);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_9, (bool)0, NULL);
 	}
 
-IL_0045:
+IL_004c:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:260>
-		NearFarInteractor_t43B1C14C2D72CB717E3624B0759E265F5D215E9C* L_8 = __this->___m_NearFarInteractor;
+		NearFarInteractor_t43B1C14C2D72CB717E3624B0759E265F5D215E9C* L_10 = __this->___m_NearFarInteractor;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_9;
-		L_9 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_9)
+		bool L_11;
+		L_11 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_10, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_11)
 		{
-			goto IL_0077;
+			goto IL_0072;
 		}
 	}
 	{
-		NearFarInteractor_t43B1C14C2D72CB717E3624B0759E265F5D215E9C* L_10 = __this->___m_NearFarInteractor;
-		NullCheck(L_10);
-		RuntimeObject* L_11;
-		L_11 = NearFarInteractor_get_selectionRegion_mAF70B4BAD5B46F12A8EE31F17313A82A7BE93394_inline(L_10, NULL);
-		NullCheck(L_11);
-		int32_t L_12;
-		L_12 = InterfaceFuncInvoker0< int32_t >::Invoke(3, IReadOnlyBindableVariable_1_t1F2BE9E50402E707C90C41C06974ED824C410440_il2cpp_TypeInfo_var, L_11);
-		if ((((int32_t)L_12) == ((int32_t)1)))
+		NearFarInteractor_t43B1C14C2D72CB717E3624B0759E265F5D215E9C* L_12 = __this->___m_NearFarInteractor;
+		NullCheck(L_12);
+		RuntimeObject* L_13;
+		L_13 = NearFarInteractor_get_selectionRegion_mAF70B4BAD5B46F12A8EE31F17313A82A7BE93394_inline(L_12, NULL);
+		NullCheck(L_13);
+		int32_t L_14;
+		L_14 = InterfaceFuncInvoker0< int32_t >::Invoke(3, IReadOnlyBindableVariable_1_t1F2BE9E50402E707C90C41C06974ED824C410440_il2cpp_TypeInfo_var, L_13);
+		G_B7_0 = ((((int32_t)((((int32_t)L_14) == ((int32_t)1))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_0073;
+	}
+
+IL_0072:
+	{
+		G_B7_0 = 0;
+	}
+
+IL_0073:
+	{
+		V_2 = (bool)G_B7_0;
+		bool L_15 = V_2;
+		if (!L_15)
 		{
-			goto IL_0077;
+			goto IL_0089;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:261>
-		NearFarInteractor_t43B1C14C2D72CB717E3624B0759E265F5D215E9C* L_13 = __this->___m_NearFarInteractor;
-		NullCheck(L_13);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14;
-		L_14 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_13, NULL);
-		NullCheck(L_14);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_14, (bool)0, NULL);
+		NearFarInteractor_t43B1C14C2D72CB717E3624B0759E265F5D215E9C* L_16 = __this->___m_NearFarInteractor;
+		NullCheck(L_16);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17;
+		L_17 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_16, NULL);
+		NullCheck(L_17);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_17, (bool)0, NULL);
 	}
 
-IL_0077:
+IL_0089:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:263>
-		UnityEvent_1_tA1590A7C4E6E0836296B3C1CD3F16A1819EB7117* L_15 = __this->___m_RayInteractorChanged;
-		UnityEvent_1_tA1590A7C4E6E0836296B3C1CD3F16A1819EB7117* L_16 = L_15;
-		if (L_16)
+		UnityEvent_1_tA1590A7C4E6E0836296B3C1CD3F16A1819EB7117* L_18 = __this->___m_RayInteractorChanged;
+		UnityEvent_1_tA1590A7C4E6E0836296B3C1CD3F16A1819EB7117* L_19 = L_18;
+		if (L_19)
 		{
-			G_B9_0 = L_16;
-			goto IL_0082;
+			G_B11_0 = L_19;
+			goto IL_0095;
 		}
-		G_B8_0 = L_16;
+		G_B10_0 = L_19;
 	}
 	{
-		return;
+		goto IL_00a1;
 	}
 
-IL_0082:
+IL_0095:
 	{
-		XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* L_17 = __this->___m_TeleportInteractor;
-		NullCheck(G_B9_0);
-		UnityEvent_1_Invoke_m2DA1D95CA656B45F334764F0D14DC4FC105D3206(G_B9_0, L_17, UnityEvent_1_Invoke_m2DA1D95CA656B45F334764F0D14DC4FC105D3206_RuntimeMethod_var);
+		XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* L_20 = __this->___m_TeleportInteractor;
+		NullCheck(G_B11_0);
+		UnityEvent_1_Invoke_m2DA1D95CA656B45F334764F0D14DC4FC105D3206(G_B11_0, L_20, UnityEvent_1_Invoke_m2DA1D95CA656B45F334764F0D14DC4FC105D3206_RuntimeMethod_var);
+	}
+
+IL_00a1:
+	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:264>
 		return;
 	}
 }
-// Method Definition Index: 75127
+// Method Definition Index: 93574
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_OnCancelTeleport_m4BDF184D63E154479DDB39CEF5798CD7F69563DF (ControllerInputActionManager_t869A70AE3B62565ADCF8E113AFEF37D3B0DBE90B* __this, CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 ___0_context, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6712,6 +6950,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_OnCancelTel
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_Invoke_m2DA1D95CA656B45F334764F0D14DC4FC105D3206_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	bool V_0 = false;
+	bool V_1 = false;
 	UnityEvent_1_tA1590A7C4E6E0836296B3C1CD3F16A1819EB7117* G_B6_0 = NULL;
 	UnityEvent_1_tA1590A7C4E6E0836296B3C1CD3F16A1819EB7117* G_B5_0 = NULL;
 	{
@@ -6722,69 +6962,77 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_OnCancelTel
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_1)
+		V_0 = L_1;
+		bool L_2 = V_0;
+		if (!L_2)
 		{
-			goto IL_0026;
+			goto IL_002a;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:275>
-		XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* L_2 = __this->___m_RayInteractor;
-		NullCheck(L_2);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
-		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_2, NULL);
+		XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* L_3 = __this->___m_RayInteractor;
 		NullCheck(L_3);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)1, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
+		L_4 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_3, NULL);
+		NullCheck(L_4);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, (bool)1, NULL);
 	}
 
-IL_0026:
+IL_002a:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:277>
-		NearFarInteractor_t43B1C14C2D72CB717E3624B0759E265F5D215E9C* L_4 = __this->___m_NearFarInteractor;
+		NearFarInteractor_t43B1C14C2D72CB717E3624B0759E265F5D215E9C* L_5 = __this->___m_NearFarInteractor;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_5;
-		L_5 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_5)
+		bool L_6;
+		L_6 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_1 = L_6;
+		bool L_7 = V_1;
+		if (!L_7)
 		{
-			goto IL_0045;
+			goto IL_004c;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:278>
-		NearFarInteractor_t43B1C14C2D72CB717E3624B0759E265F5D215E9C* L_6 = __this->___m_NearFarInteractor;
-		NullCheck(L_6);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
-		L_7 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_6, NULL);
-		NullCheck(L_7);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_7, (bool)1, NULL);
+		NearFarInteractor_t43B1C14C2D72CB717E3624B0759E265F5D215E9C* L_8 = __this->___m_NearFarInteractor;
+		NullCheck(L_8);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9;
+		L_9 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_8, NULL);
+		NullCheck(L_9);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_9, (bool)1, NULL);
 	}
 
-IL_0045:
+IL_004c:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:280>
-		UnityEvent_1_tA1590A7C4E6E0836296B3C1CD3F16A1819EB7117* L_8 = __this->___m_RayInteractorChanged;
-		UnityEvent_1_tA1590A7C4E6E0836296B3C1CD3F16A1819EB7117* L_9 = L_8;
-		if (L_9)
+		UnityEvent_1_tA1590A7C4E6E0836296B3C1CD3F16A1819EB7117* L_10 = __this->___m_RayInteractorChanged;
+		UnityEvent_1_tA1590A7C4E6E0836296B3C1CD3F16A1819EB7117* L_11 = L_10;
+		if (L_11)
 		{
-			G_B6_0 = L_9;
-			goto IL_0050;
+			G_B6_0 = L_11;
+			goto IL_0058;
 		}
-		G_B5_0 = L_9;
+		G_B5_0 = L_11;
 	}
 	{
-		return;
+		goto IL_0064;
 	}
 
-IL_0050:
+IL_0058:
 	{
-		XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* L_10 = __this->___m_RayInteractor;
+		XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* L_12 = __this->___m_RayInteractor;
 		NullCheck(G_B6_0);
-		UnityEvent_1_Invoke_m2DA1D95CA656B45F334764F0D14DC4FC105D3206(G_B6_0, L_10, UnityEvent_1_Invoke_m2DA1D95CA656B45F334764F0D14DC4FC105D3206_RuntimeMethod_var);
+		UnityEvent_1_Invoke_m2DA1D95CA656B45F334764F0D14DC4FC105D3206(G_B6_0, L_12, UnityEvent_1_Invoke_m2DA1D95CA656B45F334764F0D14DC4FC105D3206_RuntimeMethod_var);
+	}
+
+IL_0064:
+	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:281>
 		return;
 	}
 }
-// Method Definition Index: 75128
+// Method Definition Index: 93575
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_OnStartLocomotion_m2753A0F4D2ECB0DC422EEE2D1B6BEC4C149EE11C (ControllerInputActionManager_t869A70AE3B62565ADCF8E113AFEF37D3B0DBE90B* __this, CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 ___0_context, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6805,7 +7053,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_OnStartLoco
 		return;
 	}
 }
-// Method Definition Index: 75129
+// Method Definition Index: 93576
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_OnStopLocomotion_m19B6191B67AFEE79180D158CB052307E0ACF4B42 (ControllerInputActionManager_t869A70AE3B62565ADCF8E113AFEF37D3B0DBE90B* __this, CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 ___0_context, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6815,6 +7063,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_OnStopLocom
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_get_Count_m830B4E1CB08A93B4C9803638B3AC2CB9925EB52E_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	bool V_0 = false;
+	int32_t G_B3_0 = 0;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:290>
 		HashSet_1_tAB819E09BD04F94C3EA7D69BA059B0DD13F941A3* L_0 = __this->___m_LocomotionUsers;
@@ -6830,14 +7080,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_OnStopLocom
 		L_4 = HashSet_1_get_Count_m830B4E1CB08A93B4C9803638B3AC2CB9925EB52E_inline(L_3, HashSet_1_get_Count_m830B4E1CB08A93B4C9803638B3AC2CB9925EB52E_RuntimeMethod_var);
 		if (L_4)
 		{
-			goto IL_0034;
+			goto IL_0029;
 		}
 	}
 	{
 		bool L_5 = __this->___m_HoveringScrollableUI;
-		if (!L_5)
+		G_B3_0 = ((int32_t)(L_5));
+		goto IL_002a;
+	}
+
+IL_0029:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_002a:
+	{
+		V_0 = (bool)G_B3_0;
+		bool L_6 = V_0;
+		if (!L_6)
 		{
-			goto IL_0034;
+			goto IL_003e;
 		}
 	}
 	{
@@ -6847,13 +7110,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_OnStopLocom
 		ControllerInputActionManager_UpdateUIActions_mEF86876690920BF2368EAD9D90BAB1D08E6F9791(__this, NULL);
 	}
 
-IL_0034:
+IL_003e:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:297>
 		return;
 	}
 }
-// Method Definition Index: 75130
+// Method Definition Index: 93577
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_OnNearFarSelectionRegionChanged_m726DFC0ACC75AB83814D394FFD8CD764EF071757 (ControllerInputActionManager_t869A70AE3B62565ADCF8E113AFEF37D3B0DBE90B* __this, int32_t ___0_selectionRegion, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6865,196 +7128,228 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_OnNearFarSe
 	}
 	bool V_0 = false;
 	InteractionAttachController_t72A735C43786F8A10DA7BC2A04D65F14FB31F994* V_1 = NULL;
-	int32_t G_B10_0 = 0;
-	int32_t G_B19_0 = 0;
+	bool V_2 = false;
+	bool V_3 = false;
+	bool V_4 = false;
+	bool V_5 = false;
+	bool V_6 = false;
+	bool V_7 = false;
+	bool V_8 = false;
+	bool V_9 = false;
+	int32_t G_B9_0 = 0;
+	int32_t G_B11_0 = 0;
+	int32_t G_B21_0 = 0;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:301>
 		__this->___m_PostponedNearRegionLocomotion = (bool)0;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:303>
 		int32_t L_0 = ___0_selectionRegion;
-		if (L_0)
+		V_2 = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
+		bool L_1 = V_2;
+		if (!L_1)
 		{
-			goto IL_0011;
+			goto IL_001d;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:305>
 		ControllerInputActionManager_UpdateLocomotionActions_m30001260A476F7ADC0E807ED5F906387BE78D517(__this, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:306>
-		return;
+		goto IL_0101;
 	}
 
-IL_0011:
+IL_001d:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:309>
 		V_0 = (bool)0;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:310>
-		NearFarInteractor_t43B1C14C2D72CB717E3624B0759E265F5D215E9C* L_1 = __this->___m_NearFarInteractor;
-		NullCheck(L_1);
-		RuntimeObject* L_2;
-		L_2 = NearFarInteractor_get_interactionAttachController_m8D7DE36158D85323283CEFB8030AB545A7B095CF(L_1, NULL);
-		V_1 = ((InteractionAttachController_t72A735C43786F8A10DA7BC2A04D65F14FB31F994*)IsInstClass((RuntimeObject*)L_2, InteractionAttachController_t72A735C43786F8A10DA7BC2A04D65F14FB31F994_il2cpp_TypeInfo_var));
+		NearFarInteractor_t43B1C14C2D72CB717E3624B0759E265F5D215E9C* L_2 = __this->___m_NearFarInteractor;
+		NullCheck(L_2);
+		RuntimeObject* L_3;
+		L_3 = NearFarInteractor_get_interactionAttachController_m8D7DE36158D85323283CEFB8030AB545A7B095CF(L_2, NULL);
+		V_1 = ((InteractionAttachController_t72A735C43786F8A10DA7BC2A04D65F14FB31F994*)IsInstClass((RuntimeObject*)L_3, InteractionAttachController_t72A735C43786F8A10DA7BC2A04D65F14FB31F994_il2cpp_TypeInfo_var));
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:311>
-		InteractionAttachController_t72A735C43786F8A10DA7BC2A04D65F14FB31F994* L_3 = V_1;
+		InteractionAttachController_t72A735C43786F8A10DA7BC2A04D65F14FB31F994* L_4 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_4;
-		L_4 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_4)
+		bool L_5;
+		L_5 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_3 = L_5;
+		bool L_6 = V_3;
+		if (!L_6)
 		{
-			goto IL_0079;
+			goto IL_0089;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:313>
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:314>
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:315>
-		InteractionAttachController_t72A735C43786F8A10DA7BC2A04D65F14FB31F994* L_5 = V_1;
-		NullCheck(L_5);
-		bool L_6;
-		L_6 = InteractionAttachController_get_useManipulationInput_m9D6280BB32EEA011C3C6C83D52F0AEECB7C66F2A_inline(L_5, NULL);
-		if (!L_6)
-		{
-			goto IL_0056;
-		}
-	}
-	{
 		InteractionAttachController_t72A735C43786F8A10DA7BC2A04D65F14FB31F994* L_7 = V_1;
 		NullCheck(L_7);
-		XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* L_8;
-		L_8 = InteractionAttachController_get_manipulationInput_mB9209EA1D995F0D376BABDBA69A7C77C3F0673B4_inline(L_7, NULL);
-		NullCheck(L_8);
-		int32_t L_9;
-		L_9 = XRInputValueReader_get_inputSourceMode_m6D12A254104BBE6F3945ACFE6CAC42DC51CDD5E0_inline(L_8, NULL);
-		if ((!(((uint32_t)L_9) == ((uint32_t)2))))
+		bool L_8;
+		L_8 = InteractionAttachController_get_useManipulationInput_m9D6280BB32EEA011C3C6C83D52F0AEECB7C66F2A_inline(L_7, NULL);
+		if (!L_8)
 		{
-			goto IL_0056;
+			goto IL_0065;
 		}
 	}
 	{
-		InteractionAttachController_t72A735C43786F8A10DA7BC2A04D65F14FB31F994* L_10 = V_1;
+		InteractionAttachController_t72A735C43786F8A10DA7BC2A04D65F14FB31F994* L_9 = V_1;
+		NullCheck(L_9);
+		XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* L_10;
+		L_10 = InteractionAttachController_get_manipulationInput_mB9209EA1D995F0D376BABDBA69A7C77C3F0673B4_inline(L_9, NULL);
 		NullCheck(L_10);
-		XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* L_11;
-		L_11 = InteractionAttachController_get_manipulationInput_mB9209EA1D995F0D376BABDBA69A7C77C3F0673B4_inline(L_10, NULL);
-		NullCheck(L_11);
-		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_12;
-		L_12 = XRInputValueReader_get_inputActionReference_m036C2AB2D67FE6B570B59492E071643A6EC5CB50_inline(L_11, NULL);
+		int32_t L_11;
+		L_11 = XRInputValueReader_get_inputSourceMode_m6D12A254104BBE6F3945ACFE6CAC42DC51CDD5E0_inline(L_10, NULL);
+		if ((!(((uint32_t)L_11) == ((uint32_t)2))))
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		InteractionAttachController_t72A735C43786F8A10DA7BC2A04D65F14FB31F994* L_12 = V_1;
+		NullCheck(L_12);
+		XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* L_13;
+		L_13 = InteractionAttachController_get_manipulationInput_mB9209EA1D995F0D376BABDBA69A7C77C3F0673B4_inline(L_12, NULL);
+		NullCheck(L_13);
+		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_14;
+		L_14 = XRInputValueReader_get_inputActionReference_m036C2AB2D67FE6B570B59492E071643A6EC5CB50_inline(L_13, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_13;
-		L_13 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_12, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (L_13)
+		bool L_15;
+		L_15 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_14, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_15)
 		{
-			goto IL_0077;
+			goto IL_0086;
 		}
 	}
 
-IL_0056:
+IL_0065:
 	{
-		InteractionAttachController_t72A735C43786F8A10DA7BC2A04D65F14FB31F994* L_14 = V_1;
-		NullCheck(L_14);
-		XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* L_15;
-		L_15 = InteractionAttachController_get_manipulationInput_mB9209EA1D995F0D376BABDBA69A7C77C3F0673B4_inline(L_14, NULL);
-		NullCheck(L_15);
-		int32_t L_16;
-		L_16 = XRInputValueReader_get_inputSourceMode_m6D12A254104BBE6F3945ACFE6CAC42DC51CDD5E0_inline(L_15, NULL);
-		if ((((int32_t)L_16) == ((int32_t)2)))
-		{
-			goto IL_0074;
-		}
-	}
-	{
-		InteractionAttachController_t72A735C43786F8A10DA7BC2A04D65F14FB31F994* L_17 = V_1;
+		InteractionAttachController_t72A735C43786F8A10DA7BC2A04D65F14FB31F994* L_16 = V_1;
+		NullCheck(L_16);
+		XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* L_17;
+		L_17 = InteractionAttachController_get_manipulationInput_mB9209EA1D995F0D376BABDBA69A7C77C3F0673B4_inline(L_16, NULL);
 		NullCheck(L_17);
-		XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* L_18;
-		L_18 = InteractionAttachController_get_manipulationInput_mB9209EA1D995F0D376BABDBA69A7C77C3F0673B4_inline(L_17, NULL);
-		NullCheck(L_18);
-		int32_t L_19;
-		L_19 = XRInputValueReader_get_inputSourceMode_m6D12A254104BBE6F3945ACFE6CAC42DC51CDD5E0_inline(L_18, NULL);
-		G_B10_0 = ((!(((uint32_t)L_19) <= ((uint32_t)0)))? 1 : 0);
-		goto IL_0078;
+		int32_t L_18;
+		L_18 = XRInputValueReader_get_inputSourceMode_m6D12A254104BBE6F3945ACFE6CAC42DC51CDD5E0_inline(L_17, NULL);
+		if ((((int32_t)L_18) == ((int32_t)2)))
+		{
+			goto IL_0083;
+		}
 	}
-
-IL_0074:
 	{
-		G_B10_0 = 0;
-		goto IL_0078;
+		InteractionAttachController_t72A735C43786F8A10DA7BC2A04D65F14FB31F994* L_19 = V_1;
+		NullCheck(L_19);
+		XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* L_20;
+		L_20 = InteractionAttachController_get_manipulationInput_mB9209EA1D995F0D376BABDBA69A7C77C3F0673B4_inline(L_19, NULL);
+		NullCheck(L_20);
+		int32_t L_21;
+		L_21 = XRInputValueReader_get_inputSourceMode_m6D12A254104BBE6F3945ACFE6CAC42DC51CDD5E0_inline(L_20, NULL);
+		G_B9_0 = ((!(((uint32_t)L_21) <= ((uint32_t)0)))? 1 : 0);
+		goto IL_0084;
 	}
 
-IL_0077:
+IL_0083:
 	{
-		G_B10_0 = 1;
+		G_B9_0 = 0;
 	}
 
-IL_0078:
+IL_0084:
 	{
-		V_0 = (bool)G_B10_0;
+		G_B11_0 = G_B9_0;
+		goto IL_0087;
 	}
 
-IL_0079:
+IL_0086:
+	{
+		G_B11_0 = 1;
+	}
+
+IL_0087:
+	{
+		V_0 = (bool)G_B11_0;
+	}
+
+IL_0089:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:318>
-		int32_t L_20 = ___0_selectionRegion;
-		if ((!(((uint32_t)L_20) == ((uint32_t)2))))
+		int32_t L_22 = ___0_selectionRegion;
+		V_4 = (bool)((((int32_t)L_22) == ((int32_t)2))? 1 : 0);
+		bool L_23 = V_4;
+		if (!L_23)
 		{
-			goto IL_008e;
+			goto IL_00ae;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:320>
-		bool L_21 = V_0;
-		if (!L_21)
+		bool L_24 = V_0;
+		V_5 = L_24;
+		bool L_25 = V_5;
+		if (!L_25)
 		{
-			goto IL_0087;
+			goto IL_00a4;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:321>
 		ControllerInputActionManager_DisableAllLocomotionActions_m47F4F0FB199536B8B58DCB7E4248986C2A61C4EC(__this, NULL);
-		return;
+		goto IL_00ab;
 	}
 
-IL_0087:
+IL_00a4:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:323>
 		ControllerInputActionManager_DisableTeleportActions_mAD8CBE42896874525C3181CF34C226C6584C06C8(__this, NULL);
-		return;
 	}
 
-IL_008e:
+IL_00ab:
+	{
+		goto IL_0101;
+	}
+
+IL_00ae:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:325>
-		int32_t L_22 = ___0_selectionRegion;
-		if ((!(((uint32_t)L_22) == ((uint32_t)1))))
+		int32_t L_26 = ___0_selectionRegion;
+		V_6 = (bool)((((int32_t)L_26) == ((int32_t)1))? 1 : 0);
+		bool L_27 = V_6;
+		if (!L_27)
 		{
-			goto IL_00c2;
+			goto IL_0101;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:330>
-		bool L_23 = V_0;
-		if (!L_23)
+		bool L_28 = V_0;
+		if (!L_28)
 		{
-			goto IL_009d;
+			goto IL_00c4;
 		}
 	}
 	{
-		InteractionAttachController_t72A735C43786F8A10DA7BC2A04D65F14FB31F994* L_24 = V_1;
-		bool L_25;
-		L_25 = ControllerInputActionManager_HasStickInput_m0215F1674DAEDA7D7DAEBE44EE970B78E3B167EF(L_24, NULL);
-		G_B19_0 = ((int32_t)(L_25));
-		goto IL_009e;
+		InteractionAttachController_t72A735C43786F8A10DA7BC2A04D65F14FB31F994* L_29 = V_1;
+		bool L_30;
+		L_30 = ControllerInputActionManager_HasStickInput_m0215F1674DAEDA7D7DAEBE44EE970B78E3B167EF(L_29, NULL);
+		G_B21_0 = ((int32_t)(L_30));
+		goto IL_00c5;
 	}
 
-IL_009d:
+IL_00c4:
 	{
-		G_B19_0 = 0;
+		G_B21_0 = 0;
 	}
 
-IL_009e:
+IL_00c5:
 	{
+		V_7 = (bool)G_B21_0;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:331>
-		if (!G_B19_0)
+		bool L_31 = V_7;
+		V_8 = L_31;
+		bool L_32 = V_8;
+		if (!L_32)
 		{
-			goto IL_00ae;
+			goto IL_00e1;
 		}
 	}
 	{
@@ -7062,18 +7357,20 @@ IL_009e:
 		__this->___m_PostponedNearRegionLocomotion = (bool)1;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:334>
 		ControllerInputActionManager_DisableAllLocomotionActions_m47F4F0FB199536B8B58DCB7E4248986C2A61C4EC(__this, NULL);
-		return;
+		goto IL_0100;
 	}
 
-IL_00ae:
+IL_00e1:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:338>
 		ControllerInputActionManager_UpdateLocomotionActions_m30001260A476F7ADC0E807ED5F906387BE78D517(__this, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:339>
-		bool L_26 = __this->___m_NearFarEnableTeleportDuringNearInteraction;
-		if (L_26)
+		bool L_33 = __this->___m_NearFarEnableTeleportDuringNearInteraction;
+		V_9 = (bool)((((int32_t)L_33) == ((int32_t)0))? 1 : 0);
+		bool L_34 = V_9;
+		if (!L_34)
 		{
-			goto IL_00c2;
+			goto IL_00ff;
 		}
 	}
 	{
@@ -7081,24 +7378,35 @@ IL_00ae:
 		ControllerInputActionManager_DisableTeleportActions_mAD8CBE42896874525C3181CF34C226C6584C06C8(__this, NULL);
 	}
 
-IL_00c2:
+IL_00ff:
+	{
+	}
+
+IL_0100:
+	{
+	}
+
+IL_0101:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:343>
 		return;
 	}
 }
-// Method Definition Index: 75131
+// Method Definition Index: 93578
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_OnRaySelectEntered_m05A00F5AC9CC73F9641F03CE853F21F20338B7B2 (ControllerInputActionManager_t869A70AE3B62565ADCF8E113AFEF37D3B0DBE90B* __this, SelectEnterEventArgs_t9220B1E6A9BB5A847C0476949ACE0182430BB938* ___0_args, const RuntimeMethod* method) 
 {
+	bool V_0 = false;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:347>
 		XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* L_0 = __this->___m_RayInteractor;
 		NullCheck(L_0);
 		bool L_1;
 		L_1 = XRRayInteractor_get_manipulateAttachTransform_m1B52220691D700AEFFE0B8E8AEDD9BAA15DE960A_inline(L_0, NULL);
-		if (!L_1)
+		V_0 = L_1;
+		bool L_2 = V_0;
+		if (!L_2)
 		{
-			goto IL_0013;
+			goto IL_0019;
 		}
 	}
 	{
@@ -7106,24 +7414,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_OnRaySelect
 		ControllerInputActionManager_DisableAllLocomotionActions_m47F4F0FB199536B8B58DCB7E4248986C2A61C4EC(__this, NULL);
 	}
 
-IL_0013:
+IL_0019:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:352>
 		return;
 	}
 }
-// Method Definition Index: 75132
+// Method Definition Index: 93579
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_OnRaySelectExited_m2043AA63005912E1603B0017B70B7A089888E0B9 (ControllerInputActionManager_t869A70AE3B62565ADCF8E113AFEF37D3B0DBE90B* __this, SelectExitEventArgs_t56125CE0360D37AC0B50EB6066B5AB5957EF559A* ___0_args, const RuntimeMethod* method) 
 {
+	bool V_0 = false;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:356>
 		XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* L_0 = __this->___m_RayInteractor;
 		NullCheck(L_0);
 		bool L_1;
 		L_1 = XRRayInteractor_get_manipulateAttachTransform_m1B52220691D700AEFFE0B8E8AEDD9BAA15DE960A_inline(L_0, NULL);
-		if (!L_1)
+		V_0 = L_1;
+		bool L_2 = V_0;
+		if (!L_2)
 		{
-			goto IL_0013;
+			goto IL_0019;
 		}
 	}
 	{
@@ -7131,13 +7442,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_OnRaySelect
 		ControllerInputActionManager_UpdateLocomotionActions_m30001260A476F7ADC0E807ED5F906387BE78D517(__this, NULL);
 	}
 
-IL_0013:
+IL_0019:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:361>
 		return;
 	}
 }
-// Method Definition Index: 75133
+// Method Definition Index: 93580
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_OnUIHoverEntered_m7747AA4001671507477941139B2049FF990A20D9 (ControllerInputActionManager_t869A70AE3B62565ADCF8E113AFEF37D3B0DBE90B* __this, UIHoverEventArgs_tC712F3F829391F25C89B9951234415D4C354DC39* ___0_args, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7149,17 +7460,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_OnUIHoverEn
 	}
 	TrackedDeviceModel_t38B1BA171F5602138D487005E134580213B4DBE8 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	bool V_1 = false;
 	ControllerInputActionManager_t869A70AE3B62565ADCF8E113AFEF37D3B0DBE90B* G_B2_0 = NULL;
 	ControllerInputActionManager_t869A70AE3B62565ADCF8E113AFEF37D3B0DBE90B* G_B1_0 = NULL;
 	int32_t G_B3_0 = 0;
 	ControllerInputActionManager_t869A70AE3B62565ADCF8E113AFEF37D3B0DBE90B* G_B3_1 = NULL;
+	int32_t G_B6_0 = 0;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:365>
 		bool L_0 = __this->___m_UIScrollingEnabled;
 		if (!L_0)
 		{
 			G_B2_0 = __this;
-			goto IL_0019;
+			goto IL_001a;
 		}
 		G_B1_0 = __this;
 	}
@@ -7174,16 +7487,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_OnUIHoverEn
 		L_3 = TrackedDeviceModel_get_isScrollable_m2ADDFD1E1BD1F28CDBD07D6970C5325FCD62A505_inline((&V_0), NULL);
 		G_B3_0 = ((int32_t)(L_3));
 		G_B3_1 = G_B1_0;
-		goto IL_001a;
+		goto IL_001b;
 	}
 
-IL_0019:
+IL_001a:
 	{
 		G_B3_0 = 0;
 		G_B3_1 = G_B2_0;
 	}
 
-IL_001a:
+IL_001b:
 	{
 		NullCheck(G_B3_1);
 		G_B3_1->___m_HoveringScrollableUI = (bool)G_B3_0;
@@ -7193,7 +7506,7 @@ IL_001a:
 		bool L_4 = __this->___m_HoveringScrollableUI;
 		if (!L_4)
 		{
-			goto IL_0040;
+			goto IL_003f;
 		}
 	}
 	{
@@ -7201,9 +7514,22 @@ IL_001a:
 		NullCheck(L_5);
 		int32_t L_6;
 		L_6 = HashSet_1_get_Count_m830B4E1CB08A93B4C9803638B3AC2CB9925EB52E_inline(L_5, HashSet_1_get_Count_m830B4E1CB08A93B4C9803638B3AC2CB9925EB52E_RuntimeMethod_var);
-		if (L_6)
+		G_B6_0 = ((((int32_t)L_6) == ((int32_t)0))? 1 : 0);
+		goto IL_0040;
+	}
+
+IL_003f:
+	{
+		G_B6_0 = 0;
+	}
+
+IL_0040:
+	{
+		V_1 = (bool)G_B6_0;
+		bool L_7 = V_1;
+		if (!L_7)
 		{
-			goto IL_0040;
+			goto IL_004d;
 		}
 	}
 	{
@@ -7211,13 +7537,13 @@ IL_001a:
 		ControllerInputActionManager_DisableAllLocomotionActions_m47F4F0FB199536B8B58DCB7E4248986C2A61C4EC(__this, NULL);
 	}
 
-IL_0040:
+IL_004d:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:374>
 		return;
 	}
 }
-// Method Definition Index: 75134
+// Method Definition Index: 93581
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_OnUIHoverExited_m20EE4DA45F2465E8A6425E87F69020C5882533C4 (ControllerInputActionManager_t869A70AE3B62565ADCF8E113AFEF37D3B0DBE90B* __this, UIHoverEventArgs_tC712F3F829391F25C89B9951234415D4C354DC39* ___0_args, const RuntimeMethod* method) 
 {
 	{
@@ -7231,7 +7557,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_OnUIHoverEx
 		return;
 	}
 }
-// Method Definition Index: 75135
+// Method Definition Index: 93582
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_OnEnable_m586389723ACA171B6FCCEAD6A29199719CE93BEC (ControllerInputActionManager_t869A70AE3B62565ADCF8E113AFEF37D3B0DBE90B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7242,6 +7568,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_OnEnable_m5
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9BCF8359B4696020E13074D2CCAD8107559B7426);
 		s_Il2CppMethodInitialized = true;
 	}
+	bool V_0 = false;
+	bool V_1 = false;
+	bool V_2 = false;
+	int32_t G_B3_0 = 0;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:387>
 		XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* L_0 = __this->___m_RayInteractor;
@@ -7250,7 +7580,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_OnEnable_m5
 		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (!L_1)
 		{
-			goto IL_002e;
+			goto IL_001d;
 		}
 	}
 	{
@@ -7258,9 +7588,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_OnEnable_m5
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
 		L_3 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_3)
+		G_B3_0 = ((int32_t)(L_3));
+		goto IL_001e;
+	}
+
+IL_001d:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_001e:
+	{
+		V_0 = (bool)G_B3_0;
+		bool L_4 = V_0;
+		if (!L_4)
 		{
-			goto IL_002e;
+			goto IL_0037;
 		}
 	}
 	{
@@ -7272,35 +7615,39 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_OnEnable_m5
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_RayInteractor), (void*)(XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649*)NULL);
 	}
 
-IL_002e:
+IL_0037:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:393>
-		XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* L_4 = __this->___m_TeleportInteractor;
+		XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* L_5 = __this->___m_TeleportInteractor;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_5;
-		L_5 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_5)
+		bool L_6;
+		L_6 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_1 = L_6;
+		bool L_7 = V_1;
+		if (!L_7)
 		{
-			goto IL_004d;
+			goto IL_0059;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:394>
-		XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* L_6 = __this->___m_TeleportInteractor;
-		NullCheck(L_6);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
-		L_7 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_6, NULL);
-		NullCheck(L_7);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_7, (bool)0, NULL);
+		XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* L_8 = __this->___m_TeleportInteractor;
+		NullCheck(L_8);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9;
+		L_9 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_8, NULL);
+		NullCheck(L_9);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_9, (bool)0, NULL);
 	}
 
-IL_004d:
+IL_0059:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:398>
-		bool L_8 = __this->___m_StartCalled;
-		if (!L_8)
+		bool L_10 = __this->___m_StartCalled;
+		V_2 = L_10;
+		bool L_11 = V_2;
+		if (!L_11)
 		{
-			goto IL_0061;
+			goto IL_0073;
 		}
 	}
 	{
@@ -7310,7 +7657,7 @@ IL_004d:
 		ControllerInputActionManager_UpdateUIActions_mEF86876690920BF2368EAD9D90BAB1D08E6F9791(__this, NULL);
 	}
 
-IL_0061:
+IL_0073:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:404>
 		ControllerInputActionManager_SetupInteractorEvents_m7F89872A6155BDE25310FD98301E0E80D41C277C(__this, NULL);
@@ -7318,7 +7665,7 @@ IL_0061:
 		return;
 	}
 }
-// Method Definition Index: 75136
+// Method Definition Index: 93583
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_OnDisable_m55B68241562565CB1A82781F6AB3248B782CBB81 (ControllerInputActionManager_t869A70AE3B62565ADCF8E113AFEF37D3B0DBE90B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7328,7 +7675,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_OnDisable_m
 		return;
 	}
 }
-// Method Definition Index: 75137
+// Method Definition Index: 93584
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_Start_mC31B95952910A659CD656DB3218E0DE4A0C62433 (ControllerInputActionManager_t869A70AE3B62565ADCF8E113AFEF37D3B0DBE90B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7342,7 +7689,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_Start_mC31B
 		return;
 	}
 }
-// Method Definition Index: 75138
+// Method Definition Index: 93585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_Update_m2362D6218C9954DE9F3999CD842E94F86E5E58F9 (ControllerInputActionManager_t869A70AE3B62565ADCF8E113AFEF37D3B0DBE90B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7353,103 +7700,131 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_Update_m236
 		s_Il2CppMethodInitialized = true;
 	}
 	bool V_0 = false;
-	InteractionAttachController_t72A735C43786F8A10DA7BC2A04D65F14FB31F994* V_1 = NULL;
+	bool V_1 = false;
+	bool V_2 = false;
+	bool V_3 = false;
+	InteractionAttachController_t72A735C43786F8A10DA7BC2A04D65F14FB31F994* V_4 = NULL;
+	bool V_5 = false;
+	bool V_6 = false;
+	bool V_7 = false;
+	int32_t G_B9_0 = 0;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:427>
 		bool L_0 = __this->___m_PostponedDeactivateTeleport;
-		if (!L_0)
+		V_0 = L_0;
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:429>
+		XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* L_2 = __this->___m_TeleportInteractor;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_1 = L_3;
+		bool L_4 = V_1;
+		if (!L_4)
 		{
 			goto IL_002e;
 		}
 	}
 	{
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:429>
-		XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* L_1 = __this->___m_TeleportInteractor;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_2;
-		L_2 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_2)
-		{
-			goto IL_0027;
-		}
-	}
-	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:430>
-		XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* L_3 = __this->___m_TeleportInteractor;
-		NullCheck(L_3);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
-		L_4 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_3, NULL);
-		NullCheck(L_4);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, (bool)0, NULL);
+		XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* L_5 = __this->___m_TeleportInteractor;
+		NullCheck(L_5);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
+		L_6 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_5, NULL);
+		NullCheck(L_6);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)0, NULL);
 	}
 
-IL_0027:
+IL_002e:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:432>
 		__this->___m_PostponedDeactivateTeleport = (bool)0;
 	}
 
-IL_002e:
+IL_0036:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:437>
-		bool L_5 = __this->___m_PostponedNearRegionLocomotion;
-		if (!L_5)
+		bool L_7 = __this->___m_PostponedNearRegionLocomotion;
+		V_2 = L_7;
+		bool L_8 = V_2;
+		if (!L_8)
 		{
-			goto IL_0088;
+			goto IL_00b3;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:439>
-		V_0 = (bool)0;
+		V_3 = (bool)0;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:440>
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:441>
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:442>
-		NearFarInteractor_t43B1C14C2D72CB717E3624B0759E265F5D215E9C* L_6 = __this->___m_NearFarInteractor;
+		NearFarInteractor_t43B1C14C2D72CB717E3624B0759E265F5D215E9C* L_9 = __this->___m_NearFarInteractor;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_7;
-		L_7 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_6, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_7)
-		{
-			goto IL_006a;
-		}
-	}
-	{
-		NearFarInteractor_t43B1C14C2D72CB717E3624B0759E265F5D215E9C* L_8 = __this->___m_NearFarInteractor;
-		NullCheck(L_8);
-		RuntimeObject* L_9;
-		L_9 = NearFarInteractor_get_interactionAttachController_m8D7DE36158D85323283CEFB8030AB545A7B095CF(L_8, NULL);
-		V_1 = ((InteractionAttachController_t72A735C43786F8A10DA7BC2A04D65F14FB31F994*)IsInstClass((RuntimeObject*)L_9, InteractionAttachController_t72A735C43786F8A10DA7BC2A04D65F14FB31F994_il2cpp_TypeInfo_var));
-		InteractionAttachController_t72A735C43786F8A10DA7BC2A04D65F14FB31F994* L_10 = V_1;
+		bool L_10;
+		L_10 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_9, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (!L_10)
 		{
-			goto IL_006a;
+			goto IL_0071;
 		}
 	}
 	{
-		InteractionAttachController_t72A735C43786F8A10DA7BC2A04D65F14FB31F994* L_11 = V_1;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_12;
-		L_12 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_11, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_12)
+		NearFarInteractor_t43B1C14C2D72CB717E3624B0759E265F5D215E9C* L_11 = __this->___m_NearFarInteractor;
+		NullCheck(L_11);
+		RuntimeObject* L_12;
+		L_12 = NearFarInteractor_get_interactionAttachController_m8D7DE36158D85323283CEFB8030AB545A7B095CF(L_11, NULL);
+		V_4 = ((InteractionAttachController_t72A735C43786F8A10DA7BC2A04D65F14FB31F994*)IsInstClass((RuntimeObject*)L_12, InteractionAttachController_t72A735C43786F8A10DA7BC2A04D65F14FB31F994_il2cpp_TypeInfo_var));
+		InteractionAttachController_t72A735C43786F8A10DA7BC2A04D65F14FB31F994* L_13 = V_4;
+		if (!L_13)
 		{
-			goto IL_006a;
+			goto IL_0071;
+		}
+	}
+	{
+		InteractionAttachController_t72A735C43786F8A10DA7BC2A04D65F14FB31F994* L_14 = V_4;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_15;
+		L_15 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_14, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		G_B9_0 = ((int32_t)(L_15));
+		goto IL_0072;
+	}
+
+IL_0071:
+	{
+		G_B9_0 = 0;
+	}
+
+IL_0072:
+	{
+		V_5 = (bool)G_B9_0;
+		bool L_16 = V_5;
+		if (!L_16)
+		{
+			goto IL_0082;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:444>
-		InteractionAttachController_t72A735C43786F8A10DA7BC2A04D65F14FB31F994* L_13 = V_1;
-		bool L_14;
-		L_14 = ControllerInputActionManager_HasStickInput_m0215F1674DAEDA7D7DAEBE44EE970B78E3B167EF(L_13, NULL);
-		V_0 = L_14;
+		InteractionAttachController_t72A735C43786F8A10DA7BC2A04D65F14FB31F994* L_17 = V_4;
+		bool L_18;
+		L_18 = ControllerInputActionManager_HasStickInput_m0215F1674DAEDA7D7DAEBE44EE970B78E3B167EF(L_17, NULL);
+		V_3 = L_18;
 	}
 
-IL_006a:
+IL_0082:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:447>
-		bool L_15 = V_0;
-		if (L_15)
+		bool L_19 = V_3;
+		V_6 = (bool)((((int32_t)L_19) == ((int32_t)0))? 1 : 0);
+		bool L_20 = V_6;
+		if (!L_20)
 		{
-			goto IL_0088;
+			goto IL_00b2;
 		}
 	}
 	{
@@ -7458,10 +7833,12 @@ IL_006a:
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:451>
 		ControllerInputActionManager_UpdateLocomotionActions_m30001260A476F7ADC0E807ED5F906387BE78D517(__this, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:452>
-		bool L_16 = __this->___m_NearFarEnableTeleportDuringNearInteraction;
-		if (L_16)
+		bool L_21 = __this->___m_NearFarEnableTeleportDuringNearInteraction;
+		V_7 = (bool)((((int32_t)L_21) == ((int32_t)0))? 1 : 0);
+		bool L_22 = V_7;
+		if (!L_22)
 		{
-			goto IL_0088;
+			goto IL_00b1;
 		}
 	}
 	{
@@ -7469,13 +7846,21 @@ IL_006a:
 		ControllerInputActionManager_DisableTeleportActions_mAD8CBE42896874525C3181CF34C226C6584C06C8(__this, NULL);
 	}
 
-IL_0088:
+IL_00b1:
+	{
+	}
+
+IL_00b2:
+	{
+	}
+
+IL_00b3:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:456>
 		return;
 	}
 }
-// Method Definition Index: 75139
+// Method Definition Index: 93586
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_UpdateLocomotionActions_m30001260A476F7ADC0E807ED5F906387BE78D517 (ControllerInputActionManager_t869A70AE3B62565ADCF8E113AFEF37D3B0DBE90B* __this, const RuntimeMethod* method) 
 {
 	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* G_B2_0 = NULL;
@@ -7505,7 +7890,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_UpdateLocom
 		if (L_7)
 		{
 			G_B2_0 = L_6;
-			goto IL_004f;
+			goto IL_0053;
 		}
 		G_B1_0 = L_6;
 	}
@@ -7513,16 +7898,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_UpdateLocom
 		bool L_8 = __this->___m_SmoothTurnEnabled;
 		G_B3_0 = ((int32_t)(L_8));
 		G_B3_1 = G_B1_0;
-		goto IL_0050;
+		goto IL_0054;
 	}
 
-IL_004f:
+IL_0053:
 	{
 		G_B3_0 = 0;
 		G_B3_1 = G_B2_0;
 	}
 
-IL_0050:
+IL_0054:
 	{
 		ControllerInputActionManager_SetEnabled_m98E438A0CC133DBEBB41234928BFBD67B61BA81E(G_B3_1, (bool)G_B3_0, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:467>
@@ -7531,7 +7916,7 @@ IL_0050:
 		if (L_10)
 		{
 			G_B5_0 = L_9;
-			goto IL_006e;
+			goto IL_0073;
 		}
 		G_B4_0 = L_9;
 	}
@@ -7539,23 +7924,23 @@ IL_0050:
 		bool L_11 = __this->___m_SmoothTurnEnabled;
 		G_B6_0 = ((((int32_t)L_11) == ((int32_t)0))? 1 : 0);
 		G_B6_1 = G_B4_0;
-		goto IL_006f;
+		goto IL_0074;
 	}
 
-IL_006e:
+IL_0073:
 	{
 		G_B6_0 = 0;
 		G_B6_1 = G_B5_0;
 	}
 
-IL_006f:
+IL_0074:
 	{
 		ControllerInputActionManager_SetEnabled_m98E438A0CC133DBEBB41234928BFBD67B61BA81E(G_B6_1, (bool)G_B6_0, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:468>
 		return;
 	}
 }
-// Method Definition Index: 75140
+// Method Definition Index: 93587
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_DisableTeleportActions_mAD8CBE42896874525C3181CF34C226C6584C06C8 (ControllerInputActionManager_t869A70AE3B62565ADCF8E113AFEF37D3B0DBE90B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7569,7 +7954,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_DisableTele
 		return;
 	}
 }
-// Method Definition Index: 75141
+// Method Definition Index: 93588
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_DisableMoveAndTurnActions_m231A4976FB2502A412F4C4A746A4AF42D1A28A0C (ControllerInputActionManager_t869A70AE3B62565ADCF8E113AFEF37D3B0DBE90B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7586,7 +7971,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_DisableMove
 		return;
 	}
 }
-// Method Definition Index: 75142
+// Method Definition Index: 93589
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_DisableAllLocomotionActions_m47F4F0FB199536B8B58DCB7E4248986C2A61C4EC (ControllerInputActionManager_t869A70AE3B62565ADCF8E113AFEF37D3B0DBE90B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7598,7 +7983,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_DisableAllL
 		return;
 	}
 }
-// Method Definition Index: 75143
+// Method Definition Index: 93590
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_UpdateUIActions_mEF86876690920BF2368EAD9D90BAB1D08E6F9791 (ControllerInputActionManager_t869A70AE3B62565ADCF8E113AFEF37D3B0DBE90B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7619,7 +8004,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_UpdateUIAct
 		if (!L_1)
 		{
 			G_B3_0 = L_0;
-			goto IL_0026;
+			goto IL_0027;
 		}
 		G_B1_0 = L_0;
 	}
@@ -7628,7 +8013,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_UpdateUIAct
 		if (!L_2)
 		{
 			G_B3_0 = G_B1_0;
-			goto IL_0026;
+			goto IL_0027;
 		}
 		G_B2_0 = G_B1_0;
 	}
@@ -7639,23 +8024,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_UpdateUIAct
 		L_4 = HashSet_1_get_Count_m830B4E1CB08A93B4C9803638B3AC2CB9925EB52E_inline(L_3, HashSet_1_get_Count_m830B4E1CB08A93B4C9803638B3AC2CB9925EB52E_RuntimeMethod_var);
 		G_B4_0 = ((((int32_t)L_4) == ((int32_t)0))? 1 : 0);
 		G_B4_1 = G_B2_0;
-		goto IL_0027;
+		goto IL_0028;
 	}
 
-IL_0026:
+IL_0027:
 	{
 		G_B4_0 = 0;
 		G_B4_1 = G_B3_0;
 	}
 
-IL_0027:
+IL_0028:
 	{
 		ControllerInputActionManager_SetEnabled_m98E438A0CC133DBEBB41234928BFBD67B61BA81E(G_B4_1, (bool)G_B4_0, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:492>
 		return;
 	}
 }
-// Method Definition Index: 75144
+// Method Definition Index: 93591
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ControllerInputActionManager_HasStickInput_m0215F1674DAEDA7D7DAEBE44EE970B78E3B167EF (InteractionAttachController_t72A735C43786F8A10DA7BC2A04D65F14FB31F994* ___0_attachController, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7666,6 +8051,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ControllerInputActionManager_HasStickInp
 	}
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	bool V_1 = false;
+	int32_t G_B3_0 = 0;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:499>
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:500>
@@ -7678,110 +8065,137 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ControllerInputActionManager_HasStickInp
 		L_2 = XRInputValueReader_1_TryReadValue_mB3FA1E715287C738E23501839BE2CC019B0A4C33(L_1, (&V_0), XRInputValueReader_1_TryReadValue_mB3FA1E715287C738E23501839BE2CC019B0A4C33_RuntimeMethod_var);
 		if (!L_2)
 		{
-			goto IL_001e;
+			goto IL_0020;
 		}
 	}
 	{
 		float L_3;
 		L_3 = Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline((&V_0), NULL);
-		return (bool)((((float)L_3) > ((float)(0.140625f)))? 1 : 0);
+		G_B3_0 = ((((float)L_3) > ((float)(0.140625f)))? 1 : 0);
+		goto IL_0021;
 	}
 
-IL_001e:
+IL_0020:
 	{
-		return (bool)0;
+		G_B3_0 = 0;
+	}
+
+IL_0021:
+	{
+		V_1 = (bool)G_B3_0;
+		goto IL_0024;
+	}
+
+IL_0024:
+	{
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:501>
+		bool L_4 = V_1;
+		return L_4;
 	}
 }
-// Method Definition Index: 75145
+// Method Definition Index: 93592
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_SetEnabled_m98E438A0CC133DBEBB41234928BFBD67B61BA81E (InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___0_actionReference, bool ___1_enabled, const RuntimeMethod* method) 
 {
+	bool V_0 = false;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:505>
 		bool L_0 = ___1_enabled;
-		if (!L_0)
+		V_0 = L_0;
+		bool L_1 = V_0;
+		if (!L_1)
 		{
-			goto IL_000a;
+			goto IL_000f;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:506>
-		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_1 = ___0_actionReference;
-		ControllerInputActionManager_EnableAction_m17C9BE847C2BFD6A62C7B95D6CFD1994ADE16D84(L_1, NULL);
-		return;
+		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_2 = ___0_actionReference;
+		ControllerInputActionManager_EnableAction_m17C9BE847C2BFD6A62C7B95D6CFD1994ADE16D84(L_2, NULL);
+		goto IL_0016;
 	}
 
-IL_000a:
+IL_000f:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:508>
-		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_2 = ___0_actionReference;
-		ControllerInputActionManager_DisableAction_m3E33B9491354D8732C00E02CDA82B85426FB5091(L_2, NULL);
+		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_3 = ___0_actionReference;
+		ControllerInputActionManager_DisableAction_m3E33B9491354D8732C00E02CDA82B85426FB5091(L_3, NULL);
+	}
+
+IL_0016:
+	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:509>
 		return;
 	}
 }
-// Method Definition Index: 75146
+// Method Definition Index: 93593
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_EnableAction_m17C9BE847C2BFD6A62C7B95D6CFD1994ADE16D84 (InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___0_actionReference, const RuntimeMethod* method) 
 {
-	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* G_B2_0 = NULL;
-	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* G_B1_0 = NULL;
+	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* V_0 = NULL;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:513>
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_0 = ___0_actionReference;
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_1;
 		L_1 = ControllerInputActionManager_GetInputAction_m2F95F2340B1602E3787F34FDA150C47AB95068AE(L_0, NULL);
+		V_0 = L_1;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:514>
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_2 = L_1;
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_2 = V_0;
 		if (L_2)
 		{
-			G_B2_0 = L_2;
-			goto IL_000b;
+			goto IL_000d;
 		}
-		G_B1_0 = L_2;
 	}
 	{
-		return;
+		goto IL_0014;
 	}
 
-IL_000b:
+IL_000d:
 	{
-		NullCheck(G_B2_0);
-		InputAction_Enable_mB3897C0741409C033656E4566EC49135C3C8BC68(G_B2_0, NULL);
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_3 = V_0;
+		NullCheck(L_3);
+		InputAction_Enable_mB3897C0741409C033656E4566EC49135C3C8BC68(L_3, NULL);
+	}
+
+IL_0014:
+	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:515>
 		return;
 	}
 }
-// Method Definition Index: 75147
+// Method Definition Index: 93594
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager_DisableAction_m3E33B9491354D8732C00E02CDA82B85426FB5091 (InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___0_actionReference, const RuntimeMethod* method) 
 {
-	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* G_B2_0 = NULL;
-	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* G_B1_0 = NULL;
+	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* V_0 = NULL;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:519>
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_0 = ___0_actionReference;
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_1;
 		L_1 = ControllerInputActionManager_GetInputAction_m2F95F2340B1602E3787F34FDA150C47AB95068AE(L_0, NULL);
+		V_0 = L_1;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:520>
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_2 = L_1;
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_2 = V_0;
 		if (L_2)
 		{
-			G_B2_0 = L_2;
-			goto IL_000b;
+			goto IL_000d;
 		}
-		G_B1_0 = L_2;
 	}
 	{
-		return;
+		goto IL_0014;
 	}
 
-IL_000b:
+IL_000d:
 	{
-		NullCheck(G_B2_0);
-		InputAction_Disable_m72D1982F82457C6E003440BADD06989D399BDE50(G_B2_0, NULL);
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_3 = V_0;
+		NullCheck(L_3);
+		InputAction_Disable_m72D1982F82457C6E003440BADD06989D399BDE50(L_3, NULL);
+	}
+
+IL_0014:
+	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:521>
 		return;
 	}
 }
-// Method Definition Index: 75148
+// Method Definition Index: 93595
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* ControllerInputActionManager_GetInputAction_m2F95F2340B1602E3787F34FDA150C47AB95068AE (InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___0_actionReference, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7790,6 +8204,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputAction_t1B550AD2B55AF322AFB53CD28DA64081
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* V_0 = NULL;
+	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* G_B3_0 = NULL;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:526>
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_0 = ___0_actionReference;
@@ -7798,23 +8214,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputAction_t1B550AD2B55AF322AFB53CD28DA64081
 		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (L_1)
 		{
-			goto IL_000b;
+			goto IL_000d;
 		}
 	}
 	{
-		return (InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD*)NULL;
+		G_B3_0 = ((InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD*)(NULL));
+		goto IL_0013;
 	}
 
-IL_000b:
+IL_000d:
 	{
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_2 = ___0_actionReference;
 		NullCheck(L_2);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_3;
 		L_3 = InputActionReference_get_action_m395EDEA6A93B54555D22323FDA6E1B1E931CE6EF(L_2, NULL);
-		return L_3;
+		G_B3_0 = L_3;
+	}
+
+IL_0013:
+	{
+		V_0 = G_B3_0;
+		goto IL_0016;
+	}
+
+IL_0016:
+	{
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ControllerInputActionManager.cs:528>
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_4 = V_0;
+		return L_4;
 	}
 }
-// Method Definition Index: 75149
+// Method Definition Index: 93596
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager__ctor_m8102580D28779193EE0B8CE7C06313BDF217EBB7 (ControllerInputActionManager_t869A70AE3B62565ADCF8E113AFEF37D3B0DBE90B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7852,7 +8282,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControllerInputActionManager__ctor_m8102
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75150
+// Method Definition Index: 93597
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float DestroySelf_get_lifetime_m3AB080F878918FDBF5C39438374FBDDCD9E22458 (DestroySelf_tDC5BD53F0F2DA7DB2A559BAC50EA806440226B1F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7861,7 +8291,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float DestroySelf_get_lifetime_m3AB080F878918
 		return L_0;
 	}
 }
-// Method Definition Index: 75151
+// Method Definition Index: 93598
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DestroySelf_set_lifetime_mCB3CE0FF94854B5CB42D3C4E93C7783410123F3C (DestroySelf_tDC5BD53F0F2DA7DB2A559BAC50EA806440226B1F* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -7871,7 +8301,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DestroySelf_set_lifetime_mCB3CE0FF94854B
 		return;
 	}
 }
-// Method Definition Index: 75152
+// Method Definition Index: 93599
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DestroySelf_Start_mDA06F1CBD548235D9376E609CD54DDD7AD50AFCB (DestroySelf_tDC5BD53F0F2DA7DB2A559BAC50EA806440226B1F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7891,7 +8321,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DestroySelf_Start_mDA06F1CBD548235D9376E
 		return;
 	}
 }
-// Method Definition Index: 75153
+// Method Definition Index: 93600
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DestroySelf__ctor_mE6AE809A5A18196F03764F925582D12C3AD8523F (DestroySelf_tDC5BD53F0F2DA7DB2A559BAC50EA806440226B1F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7909,7 +8339,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DestroySelf__ctor_mE6AE809A5A18196F03764
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75154
+// Method Definition Index: 93601
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* DynamicMoveProvider_get_headTransform_m303EF17C689C6B515494F07F2259A0BA6B8D0605 (DynamicMoveProvider_t1743D232A797F4B68334ADA837902C8680933F5A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7918,7 +8348,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99
 		return L_0;
 	}
 }
-// Method Definition Index: 75155
+// Method Definition Index: 93602
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DynamicMoveProvider_set_headTransform_mCB442704F390FE95E70DE479145A5F2E2E138885 (DynamicMoveProvider_t1743D232A797F4B68334ADA837902C8680933F5A* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -7929,7 +8359,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DynamicMoveProvider_set_headTransform_mC
 		return;
 	}
 }
-// Method Definition Index: 75156
+// Method Definition Index: 93603
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* DynamicMoveProvider_get_leftControllerTransform_mAA1DA9B68DEEA326FC1560FDADDF454DEC69C8A8 (DynamicMoveProvider_t1743D232A797F4B68334ADA837902C8680933F5A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7938,7 +8368,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99
 		return L_0;
 	}
 }
-// Method Definition Index: 75157
+// Method Definition Index: 93604
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DynamicMoveProvider_set_leftControllerTransform_mF1E47F46BFE01F5355FC71BD67DD1A9CFD2C3DB1 (DynamicMoveProvider_t1743D232A797F4B68334ADA837902C8680933F5A* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -7949,7 +8379,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DynamicMoveProvider_set_leftControllerTr
 		return;
 	}
 }
-// Method Definition Index: 75158
+// Method Definition Index: 93605
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* DynamicMoveProvider_get_rightControllerTransform_m6FAEE855A31155E21184B32D086F15CE9DA7C92E (DynamicMoveProvider_t1743D232A797F4B68334ADA837902C8680933F5A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7958,7 +8388,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99
 		return L_0;
 	}
 }
-// Method Definition Index: 75159
+// Method Definition Index: 93606
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DynamicMoveProvider_set_rightControllerTransform_mD138BE95DF4A34447A88F1817806C4BAE2239CFA (DynamicMoveProvider_t1743D232A797F4B68334ADA837902C8680933F5A* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -7969,7 +8399,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DynamicMoveProvider_set_rightControllerT
 		return;
 	}
 }
-// Method Definition Index: 75160
+// Method Definition Index: 93607
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DynamicMoveProvider_get_leftHandMovementDirection_m5D0D0D4A984DC0B0CAED6DE32722BE640296ABBF (DynamicMoveProvider_t1743D232A797F4B68334ADA837902C8680933F5A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7978,7 +8408,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DynamicMoveProvider_get_leftHandMovem
 		return L_0;
 	}
 }
-// Method Definition Index: 75161
+// Method Definition Index: 93608
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DynamicMoveProvider_set_leftHandMovementDirection_mB73B1139104B7F11E0360C8E900789C0E05881F2 (DynamicMoveProvider_t1743D232A797F4B68334ADA837902C8680933F5A* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -7988,7 +8418,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DynamicMoveProvider_set_leftHandMovement
 		return;
 	}
 }
-// Method Definition Index: 75162
+// Method Definition Index: 93609
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DynamicMoveProvider_get_rightHandMovementDirection_m88088CD035CDA2ED6597F19DC5C93D8730089C7C (DynamicMoveProvider_t1743D232A797F4B68334ADA837902C8680933F5A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7997,7 +8427,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DynamicMoveProvider_get_rightHandMove
 		return L_0;
 	}
 }
-// Method Definition Index: 75163
+// Method Definition Index: 93610
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DynamicMoveProvider_set_rightHandMovementDirection_m985C438DA67D7479D5D0AA020A8EB411856E51E5 (DynamicMoveProvider_t1743D232A797F4B68334ADA837902C8680933F5A* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -8007,7 +8437,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DynamicMoveProvider_set_rightHandMovemen
 		return;
 	}
 }
-// Method Definition Index: 75164
+// Method Definition Index: 93611
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DynamicMoveProvider_Awake_m3BAB88EE73C713431D822EB7323817318C4C0711 (DynamicMoveProvider_t1743D232A797F4B68334ADA837902C8680933F5A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8053,15 +8483,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DynamicMoveProvider_Awake_m3BAB88EE73C71
 		return;
 	}
 }
-// Method Definition Index: 75165
+// Method Definition Index: 93612
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 DynamicMoveProvider_ComputeDesiredMove_mADD1C5EB231A3EDA633059109A91BC4361274733 (DynamicMoveProvider_t1743D232A797F4B68334ADA837902C8680933F5A* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_input, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MovementDirection_tCAD7DEA53759ECE3132FEB72767B4A528AD0F0A7_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRInputValueReader_1_ReadValue_m5F62621C89CC35067EDFEAE1EBBE315554767369_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA3FB88DDD46531AE82CBA3C68DE5F2B43578B1DA);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD689EACA9A810383FB2DD66A0BB9FAE341BDC5F6);
 		s_Il2CppMethodInitialized = true;
 	}
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
@@ -8074,9 +8508,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 	memset((&V_4), 0, sizeof(V_4));
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_5;
 	memset((&V_5), 0, sizeof(V_5));
-	XROrigin_t5E534A6D886991AF3C1C64127E19A3A510009CFE* V_6 = NULL;
-	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* V_7 = NULL;
-	int32_t V_8 = 0;
+	bool V_6 = false;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	bool V_8 = false;
+	XROrigin_t5E534A6D886991AF3C1C64127E19A3A510009CFE* V_9 = NULL;
+	bool V_10 = false;
+	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* V_11 = NULL;
+	bool V_12 = false;
+	int32_t V_13 = 0;
+	int32_t V_14 = 0;
+	bool V_15 = false;
+	bool V_16 = false;
+	int32_t V_17 = 0;
+	int32_t V_18 = 0;
+	bool V_19 = false;
+	bool V_20 = false;
+	bool V_21 = false;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/DynamicMoveProvider.cs:119>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_input;
@@ -8084,278 +8532,375 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		L_1 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		bool L_2;
 		L_2 = Vector2_op_Equality_m6F2E069A50E787D131261E5CB25FC9E03F95B5E1_inline(L_0, L_1, NULL);
-		if (!L_2)
+		V_6 = L_2;
+		bool L_3 = V_6;
+		if (!L_3)
 		{
-			goto IL_0015;
+			goto IL_0020;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/DynamicMoveProvider.cs:120>
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3 = ___0_input;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
-		L_4 = ContinuousMoveProvider_ComputeDesiredMove_mE4E902533BB6627AE8922B9EA5C8A55672B98C00(__this, L_3, NULL);
-		return L_4;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = ___0_input;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
+		L_5 = ContinuousMoveProvider_ComputeDesiredMove_mE4E902533BB6627AE8922B9EA5C8A55672B98C00(__this, L_4, NULL);
+		V_7 = L_5;
+		goto IL_021e;
 	}
 
-IL_0015:
+IL_0020:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/DynamicMoveProvider.cs:123>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = __this->___m_HeadTransform;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = __this->___m_HeadTransform;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_6;
-		L_6 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_6)
+		bool L_7;
+		L_7 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_6, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_8 = L_7;
+		bool L_8 = V_8;
+		if (!L_8)
 		{
-			goto IL_005a;
+			goto IL_0075;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/DynamicMoveProvider.cs:125>
-		LocomotionMediator_tFF0E600A153C909C211466942B7D4C3DA6105AD6* L_7;
-		L_7 = LocomotionProvider_get_mediator_m7ED478A25CC3F307D84C6A1F81ACC26231E94B5D_inline(__this, NULL);
-		NullCheck(L_7);
-		XROrigin_t5E534A6D886991AF3C1C64127E19A3A510009CFE* L_8;
-		L_8 = LocomotionMediator_get_xrOrigin_mF16601BBA48F6C7D13E600FC6CD426D067582170(L_7, NULL);
-		V_6 = L_8;
+		LocomotionMediator_tFF0E600A153C909C211466942B7D4C3DA6105AD6* L_9;
+		L_9 = LocomotionProvider_get_mediator_m7ED478A25CC3F307D84C6A1F81ACC26231E94B5D_inline(__this, NULL);
+		NullCheck(L_9);
+		XROrigin_t5E534A6D886991AF3C1C64127E19A3A510009CFE* L_10;
+		L_10 = LocomotionMediator_get_xrOrigin_mF16601BBA48F6C7D13E600FC6CD426D067582170(L_9, NULL);
+		V_9 = L_10;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/DynamicMoveProvider.cs:126>
-		XROrigin_t5E534A6D886991AF3C1C64127E19A3A510009CFE* L_9 = V_6;
+		XROrigin_t5E534A6D886991AF3C1C64127E19A3A510009CFE* L_11 = V_9;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_10;
-		L_10 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_9, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_10)
+		bool L_12;
+		L_12 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_11, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_10 = L_12;
+		bool L_13 = V_10;
+		if (!L_13)
 		{
-			goto IL_005a;
+			goto IL_0074;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/DynamicMoveProvider.cs:128>
-		XROrigin_t5E534A6D886991AF3C1C64127E19A3A510009CFE* L_11 = V_6;
-		NullCheck(L_11);
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_12;
-		L_12 = XROrigin_get_Camera_m8959027D616F5BD9AEAE3E41ADEE23BBC2CE3629_inline(L_11, NULL);
-		V_7 = L_12;
+		XROrigin_t5E534A6D886991AF3C1C64127E19A3A510009CFE* L_14 = V_9;
+		NullCheck(L_14);
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_15;
+		L_15 = XROrigin_get_Camera_m8959027D616F5BD9AEAE3E41ADEE23BBC2CE3629_inline(L_14, NULL);
+		V_11 = L_15;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/DynamicMoveProvider.cs:129>
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_13 = V_7;
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_16 = V_11;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_14;
-		L_14 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_13, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_14)
+		bool L_17;
+		L_17 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_16, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_12 = L_17;
+		bool L_18 = V_12;
+		if (!L_18)
 		{
-			goto IL_005a;
+			goto IL_0073;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/DynamicMoveProvider.cs:130>
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_15 = V_7;
-		NullCheck(L_15);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16;
-		L_16 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_15, NULL);
-		__this->___m_HeadTransform = L_16;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_HeadTransform), (void*)L_16);
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_19 = V_11;
+		NullCheck(L_19);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_20;
+		L_20 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_19, NULL);
+		__this->___m_HeadTransform = L_20;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_HeadTransform), (void*)L_20);
 	}
 
-IL_005a:
+IL_0073:
+	{
+	}
+
+IL_0074:
+	{
+	}
+
+IL_0075:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/DynamicMoveProvider.cs:135>
-		int32_t L_17 = __this->___m_LeftHandMovementDirection;
-		V_8 = L_17;
-		int32_t L_18 = V_8;
-		if (!L_18)
-		{
-			goto IL_006d;
-		}
-	}
-	{
-		int32_t L_19 = V_8;
-		if ((((int32_t)L_19) == ((int32_t)1)))
+		int32_t L_21 = __this->___m_LeftHandMovementDirection;
+		V_14 = L_21;
+		int32_t L_22 = V_14;
+		V_13 = L_22;
+		int32_t L_23 = V_13;
+		if (!L_23)
 		{
 			goto IL_008e;
 		}
 	}
 	{
-		goto IL_00ad;
+		goto IL_0087;
 	}
 
-IL_006d:
+IL_0087:
 	{
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/DynamicMoveProvider.cs:138>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_20 = __this->___m_HeadTransform;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_21;
-		L_21 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_20, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_21)
+		int32_t L_24 = V_13;
+		if ((((int32_t)L_24) == ((int32_t)1)))
 		{
-			goto IL_00ad;
+			goto IL_00b3;
 		}
 	}
 	{
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/DynamicMoveProvider.cs:139>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_22 = __this->___m_HeadTransform;
-		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_23;
-		L_23 = TransformExtensions_GetWorldPose_m08E343202174666DFF9A07560AB1A72ACD0DDCF1(L_22, NULL);
-		__this->___m_LeftMovementPose = L_23;
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/DynamicMoveProvider.cs:141>
-		goto IL_00ad;
+		goto IL_00d8;
 	}
 
 IL_008e:
 	{
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/DynamicMoveProvider.cs:144>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_24 = __this->___m_LeftControllerTransform;
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/DynamicMoveProvider.cs:138>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_25 = __this->___m_HeadTransform;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_25;
-		L_25 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_24, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_25)
+		bool L_26;
+		L_26 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_25, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_15 = L_26;
+		bool L_27 = V_15;
+		if (!L_27)
 		{
-			goto IL_00ad;
+			goto IL_00b1;
+		}
+	}
+	{
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/DynamicMoveProvider.cs:139>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_28 = __this->___m_HeadTransform;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_29;
+		L_29 = TransformExtensions_GetWorldPose_m08E343202174666DFF9A07560AB1A72ACD0DDCF1(L_28, NULL);
+		__this->___m_LeftMovementPose = L_29;
+	}
+
+IL_00b1:
+	{
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/DynamicMoveProvider.cs:141>
+		goto IL_00fb;
+	}
+
+IL_00b3:
+	{
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/DynamicMoveProvider.cs:144>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_30 = __this->___m_LeftControllerTransform;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_31;
+		L_31 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_30, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_16 = L_31;
+		bool L_32 = V_16;
+		if (!L_32)
+		{
+			goto IL_00d6;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/DynamicMoveProvider.cs:145>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_26 = __this->___m_LeftControllerTransform;
-		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_27;
-		L_27 = TransformExtensions_GetWorldPose_m08E343202174666DFF9A07560AB1A72ACD0DDCF1(L_26, NULL);
-		__this->___m_LeftMovementPose = L_27;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_33 = __this->___m_LeftControllerTransform;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_34;
+		L_34 = TransformExtensions_GetWorldPose_m08E343202174666DFF9A07560AB1A72ACD0DDCF1(L_33, NULL);
+		__this->___m_LeftMovementPose = L_34;
 	}
 
-IL_00ad:
+IL_00d6:
+	{
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/DynamicMoveProvider.cs:147>
+		goto IL_00fb;
+	}
+
+IL_00d8:
+	{
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/DynamicMoveProvider.cs:150>
+		int32_t L_35 = __this->___m_LeftHandMovementDirection;
+		int32_t L_36 = L_35;
+		RuntimeObject* L_37 = Box(MovementDirection_tCAD7DEA53759ECE3132FEB72767B4A528AD0F0A7_il2cpp_TypeInfo_var, &L_36);
+		String_t* L_38;
+		L_38 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralD689EACA9A810383FB2DD66A0BB9FAE341BDC5F6, _stringLiteralA3FB88DDD46531AE82CBA3C68DE5F2B43578B1DA, L_37, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_m390B3F48332F46CE76AB45491A60ACDCCF521AAE((bool)0, L_38, NULL);
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/DynamicMoveProvider.cs:151>
+		goto IL_00fb;
+	}
+
+IL_00fb:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/DynamicMoveProvider.cs:155>
-		int32_t L_28 = __this->___m_RightHandMovementDirection;
-		V_8 = L_28;
-		int32_t L_29 = V_8;
-		if (!L_29)
+		int32_t L_39 = __this->___m_RightHandMovementDirection;
+		V_18 = L_39;
+		int32_t L_40 = V_18;
+		V_17 = L_40;
+		int32_t L_41 = V_17;
+		if (!L_41)
 		{
-			goto IL_00c0;
+			goto IL_0114;
 		}
 	}
 	{
-		int32_t L_30 = V_8;
-		if ((((int32_t)L_30) == ((int32_t)1)))
-		{
-			goto IL_00e1;
-		}
-	}
-	{
-		goto IL_0100;
+		goto IL_010d;
 	}
 
-IL_00c0:
+IL_010d:
+	{
+		int32_t L_42 = V_17;
+		if ((((int32_t)L_42) == ((int32_t)1)))
+		{
+			goto IL_0139;
+		}
+	}
+	{
+		goto IL_015e;
+	}
+
+IL_0114:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/DynamicMoveProvider.cs:158>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_31 = __this->___m_HeadTransform;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_43 = __this->___m_HeadTransform;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_32;
-		L_32 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_31, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_32)
+		bool L_44;
+		L_44 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_43, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_19 = L_44;
+		bool L_45 = V_19;
+		if (!L_45)
 		{
-			goto IL_0100;
+			goto IL_0137;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/DynamicMoveProvider.cs:159>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_33 = __this->___m_HeadTransform;
-		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_34;
-		L_34 = TransformExtensions_GetWorldPose_m08E343202174666DFF9A07560AB1A72ACD0DDCF1(L_33, NULL);
-		__this->___m_RightMovementPose = L_34;
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/DynamicMoveProvider.cs:161>
-		goto IL_0100;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_46 = __this->___m_HeadTransform;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_47;
+		L_47 = TransformExtensions_GetWorldPose_m08E343202174666DFF9A07560AB1A72ACD0DDCF1(L_46, NULL);
+		__this->___m_RightMovementPose = L_47;
 	}
 
-IL_00e1:
+IL_0137:
+	{
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/DynamicMoveProvider.cs:161>
+		goto IL_0181;
+	}
+
+IL_0139:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/DynamicMoveProvider.cs:164>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_35 = __this->___m_RightControllerTransform;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_48 = __this->___m_RightControllerTransform;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_36;
-		L_36 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_35, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_36)
+		bool L_49;
+		L_49 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_48, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_20 = L_49;
+		bool L_50 = V_20;
+		if (!L_50)
 		{
-			goto IL_0100;
+			goto IL_015c;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/DynamicMoveProvider.cs:165>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_37 = __this->___m_RightControllerTransform;
-		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_38;
-		L_38 = TransformExtensions_GetWorldPose_m08E343202174666DFF9A07560AB1A72ACD0DDCF1(L_37, NULL);
-		__this->___m_RightMovementPose = L_38;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_51 = __this->___m_RightControllerTransform;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_52;
+		L_52 = TransformExtensions_GetWorldPose_m08E343202174666DFF9A07560AB1A72ACD0DDCF1(L_51, NULL);
+		__this->___m_RightMovementPose = L_52;
 	}
 
-IL_0100:
+IL_015c:
+	{
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/DynamicMoveProvider.cs:167>
+		goto IL_0181;
+	}
+
+IL_015e:
+	{
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/DynamicMoveProvider.cs:170>
+		int32_t L_53 = __this->___m_RightHandMovementDirection;
+		int32_t L_54 = L_53;
+		RuntimeObject* L_55 = Box(MovementDirection_tCAD7DEA53759ECE3132FEB72767B4A528AD0F0A7_il2cpp_TypeInfo_var, &L_54);
+		String_t* L_56;
+		L_56 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralD689EACA9A810383FB2DD66A0BB9FAE341BDC5F6, _stringLiteralA3FB88DDD46531AE82CBA3C68DE5F2B43578B1DA, L_55, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_m390B3F48332F46CE76AB45491A60ACDCCF521AAE((bool)0, L_56, NULL);
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/DynamicMoveProvider.cs:171>
+		goto IL_0181;
+	}
+
+IL_0181:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/DynamicMoveProvider.cs:175>
-		XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* L_39;
-		L_39 = ContinuousMoveProvider_get_leftHandMoveInput_m2B7F6358E442942C20D0667A234A29BE0CBAEB8E_inline(__this, NULL);
-		NullCheck(L_39);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_40;
-		L_40 = XRInputValueReader_1_ReadValue_m5F62621C89CC35067EDFEAE1EBBE315554767369(L_39, XRInputValueReader_1_ReadValue_m5F62621C89CC35067EDFEAE1EBBE315554767369_RuntimeMethod_var);
-		V_0 = L_40;
+		XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* L_57;
+		L_57 = ContinuousMoveProvider_get_leftHandMoveInput_m2B7F6358E442942C20D0667A234A29BE0CBAEB8E_inline(__this, NULL);
+		NullCheck(L_57);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_58;
+		L_58 = XRInputValueReader_1_ReadValue_m5F62621C89CC35067EDFEAE1EBBE315554767369(L_57, XRInputValueReader_1_ReadValue_m5F62621C89CC35067EDFEAE1EBBE315554767369_RuntimeMethod_var);
+		V_0 = L_58;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/DynamicMoveProvider.cs:176>
-		XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* L_41;
-		L_41 = ContinuousMoveProvider_get_rightHandMoveInput_mAA26C39B1CC43915801850C74CF96888DA4CBB7B_inline(__this, NULL);
-		NullCheck(L_41);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_42;
-		L_42 = XRInputValueReader_1_ReadValue_m5F62621C89CC35067EDFEAE1EBBE315554767369(L_41, XRInputValueReader_1_ReadValue_m5F62621C89CC35067EDFEAE1EBBE315554767369_RuntimeMethod_var);
-		V_1 = L_42;
+		XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* L_59;
+		L_59 = ContinuousMoveProvider_get_rightHandMoveInput_mAA26C39B1CC43915801850C74CF96888DA4CBB7B_inline(__this, NULL);
+		NullCheck(L_59);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_60;
+		L_60 = XRInputValueReader_1_ReadValue_m5F62621C89CC35067EDFEAE1EBBE315554767369(L_59, XRInputValueReader_1_ReadValue_m5F62621C89CC35067EDFEAE1EBBE315554767369_RuntimeMethod_var);
+		V_1 = L_60;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/DynamicMoveProvider.cs:178>
-		float L_43;
-		L_43 = Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline((&V_0), NULL);
-		float L_44;
-		L_44 = Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline((&V_1), NULL);
-		V_2 = ((float)il2cpp_codegen_add(L_43, L_44));
+		float L_61;
+		L_61 = Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline((&V_0), NULL);
+		float L_62;
+		L_62 = Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline((&V_1), NULL);
+		V_2 = ((float)il2cpp_codegen_add(L_61, L_62));
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/DynamicMoveProvider.cs:179>
 		V_3 = (0.5f);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/DynamicMoveProvider.cs:180>
-		float L_45 = V_2;
-		float L_46 = ((Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_StaticFields*)il2cpp_codegen_static_fields_for(Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_il2cpp_TypeInfo_var))->___Epsilon;
-		if ((!(((float)L_45) > ((float)L_46))))
+		float L_63 = V_2;
+		float L_64 = ((Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_StaticFields*)il2cpp_codegen_static_fields_for(Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_il2cpp_TypeInfo_var))->___Epsilon;
+		V_21 = (bool)((((float)L_63) > ((float)L_64))? 1 : 0);
+		bool L_65 = V_21;
+		if (!L_65)
 		{
-			goto IL_0140;
+			goto IL_01c7;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/DynamicMoveProvider.cs:181>
-		float L_47;
-		L_47 = Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline((&V_0), NULL);
-		float L_48 = V_2;
-		V_3 = ((float)(L_47/L_48));
+		float L_66;
+		L_66 = Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline((&V_0), NULL);
+		float L_67 = V_2;
+		V_3 = ((float)(L_66/L_67));
 	}
 
-IL_0140:
+IL_01c7:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/DynamicMoveProvider.cs:183>
-		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_49 = (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971*)(&__this->___m_RightMovementPose);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_50 = L_49->___position;
-		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_51 = (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971*)(&__this->___m_LeftMovementPose);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_52 = L_51->___position;
-		float L_53 = V_3;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_54;
-		L_54 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_50, L_52, L_53, NULL);
-		V_4 = L_54;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_68 = (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971*)(&__this->___m_RightMovementPose);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_69 = L_68->___position;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_70 = (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971*)(&__this->___m_LeftMovementPose);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_71 = L_70->___position;
+		float L_72 = V_3;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_73;
+		L_73 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_69, L_71, L_72, NULL);
+		V_4 = L_73;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/DynamicMoveProvider.cs:184>
-		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_55 = (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971*)(&__this->___m_RightMovementPose);
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_56 = L_55->___rotation;
-		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_57 = (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971*)(&__this->___m_LeftMovementPose);
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_58 = L_57->___rotation;
-		float L_59 = V_3;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_60;
-		L_60 = Quaternion_Slerp_m0A9969F500E7716EA4F6BC4E7D5464372D8E9E15(L_56, L_58, L_59, NULL);
-		V_5 = L_60;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_74 = (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971*)(&__this->___m_RightMovementPose);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_75 = L_74->___rotation;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_76 = (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971*)(&__this->___m_LeftMovementPose);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_77 = L_76->___rotation;
+		float L_78 = V_3;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_79;
+		L_79 = Quaternion_Slerp_m0A9969F500E7716EA4F6BC4E7D5464372D8E9E15(L_75, L_77, L_78, NULL);
+		V_5 = L_79;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/DynamicMoveProvider.cs:185>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_61 = __this->___m_CombinedTransform;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_62 = V_4;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_63 = V_5;
-		NullCheck(L_61);
-		Transform_SetPositionAndRotation_m418859BF59086EEAA084FFD6F258A43FAB408F5A(L_61, L_62, L_63, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_80 = __this->___m_CombinedTransform;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_81 = V_4;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_82 = V_5;
+		NullCheck(L_80);
+		Transform_SetPositionAndRotation_m418859BF59086EEAA084FFD6F258A43FAB408F5A(L_80, L_81, L_82, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/DynamicMoveProvider.cs:187>
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_64 = ___0_input;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_65;
-		L_65 = ContinuousMoveProvider_ComputeDesiredMove_mE4E902533BB6627AE8922B9EA5C8A55672B98C00(__this, L_64, NULL);
-		return L_65;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_83 = ___0_input;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_84;
+		L_84 = ContinuousMoveProvider_ComputeDesiredMove_mE4E902533BB6627AE8922B9EA5C8A55672B98C00(__this, L_83, NULL);
+		V_7 = L_84;
+		goto IL_021e;
+	}
+
+IL_021e:
+	{
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/DynamicMoveProvider.cs:188>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_85 = V_7;
+		return L_85;
 	}
 }
-// Method Definition Index: 75166
+// Method Definition Index: 93613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DynamicMoveProvider__ctor_mABE04D06EBE852E39DDBBB9A305090A5A7B04650 (DynamicMoveProvider_t1743D232A797F4B68334ADA837902C8680933F5A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8394,7 +8939,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DynamicMoveProvider__ctor_mABE04D06EBE85
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75167
+// Method Definition Index: 93614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GazeInputManager_get_fallbackIfEyeTrackingUnavailable_m4FB13F913AD2277E5F65AB7D7EF0729644F2D657 (GazeInputManager_t76600ACADAE6718BABD1166EBED065FFD8C90C83* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8403,7 +8948,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GazeInputManager_get_fallbackIfEyeTracki
 		return L_0;
 	}
 }
-// Method Definition Index: 75168
+// Method Definition Index: 93615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GazeInputManager_set_fallbackIfEyeTrackingUnavailable_mE6650150E8EC6483E35CF60782A877B7434DE288 (GazeInputManager_t76600ACADAE6718BABD1166EBED065FFD8C90C83* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -8413,7 +8958,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GazeInputManager_set_fallbackIfEyeTracki
 		return;
 	}
 }
-// Method Definition Index: 75169
+// Method Definition Index: 93616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GazeInputManager_Awake_m913673B2763F78D3AC484A62A8CB66DC93CAF6B7 (GazeInputManager_t76600ACADAE6718BABD1166EBED065FFD8C90C83* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8439,10 +8984,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GazeInputManager_Awake_m913673B2763F78D3
 		s_Il2CppMethodInitialized = true;
 	}
 	List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* V_0 = NULL;
-	Enumerator_t81E72BA990D25C50893E883131DA5DF2157A185B V_1;
-	memset((&V_1), 0, sizeof(V_1));
-	ReadOnlyArray_1_t21E90B3F1DF1E9A2088EA0523F03C47910735BCA V_2;
+	bool V_1 = false;
+	Enumerator_t81E72BA990D25C50893E883131DA5DF2157A185B V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	ReadOnlyArray_1_t21E90B3F1DF1E9A2088EA0523F03C47910735BCA V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* V_4 = NULL;
+	bool V_5 = false;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/GazeInputManager.cs:36>
 		List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* L_0 = (List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE*)il2cpp_codegen_object_new(List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE_il2cpp_TypeInfo_var);
@@ -8456,9 +9004,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GazeInputManager_Awake_m913673B2763F78D3
 		NullCheck(L_2);
 		int32_t L_3;
 		L_3 = List_1_get_Count_m9C3EC7FE1A9401268B3C9761A4D96A37197AD0E7_inline(L_2, List_1_get_Count_m9C3EC7FE1A9401268B3C9761A4D96A37197AD0E7_RuntimeMethod_var);
-		if ((((int32_t)L_3) <= ((int32_t)0)))
+		V_1 = (bool)((((int32_t)L_3) > ((int32_t)0))? 1 : 0);
+		bool L_4 = V_1;
+		if (!L_4)
 		{
-			goto IL_002a;
+			goto IL_0036;
 		}
 	}
 	{
@@ -8468,50 +9018,54 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GazeInputManager_Awake_m913673B2763F78D3
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/GazeInputManager.cs:41>
 		__this->___m_EyeTrackingDeviceFound = (bool)1;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/GazeInputManager.cs:42>
-		return;
+		goto IL_00e1;
 	}
 
-IL_002a:
+IL_0036:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/GazeInputManager.cs:45>
 		il2cpp_codegen_runtime_class_init_inline(InputSystem_t4120CA4FE7DCFD56AF9391933FC3F1F485350164_il2cpp_TypeInfo_var);
-		ReadOnlyArray_1_t21E90B3F1DF1E9A2088EA0523F03C47910735BCA L_4;
-		L_4 = InputSystem_get_devices_mBE599285E43211ACE15248654A3E3D7DB42C85CA(NULL);
-		V_2 = L_4;
-		Enumerator_t81E72BA990D25C50893E883131DA5DF2157A185B L_5;
-		L_5 = ReadOnlyArray_1_GetEnumerator_m40DC2BB2BC3C855369753E8780E2B2DE6F38E88C((&V_2), ReadOnlyArray_1_GetEnumerator_m40DC2BB2BC3C855369753E8780E2B2DE6F38E88C_RuntimeMethod_var);
-		V_1 = L_5;
+		ReadOnlyArray_1_t21E90B3F1DF1E9A2088EA0523F03C47910735BCA L_5;
+		L_5 = InputSystem_get_devices_mBE599285E43211ACE15248654A3E3D7DB42C85CA(NULL);
+		V_3 = L_5;
+		Enumerator_t81E72BA990D25C50893E883131DA5DF2157A185B L_6;
+		L_6 = ReadOnlyArray_1_GetEnumerator_m40DC2BB2BC3C855369753E8780E2B2DE6F38E88C((&V_3), ReadOnlyArray_1_GetEnumerator_m40DC2BB2BC3C855369753E8780E2B2DE6F38E88C_RuntimeMethod_var);
+		V_2 = L_6;
 	}
 	{
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_0071:
+FINALLY_008a:
 			{
-				Enumerator_Dispose_mF7167BCE82C30E7D09082FFCA3F3EFFD32B186CB((&V_1), Enumerator_Dispose_mF7167BCE82C30E7D09082FFCA3F3EFFD32B186CB_RuntimeMethod_var);
+				Enumerator_Dispose_mF7167BCE82C30E7D09082FFCA3F3EFFD32B186CB((&V_2), Enumerator_Dispose_mF7167BCE82C30E7D09082FFCA3F3EFFD32B186CB_RuntimeMethod_var);
 				return;
 			}
 		});
 		try
 		{
 			{
-				goto IL_0066_1;
+				goto IL_007f_1;
 			}
 
-IL_003a_1:
+IL_0047_1:
 			{
 				//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/GazeInputManager.cs:45>
-				InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_6;
-				L_6 = Enumerator_get_Current_mFB31F2643918A411B2F1539CA180A763D0200945((&V_1), Enumerator_get_Current_mFB31F2643918A411B2F1539CA180A763D0200945_RuntimeMethod_var);
+				InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_7;
+				L_7 = Enumerator_get_Current_mFB31F2643918A411B2F1539CA180A763D0200945((&V_2), Enumerator_get_Current_mFB31F2643918A411B2F1539CA180A763D0200945_RuntimeMethod_var);
+				V_4 = L_7;
 				//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/GazeInputManager.cs:47>
-				NullCheck(L_6);
-				String_t* L_7;
-				L_7 = InputControl_get_layout_mE6054F87BB94A1F1D06355E137A1840B2EFF7971(L_6, NULL);
-				bool L_8;
-				L_8 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_7, _stringLiteralF35C02D0118C69B6ADE22DDE2F7B35FDD2B1AD7C, NULL);
-				if (!L_8)
+				InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_8 = V_4;
+				NullCheck(L_8);
+				String_t* L_9;
+				L_9 = InputControl_get_layout_mE6054F87BB94A1F1D06355E137A1840B2EFF7971(L_8, NULL);
+				bool L_10;
+				L_10 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_9, _stringLiteralF35C02D0118C69B6ADE22DDE2F7B35FDD2B1AD7C, NULL);
+				V_5 = L_10;
+				bool L_11 = V_5;
+				if (!L_11)
 				{
-					goto IL_0066_1;
+					goto IL_007e_1;
 				}
 			}
 			{
@@ -8521,21 +9075,25 @@ IL_003a_1:
 				//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/GazeInputManager.cs:50>
 				__this->___m_EyeTrackingDeviceFound = (bool)1;
 				//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/GazeInputManager.cs:51>
-				goto IL_00c3;
+				goto IL_00e1;
 			}
 
-IL_0066_1:
+IL_007e_1:
+			{
+			}
+
+IL_007f_1:
 			{
 				//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/GazeInputManager.cs:45>
-				bool L_9;
-				L_9 = Enumerator_MoveNext_mFAC408E08BBD06FE731A9E84F5E79461F23EACBC((&V_1), Enumerator_MoveNext_mFAC408E08BBD06FE731A9E84F5E79461F23EACBC_RuntimeMethod_var);
-				if (L_9)
+				bool L_12;
+				L_12 = Enumerator_MoveNext_mFAC408E08BBD06FE731A9E84F5E79461F23EACBC((&V_2), Enumerator_MoveNext_mFAC408E08BBD06FE731A9E84F5E79461F23EACBC_RuntimeMethod_var);
+				if (L_12)
 				{
-					goto IL_003a_1;
+					goto IL_0047_1;
 				}
 			}
 			{
-				goto IL_007f;
+				goto IL_0099;
 			}
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -8544,37 +9102,37 @@ IL_0066_1:
 		}
 	}
 
-IL_007f:
+IL_0099:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/GazeInputManager.cs:55>
-		String_t* L_10;
-		L_10 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral08922C02E680D90FAAB0862833A88225C5A1F397, __this, NULL);
+		String_t* L_13;
+		L_13 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral08922C02E680D90FAAB0862833A88225C5A1F397, __this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogWarning_m23033D7E2F0F298BE465B7F3A63CDF40A4EB70EB(L_10, __this, NULL);
+		Debug_LogWarning_m23033D7E2F0F298BE465B7F3A63CDF40A4EB70EB(L_13, __this, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/GazeInputManager.cs:57>
-		Action_1_tFAB0B519749BBE2B7AAD946105FAE8116636A8BC* L_11 = (Action_1_tFAB0B519749BBE2B7AAD946105FAE8116636A8BC*)il2cpp_codegen_object_new(Action_1_tFAB0B519749BBE2B7AAD946105FAE8116636A8BC_il2cpp_TypeInfo_var);
-		Action_1__ctor_m9EFC6656FE579E4D72FFCA991DE5860FA28DD71E(L_11, __this, (intptr_t)((void*)GazeInputManager_OnDeviceConnected_mFD98427178DBDAF1C7B406FEA28161D3186F2E68_RuntimeMethod_var), NULL);
-		InputDevices_add_deviceConnected_m0329DBAE47CA4A20778F7DCBA470FCF9A672E9C9(L_11, NULL);
+		Action_1_tFAB0B519749BBE2B7AAD946105FAE8116636A8BC* L_14 = (Action_1_tFAB0B519749BBE2B7AAD946105FAE8116636A8BC*)il2cpp_codegen_object_new(Action_1_tFAB0B519749BBE2B7AAD946105FAE8116636A8BC_il2cpp_TypeInfo_var);
+		Action_1__ctor_m9EFC6656FE579E4D72FFCA991DE5860FA28DD71E(L_14, __this, (intptr_t)((void*)GazeInputManager_OnDeviceConnected_mFD98427178DBDAF1C7B406FEA28161D3186F2E68_RuntimeMethod_var), NULL);
+		InputDevices_add_deviceConnected_m0329DBAE47CA4A20778F7DCBA470FCF9A672E9C9(L_14, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/GazeInputManager.cs:58>
-		Action_2_tB79528C85CFEF7DFF52C575DDAA398D2FE6BC333* L_12 = (Action_2_tB79528C85CFEF7DFF52C575DDAA398D2FE6BC333*)il2cpp_codegen_object_new(Action_2_tB79528C85CFEF7DFF52C575DDAA398D2FE6BC333_il2cpp_TypeInfo_var);
-		Action_2__ctor_m23A4911D82F290811EDC6BFC315C339857526804(L_12, __this, (intptr_t)((void*)GazeInputManager_OnDeviceChange_m5A5EA7E87A46CAEC0CA21EA476B0DAEBB8F2885E_RuntimeMethod_var), NULL);
+		Action_2_tB79528C85CFEF7DFF52C575DDAA398D2FE6BC333* L_15 = (Action_2_tB79528C85CFEF7DFF52C575DDAA398D2FE6BC333*)il2cpp_codegen_object_new(Action_2_tB79528C85CFEF7DFF52C575DDAA398D2FE6BC333_il2cpp_TypeInfo_var);
+		Action_2__ctor_m23A4911D82F290811EDC6BFC315C339857526804(L_15, __this, (intptr_t)((void*)GazeInputManager_OnDeviceChange_m5A5EA7E87A46CAEC0CA21EA476B0DAEBB8F2885E_RuntimeMethod_var), NULL);
 		il2cpp_codegen_runtime_class_init_inline(InputSystem_t4120CA4FE7DCFD56AF9391933FC3F1F485350164_il2cpp_TypeInfo_var);
-		InputSystem_add_onDeviceChange_mC1BAF8DE08B2B3F6D0A98D80AE1E4FF5531C60FA(L_12, NULL);
+		InputSystem_add_onDeviceChange_mC1BAF8DE08B2B3F6D0A98D80AE1E4FF5531C60FA(L_15, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/GazeInputManager.cs:60>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13;
-		L_13 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
-		bool L_14 = __this->___m_FallbackIfEyeTrackingUnavailable;
-		NullCheck(L_13);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_13, L_14, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16;
+		L_16 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		bool L_17 = __this->___m_FallbackIfEyeTrackingUnavailable;
+		NullCheck(L_16);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_16, L_17, NULL);
 	}
 
-IL_00c3:
+IL_00e1:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/GazeInputManager.cs:61>
 		return;
 	}
 }
-// Method Definition Index: 75170
+// Method Definition Index: 93617
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GazeInputManager_OnDestroy_m3D9C35EE01B4439AE17459009DD257CC22B45A4A (GazeInputManager_t76600ACADAE6718BABD1166EBED065FFD8C90C83* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8601,7 +9159,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GazeInputManager_OnDestroy_m3D9C35EE01B4
 		return;
 	}
 }
-// Method Definition Index: 75171
+// Method Definition Index: 93618
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GazeInputManager_OnDeviceConnected_mFD98427178DBDAF1C7B406FEA28161D3186F2E68 (GazeInputManager_t76600ACADAE6718BABD1166EBED065FFD8C90C83* __this, InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD ___0_inputDevice, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8611,12 +9169,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GazeInputManager_OnDeviceConnected_mFD98
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCAC9FA4EA913C7FEEEFEEA8D8C3FEF0ADF872886);
 		s_Il2CppMethodInitialized = true;
 	}
+	bool V_0 = false;
+	int32_t G_B3_0 = 0;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/GazeInputManager.cs:74>
 		bool L_0 = __this->___m_EyeTrackingDeviceFound;
 		if (L_0)
 		{
-			goto IL_0022;
+			goto IL_0026;
 		}
 	}
 	{
@@ -8625,19 +9185,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GazeInputManager_OnDeviceConnected_mFD98
 		uint32_t L_2 = L_1;
 		int32_t L_3 = ((int32_t)16);
 		bool L_4 = il2cpp_codegen_enum_has_flag((uint32_t)L_2, (uint32_t)L_3);
-		if (L_4)
+		G_B3_0 = ((((int32_t)L_4) == ((int32_t)0))? 1 : 0);
+		goto IL_0027;
+	}
+
+IL_0026:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_0027:
+	{
+		V_0 = (bool)G_B3_0;
+		bool L_5 = V_0;
+		if (!L_5)
 		{
-			goto IL_0023;
+			goto IL_002d;
 		}
 	}
-
-IL_0022:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/GazeInputManager.cs:75>
-		return;
+		goto IL_004d;
 	}
 
-IL_0023:
+IL_002d:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/GazeInputManager.cs:77>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
@@ -8645,15 +9216,19 @@ IL_0023:
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/GazeInputManager.cs:78>
 		__this->___m_EyeTrackingDeviceFound = (bool)1;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/GazeInputManager.cs:79>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
-		L_5 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
-		NullCheck(L_5);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)1, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
+		L_6 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		NullCheck(L_6);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)1, NULL);
+	}
+
+IL_004d:
+	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/GazeInputManager.cs:80>
 		return;
 	}
 }
-// Method Definition Index: 75172
+// Method Definition Index: 93619
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GazeInputManager_OnDeviceChange_m5A5EA7E87A46CAEC0CA21EA476B0DAEBB8F2885E (GazeInputManager_t76600ACADAE6718BABD1166EBED065FFD8C90C83* __this, InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* ___0_device, int32_t ___1_change, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8664,40 +9239,56 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GazeInputManager_OnDeviceChange_m5A5EA7E
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF35C02D0118C69B6ADE22DDE2F7B35FDD2B1AD7C);
 		s_Il2CppMethodInitialized = true;
 	}
+	bool V_0 = false;
+	bool V_1 = false;
+	int32_t G_B3_0 = 0;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/GazeInputManager.cs:84>
 		bool L_0 = __this->___m_EyeTrackingDeviceFound;
 		if (L_0)
 		{
-			goto IL_000b;
+			goto IL_000f;
 		}
 	}
 	{
 		int32_t L_1 = ___1_change;
-		if (!L_1)
+		G_B3_0 = ((!(((uint32_t)L_1) <= ((uint32_t)0)))? 1 : 0);
+		goto IL_0010;
+	}
+
+IL_000f:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_0010:
+	{
+		V_0 = (bool)G_B3_0;
+		bool L_2 = V_0;
+		if (!L_2)
 		{
-			goto IL_000c;
+			goto IL_0016;
 		}
 	}
-
-IL_000b:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/GazeInputManager.cs:85>
-		return;
+		goto IL_004c;
 	}
 
-IL_000c:
+IL_0016:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/GazeInputManager.cs:87>
-		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_2 = ___0_device;
-		NullCheck(L_2);
-		String_t* L_3;
-		L_3 = InputControl_get_layout_mE6054F87BB94A1F1D06355E137A1840B2EFF7971(L_2, NULL);
-		bool L_4;
-		L_4 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_3, _stringLiteralF35C02D0118C69B6ADE22DDE2F7B35FDD2B1AD7C, NULL);
-		if (!L_4)
+		InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* L_3 = ___0_device;
+		NullCheck(L_3);
+		String_t* L_4;
+		L_4 = InputControl_get_layout_mE6054F87BB94A1F1D06355E137A1840B2EFF7971(L_3, NULL);
+		bool L_5;
+		L_5 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_4, _stringLiteralF35C02D0118C69B6ADE22DDE2F7B35FDD2B1AD7C, NULL);
+		V_1 = L_5;
+		bool L_6 = V_1;
+		if (!L_6)
 		{
-			goto IL_003c;
+			goto IL_004c;
 		}
 	}
 	{
@@ -8707,19 +9298,19 @@ IL_000c:
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/GazeInputManager.cs:90>
 		__this->___m_EyeTrackingDeviceFound = (bool)1;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/GazeInputManager.cs:91>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
-		L_5 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
-		NullCheck(L_5);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)1, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
+		L_7 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		NullCheck(L_7);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_7, (bool)1, NULL);
 	}
 
-IL_003c:
+IL_004c:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/GazeInputManager.cs:93>
 		return;
 	}
 }
-// Method Definition Index: 75173
+// Method Definition Index: 93620
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GazeInputManager__ctor_m745DE4041AB26B99172061A4E8050A0FD507BEB8 (GazeInputManager_t76600ACADAE6718BABD1166EBED065FFD8C90C83* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8737,7 +9328,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GazeInputManager__ctor_m745DE4041AB26B99
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75174
+// Method Definition Index: 93621
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShaderContainer__ctor_mF29C007F2040D9962D634F2759B88010EAF49D27 (ShaderContainer_t5449FFD0589156259FBD0A40C97956BAB7A967C1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8770,15 +9361,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShaderContainer__ctor_mF29C007F2040D9962
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75175
+// Method Definition Index: 93622
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialPipelineHandler_AutoRefreshPipelineShaders_mBC841CD4975F098DAD78A5DE47C05DE3FCEF9DAD (MaterialPipelineHandler_t0FF80ADB33BB30721BC1DF67A7F59847C0582985* __this, const RuntimeMethod* method) 
 {
+	bool V_0 = false;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/MaterialPipelineHandler.cs:80>
 		bool L_0 = __this->___m_AutoRefreshShaders;
-		if (!L_0)
+		V_0 = L_0;
+		bool L_1 = V_0;
+		if (!L_1)
 		{
-			goto IL_000e;
+			goto IL_0012;
 		}
 	}
 	{
@@ -8786,13 +9380,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialPipelineHandler_AutoRefreshPipel
 		MaterialPipelineHandler_SetPipelineShaders_mEF3C7714BCC13EEB99DD4D0AFF65BBB1C91AEF3E(__this, NULL);
 	}
 
-IL_000e:
+IL_0012:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/MaterialPipelineHandler.cs:82>
 		return;
 	}
 }
-// Method Definition Index: 75176
+// Method Definition Index: 93623
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialPipelineHandler_SetPipelineShaders_mEF3C7714BCC13EEB99DD4D0AFF65BBB1C91AEF3E (MaterialPipelineHandler_t0FF80ADB33BB30721BC1DF67A7F59847C0582985* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8807,248 +9401,294 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialPipelineHandler_SetPipelineShade
 		s_Il2CppMethodInitialized = true;
 	}
 	bool V_0 = false;
-	Enumerator_t1B566B4B8021293BDA76FB2466677DF975ACB8DF V_1;
-	memset((&V_1), 0, sizeof(V_1));
-	ShaderContainer_t5449FFD0589156259FBD0A40C97956BAB7A967C1* V_2 = NULL;
-	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* V_3 = NULL;
+	bool V_1 = false;
+	Enumerator_t1B566B4B8021293BDA76FB2466677DF975ACB8DF V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	ShaderContainer_t5449FFD0589156259FBD0A40C97956BAB7A967C1* V_3 = NULL;
 	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* V_4 = NULL;
 	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* V_5 = NULL;
-	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* G_B8_0 = NULL;
-	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* G_B11_0 = NULL;
+	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* V_6 = NULL;
+	bool V_7 = false;
+	bool V_8 = false;
+	bool V_9 = false;
+	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* G_B9_0 = NULL;
+	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* G_B12_0 = NULL;
+	int32_t G_B16_0 = 0;
+	int32_t G_B22_0 = 0;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/MaterialPipelineHandler.cs:89>
 		List_1_tAD47FE510B94D41F2CC47130BE91C52577397DD8* L_0 = __this->___m_ShaderContainers;
-		if (L_0)
+		V_1 = (bool)((((RuntimeObject*)(List_1_tAD47FE510B94D41F2CC47130BE91C52577397DD8*)L_0) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		bool L_1 = V_1;
+		if (!L_1)
 		{
-			goto IL_0009;
+			goto IL_0013;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/MaterialPipelineHandler.cs:90>
-		return;
+		goto IL_012e;
 	}
 
-IL_0009:
+IL_0013:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/MaterialPipelineHandler.cs:92>
 		il2cpp_codegen_runtime_class_init_inline(GraphicsSettings_t01785CE5CB5C5105CB527619AF4D74BEF417EF1A_il2cpp_TypeInfo_var);
-		RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E* L_1;
-		L_1 = GraphicsSettings_get_currentRenderPipeline_mEC94DC23DE4F901D6A629E2DE882982686AF75F1(NULL);
+		RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E* L_2;
+		L_2 = GraphicsSettings_get_currentRenderPipeline_mEC94DC23DE4F901D6A629E2DE882982686AF75F1(NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_2;
-		L_2 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		V_0 = L_2;
+		bool L_3;
+		L_3 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_0 = L_3;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/MaterialPipelineHandler.cs:94>
-		List_1_tAD47FE510B94D41F2CC47130BE91C52577397DD8* L_3 = __this->___m_ShaderContainers;
-		NullCheck(L_3);
-		Enumerator_t1B566B4B8021293BDA76FB2466677DF975ACB8DF L_4;
-		L_4 = List_1_GetEnumerator_mEC725D71089D3258528F69087BB3D275111F60C8(L_3, List_1_GetEnumerator_mEC725D71089D3258528F69087BB3D275111F60C8_RuntimeMethod_var);
-		V_1 = L_4;
+		List_1_tAD47FE510B94D41F2CC47130BE91C52577397DD8* L_4 = __this->___m_ShaderContainers;
+		NullCheck(L_4);
+		Enumerator_t1B566B4B8021293BDA76FB2466677DF975ACB8DF L_5;
+		L_5 = List_1_GetEnumerator_mEC725D71089D3258528F69087BB3D275111F60C8(L_4, List_1_GetEnumerator_mEC725D71089D3258528F69087BB3D275111F60C8_RuntimeMethod_var);
+		V_2 = L_5;
 	}
 	{
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_00f2:
+FINALLY_011f:
 			{
-				Enumerator_Dispose_m8E4F22D5A95CD8650AE763B2C1E32275D765919E((&V_1), Enumerator_Dispose_m8E4F22D5A95CD8650AE763B2C1E32275D765919E_RuntimeMethod_var);
+				Enumerator_Dispose_m8E4F22D5A95CD8650AE763B2C1E32275D765919E((&V_2), Enumerator_Dispose_m8E4F22D5A95CD8650AE763B2C1E32275D765919E_RuntimeMethod_var);
 				return;
 			}
 		});
 		try
 		{
 			{
-				goto IL_00e4_1;
+				goto IL_0111_1;
 			}
 
-IL_0026_1:
+IL_0031_1:
 			{
 				//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/MaterialPipelineHandler.cs:94>
-				ShaderContainer_t5449FFD0589156259FBD0A40C97956BAB7A967C1* L_5;
-				L_5 = Enumerator_get_Current_m108DACDDBBFB5E6EED33A49351BE602DEEC6C44E_inline((&V_1), Enumerator_get_Current_m108DACDDBBFB5E6EED33A49351BE602DEEC6C44E_RuntimeMethod_var);
-				V_2 = L_5;
+				ShaderContainer_t5449FFD0589156259FBD0A40C97956BAB7A967C1* L_6;
+				L_6 = Enumerator_get_Current_m108DACDDBBFB5E6EED33A49351BE602DEEC6C44E_inline((&V_2), Enumerator_get_Current_m108DACDDBBFB5E6EED33A49351BE602DEEC6C44E_RuntimeMethod_var);
+				V_3 = L_6;
 				//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/MaterialPipelineHandler.cs:96>
-				ShaderContainer_t5449FFD0589156259FBD0A40C97956BAB7A967C1* L_6 = V_2;
-				NullCheck(L_6);
-				Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_7 = L_6->___material;
+				ShaderContainer_t5449FFD0589156259FBD0A40C97956BAB7A967C1* L_7 = V_3;
+				NullCheck(L_7);
+				Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_8 = L_7->___material;
 				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-				bool L_8;
-				L_8 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_7, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-				if (L_8)
+				bool L_9;
+				L_9 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+				V_7 = L_9;
+				bool L_10 = V_7;
+				if (!L_10)
 				{
-					goto IL_00e4_1;
+					goto IL_0051_1;
 				}
 			}
+			{
+				//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/MaterialPipelineHandler.cs:97>
+				goto IL_0111_1;
+			}
+
+IL_0051_1:
 			{
 				//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/MaterialPipelineHandler.cs:100>
-				ShaderContainer_t5449FFD0589156259FBD0A40C97956BAB7A967C1* L_9 = V_2;
-				NullCheck(L_9);
-				bool L_10 = L_9->___useBuiltinShaderName;
-				if (L_10)
-				{
-					goto IL_004f_1;
-				}
-			}
-			{
-				ShaderContainer_t5449FFD0589156259FBD0A40C97956BAB7A967C1* L_11 = V_2;
+				ShaderContainer_t5449FFD0589156259FBD0A40C97956BAB7A967C1* L_11 = V_3;
 				NullCheck(L_11);
-				Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_12 = L_11->___builtInPipelineShader;
-				G_B8_0 = L_12;
-				goto IL_005a_1;
+				bool L_12 = L_11->___useBuiltinShaderName;
+				if (L_12)
+				{
+					goto IL_0061_1;
+				}
 			}
-
-IL_004f_1:
 			{
-				ShaderContainer_t5449FFD0589156259FBD0A40C97956BAB7A967C1* L_13 = V_2;
+				ShaderContainer_t5449FFD0589156259FBD0A40C97956BAB7A967C1* L_13 = V_3;
 				NullCheck(L_13);
-				String_t* L_14 = L_13->___builtInPipelineShaderName;
-				Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_15;
-				L_15 = Shader_Find_m183AA54F78320212DDEC811592F98456898A41C5(L_14, NULL);
-				G_B8_0 = L_15;
+				Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_14 = L_13->___builtInPipelineShader;
+				G_B9_0 = L_14;
+				goto IL_006c_1;
 			}
 
-IL_005a_1:
+IL_0061_1:
 			{
-				V_3 = G_B8_0;
+				ShaderContainer_t5449FFD0589156259FBD0A40C97956BAB7A967C1* L_15 = V_3;
+				NullCheck(L_15);
+				String_t* L_16 = L_15->___builtInPipelineShaderName;
+				Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_17;
+				L_17 = Shader_Find_m183AA54F78320212DDEC811592F98456898A41C5(L_16, NULL);
+				G_B9_0 = L_17;
+			}
+
+IL_006c_1:
+			{
+				V_4 = G_B9_0;
 				//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/MaterialPipelineHandler.cs:101>
-				ShaderContainer_t5449FFD0589156259FBD0A40C97956BAB7A967C1* L_16 = V_2;
-				NullCheck(L_16);
-				bool L_17 = L_16->___useSRPShaderName;
-				if (L_17)
-				{
-					goto IL_006b_1;
-				}
-			}
-			{
-				ShaderContainer_t5449FFD0589156259FBD0A40C97956BAB7A967C1* L_18 = V_2;
+				ShaderContainer_t5449FFD0589156259FBD0A40C97956BAB7A967C1* L_18 = V_3;
 				NullCheck(L_18);
-				Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_19 = L_18->___scriptableRenderPipelineShader;
-				G_B11_0 = L_19;
-				goto IL_0076_1;
-			}
-
-IL_006b_1:
-			{
-				ShaderContainer_t5449FFD0589156259FBD0A40C97956BAB7A967C1* L_20 = V_2;
-				NullCheck(L_20);
-				String_t* L_21 = L_20->___scriptableRenderPipelineShaderName;
-				Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_22;
-				L_22 = Shader_Find_m183AA54F78320212DDEC811592F98456898A41C5(L_21, NULL);
-				G_B11_0 = L_22;
-			}
-
-IL_0076_1:
-			{
-				V_4 = G_B11_0;
-				//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/MaterialPipelineHandler.cs:104>
-				ShaderContainer_t5449FFD0589156259FBD0A40C97956BAB7A967C1* L_23 = V_2;
-				NullCheck(L_23);
-				Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_24 = L_23->___material;
-				NullCheck(L_24);
-				Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_25;
-				L_25 = Material_get_shader_m8B0C11AE6F2AD7DE30AF52D3195EB716F7A71983(L_24, NULL);
-				V_5 = L_25;
-				//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/MaterialPipelineHandler.cs:107>
-				bool L_26 = V_0;
-				if (!L_26)
+				bool L_19 = L_18->___useSRPShaderName;
+				if (L_19)
 				{
-					goto IL_00b4_1;
+					goto IL_007e_1;
 				}
 			}
 			{
-				Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_27 = V_3;
-				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-				bool L_28;
-				L_28 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_27, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+				ShaderContainer_t5449FFD0589156259FBD0A40C97956BAB7A967C1* L_20 = V_3;
+				NullCheck(L_20);
+				Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_21 = L_20->___scriptableRenderPipelineShader;
+				G_B12_0 = L_21;
+				goto IL_0089_1;
+			}
+
+IL_007e_1:
+			{
+				ShaderContainer_t5449FFD0589156259FBD0A40C97956BAB7A967C1* L_22 = V_3;
+				NullCheck(L_22);
+				String_t* L_23 = L_22->___scriptableRenderPipelineShaderName;
+				Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_24;
+				L_24 = Shader_Find_m183AA54F78320212DDEC811592F98456898A41C5(L_23, NULL);
+				G_B12_0 = L_24;
+			}
+
+IL_0089_1:
+			{
+				V_5 = G_B12_0;
+				//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/MaterialPipelineHandler.cs:104>
+				ShaderContainer_t5449FFD0589156259FBD0A40C97956BAB7A967C1* L_25 = V_3;
+				NullCheck(L_25);
+				Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_26 = L_25->___material;
+				NullCheck(L_26);
+				Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_27;
+				L_27 = Material_get_shader_m8B0C11AE6F2AD7DE30AF52D3195EB716F7A71983(L_26, NULL);
+				V_6 = L_27;
+				//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/MaterialPipelineHandler.cs:107>
+				bool L_28 = V_0;
 				if (!L_28)
 				{
-					goto IL_00b4_1;
+					goto IL_00b0_1;
 				}
 			}
 			{
-				Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_29 = V_5;
-				Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_30 = V_3;
+				Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_29 = V_4;
 				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-				bool L_31;
-				L_31 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_29, L_30, NULL);
-				if (!L_31)
+				bool L_30;
+				L_30 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_29, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+				if (!L_30)
 				{
-					goto IL_00b4_1;
+					goto IL_00b0_1;
+				}
+			}
+			{
+				Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_31 = V_6;
+				Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_32 = V_4;
+				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+				bool L_33;
+				L_33 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_31, L_32, NULL);
+				G_B16_0 = ((int32_t)(L_33));
+				goto IL_00b1_1;
+			}
+
+IL_00b0_1:
+			{
+				G_B16_0 = 0;
+			}
+
+IL_00b1_1:
+			{
+				V_8 = (bool)G_B16_0;
+				bool L_34 = V_8;
+				if (!L_34)
+				{
+					goto IL_00d5_1;
 				}
 			}
 			{
 				//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/MaterialPipelineHandler.cs:109>
-				ShaderContainer_t5449FFD0589156259FBD0A40C97956BAB7A967C1* L_32 = V_2;
-				NullCheck(L_32);
-				Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_33 = L_32->___material;
-				Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_34 = V_3;
-				NullCheck(L_33);
-				Material_set_shader_mBD3A0D9AB14DE2F7CD5F2775E9AD58E15424C171(L_33, L_34, NULL);
-				//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/MaterialPipelineHandler.cs:110>
-				ShaderContainer_t5449FFD0589156259FBD0A40C97956BAB7A967C1* L_35 = V_2;
+				ShaderContainer_t5449FFD0589156259FBD0A40C97956BAB7A967C1* L_35 = V_3;
 				NullCheck(L_35);
 				Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_36 = L_35->___material;
-				MaterialPipelineHandler_MarkMaterialModified_mF5668D7CEF7CAA2E7DCBC7F31934D8D31000E6B9(L_36, NULL);
-				goto IL_00e4_1;
+				Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_37 = V_4;
+				NullCheck(L_36);
+				Material_set_shader_mBD3A0D9AB14DE2F7CD5F2775E9AD58E15424C171(L_36, L_37, NULL);
+				//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/MaterialPipelineHandler.cs:110>
+				ShaderContainer_t5449FFD0589156259FBD0A40C97956BAB7A967C1* L_38 = V_3;
+				NullCheck(L_38);
+				Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_39 = L_38->___material;
+				MaterialPipelineHandler_MarkMaterialModified_mF5668D7CEF7CAA2E7DCBC7F31934D8D31000E6B9(L_39, NULL);
+				goto IL_0110_1;
 			}
 
-IL_00b4_1:
+IL_00d5_1:
 			{
 				//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/MaterialPipelineHandler.cs:112>
-				bool L_37 = V_0;
-				if (L_37)
+				bool L_40 = V_0;
+				if (L_40)
 				{
-					goto IL_00e4_1;
+					goto IL_00ed_1;
 				}
 			}
 			{
-				Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_38 = V_4;
-				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-				bool L_39;
-				L_39 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_38, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-				if (!L_39)
-				{
-					goto IL_00e4_1;
-				}
-			}
-			{
-				Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_40 = V_5;
-				Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_41 = V_4;
+				Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_41 = V_5;
 				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 				bool L_42;
-				L_42 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_40, L_41, NULL);
+				L_42 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_41, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 				if (!L_42)
 				{
-					goto IL_00e4_1;
+					goto IL_00ed_1;
+				}
+			}
+			{
+				Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_43 = V_6;
+				Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_44 = V_5;
+				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+				bool L_45;
+				L_45 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_43, L_44, NULL);
+				G_B22_0 = ((int32_t)(L_45));
+				goto IL_00ee_1;
+			}
+
+IL_00ed_1:
+			{
+				G_B22_0 = 0;
+			}
+
+IL_00ee_1:
+			{
+				V_9 = (bool)G_B22_0;
+				bool L_46 = V_9;
+				if (!L_46)
+				{
+					goto IL_0110_1;
 				}
 			}
 			{
 				//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/MaterialPipelineHandler.cs:114>
-				ShaderContainer_t5449FFD0589156259FBD0A40C97956BAB7A967C1* L_43 = V_2;
-				NullCheck(L_43);
-				Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_44 = L_43->___material;
-				Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_45 = V_4;
-				NullCheck(L_44);
-				Material_set_shader_mBD3A0D9AB14DE2F7CD5F2775E9AD58E15424C171(L_44, L_45, NULL);
+				ShaderContainer_t5449FFD0589156259FBD0A40C97956BAB7A967C1* L_47 = V_3;
+				NullCheck(L_47);
+				Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_48 = L_47->___material;
+				Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_49 = V_5;
+				NullCheck(L_48);
+				Material_set_shader_mBD3A0D9AB14DE2F7CD5F2775E9AD58E15424C171(L_48, L_49, NULL);
 				//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/MaterialPipelineHandler.cs:115>
-				ShaderContainer_t5449FFD0589156259FBD0A40C97956BAB7A967C1* L_46 = V_2;
-				NullCheck(L_46);
-				Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_47 = L_46->___material;
-				MaterialPipelineHandler_MarkMaterialModified_mF5668D7CEF7CAA2E7DCBC7F31934D8D31000E6B9(L_47, NULL);
+				ShaderContainer_t5449FFD0589156259FBD0A40C97956BAB7A967C1* L_50 = V_3;
+				NullCheck(L_50);
+				Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_51 = L_50->___material;
+				MaterialPipelineHandler_MarkMaterialModified_mF5668D7CEF7CAA2E7DCBC7F31934D8D31000E6B9(L_51, NULL);
 			}
 
-IL_00e4_1:
+IL_0110_1:
+			{
+			}
+
+IL_0111_1:
 			{
 				//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/MaterialPipelineHandler.cs:94>
-				bool L_48;
-				L_48 = Enumerator_MoveNext_m6A20E0100D9D352AF8D1D6B6ACB174E846DCF156((&V_1), Enumerator_MoveNext_m6A20E0100D9D352AF8D1D6B6ACB174E846DCF156_RuntimeMethod_var);
-				if (L_48)
+				bool L_52;
+				L_52 = Enumerator_MoveNext_m6A20E0100D9D352AF8D1D6B6ACB174E846DCF156((&V_2), Enumerator_MoveNext_m6A20E0100D9D352AF8D1D6B6ACB174E846DCF156_RuntimeMethod_var);
+				if (L_52)
 				{
-					goto IL_0026_1;
+					goto IL_0031_1;
 				}
 			}
 			{
-				goto IL_0100;
+				goto IL_012e;
 			}
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -9057,13 +9697,13 @@ IL_00e4_1:
 		}
 	}
 
-IL_0100:
+IL_012e:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/MaterialPipelineHandler.cs:118>
 		return;
 	}
 }
-// Method Definition Index: 75177
+// Method Definition Index: 93624
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialPipelineHandler_MarkMaterialModified_mF5668D7CEF7CAA2E7DCBC7F31934D8D31000E6B9 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, const RuntimeMethod* method) 
 {
 	{
@@ -9071,7 +9711,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialPipelineHandler_MarkMaterialModi
 		return;
 	}
 }
-// Method Definition Index: 75178
+// Method Definition Index: 93625
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialPipelineHandler__ctor_mD952562BA8163091463DB0F248CED8BA1527F265 (MaterialPipelineHandler_t0FF80ADB33BB30721BC1DF67A7F59847C0582985* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9089,18 +9729,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialPipelineHandler__ctor_mD952562BA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75179
+// Method Definition Index: 93626
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ObjectSpawner_get_cameraToFace_m99ED804DC1AEAFF1FA3BE5D9CB96E15C17A907B8 (ObjectSpawner_t5ACB5F84845F9E874424BADB585AB17DD4644111* __this, const RuntimeMethod* method) 
 {
+	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* V_0 = NULL;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ObjectSpawner.cs:23>
 		ObjectSpawner_EnsureFacingCamera_mDE91C9175F12CB11CDED0B3C82D5D68ED9CAB7B5(__this, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ObjectSpawner.cs:24>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0 = __this->___m_CameraToFace;
-		return L_0;
+		V_0 = L_0;
+		goto IL_0011;
+	}
+
+IL_0011:
+	{
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ObjectSpawner.cs:25>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_1 = V_0;
+		return L_1;
 	}
 }
-// Method Definition Index: 75180
+// Method Definition Index: 93627
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectSpawner_set_cameraToFace_m13429AE345196ACC129BFC53BA7DEEC6627F445C (ObjectSpawner_t5ACB5F84845F9E874424BADB585AB17DD4644111* __this, Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -9111,7 +9760,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectSpawner_set_cameraToFace_m13429AE3
 		return;
 	}
 }
-// Method Definition Index: 75181
+// Method Definition Index: 93628
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ObjectSpawner_get_objectPrefabs_mC013B08B69C29F13A750E8715FAB01E8681320CF (ObjectSpawner_t5ACB5F84845F9E874424BADB585AB17DD4644111* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9120,7 +9769,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tB951CE80B58D1BF9650862451D8DAD8C231F2
 		return L_0;
 	}
 }
-// Method Definition Index: 75182
+// Method Definition Index: 93629
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectSpawner_set_objectPrefabs_m7C706F87CB6076934AA85A8DC02C11C94DBC2DE3 (ObjectSpawner_t5ACB5F84845F9E874424BADB585AB17DD4644111* __this, List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -9131,7 +9780,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectSpawner_set_objectPrefabs_m7C706F8
 		return;
 	}
 }
-// Method Definition Index: 75183
+// Method Definition Index: 93630
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ObjectSpawner_get_spawnVisualizationPrefab_m005CB7E8829438D62559966C3175138AF6B8E7E2 (ObjectSpawner_t5ACB5F84845F9E874424BADB585AB17DD4644111* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9140,7 +9789,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		return L_0;
 	}
 }
-// Method Definition Index: 75184
+// Method Definition Index: 93631
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectSpawner_set_spawnVisualizationPrefab_mD4A5C8D799FCC9B21228E6055795C373AC896842 (ObjectSpawner_t5ACB5F84845F9E874424BADB585AB17DD4644111* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -9151,7 +9800,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectSpawner_set_spawnVisualizationPref
 		return;
 	}
 }
-// Method Definition Index: 75185
+// Method Definition Index: 93632
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObjectSpawner_get_spawnOptionIndex_m8B127FEF82FD7AAB77E7D4F6EE3E869E25EFB254 (ObjectSpawner_t5ACB5F84845F9E874424BADB585AB17DD4644111* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9160,7 +9809,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ObjectSpawner_get_spawnOptionIndex_m8
 		return L_0;
 	}
 }
-// Method Definition Index: 75186
+// Method Definition Index: 93633
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectSpawner_set_spawnOptionIndex_m5984E7B1712BB73A2E982FE4487FCA033A922711 (ObjectSpawner_t5ACB5F84845F9E874424BADB585AB17DD4644111* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -9170,7 +9819,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectSpawner_set_spawnOptionIndex_m5984
 		return;
 	}
 }
-// Method Definition Index: 75187
+// Method Definition Index: 93634
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ObjectSpawner_get_isSpawnOptionRandomized_m332805694C4805511AD6D8124E6038E3A5D59C2B (ObjectSpawner_t5ACB5F84845F9E874424BADB585AB17DD4644111* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9179,12 +9828,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ObjectSpawner_get_isSpawnOptionRandomize
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m4C37ED2D928D63B80F55AF434730C2D64EEB9F22_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	int32_t G_B3_0 = 0;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ObjectSpawner.cs:78>
 		int32_t L_0 = __this->___m_SpawnOptionIndex;
 		if ((((int32_t)L_0) < ((int32_t)0)))
 		{
-			goto IL_0020;
+			goto IL_0021;
 		}
 	}
 	{
@@ -9193,15 +9843,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ObjectSpawner_get_isSpawnOptionRandomize
 		NullCheck(L_2);
 		int32_t L_3;
 		L_3 = List_1_get_Count_m4C37ED2D928D63B80F55AF434730C2D64EEB9F22_inline(L_2, List_1_get_Count_m4C37ED2D928D63B80F55AF434730C2D64EEB9F22_RuntimeMethod_var);
-		return (bool)((((int32_t)((((int32_t)L_1) < ((int32_t)L_3))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		G_B3_0 = ((((int32_t)((((int32_t)L_1) < ((int32_t)L_3))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_0022;
 	}
 
-IL_0020:
+IL_0021:
 	{
-		return (bool)1;
+		G_B3_0 = 1;
+	}
+
+IL_0022:
+	{
+		return (bool)G_B3_0;
 	}
 }
-// Method Definition Index: 75188
+// Method Definition Index: 93635
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ObjectSpawner_get_onlySpawnInView_m4AE6CAF69146EE5F55128F520ED6C77FBF33B376 (ObjectSpawner_t5ACB5F84845F9E874424BADB585AB17DD4644111* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9210,7 +9866,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ObjectSpawner_get_onlySpawnInView_m4AE6C
 		return L_0;
 	}
 }
-// Method Definition Index: 75189
+// Method Definition Index: 93636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectSpawner_set_onlySpawnInView_m39467C97467506B3012A050F3849BC896ECFE07A (ObjectSpawner_t5ACB5F84845F9E874424BADB585AB17DD4644111* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -9220,7 +9876,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectSpawner_set_onlySpawnInView_m39467
 		return;
 	}
 }
-// Method Definition Index: 75190
+// Method Definition Index: 93637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ObjectSpawner_get_viewportPeriphery_m9D81A0039316F881F4F12D8F42E67ED86907DF8E (ObjectSpawner_t5ACB5F84845F9E874424BADB585AB17DD4644111* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9229,7 +9885,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ObjectSpawner_get_viewportPeriphery_m9D
 		return L_0;
 	}
 }
-// Method Definition Index: 75191
+// Method Definition Index: 93638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectSpawner_set_viewportPeriphery_mF79358BA74C413586E09E1DD628FC9A36EA948BA (ObjectSpawner_t5ACB5F84845F9E874424BADB585AB17DD4644111* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -9239,7 +9895,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectSpawner_set_viewportPeriphery_mF79
 		return;
 	}
 }
-// Method Definition Index: 75192
+// Method Definition Index: 93639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ObjectSpawner_get_applyRandomAngleAtSpawn_mEEF19E6B8A0232670426D51CE44AFD5C7D721289 (ObjectSpawner_t5ACB5F84845F9E874424BADB585AB17DD4644111* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9248,7 +9904,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ObjectSpawner_get_applyRandomAngleAtSpaw
 		return L_0;
 	}
 }
-// Method Definition Index: 75193
+// Method Definition Index: 93640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectSpawner_set_applyRandomAngleAtSpawn_m249E985B18D47F1280DA892475C0F8A743A172C8 (ObjectSpawner_t5ACB5F84845F9E874424BADB585AB17DD4644111* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -9258,7 +9914,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectSpawner_set_applyRandomAngleAtSpaw
 		return;
 	}
 }
-// Method Definition Index: 75194
+// Method Definition Index: 93641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ObjectSpawner_get_spawnAngleRange_mA5AB99C204A4669D2805081FF2B27F2C6CFB97B6 (ObjectSpawner_t5ACB5F84845F9E874424BADB585AB17DD4644111* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9267,7 +9923,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ObjectSpawner_get_spawnAngleRange_mA5AB
 		return L_0;
 	}
 }
-// Method Definition Index: 75195
+// Method Definition Index: 93642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectSpawner_set_spawnAngleRange_m5CA22E8E5559EAE3CAFED5E7E5D114DFD5E22EFE (ObjectSpawner_t5ACB5F84845F9E874424BADB585AB17DD4644111* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -9277,7 +9933,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectSpawner_set_spawnAngleRange_m5CA22
 		return;
 	}
 }
-// Method Definition Index: 75196
+// Method Definition Index: 93643
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ObjectSpawner_get_spawnAsChildren_m4498447AB9BD7DA4F8B6B31E2C8FF0F3A25D6483 (ObjectSpawner_t5ACB5F84845F9E874424BADB585AB17DD4644111* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9286,7 +9942,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ObjectSpawner_get_spawnAsChildren_m44984
 		return L_0;
 	}
 }
-// Method Definition Index: 75197
+// Method Definition Index: 93644
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectSpawner_set_spawnAsChildren_mF600D54942D35CF9B9BF4A6F8D53843AC65EDD32 (ObjectSpawner_t5ACB5F84845F9E874424BADB585AB17DD4644111* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -9296,7 +9952,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectSpawner_set_spawnAsChildren_mF600D
 		return;
 	}
 }
-// Method Definition Index: 75198
+// Method Definition Index: 93645
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectSpawner_add_objectSpawned_m6283F4141293DABF487C47EE6D77A54E4A7C1808 (ObjectSpawner_t5ACB5F84845F9E874424BADB585AB17DD4644111* __this, Action_1_tFF0F3D982F6CEB68CBA322555CBBEE6AE1D2519C* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9339,7 +9995,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 75199
+// Method Definition Index: 93646
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectSpawner_remove_objectSpawned_mE95E288198D756A164416D64782A9468099DE0B5 (ObjectSpawner_t5ACB5F84845F9E874424BADB585AB17DD4644111* __this, Action_1_tFF0F3D982F6CEB68CBA322555CBBEE6AE1D2519C* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9382,7 +10038,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 75200
+// Method Definition Index: 93647
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectSpawner_Awake_mCFDE2E8399B486248DD536633294AC9627F1B9A8 (ObjectSpawner_t5ACB5F84845F9E874424BADB585AB17DD4644111* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9392,7 +10048,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectSpawner_Awake_mCFDE2E8399B486248DD
 		return;
 	}
 }
-// Method Definition Index: 75201
+// Method Definition Index: 93648
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectSpawner_EnsureFacingCamera_mDE91C9175F12CB11CDED0B3C82D5D68ED9CAB7B5 (ObjectSpawner_t5ACB5F84845F9E874424BADB585AB17DD4644111* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9401,32 +10057,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectSpawner_EnsureFacingCamera_mDE91C9
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	bool V_0 = false;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ObjectSpawner.cs:165>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0 = __this->___m_CameraToFace;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_1)
+		V_0 = L_1;
+		bool L_2 = V_0;
+		if (!L_2)
 		{
-			goto IL_0019;
+			goto IL_001c;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ObjectSpawner.cs:166>
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_2;
-		L_2 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
-		__this->___m_CameraToFace = L_2;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_CameraToFace), (void*)L_2);
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_3;
+		L_3 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
+		__this->___m_CameraToFace = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_CameraToFace), (void*)L_3);
 	}
 
-IL_0019:
+IL_001c:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ObjectSpawner.cs:167>
 		return;
 	}
 }
-// Method Definition Index: 75202
+// Method Definition Index: 93649
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectSpawner_RandomizeSpawnOption_mAAB168851C517000BFFEE2EB598D0DE478BB0FC7 (ObjectSpawner_t5ACB5F84845F9E874424BADB585AB17DD4644111* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9436,7 +10095,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectSpawner_RandomizeSpawnOption_mAAB1
 		return;
 	}
 }
-// Method Definition Index: 75203
+// Method Definition Index: 93650
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ObjectSpawner_TrySpawnObject_mBE0345EF7F3D3EF69F20321A4190214DB09D65B1 (ObjectSpawner_t5ACB5F84845F9E874424BADB585AB17DD4644111* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_spawnPoint, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_spawnNormal, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9454,280 +10113,326 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ObjectSpawner_TrySpawnObject_mBE0345EF7F
 	memset((&V_2), 0, sizeof(V_2));
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_3;
 	memset((&V_3), 0, sizeof(V_3));
-	float V_4 = 0.0f;
-	float V_5 = 0.0f;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_6;
-	memset((&V_6), 0, sizeof(V_6));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	bool V_5 = false;
+	float V_6 = 0.0f;
 	float V_7 = 0.0f;
-	int32_t G_B10_0 = 0;
-	Action_1_tFF0F3D982F6CEB68CBA322555CBBEE6AE1D2519C* G_B18_0 = NULL;
-	Action_1_tFF0F3D982F6CEB68CBA322555CBBEE6AE1D2519C* G_B17_0 = NULL;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_8;
+	memset((&V_8), 0, sizeof(V_8));
+	bool V_9 = false;
+	bool V_10 = false;
+	bool V_11 = false;
+	bool V_12 = false;
+	float V_13 = 0.0f;
+	bool V_14 = false;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_15 = NULL;
+	int32_t G_B7_0 = 0;
+	int32_t G_B13_0 = 0;
+	Action_1_tFF0F3D982F6CEB68CBA322555CBBEE6AE1D2519C* G_B21_0 = NULL;
+	Action_1_tFF0F3D982F6CEB68CBA322555CBBEE6AE1D2519C* G_B20_0 = NULL;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ObjectSpawner.cs:195>
 		bool L_0 = __this->___m_OnlySpawnInView;
-		if (!L_0)
+		V_5 = L_0;
+		bool L_1 = V_5;
+		if (!L_1)
 		{
-			goto IL_0068;
+			goto IL_007f;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ObjectSpawner.cs:197>
-		float L_1 = __this->___m_ViewportPeriphery;
-		V_4 = L_1;
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ObjectSpawner.cs:198>
 		float L_2 = __this->___m_ViewportPeriphery;
-		V_5 = ((float)il2cpp_codegen_subtract((1.0f), L_2));
+		V_6 = L_2;
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ObjectSpawner.cs:198>
+		float L_3 = __this->___m_ViewportPeriphery;
+		V_7 = ((float)il2cpp_codegen_subtract((1.0f), L_3));
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ObjectSpawner.cs:199>
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_3;
-		L_3 = ObjectSpawner_get_cameraToFace_m99ED804DC1AEAFF1FA3BE5D9CB96E15C17A907B8(__this, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_spawnPoint;
-		NullCheck(L_3);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
-		L_5 = Camera_WorldToViewportPoint_m285523443225EDA79BBEF9C9EDD76B99CFED054B(L_3, L_4, NULL);
-		V_6 = L_5;
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_4;
+		L_4 = ObjectSpawner_get_cameraToFace_m99ED804DC1AEAFF1FA3BE5D9CB96E15C17A907B8(__this, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = ___0_spawnPoint;
+		NullCheck(L_4);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
+		L_6 = Camera_WorldToViewportPoint_m285523443225EDA79BBEF9C9EDD76B99CFED054B(L_4, L_5, NULL);
+		V_8 = L_6;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ObjectSpawner.cs:200>
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ObjectSpawner.cs:201>
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = V_6;
-		float L_7 = L_6.___z;
-		if ((((float)L_7) < ((float)(0.0f))))
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = V_8;
+		float L_8 = L_7.___z;
+		if ((((float)L_8) < ((float)(0.0f))))
 		{
-			goto IL_0066;
+			goto IL_006e;
 		}
 	}
 	{
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = V_6;
-		float L_9 = L_8.___x;
-		float L_10 = V_5;
-		if ((((float)L_9) > ((float)L_10)))
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = V_8;
+		float L_10 = L_9.___x;
+		float L_11 = V_7;
+		if ((((float)L_10) > ((float)L_11)))
 		{
-			goto IL_0066;
+			goto IL_006e;
 		}
 	}
 	{
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = V_6;
-		float L_12 = L_11.___x;
-		float L_13 = V_4;
-		if ((((float)L_12) < ((float)L_13)))
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = V_8;
+		float L_13 = L_12.___x;
+		float L_14 = V_6;
+		if ((((float)L_13) < ((float)L_14)))
 		{
-			goto IL_0066;
+			goto IL_006e;
 		}
 	}
 	{
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14 = V_6;
-		float L_15 = L_14.___y;
-		float L_16 = V_5;
-		if ((((float)L_15) > ((float)L_16)))
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15 = V_8;
+		float L_16 = L_15.___y;
+		float L_17 = V_7;
+		if ((((float)L_16) > ((float)L_17)))
 		{
-			goto IL_0066;
+			goto IL_006e;
 		}
 	}
 	{
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = V_6;
-		float L_18 = L_17.___y;
-		float L_19 = V_4;
-		if ((!(((float)L_18) < ((float)L_19))))
-		{
-			goto IL_0068;
-		}
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = V_8;
+		float L_19 = L_18.___y;
+		float L_20 = V_6;
+		G_B7_0 = ((((float)L_19) < ((float)L_20))? 1 : 0);
+		goto IL_006f;
 	}
 
-IL_0066:
+IL_006e:
+	{
+		G_B7_0 = 1;
+	}
+
+IL_006f:
+	{
+		V_9 = (bool)G_B7_0;
+		bool L_21 = V_9;
+		if (!L_21)
+		{
+			goto IL_007e;
+		}
+	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ObjectSpawner.cs:203>
-		return (bool)0;
+		V_10 = (bool)0;
+		goto IL_01ad;
 	}
 
-IL_0068:
+IL_007e:
+	{
+	}
+
+IL_007f:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ObjectSpawner.cs:207>
-		bool L_20;
-		L_20 = ObjectSpawner_get_isSpawnOptionRandomized_m332805694C4805511AD6D8124E6038E3A5D59C2B(__this, NULL);
-		if (L_20)
+		bool L_22;
+		L_22 = ObjectSpawner_get_isSpawnOptionRandomized_m332805694C4805511AD6D8124E6038E3A5D59C2B(__this, NULL);
+		if (L_22)
 		{
-			goto IL_0078;
+			goto IL_008f;
 		}
 	}
 	{
-		int32_t L_21 = __this->___m_SpawnOptionIndex;
-		G_B10_0 = L_21;
-		goto IL_0089;
+		int32_t L_23 = __this->___m_SpawnOptionIndex;
+		G_B13_0 = L_23;
+		goto IL_00a0;
 	}
 
-IL_0078:
+IL_008f:
 	{
-		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_22 = __this->___m_ObjectPrefabs;
-		NullCheck(L_22);
-		int32_t L_23;
-		L_23 = List_1_get_Count_m4C37ED2D928D63B80F55AF434730C2D64EEB9F22_inline(L_22, List_1_get_Count_m4C37ED2D928D63B80F55AF434730C2D64EEB9F22_RuntimeMethod_var);
-		int32_t L_24;
-		L_24 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(0, L_23, NULL);
-		G_B10_0 = L_24;
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_24 = __this->___m_ObjectPrefabs;
+		NullCheck(L_24);
+		int32_t L_25;
+		L_25 = List_1_get_Count_m4C37ED2D928D63B80F55AF434730C2D64EEB9F22_inline(L_24, List_1_get_Count_m4C37ED2D928D63B80F55AF434730C2D64EEB9F22_RuntimeMethod_var);
+		int32_t L_26;
+		L_26 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(0, L_25, NULL);
+		G_B13_0 = L_26;
 	}
 
-IL_0089:
+IL_00a0:
 	{
-		V_0 = G_B10_0;
+		V_0 = G_B13_0;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ObjectSpawner.cs:208>
-		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_25 = __this->___m_ObjectPrefabs;
-		int32_t L_26 = V_0;
-		NullCheck(L_25);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_27;
-		L_27 = List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979(L_25, L_26, List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_27 = __this->___m_ObjectPrefabs;
+		int32_t L_28 = V_0;
+		NullCheck(L_27);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_29;
+		L_29 = List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979(L_27, L_28, List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_28;
-		L_28 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3(L_27, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3_RuntimeMethod_var);
-		V_1 = L_28;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_30;
+		L_30 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3(L_29, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3_RuntimeMethod_var);
+		V_1 = L_30;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ObjectSpawner.cs:209>
-		bool L_29 = __this->___m_SpawnAsChildren;
-		if (!L_29)
+		bool L_31 = __this->___m_SpawnAsChildren;
+		V_11 = L_31;
+		bool L_32 = V_11;
+		if (!L_32)
 		{
-			goto IL_00b5;
+			goto IL_00d1;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ObjectSpawner.cs:210>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_30 = V_1;
-		NullCheck(L_30);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_31;
-		L_31 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_30, NULL);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_32;
-		L_32 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
-		NullCheck(L_31);
-		Transform_set_parent_m9BD5E563B539DD5BEC342736B03F97B38A243234(L_31, L_32, NULL);
-	}
-
-IL_00b5:
-	{
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ObjectSpawner.cs:212>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_33 = V_1;
 		NullCheck(L_33);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_34;
 		L_34 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_33, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_35 = ___0_spawnPoint;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_35;
+		L_35 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_34);
-		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_34, L_35, NULL);
+		Transform_set_parent_m9BD5E563B539DD5BEC342736B03F97B38A243234(L_34, L_35, NULL);
+	}
+
+IL_00d1:
+	{
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ObjectSpawner.cs:212>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_36 = V_1;
+		NullCheck(L_36);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_37;
+		L_37 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_36, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_38 = ___0_spawnPoint;
+		NullCheck(L_37);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_37, L_38, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ObjectSpawner.cs:213>
 		ObjectSpawner_EnsureFacingCamera_mDE91C9175F12CB11CDED0B3C82D5D68ED9CAB7B5(__this, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ObjectSpawner.cs:215>
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_36 = __this->___m_CameraToFace;
-		NullCheck(L_36);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_37;
-		L_37 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_36, NULL);
-		NullCheck(L_37);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_38;
-		L_38 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_37, NULL);
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_39 = __this->___m_CameraToFace;
+		NullCheck(L_39);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_40;
+		L_40 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_39, NULL);
+		NullCheck(L_40);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_41;
+		L_41 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_40, NULL);
+		V_2 = L_41;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ObjectSpawner.cs:216>
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_39 = ___0_spawnPoint;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_40;
-		L_40 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_38, L_39, NULL);
-		V_2 = L_40;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_42 = V_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_43 = ___0_spawnPoint;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_44;
+		L_44 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_42, L_43, NULL);
+		V_3 = L_44;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ObjectSpawner.cs:217>
-		BurstMathUtility_ProjectOnPlane_m2C217BB9D02F0F29DF756819A072E4370A7245D8((&V_2), (&___1_spawnNormal), (&V_3), NULL);
+		BurstMathUtility_ProjectOnPlane_m2C217BB9D02F0F29DF756819A072E4370A7245D8((&V_3), (&___1_spawnNormal), (&V_4), NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ObjectSpawner.cs:218>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_41 = V_1;
-		NullCheck(L_41);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_42;
-		L_42 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_41, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_43 = V_3;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_44 = ___1_spawnNormal;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_45;
-		L_45 = Quaternion_LookRotation_mFB02EDC8F733774DFAC3BEA4B4BB265A228F8307(L_43, L_44, NULL);
-		NullCheck(L_42);
-		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_42, L_45, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_45 = V_1;
+		NullCheck(L_45);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_46;
+		L_46 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_45, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_47 = V_4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_48 = ___1_spawnNormal;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_49;
+		L_49 = Quaternion_LookRotation_mFB02EDC8F733774DFAC3BEA4B4BB265A228F8307(L_47, L_48, NULL);
+		NullCheck(L_46);
+		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_46, L_49, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ObjectSpawner.cs:220>
-		bool L_46 = __this->___m_ApplyRandomAngleAtSpawn;
-		if (!L_46)
+		bool L_50 = __this->___m_ApplyRandomAngleAtSpawn;
+		V_12 = L_50;
+		bool L_51 = V_12;
+		if (!L_51)
 		{
-			goto IL_0129;
+			goto IL_0153;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ObjectSpawner.cs:222>
-		float L_47 = __this->___m_SpawnAngleRange;
-		float L_48 = __this->___m_SpawnAngleRange;
-		float L_49;
-		L_49 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494(((-L_47)), L_48, NULL);
-		V_7 = L_49;
+		float L_52 = __this->___m_SpawnAngleRange;
+		float L_53 = __this->___m_SpawnAngleRange;
+		float L_54;
+		L_54 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494(((-L_52)), L_53, NULL);
+		V_13 = L_54;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ObjectSpawner.cs:223>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_50 = V_1;
-		NullCheck(L_50);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_51;
-		L_51 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_50, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_52;
-		L_52 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
-		float L_53 = V_7;
-		NullCheck(L_51);
-		Transform_Rotate_m35B44707FE16FF8015D519D8C162C0B4A85D6D1F(L_51, L_52, L_53, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_55 = V_1;
+		NullCheck(L_55);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_56;
+		L_56 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_55, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_57;
+		L_57 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
+		float L_58 = V_13;
+		NullCheck(L_56);
+		Transform_Rotate_m35B44707FE16FF8015D519D8C162C0B4A85D6D1F(L_56, L_57, L_58, NULL);
 	}
 
-IL_0129:
+IL_0153:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ObjectSpawner.cs:226>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_54 = __this->___m_SpawnVisualizationPrefab;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_59 = __this->___m_SpawnVisualizationPrefab;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_55;
-		L_55 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_54, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_55)
+		bool L_60;
+		L_60 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_59, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_14 = L_60;
+		bool L_61 = V_14;
+		if (!L_61)
 		{
-			goto IL_015e;
+			goto IL_0195;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ObjectSpawner.cs:228>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_56 = __this->___m_SpawnVisualizationPrefab;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_62 = __this->___m_SpawnVisualizationPrefab;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_57;
-		L_57 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3(L_56, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3_RuntimeMethod_var);
-		NullCheck(L_57);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_58;
-		L_58 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_57, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_63;
+		L_63 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3(L_62, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3_RuntimeMethod_var);
+		NullCheck(L_63);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_64;
+		L_64 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_63, NULL);
+		V_15 = L_64;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ObjectSpawner.cs:229>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_59 = L_58;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_60 = ___0_spawnPoint;
-		NullCheck(L_59);
-		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_59, L_60, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_65 = V_15;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_66 = ___0_spawnPoint;
+		NullCheck(L_65);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_65, L_66, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ObjectSpawner.cs:230>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_61 = V_1;
-		NullCheck(L_61);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_62;
-		L_62 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_61, NULL);
-		NullCheck(L_62);
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_63;
-		L_63 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_62, NULL);
-		NullCheck(L_59);
-		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_59, L_63, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_67 = V_15;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_68 = V_1;
+		NullCheck(L_68);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_69;
+		L_69 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_68, NULL);
+		NullCheck(L_69);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_70;
+		L_70 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_69, NULL);
+		NullCheck(L_67);
+		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_67, L_70, NULL);
 	}
 
-IL_015e:
+IL_0195:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ObjectSpawner.cs:233>
-		Action_1_tFF0F3D982F6CEB68CBA322555CBBEE6AE1D2519C* L_64 = __this->___objectSpawned;
-		Action_1_tFF0F3D982F6CEB68CBA322555CBBEE6AE1D2519C* L_65 = L_64;
-		if (L_65)
+		Action_1_tFF0F3D982F6CEB68CBA322555CBBEE6AE1D2519C* L_71 = __this->___objectSpawned;
+		Action_1_tFF0F3D982F6CEB68CBA322555CBBEE6AE1D2519C* L_72 = L_71;
+		if (L_72)
 		{
-			G_B18_0 = L_65;
-			goto IL_016a;
+			G_B21_0 = L_72;
+			goto IL_01a1;
 		}
-		G_B17_0 = L_65;
+		G_B20_0 = L_72;
 	}
 	{
-		goto IL_0170;
+		goto IL_01a8;
 	}
 
-IL_016a:
+IL_01a1:
 	{
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_66 = V_1;
-		NullCheck(G_B18_0);
-		Action_1_Invoke_mBF1852490A3A2C4508CEF22E3887E57A8E6C6E45_inline(G_B18_0, L_66, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_73 = V_1;
+		NullCheck(G_B21_0);
+		Action_1_Invoke_mBF1852490A3A2C4508CEF22E3887E57A8E6C6E45_inline(G_B21_0, L_73, NULL);
 	}
 
-IL_0170:
+IL_01a8:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ObjectSpawner.cs:234>
-		return (bool)1;
+		V_10 = (bool)1;
+		goto IL_01ad;
+	}
+
+IL_01ad:
+	{
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ObjectSpawner.cs:235>
+		bool L_74 = V_10;
+		return L_74;
 	}
 }
-// Method Definition Index: 75204
+// Method Definition Index: 93651
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectSpawner__ctor_m1A51792399FE9484F9E6061BC6736BF2E561544C (ObjectSpawner_t5ACB5F84845F9E874424BADB585AB17DD4644111* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9765,15 +10470,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectSpawner__ctor_m1A51792399FE9484F9E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75205
+// Method Definition Index: 93652
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PermissionsManager_Awake_mB9ED650EAD79561E6D51A289F31D4E4D1839928E (PermissionsManager_tA775AB0B85BF28A1804E5DB39BA35739106A151C* __this, const RuntimeMethod* method) 
 {
+	bool V_0 = false;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:72>
 		bool L_0 = __this->___m_ProcessPermissionsOnAwake;
-		if (!L_0)
+		V_0 = L_0;
+		bool L_1 = V_0;
+		if (!L_1)
 		{
-			goto IL_000e;
+			goto IL_0012;
 		}
 	}
 	{
@@ -9781,13 +10489,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PermissionsManager_Awake_mB9ED650EAD7956
 		PermissionsManager_ProcessPermissions_mB2ABACF63093D1C75F0AA2D665125137AAE6A683(__this, NULL);
 	}
 
-IL_000e:
+IL_0012:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:74>
 		return;
 	}
 }
-// Method Definition Index: 75206
+// Method Definition Index: 93653
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PermissionsManager_ProcessPermissions_mB2ABACF63093D1C75F0AA2D665125137AAE6A683 (PermissionsManager_tA775AB0B85BF28A1804E5DB39BA35739106A151C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9815,9 +10523,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PermissionsManager_ProcessPermissions_mB
 	}
 	U3CU3Ec__DisplayClass7_0_t643B054CCD37CC2C78C47CAE4487CC337E952435* V_0 = NULL;
 	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* V_1 = NULL;
-	int32_t V_2 = 0;
-	PermissionRequest_t28302A753467DBBF4257BD21D69004AAA459FBCE* V_3 = NULL;
-	PermissionCallbacks_t6C5002298E6649261FCB52C244695459E5C9890F* V_4 = NULL;
+	bool V_2 = false;
+	int32_t V_3 = 0;
+	PermissionRequest_t28302A753467DBBF4257BD21D69004AAA459FBCE* V_4 = NULL;
+	bool V_5 = false;
+	bool V_6 = false;
+	bool V_7 = false;
+	bool V_8 = false;
+	PermissionCallbacks_t6C5002298E6649261FCB52C244695459E5C9890F* V_9 = NULL;
+	int32_t G_B8_0 = 0;
 	{
 		U3CU3Ec__DisplayClass7_0_t643B054CCD37CC2C78C47CAE4487CC337E952435* L_0 = (U3CU3Ec__DisplayClass7_0_t643B054CCD37CC2C78C47CAE4487CC337E952435*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass7_0_t643B054CCD37CC2C78C47CAE4487CC337E952435_il2cpp_TypeInfo_var);
 		U3CU3Ec__DisplayClass7_0__ctor_mF5B3CF3837C1CD139A4D89679BB1C9F2F18D8817(L_0, NULL);
@@ -9841,161 +10555,192 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PermissionsManager_ProcessPermissions_mB
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_CurrentPlatformPermissionGroup), (void*)L_6);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:85>
 		PermissionRequestGroup_t646393166A187662C80A26CCE0F96A87C449EC8E* L_7 = __this->___m_CurrentPlatformPermissionGroup;
-		if (L_7)
+		V_2 = (bool)((((RuntimeObject*)(PermissionRequestGroup_t646393166A187662C80A26CCE0F96A87C449EC8E*)L_7) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		bool L_8 = V_2;
+		if (!L_8)
 		{
-			goto IL_0037;
+			goto IL_0042;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:89>
-		return;
+		goto IL_0139;
 	}
 
-IL_0037:
+IL_0042:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:92>
-		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_8 = (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*)il2cpp_codegen_object_new(List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
-		List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E(L_8, List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var);
-		V_1 = L_8;
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_9 = (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*)il2cpp_codegen_object_new(List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
+		List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E(L_9, List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var);
+		V_1 = L_9;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:96>
-		V_2 = 0;
-		goto IL_009f;
+		V_3 = 0;
+		goto IL_00cf;
 	}
 
-IL_0041:
+IL_004f:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:98>
-		PermissionRequestGroup_t646393166A187662C80A26CCE0F96A87C449EC8E* L_9 = __this->___m_CurrentPlatformPermissionGroup;
-		NullCheck(L_9);
-		List_1_tB15AC449E2A89BA3A8EFC74A4BF4DB8F0E1B0A30* L_10 = L_9->___permissions;
-		int32_t L_11 = V_2;
+		PermissionRequestGroup_t646393166A187662C80A26CCE0F96A87C449EC8E* L_10 = __this->___m_CurrentPlatformPermissionGroup;
 		NullCheck(L_10);
-		PermissionRequest_t28302A753467DBBF4257BD21D69004AAA459FBCE* L_12;
-		L_12 = List_1_get_Item_m4A780635AA3A4A391D4F7EC8F5819F4B1BAB6AEC(L_10, L_11, List_1_get_Item_m4A780635AA3A4A391D4F7EC8F5819F4B1BAB6AEC_RuntimeMethod_var);
-		V_3 = L_12;
+		List_1_tB15AC449E2A89BA3A8EFC74A4BF4DB8F0E1B0A30* L_11 = L_10->___permissions;
+		int32_t L_12 = V_3;
+		NullCheck(L_11);
+		PermissionRequest_t28302A753467DBBF4257BD21D69004AAA459FBCE* L_13;
+		L_13 = List_1_get_Item_m4A780635AA3A4A391D4F7EC8F5819F4B1BAB6AEC(L_11, L_12, List_1_get_Item_m4A780635AA3A4A391D4F7EC8F5819F4B1BAB6AEC_RuntimeMethod_var);
+		V_4 = L_13;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:99>
-		PermissionRequest_t28302A753467DBBF4257BD21D69004AAA459FBCE* L_13 = V_3;
-		NullCheck(L_13);
-		bool L_14 = L_13->___enabled;
-		if (!L_14)
+		PermissionRequest_t28302A753467DBBF4257BD21D69004AAA459FBCE* L_14 = V_4;
+		NullCheck(L_14);
+		bool L_15 = L_14->___enabled;
+		V_5 = (bool)((((int32_t)L_15) == ((int32_t)0))? 1 : 0);
+		bool L_16 = V_5;
+		if (!L_16)
 		{
-			goto IL_009b;
+			goto IL_0075;
 		}
 	}
+	{
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:100>
+		goto IL_00cb;
+	}
+
+IL_0075:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:103>
-		PermissionRequest_t28302A753467DBBF4257BD21D69004AAA459FBCE* L_15 = V_3;
-		NullCheck(L_15);
-		String_t* L_16 = L_15->___permissionId;
-		bool L_17;
-		L_17 = Permission_HasUserAuthorizedPermission_mF4C90E13124E28F6F672200E489CC25A9B645B8B(L_16, NULL);
-		if (L_17)
+		PermissionRequest_t28302A753467DBBF4257BD21D69004AAA459FBCE* L_17 = V_4;
+		NullCheck(L_17);
+		String_t* L_18 = L_17->___permissionId;
+		bool L_19;
+		L_19 = Permission_HasUserAuthorizedPermission_mF4C90E13124E28F6F672200E489CC25A9B645B8B(L_18, NULL);
+		if (L_19)
 		{
-			goto IL_0085;
+			goto IL_008f;
 		}
 	}
 	{
-		PermissionRequest_t28302A753467DBBF4257BD21D69004AAA459FBCE* L_18 = V_3;
-		NullCheck(L_18);
-		bool L_19 = L_18->___requested;
-		if (L_19)
+		PermissionRequest_t28302A753467DBBF4257BD21D69004AAA459FBCE* L_20 = V_4;
+		NullCheck(L_20);
+		bool L_21 = L_20->___requested;
+		G_B8_0 = ((((int32_t)L_21) == ((int32_t)0))? 1 : 0);
+		goto IL_0090;
+	}
+
+IL_008f:
+	{
+		G_B8_0 = 0;
+	}
+
+IL_0090:
+	{
+		V_6 = (bool)G_B8_0;
+		bool L_22 = V_6;
+		if (!L_22)
 		{
-			goto IL_0085;
+			goto IL_00b0;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:105>
-		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_20 = V_1;
-		PermissionRequest_t28302A753467DBBF4257BD21D69004AAA459FBCE* L_21 = V_3;
-		NullCheck(L_21);
-		String_t* L_22 = L_21->___permissionId;
-		NullCheck(L_20);
-		List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline(L_20, L_22, List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:106>
-		PermissionRequest_t28302A753467DBBF4257BD21D69004AAA459FBCE* L_23 = V_3;
-		NullCheck(L_23);
-		L_23->___requested = (bool)1;
-		goto IL_009b;
-	}
-
-IL_0085:
-	{
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:110>
-		PermissionRequest_t28302A753467DBBF4257BD21D69004AAA459FBCE* L_24 = V_3;
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_23 = V_1;
+		PermissionRequest_t28302A753467DBBF4257BD21D69004AAA459FBCE* L_24 = V_4;
 		NullCheck(L_24);
 		String_t* L_25 = L_24->___permissionId;
-		String_t* L_26;
-		L_26 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralF9C97F952E57377536244CF6481EFA7B03AE6BDF, L_25, NULL);
+		NullCheck(L_23);
+		List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline(L_23, L_25, List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:106>
+		PermissionRequest_t28302A753467DBBF4257BD21D69004AAA459FBCE* L_26 = V_4;
+		NullCheck(L_26);
+		L_26->___requested = (bool)1;
+		goto IL_00ca;
+	}
+
+IL_00b0:
+	{
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:110>
+		PermissionRequest_t28302A753467DBBF4257BD21D69004AAA459FBCE* L_27 = V_4;
+		NullCheck(L_27);
+		String_t* L_28 = L_27->___permissionId;
+		String_t* L_29;
+		L_29 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralF9C97F952E57377536244CF6481EFA7B03AE6BDF, L_28, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m06155ED25645EBBC06B4C8F05235EF41B1489C7E(L_26, __this, NULL);
+		Debug_Log_m06155ED25645EBBC06B4C8F05235EF41B1489C7E(L_29, __this, NULL);
 	}
 
-IL_009b:
+IL_00ca:
 	{
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:96>
-		int32_t L_27 = V_2;
-		V_2 = ((int32_t)il2cpp_codegen_add(L_27, 1));
 	}
 
-IL_009f:
+IL_00cb:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:96>
-		int32_t L_28 = V_2;
-		PermissionRequestGroup_t646393166A187662C80A26CCE0F96A87C449EC8E* L_29 = __this->___m_CurrentPlatformPermissionGroup;
-		NullCheck(L_29);
-		List_1_tB15AC449E2A89BA3A8EFC74A4BF4DB8F0E1B0A30* L_30 = L_29->___permissions;
-		NullCheck(L_30);
-		int32_t L_31;
-		L_31 = List_1_get_Count_mD5173BF63D13410922EDCCB2DA4CAA56DDB6CF74_inline(L_30, List_1_get_Count_mD5173BF63D13410922EDCCB2DA4CAA56DDB6CF74_RuntimeMethod_var);
-		if ((((int32_t)L_28) < ((int32_t)L_31)))
+		int32_t L_30 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_30, 1));
+	}
+
+IL_00cf:
+	{
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:96>
+		int32_t L_31 = V_3;
+		PermissionRequestGroup_t646393166A187662C80A26CCE0F96A87C449EC8E* L_32 = __this->___m_CurrentPlatformPermissionGroup;
+		NullCheck(L_32);
+		List_1_tB15AC449E2A89BA3A8EFC74A4BF4DB8F0E1B0A30* L_33 = L_32->___permissions;
+		NullCheck(L_33);
+		int32_t L_34;
+		L_34 = List_1_get_Count_mD5173BF63D13410922EDCCB2DA4CAA56DDB6CF74_inline(L_33, List_1_get_Count_mD5173BF63D13410922EDCCB2DA4CAA56DDB6CF74_RuntimeMethod_var);
+		V_7 = (bool)((((int32_t)L_31) < ((int32_t)L_34))? 1 : 0);
+		bool L_35 = V_7;
+		if (L_35)
 		{
-			goto IL_0041;
+			goto IL_004f;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:115>
-		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_32 = V_1;
-		NullCheck(L_32);
-		int32_t L_33;
-		L_33 = List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_inline(L_32, List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_RuntimeMethod_var);
-		if ((((int32_t)L_33) <= ((int32_t)0)))
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_36 = V_1;
+		NullCheck(L_36);
+		int32_t L_37;
+		L_37 = List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_inline(L_36, List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_RuntimeMethod_var);
+		V_8 = (bool)((((int32_t)L_37) > ((int32_t)0))? 1 : 0);
+		bool L_38 = V_8;
+		if (!L_38)
 		{
-			goto IL_00f5;
+			goto IL_0139;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:117>
-		PermissionCallbacks_t6C5002298E6649261FCB52C244695459E5C9890F* L_34 = (PermissionCallbacks_t6C5002298E6649261FCB52C244695459E5C9890F*)il2cpp_codegen_object_new(PermissionCallbacks_t6C5002298E6649261FCB52C244695459E5C9890F_il2cpp_TypeInfo_var);
-		PermissionCallbacks__ctor_m91B14BBBC8913C131E400BA0D13576822AAE7A75(L_34, NULL);
-		V_4 = L_34;
+		PermissionCallbacks_t6C5002298E6649261FCB52C244695459E5C9890F* L_39 = (PermissionCallbacks_t6C5002298E6649261FCB52C244695459E5C9890F*)il2cpp_codegen_object_new(PermissionCallbacks_t6C5002298E6649261FCB52C244695459E5C9890F_il2cpp_TypeInfo_var);
+		PermissionCallbacks__ctor_m91B14BBBC8913C131E400BA0D13576822AAE7A75(L_39, NULL);
+		V_9 = L_39;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:118>
-		PermissionCallbacks_t6C5002298E6649261FCB52C244695459E5C9890F* L_35 = V_4;
-		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_36 = (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*)il2cpp_codegen_object_new(Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A_il2cpp_TypeInfo_var);
-		Action_1__ctor_m9DC2953C55C4D7D4B7BEFE03D84DA1F9362D652C(L_36, __this, (intptr_t)((void*)PermissionsManager_OnPermissionDenied_m00CC36AD134767C78745654BC7B174A57434BFBC_RuntimeMethod_var), NULL);
-		NullCheck(L_35);
-		PermissionCallbacks_add_PermissionDenied_mE0B2826463785B050C999C70F443FCC3822563D0(L_35, L_36, NULL);
+		PermissionCallbacks_t6C5002298E6649261FCB52C244695459E5C9890F* L_40 = V_9;
+		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_41 = (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*)il2cpp_codegen_object_new(Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A_il2cpp_TypeInfo_var);
+		Action_1__ctor_m9DC2953C55C4D7D4B7BEFE03D84DA1F9362D652C(L_41, __this, (intptr_t)((void*)PermissionsManager_OnPermissionDenied_m00CC36AD134767C78745654BC7B174A57434BFBC_RuntimeMethod_var), NULL);
+		NullCheck(L_40);
+		PermissionCallbacks_add_PermissionDenied_mE0B2826463785B050C999C70F443FCC3822563D0(L_40, L_41, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:119>
-		PermissionCallbacks_t6C5002298E6649261FCB52C244695459E5C9890F* L_37 = V_4;
-		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_38 = (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*)il2cpp_codegen_object_new(Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A_il2cpp_TypeInfo_var);
-		Action_1__ctor_m9DC2953C55C4D7D4B7BEFE03D84DA1F9362D652C(L_38, __this, (intptr_t)((void*)PermissionsManager_OnPermissionGranted_mAAB98A8F7A2D9835163D4A2BAACAEECA4F3DE149_RuntimeMethod_var), NULL);
-		NullCheck(L_37);
-		PermissionCallbacks_add_PermissionGranted_m74335D4200D9B1A7C80AB9C133F95C61FCDCDF89(L_37, L_38, NULL);
+		PermissionCallbacks_t6C5002298E6649261FCB52C244695459E5C9890F* L_42 = V_9;
+		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_43 = (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*)il2cpp_codegen_object_new(Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A_il2cpp_TypeInfo_var);
+		Action_1__ctor_m9DC2953C55C4D7D4B7BEFE03D84DA1F9362D652C(L_43, __this, (intptr_t)((void*)PermissionsManager_OnPermissionGranted_mAAB98A8F7A2D9835163D4A2BAACAEECA4F3DE149_RuntimeMethod_var), NULL);
+		NullCheck(L_42);
+		PermissionCallbacks_add_PermissionGranted_m74335D4200D9B1A7C80AB9C133F95C61FCDCDF89(L_42, L_43, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:121>
-		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_39 = V_1;
-		NullCheck(L_39);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_40;
-		L_40 = List_1_ToArray_m2C402D882AA60FC1D5C7C09A129BE7779F833B4A(L_39, List_1_ToArray_m2C402D882AA60FC1D5C7C09A129BE7779F833B4A_RuntimeMethod_var);
-		PermissionCallbacks_t6C5002298E6649261FCB52C244695459E5C9890F* L_41 = V_4;
-		Permission_RequestUserPermissions_m09FE74BF5829C8B48A0E6C9B7F7846FEE763D2DA(L_40, L_41, NULL);
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_44 = V_1;
+		NullCheck(L_44);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_45;
+		L_45 = List_1_ToArray_m2C402D882AA60FC1D5C7C09A129BE7779F833B4A(L_44, List_1_ToArray_m2C402D882AA60FC1D5C7C09A129BE7779F833B4A_RuntimeMethod_var);
+		PermissionCallbacks_t6C5002298E6649261FCB52C244695459E5C9890F* L_46 = V_9;
+		Permission_RequestUserPermissions_m09FE74BF5829C8B48A0E6C9B7F7846FEE763D2DA(L_45, L_46, NULL);
 	}
 
-IL_00f5:
+IL_0139:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:124>
 		return;
 	}
 }
-// Method Definition Index: 75207
+// Method Definition Index: 93654
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PermissionsManager_OnPermissionGranted_mAAB98A8F7A2D9835163D4A2BAACAEECA4F3DE149 (PermissionsManager_tA775AB0B85BF28A1804E5DB39BA35739106A151C* __this, String_t* ___0_permissionStr, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10013,6 +10758,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PermissionsManager_OnPermissionGranted_m
 	}
 	U3CU3Ec__DisplayClass8_0_t62192C7C37250A274F8DD9C57BD6BA67369E477F* V_0 = NULL;
 	PermissionRequest_t28302A753467DBBF4257BD21D69004AAA459FBCE* V_1 = NULL;
+	bool V_2 = false;
 	{
 		U3CU3Ec__DisplayClass8_0_t62192C7C37250A274F8DD9C57BD6BA67369E477F* L_0 = (U3CU3Ec__DisplayClass8_0_t62192C7C37250A274F8DD9C57BD6BA67369E477F*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass8_0_t62192C7C37250A274F8DD9C57BD6BA67369E477F_il2cpp_TypeInfo_var);
 		U3CU3Ec__DisplayClass8_0__ctor_mF64A3BC2FA3B0967676A6F89D6C7FA6D4F5858BF(L_0, NULL);
@@ -10035,56 +10781,62 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PermissionsManager_OnPermissionGranted_m
 		V_1 = L_7;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:130>
 		PermissionRequest_t28302A753467DBBF4257BD21D69004AAA459FBCE* L_8 = V_1;
-		if (L_8)
+		V_2 = (bool)((((RuntimeObject*)(PermissionRequest_t28302A753467DBBF4257BD21D69004AAA459FBCE*)L_8) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		bool L_9 = V_2;
+		if (!L_9)
 		{
-			goto IL_0044;
+			goto IL_004d;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:132>
-		U3CU3Ec__DisplayClass8_0_t62192C7C37250A274F8DD9C57BD6BA67369E477F* L_9 = V_0;
-		NullCheck(L_9);
-		String_t* L_10 = L_9->___permissionStr;
-		String_t* L_11;
-		L_11 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralDF603F67558A1179B2C28C9A1043178A91F18A45, L_10, NULL);
+		U3CU3Ec__DisplayClass8_0_t62192C7C37250A274F8DD9C57BD6BA67369E477F* L_10 = V_0;
+		NullCheck(L_10);
+		String_t* L_11 = L_10->___permissionStr;
+		String_t* L_12;
+		L_12 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralDF603F67558A1179B2C28C9A1043178A91F18A45, L_11, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogWarning_m23033D7E2F0F298BE465B7F3A63CDF40A4EB70EB(L_11, __this, NULL);
+		Debug_LogWarning_m23033D7E2F0F298BE465B7F3A63CDF40A4EB70EB(L_12, __this, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:133>
-		return;
+		goto IL_0084;
 	}
 
-IL_0044:
+IL_004d:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:137>
-		PermissionRequest_t28302A753467DBBF4257BD21D69004AAA459FBCE* L_12 = V_1;
-		NullCheck(L_12);
-		L_12->___granted = (bool)1;
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:138>
 		PermissionRequest_t28302A753467DBBF4257BD21D69004AAA459FBCE* L_13 = V_1;
 		NullCheck(L_13);
-		L_13->___responseReceived = (bool)1;
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:140>
-		U3CU3Ec__DisplayClass8_0_t62192C7C37250A274F8DD9C57BD6BA67369E477F* L_14 = V_0;
+		L_13->___granted = (bool)1;
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:138>
+		PermissionRequest_t28302A753467DBBF4257BD21D69004AAA459FBCE* L_14 = V_1;
 		NullCheck(L_14);
-		String_t* L_15 = L_14->___permissionStr;
-		String_t* L_16;
-		L_16 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral01A3C76F5687C41BFD36F87D4E421CD828AE7076, L_15, NULL);
+		L_14->___responseReceived = (bool)1;
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:140>
+		U3CU3Ec__DisplayClass8_0_t62192C7C37250A274F8DD9C57BD6BA67369E477F* L_15 = V_0;
+		NullCheck(L_15);
+		String_t* L_16 = L_15->___permissionStr;
+		String_t* L_17;
+		L_17 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral01A3C76F5687C41BFD36F87D4E421CD828AE7076, L_16, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m06155ED25645EBBC06B4C8F05235EF41B1489C7E(L_16, __this, NULL);
+		Debug_Log_m06155ED25645EBBC06B4C8F05235EF41B1489C7E(L_17, __this, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:141>
-		PermissionRequest_t28302A753467DBBF4257BD21D69004AAA459FBCE* L_17 = V_1;
-		NullCheck(L_17);
-		UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257* L_18 = L_17->___onPermissionGranted;
-		U3CU3Ec__DisplayClass8_0_t62192C7C37250A274F8DD9C57BD6BA67369E477F* L_19 = V_0;
-		NullCheck(L_19);
-		String_t* L_20 = L_19->___permissionStr;
+		PermissionRequest_t28302A753467DBBF4257BD21D69004AAA459FBCE* L_18 = V_1;
 		NullCheck(L_18);
-		UnityEvent_1_Invoke_mA633B48B5D287DA856FB954AC3E4012487E63C15(L_18, L_20, UnityEvent_1_Invoke_mA633B48B5D287DA856FB954AC3E4012487E63C15_RuntimeMethod_var);
+		UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257* L_19 = L_18->___onPermissionGranted;
+		U3CU3Ec__DisplayClass8_0_t62192C7C37250A274F8DD9C57BD6BA67369E477F* L_20 = V_0;
+		NullCheck(L_20);
+		String_t* L_21 = L_20->___permissionStr;
+		NullCheck(L_19);
+		UnityEvent_1_Invoke_mA633B48B5D287DA856FB954AC3E4012487E63C15(L_19, L_21, UnityEvent_1_Invoke_mA633B48B5D287DA856FB954AC3E4012487E63C15_RuntimeMethod_var);
+	}
+
+IL_0084:
+	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:142>
 		return;
 	}
 }
-// Method Definition Index: 75208
+// Method Definition Index: 93655
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PermissionsManager_OnPermissionDenied_m00CC36AD134767C78745654BC7B174A57434BFBC (PermissionsManager_tA775AB0B85BF28A1804E5DB39BA35739106A151C* __this, String_t* ___0_permissionStr, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10102,6 +10854,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PermissionsManager_OnPermissionDenied_m0
 	}
 	U3CU3Ec__DisplayClass9_0_t3CD4D68CF6A78824835489FE79642FAA3EC2044D* V_0 = NULL;
 	PermissionRequest_t28302A753467DBBF4257BD21D69004AAA459FBCE* V_1 = NULL;
+	bool V_2 = false;
 	{
 		U3CU3Ec__DisplayClass9_0_t3CD4D68CF6A78824835489FE79642FAA3EC2044D* L_0 = (U3CU3Ec__DisplayClass9_0_t3CD4D68CF6A78824835489FE79642FAA3EC2044D*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass9_0_t3CD4D68CF6A78824835489FE79642FAA3EC2044D_il2cpp_TypeInfo_var);
 		U3CU3Ec__DisplayClass9_0__ctor_m80143E2E241484356921D7536452DB176DF0D079(L_0, NULL);
@@ -10124,56 +10877,62 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PermissionsManager_OnPermissionDenied_m0
 		V_1 = L_7;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:148>
 		PermissionRequest_t28302A753467DBBF4257BD21D69004AAA459FBCE* L_8 = V_1;
-		if (L_8)
+		V_2 = (bool)((((RuntimeObject*)(PermissionRequest_t28302A753467DBBF4257BD21D69004AAA459FBCE*)L_8) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		bool L_9 = V_2;
+		if (!L_9)
 		{
-			goto IL_0044;
+			goto IL_004d;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:150>
-		U3CU3Ec__DisplayClass9_0_t3CD4D68CF6A78824835489FE79642FAA3EC2044D* L_9 = V_0;
-		NullCheck(L_9);
-		String_t* L_10 = L_9->___permissionStr;
-		String_t* L_11;
-		L_11 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral23DBFFD2EE8339917033AE4CBF227543D825AFD5, L_10, NULL);
+		U3CU3Ec__DisplayClass9_0_t3CD4D68CF6A78824835489FE79642FAA3EC2044D* L_10 = V_0;
+		NullCheck(L_10);
+		String_t* L_11 = L_10->___permissionStr;
+		String_t* L_12;
+		L_12 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral23DBFFD2EE8339917033AE4CBF227543D825AFD5, L_11, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogWarning_m23033D7E2F0F298BE465B7F3A63CDF40A4EB70EB(L_11, __this, NULL);
+		Debug_LogWarning_m23033D7E2F0F298BE465B7F3A63CDF40A4EB70EB(L_12, __this, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:151>
-		return;
+		goto IL_0084;
 	}
 
-IL_0044:
+IL_004d:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:155>
-		PermissionRequest_t28302A753467DBBF4257BD21D69004AAA459FBCE* L_12 = V_1;
-		NullCheck(L_12);
-		L_12->___granted = (bool)0;
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:156>
 		PermissionRequest_t28302A753467DBBF4257BD21D69004AAA459FBCE* L_13 = V_1;
 		NullCheck(L_13);
-		L_13->___responseReceived = (bool)1;
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:158>
-		U3CU3Ec__DisplayClass9_0_t3CD4D68CF6A78824835489FE79642FAA3EC2044D* L_14 = V_0;
+		L_13->___granted = (bool)0;
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:156>
+		PermissionRequest_t28302A753467DBBF4257BD21D69004AAA459FBCE* L_14 = V_1;
 		NullCheck(L_14);
-		String_t* L_15 = L_14->___permissionStr;
-		String_t* L_16;
-		L_16 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral39D0FB441D54707570D85B60B49472018C03F6D5, L_15, NULL);
+		L_14->___responseReceived = (bool)1;
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:158>
+		U3CU3Ec__DisplayClass9_0_t3CD4D68CF6A78824835489FE79642FAA3EC2044D* L_15 = V_0;
+		NullCheck(L_15);
+		String_t* L_16 = L_15->___permissionStr;
+		String_t* L_17;
+		L_17 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral39D0FB441D54707570D85B60B49472018C03F6D5, L_16, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogWarning_m23033D7E2F0F298BE465B7F3A63CDF40A4EB70EB(L_16, __this, NULL);
+		Debug_LogWarning_m23033D7E2F0F298BE465B7F3A63CDF40A4EB70EB(L_17, __this, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:159>
-		PermissionRequest_t28302A753467DBBF4257BD21D69004AAA459FBCE* L_17 = V_1;
-		NullCheck(L_17);
-		UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257* L_18 = L_17->___onPermissionDenied;
-		U3CU3Ec__DisplayClass9_0_t3CD4D68CF6A78824835489FE79642FAA3EC2044D* L_19 = V_0;
-		NullCheck(L_19);
-		String_t* L_20 = L_19->___permissionStr;
+		PermissionRequest_t28302A753467DBBF4257BD21D69004AAA459FBCE* L_18 = V_1;
 		NullCheck(L_18);
-		UnityEvent_1_Invoke_mA633B48B5D287DA856FB954AC3E4012487E63C15(L_18, L_20, UnityEvent_1_Invoke_mA633B48B5D287DA856FB954AC3E4012487E63C15_RuntimeMethod_var);
+		UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257* L_19 = L_18->___onPermissionDenied;
+		U3CU3Ec__DisplayClass9_0_t3CD4D68CF6A78824835489FE79642FAA3EC2044D* L_20 = V_0;
+		NullCheck(L_20);
+		String_t* L_21 = L_20->___permissionStr;
+		NullCheck(L_19);
+		UnityEvent_1_Invoke_mA633B48B5D287DA856FB954AC3E4012487E63C15(L_19, L_21, UnityEvent_1_Invoke_mA633B48B5D287DA856FB954AC3E4012487E63C15_RuntimeMethod_var);
+	}
+
+IL_0084:
+	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:160>
 		return;
 	}
 }
-// Method Definition Index: 75209
+// Method Definition Index: 93656
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PermissionsManager__ctor_mF3F75F71FA754F52C3F78E8D3761EDFB93AE50AA (PermissionsManager_tA775AB0B85BF28A1804E5DB39BA35739106A151C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10209,7 +10968,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PermissionsManager__ctor_mF3F75F71FA754F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75210
+// Method Definition Index: 93657
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PermissionRequestGroup__ctor_m0C02B20B13ECC8AB2FF431A4B05193E0BF815229 (PermissionRequestGroup_t646393166A187662C80A26CCE0F96A87C449EC8E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10225,7 +10984,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PermissionRequestGroup__ctor_m0C02B20B13
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75211
+// Method Definition Index: 93658
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PermissionRequest__ctor_m2C00DB4485D04438CF1BBEDB425D33C6E8C871C7 (PermissionRequest_t28302A753467DBBF4257BD21D69004AAA459FBCE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10240,6 +10999,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PermissionRequest__ctor_m2C00DB4485D0443
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___permissionId), (void*)_stringLiteral9FC59D8986B846D2BF95AF308D4A1BDF1803347C);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:54>
 		__this->___enabled = (bool)1;
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:57>
+		__this->___requested = (bool)0;
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:60>
+		__this->___responseReceived = (bool)0;
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PermissionsManager.cs:63>
+		__this->___granted = (bool)0;
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
@@ -10252,7 +11017,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PermissionRequest__ctor_m2C00DB4485D0443
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75212
+// Method Definition Index: 93659
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass7_0__ctor_mF5B3CF3837C1CD139A4D89679BB1C9F2F18D8817 (U3CU3Ec__DisplayClass7_0_t643B054CCD37CC2C78C47CAE4487CC337E952435* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10260,7 +11025,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass7_0__ctor_mF5B3CF38
 		return;
 	}
 }
-// Method Definition Index: 75213
+// Method Definition Index: 93660
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass7_0_U3CProcessPermissionsU3Eb__0_m66AB51AD89B08FE06755D72B9BE2775EC738F3B6 (U3CU3Ec__DisplayClass7_0_t643B054CCD37CC2C78C47CAE4487CC337E952435* __this, PermissionRequestGroup_t646393166A187662C80A26CCE0F96A87C449EC8E* ___0_g, const RuntimeMethod* method) 
 {
 	{
@@ -10280,7 +11045,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass7_0_U3CProcessPermi
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75214
+// Method Definition Index: 93661
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass8_0__ctor_mF64A3BC2FA3B0967676A6F89D6C7FA6D4F5858BF (U3CU3Ec__DisplayClass8_0_t62192C7C37250A274F8DD9C57BD6BA67369E477F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10288,7 +11053,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass8_0__ctor_mF64A3BC2
 		return;
 	}
 }
-// Method Definition Index: 75215
+// Method Definition Index: 93662
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass8_0_U3COnPermissionGrantedU3Eb__0_m774EA8A0585BD047CF55F11CBF656D5DFA4BCE3E (U3CU3Ec__DisplayClass8_0_t62192C7C37250A274F8DD9C57BD6BA67369E477F* __this, PermissionRequest_t28302A753467DBBF4257BD21D69004AAA459FBCE* ___0_p, const RuntimeMethod* method) 
 {
 	{
@@ -10310,7 +11075,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass8_0_U3COnPermission
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75216
+// Method Definition Index: 93663
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass9_0__ctor_m80143E2E241484356921D7536452DB176DF0D079 (U3CU3Ec__DisplayClass9_0_t3CD4D68CF6A78824835489FE79642FAA3EC2044D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10318,7 +11083,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass9_0__ctor_m80143E2E
 		return;
 	}
 }
-// Method Definition Index: 75217
+// Method Definition Index: 93664
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass9_0_U3COnPermissionDeniedU3Eb__0_m86A57A94799A369A3C71B8D265D9744552190FAC (U3CU3Ec__DisplayClass9_0_t3CD4D68CF6A78824835489FE79642FAA3EC2044D* __this, PermissionRequest_t28302A753467DBBF4257BD21D69004AAA459FBCE* ___0_p, const RuntimeMethod* method) 
 {
 	{
@@ -10348,7 +11113,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass9_0_U3COnPermission
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75218
+// Method Definition Index: 93665
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRPlatformUnderstanding_get_CurrentPlatform_m22F6BA4ADE6BEB25AC2E82CF3787D1E980C3E97A (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10357,34 +11122,46 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRPlatformUnderstanding_get_CurrentPl
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRPlatformUnderstanding_t89289F760FF87CBD2446DCEC10ECFAC752F9B445_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	bool V_0 = false;
+	int32_t V_1 = 0;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PlatformUnderstanding.cs:54>
 		il2cpp_codegen_runtime_class_init_inline(XRPlatformUnderstanding_t89289F760FF87CBD2446DCEC10ECFAC752F9B445_il2cpp_TypeInfo_var);
 		bool L_0 = ((XRPlatformUnderstanding_t89289F760FF87CBD2446DCEC10ECFAC752F9B445_StaticFields*)il2cpp_codegen_static_fields_for(XRPlatformUnderstanding_t89289F760FF87CBD2446DCEC10ECFAC752F9B445_il2cpp_TypeInfo_var))->___s_Initialized;
-		if (L_0)
+		V_0 = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
 		{
-			goto IL_0017;
+			goto IL_001f;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PlatformUnderstanding.cs:56>
 		il2cpp_codegen_runtime_class_init_inline(XRPlatformUnderstanding_t89289F760FF87CBD2446DCEC10ECFAC752F9B445_il2cpp_TypeInfo_var);
-		int32_t L_1;
-		L_1 = XRPlatformUnderstanding_GetCurrentXRPlatform_m05A9600C3256A4E10E6F9032878FE464612B32E7(NULL);
-		((XRPlatformUnderstanding_t89289F760FF87CBD2446DCEC10ECFAC752F9B445_StaticFields*)il2cpp_codegen_static_fields_for(XRPlatformUnderstanding_t89289F760FF87CBD2446DCEC10ECFAC752F9B445_il2cpp_TypeInfo_var))->___s_CurrentPlatform = L_1;
+		int32_t L_2;
+		L_2 = XRPlatformUnderstanding_GetCurrentXRPlatform_m05A9600C3256A4E10E6F9032878FE464612B32E7(NULL);
+		((XRPlatformUnderstanding_t89289F760FF87CBD2446DCEC10ECFAC752F9B445_StaticFields*)il2cpp_codegen_static_fields_for(XRPlatformUnderstanding_t89289F760FF87CBD2446DCEC10ECFAC752F9B445_il2cpp_TypeInfo_var))->___s_CurrentPlatform = L_2;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PlatformUnderstanding.cs:57>
 		((XRPlatformUnderstanding_t89289F760FF87CBD2446DCEC10ECFAC752F9B445_StaticFields*)il2cpp_codegen_static_fields_for(XRPlatformUnderstanding_t89289F760FF87CBD2446DCEC10ECFAC752F9B445_il2cpp_TypeInfo_var))->___s_Initialized = (bool)1;
 	}
 
-IL_0017:
+IL_001f:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PlatformUnderstanding.cs:59>
 		il2cpp_codegen_runtime_class_init_inline(XRPlatformUnderstanding_t89289F760FF87CBD2446DCEC10ECFAC752F9B445_il2cpp_TypeInfo_var);
-		int32_t L_2 = ((XRPlatformUnderstanding_t89289F760FF87CBD2446DCEC10ECFAC752F9B445_StaticFields*)il2cpp_codegen_static_fields_for(XRPlatformUnderstanding_t89289F760FF87CBD2446DCEC10ECFAC752F9B445_il2cpp_TypeInfo_var))->___s_CurrentPlatform;
-		return L_2;
+		int32_t L_3 = ((XRPlatformUnderstanding_t89289F760FF87CBD2446DCEC10ECFAC752F9B445_StaticFields*)il2cpp_codegen_static_fields_for(XRPlatformUnderstanding_t89289F760FF87CBD2446DCEC10ECFAC752F9B445_il2cpp_TypeInfo_var))->___s_CurrentPlatform;
+		V_1 = L_3;
+		goto IL_0027;
+	}
+
+IL_0027:
+	{
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PlatformUnderstanding.cs:60>
+		int32_t L_4 = V_1;
+		return L_4;
 	}
 }
-// Method Definition Index: 75219
+// Method Definition Index: 93666
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRPlatformUnderstanding_GetCurrentXRPlatform_m05A9600C3256A4E10E6F9032878FE464612B32E7 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10400,75 +11177,90 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRPlatformUnderstanding_GetCurrentXRP
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCC1949C1D0086ABC05350D1316E5E3882205544C);
 		s_Il2CppMethodInitialized = true;
 	}
-	String_t* V_0 = NULL;
-	Exception_t* V_1 = NULL;
+	bool V_0 = false;
+	int32_t V_1 = 0;
+	String_t* V_2 = NULL;
+	bool V_3 = false;
+	String_t* V_4 = NULL;
+	String_t* V_5 = NULL;
+	Exception_t* V_6 = NULL;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PlatformUnderstanding.cs:74>
 		il2cpp_codegen_runtime_class_init_inline(XRPlatformUnderstanding_t89289F760FF87CBD2446DCEC10ECFAC752F9B445_il2cpp_TypeInfo_var);
 		bool L_0 = ((XRPlatformUnderstanding_t89289F760FF87CBD2446DCEC10ECFAC752F9B445_StaticFields*)il2cpp_codegen_static_fields_for(XRPlatformUnderstanding_t89289F760FF87CBD2446DCEC10ECFAC752F9B445_il2cpp_TypeInfo_var))->___s_Initialized;
-		if (!L_0)
+		V_0 = L_0;
+		bool L_1 = V_0;
+		if (!L_1)
 		{
-			goto IL_000d;
+			goto IL_0015;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PlatformUnderstanding.cs:75>
 		il2cpp_codegen_runtime_class_init_inline(XRPlatformUnderstanding_t89289F760FF87CBD2446DCEC10ECFAC752F9B445_il2cpp_TypeInfo_var);
-		int32_t L_1 = ((XRPlatformUnderstanding_t89289F760FF87CBD2446DCEC10ECFAC752F9B445_StaticFields*)il2cpp_codegen_static_fields_for(XRPlatformUnderstanding_t89289F760FF87CBD2446DCEC10ECFAC752F9B445_il2cpp_TypeInfo_var))->___s_CurrentPlatform;
-		return L_1;
+		int32_t L_2 = ((XRPlatformUnderstanding_t89289F760FF87CBD2446DCEC10ECFAC752F9B445_StaticFields*)il2cpp_codegen_static_fields_for(XRPlatformUnderstanding_t89289F760FF87CBD2446DCEC10ECFAC752F9B445_il2cpp_TypeInfo_var))->___s_CurrentPlatform;
+		V_1 = L_2;
+		goto IL_00d0;
 	}
 
-IL_000d:
+IL_0015:
 	{
 	}
 	try
 	{
 		{
 			//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PlatformUnderstanding.cs:80>
-			String_t* L_2;
-			L_2 = OpenXRRuntime_get_name_mB3B4B1E4ECE3B15BFE5F95AB267D90E0E1829456(NULL);
-			V_0 = L_2;
+			String_t* L_3;
+			L_3 = OpenXRRuntime_get_name_mB3B4B1E4ECE3B15BFE5F95AB267D90E0E1829456(NULL);
+			V_2 = L_3;
 			//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PlatformUnderstanding.cs:81>
-			String_t* L_3 = V_0;
-			bool L_4;
-			L_4 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_3, NULL);
-			if (!L_4)
+			String_t* L_4 = V_2;
+			bool L_5;
+			L_5 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_4, NULL);
+			V_3 = L_5;
+			bool L_6 = V_3;
+			if (!L_6)
 			{
-				goto IL_0024_1;
+				goto IL_0031_1;
 			}
 		}
 		{
 			//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PlatformUnderstanding.cs:83>
 			il2cpp_codegen_runtime_class_init_inline(XRPlatformUnderstanding_t89289F760FF87CBD2446DCEC10ECFAC752F9B445_il2cpp_TypeInfo_var);
 			((XRPlatformUnderstanding_t89289F760FF87CBD2446DCEC10ECFAC752F9B445_StaticFields*)il2cpp_codegen_static_fields_for(XRPlatformUnderstanding_t89289F760FF87CBD2446DCEC10ECFAC752F9B445_il2cpp_TypeInfo_var))->___s_CurrentPlatform = 3;
-			goto IL_007f_1;
+			goto IL_009c_1;
 		}
 
-IL_0024_1:
+IL_0031_1:
 		{
-			String_t* L_5 = V_0;
-			bool L_6;
-			L_6 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_5, _stringLiteralA73F4360C56103ED788368C9769D9E67B8857E15, NULL);
-			if (L_6)
+			//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PlatformUnderstanding.cs:87>
+			String_t* L_7 = V_2;
+			V_5 = L_7;
+			String_t* L_8 = V_5;
+			V_4 = L_8;
+			String_t* L_9 = V_4;
+			bool L_10;
+			L_10 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_9, _stringLiteralA73F4360C56103ED788368C9769D9E67B8857E15, NULL);
+			if (L_10)
 			{
-				goto IL_0040_1;
+				goto IL_0057_1;
 			}
 		}
 		{
-			String_t* L_7 = V_0;
-			bool L_8;
-			L_8 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_7, _stringLiteralAF67CEDF9BEAFF3DA766DA974B7F2E46E04D6D08, NULL);
-			if (L_8)
+			String_t* L_11 = V_4;
+			bool L_12;
+			L_12 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_11, _stringLiteralAF67CEDF9BEAFF3DA766DA974B7F2E46E04D6D08, NULL);
+			if (L_12)
 			{
-				goto IL_0052_1;
+				goto IL_006a_1;
 			}
 		}
 		{
-			goto IL_0064_1;
+			goto IL_007d_1;
 		}
 
-IL_0040_1:
+IL_0057_1:
 		{
 			//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PlatformUnderstanding.cs:90>
 			il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
@@ -10477,10 +11269,10 @@ IL_0040_1:
 			il2cpp_codegen_runtime_class_init_inline(XRPlatformUnderstanding_t89289F760FF87CBD2446DCEC10ECFAC752F9B445_il2cpp_TypeInfo_var);
 			((XRPlatformUnderstanding_t89289F760FF87CBD2446DCEC10ECFAC752F9B445_StaticFields*)il2cpp_codegen_static_fields_for(XRPlatformUnderstanding_t89289F760FF87CBD2446DCEC10ECFAC752F9B445_il2cpp_TypeInfo_var))->___s_CurrentPlatform = 0;
 			//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PlatformUnderstanding.cs:92>
-			goto IL_007f_1;
+			goto IL_009b_1;
 		}
 
-IL_0052_1:
+IL_006a_1:
 		{
 			//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PlatformUnderstanding.cs:94>
 			il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
@@ -10489,26 +11281,31 @@ IL_0052_1:
 			il2cpp_codegen_runtime_class_init_inline(XRPlatformUnderstanding_t89289F760FF87CBD2446DCEC10ECFAC752F9B445_il2cpp_TypeInfo_var);
 			((XRPlatformUnderstanding_t89289F760FF87CBD2446DCEC10ECFAC752F9B445_StaticFields*)il2cpp_codegen_static_fields_for(XRPlatformUnderstanding_t89289F760FF87CBD2446DCEC10ECFAC752F9B445_il2cpp_TypeInfo_var))->___s_CurrentPlatform = 1;
 			//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PlatformUnderstanding.cs:96>
-			goto IL_007f_1;
+			goto IL_009b_1;
 		}
 
-IL_0064_1:
+IL_007d_1:
 		{
 			//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PlatformUnderstanding.cs:98>
-			String_t* L_9 = V_0;
-			String_t* L_10;
-			L_10 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteralA57AEAE61C9F78184B0CE4087DA4123B3923189D, L_9, _stringLiteralC62C64F00567C5368CAE37F4E64E1E82FF785677, NULL);
+			String_t* L_13 = V_2;
+			String_t* L_14;
+			L_14 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteralA57AEAE61C9F78184B0CE4087DA4123B3923189D, L_13, _stringLiteralC62C64F00567C5368CAE37F4E64E1E82FF785677, NULL);
 			il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-			Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_10, NULL);
+			Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_14, NULL);
 			//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PlatformUnderstanding.cs:99>
 			il2cpp_codegen_runtime_class_init_inline(XRPlatformUnderstanding_t89289F760FF87CBD2446DCEC10ECFAC752F9B445_il2cpp_TypeInfo_var);
 			((XRPlatformUnderstanding_t89289F760FF87CBD2446DCEC10ECFAC752F9B445_StaticFields*)il2cpp_codegen_static_fields_for(XRPlatformUnderstanding_t89289F760FF87CBD2446DCEC10ECFAC752F9B445_il2cpp_TypeInfo_var))->___s_CurrentPlatform = 2;
+			//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PlatformUnderstanding.cs:100>
+			goto IL_009b_1;
 		}
 
-IL_007f_1:
+IL_009b_1:
 		{
-			//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PlatformUnderstanding.cs:103>
-			goto IL_009f;
+		}
+
+IL_009c_1:
+		{
+			goto IL_00c2;
 		}
 	}
 	catch(Il2CppExceptionWrapper& e)
@@ -10516,44 +11313,51 @@ IL_007f_1:
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
 		{
 			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_0081;
+			goto CATCH_009f;
 		}
 		throw e;
 	}
 
-CATCH_0081:
+CATCH_009f:
 	{
-		Exception_t* L_11 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		Exception_t* L_15 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PlatformUnderstanding.cs:104>
-		V_1 = L_11;
+		V_6 = L_15;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PlatformUnderstanding.cs:106>
-		Exception_t* L_12 = V_1;
-		NullCheck(L_12);
-		String_t* L_13;
-		L_13 = VirtualFuncInvoker0< String_t* >::Invoke(5, L_12);
-		String_t* L_14;
-		L_14 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral2E5EDFAB2BBD5D8C97B1FE6D6A7BA5679432804E)), L_13, NULL);
+		Exception_t* L_16 = V_6;
+		NullCheck(L_16);
+		String_t* L_17;
+		L_17 = VirtualFuncInvoker0< String_t* >::Invoke(5, L_16);
+		String_t* L_18;
+		L_18 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral2E5EDFAB2BBD5D8C97B1FE6D6A7BA5679432804E)), L_17, NULL);
 		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
-		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_14, NULL);
+		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_18, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PlatformUnderstanding.cs:107>
 		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&XRPlatformUnderstanding_t89289F760FF87CBD2446DCEC10ECFAC752F9B445_il2cpp_TypeInfo_var)));
 		((XRPlatformUnderstanding_t89289F760FF87CBD2446DCEC10ECFAC752F9B445_StaticFields*)il2cpp_codegen_static_fields_for(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&XRPlatformUnderstanding_t89289F760FF87CBD2446DCEC10ECFAC752F9B445_il2cpp_TypeInfo_var))))->___s_CurrentPlatform = 3;
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PlatformUnderstanding.cs:108>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
-		goto IL_009f;
+		goto IL_00c2;
 	}
 
-IL_009f:
+IL_00c2:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PlatformUnderstanding.cs:113>
 		il2cpp_codegen_runtime_class_init_inline(XRPlatformUnderstanding_t89289F760FF87CBD2446DCEC10ECFAC752F9B445_il2cpp_TypeInfo_var);
 		((XRPlatformUnderstanding_t89289F760FF87CBD2446DCEC10ECFAC752F9B445_StaticFields*)il2cpp_codegen_static_fields_for(XRPlatformUnderstanding_t89289F760FF87CBD2446DCEC10ECFAC752F9B445_il2cpp_TypeInfo_var))->___s_Initialized = (bool)1;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PlatformUnderstanding.cs:114>
-		int32_t L_15 = ((XRPlatformUnderstanding_t89289F760FF87CBD2446DCEC10ECFAC752F9B445_StaticFields*)il2cpp_codegen_static_fields_for(XRPlatformUnderstanding_t89289F760FF87CBD2446DCEC10ECFAC752F9B445_il2cpp_TypeInfo_var))->___s_CurrentPlatform;
-		return L_15;
+		int32_t L_19 = ((XRPlatformUnderstanding_t89289F760FF87CBD2446DCEC10ECFAC752F9B445_StaticFields*)il2cpp_codegen_static_fields_for(XRPlatformUnderstanding_t89289F760FF87CBD2446DCEC10ECFAC752F9B445_il2cpp_TypeInfo_var))->___s_CurrentPlatform;
+		V_1 = L_19;
+		goto IL_00d0;
+	}
+
+IL_00d0:
+	{
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/PlatformUnderstanding.cs:115>
+		int32_t L_20 = V_1;
+		return L_20;
 	}
 }
-// Method Definition Index: 75220
+// Method Definition Index: 93667
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPlatformUnderstanding__cctor_m7237BA6551E63939BC8A05E474A88135D2D7B5C1 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10576,7 +11380,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPlatformUnderstanding__cctor_m7237BA65
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75221
+// Method Definition Index: 93668
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RotationAxisLockGrabTransformer_get_registrationMode_m4EA3B5C5617C6806B213DBEED7CC012BDD916948 (RotationAxisLockGrabTransformer_t607B7577937EE7AD454A59499B6266FBA4832DD7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10584,7 +11388,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RotationAxisLockGrabTransformer_get_r
 		return (int32_t)(3);
 	}
 }
-// Method Definition Index: 75222
+// Method Definition Index: 93669
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotationAxisLockGrabTransformer_OnLink_mB4AC8C03388F85A0180CB0A76714EA8FF4A2A351 (RotationAxisLockGrabTransformer_t607B7577937EE7AD454A59499B6266FBA4832DD7* __this, XRGrabInteractable_tAE7E2F24377399C9B5159179E4B43EA6AA55531B* ___0_grabInteractable, const RuntimeMethod* method) 
 {
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
@@ -10609,11 +11413,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotationAxisLockGrabTransformer_OnLink_m
 		return;
 	}
 }
-// Method Definition Index: 75223
+// Method Definition Index: 93670
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotationAxisLockGrabTransformer_Process_m1B7B430C528A8537AC850EF66AF21D4C5032B08A (RotationAxisLockGrabTransformer_t607B7577937EE7AD454A59499B6266FBA4832DD7* __this, XRGrabInteractable_tAE7E2F24377399C9B5159179E4B43EA6AA55531B* ___0_grabInteractable, int32_t ___1_updatePhase, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___2_targetPose, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___3_localScale, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	bool V_1 = false;
+	bool V_2 = false;
+	bool V_3 = false;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/RotationAxisLockGrabTransformer.cs:31>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_0 = ___2_targetPose;
@@ -10623,63 +11430,69 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotationAxisLockGrabTransformer_Process_
 		V_0 = L_2;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/RotationAxisLockGrabTransformer.cs:33>
 		int32_t L_3 = __this->___m_PermittedRotationAxis;
-		if (((int32_t)((int32_t)L_3&1)))
+		V_1 = (bool)((((int32_t)((int32_t)((int32_t)L_3&1))) == ((int32_t)0))? 1 : 0);
+		bool L_4 = V_1;
+		if (!L_4)
 		{
-			goto IL_0028;
+			goto IL_002e;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/RotationAxisLockGrabTransformer.cs:34>
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_4 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___m_InitialEulerRotation);
-		float L_5 = L_4->___x;
-		(&V_0)->___x = L_5;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_5 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___m_InitialEulerRotation);
+		float L_6 = L_5->___x;
+		(&V_0)->___x = L_6;
 	}
 
-IL_0028:
+IL_002e:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/RotationAxisLockGrabTransformer.cs:36>
-		int32_t L_6 = __this->___m_PermittedRotationAxis;
-		if (((int32_t)((int32_t)L_6&2)))
+		int32_t L_7 = __this->___m_PermittedRotationAxis;
+		V_2 = (bool)((((int32_t)((int32_t)((int32_t)L_7&2))) == ((int32_t)0))? 1 : 0);
+		bool L_8 = V_2;
+		if (!L_8)
 		{
-			goto IL_0044;
+			goto IL_004f;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/RotationAxisLockGrabTransformer.cs:37>
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_7 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___m_InitialEulerRotation);
-		float L_8 = L_7->___y;
-		(&V_0)->___y = L_8;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_9 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___m_InitialEulerRotation);
+		float L_10 = L_9->___y;
+		(&V_0)->___y = L_10;
 	}
 
-IL_0044:
+IL_004f:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/RotationAxisLockGrabTransformer.cs:39>
-		int32_t L_9 = __this->___m_PermittedRotationAxis;
-		if (((int32_t)((int32_t)L_9&4)))
+		int32_t L_11 = __this->___m_PermittedRotationAxis;
+		V_3 = (bool)((((int32_t)((int32_t)((int32_t)L_11&4))) == ((int32_t)0))? 1 : 0);
+		bool L_12 = V_3;
+		if (!L_12)
 		{
-			goto IL_0060;
+			goto IL_0070;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/RotationAxisLockGrabTransformer.cs:40>
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_10 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___m_InitialEulerRotation);
-		float L_11 = L_10->___z;
-		(&V_0)->___z = L_11;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_13 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___m_InitialEulerRotation);
+		float L_14 = L_13->___z;
+		(&V_0)->___z = L_14;
 	}
 
-IL_0060:
+IL_0070:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/RotationAxisLockGrabTransformer.cs:42>
-		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_12 = ___2_targetPose;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_0;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_14;
-		L_14 = Quaternion_Euler_m5BCCC19216CFAD2426F15BC51A30421880D27B73_inline(L_13, NULL);
-		L_12->___rotation = L_14;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_15 = ___2_targetPose;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = V_0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_17;
+		L_17 = Quaternion_Euler_m5BCCC19216CFAD2426F15BC51A30421880D27B73_inline(L_16, NULL);
+		L_15->___rotation = L_17;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/RotationAxisLockGrabTransformer.cs:43>
 		return;
 	}
 }
-// Method Definition Index: 75224
+// Method Definition Index: 93671
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotationAxisLockGrabTransformer__ctor_mBDFC675D3576106237A9260DB4140B42869A6612 (RotationAxisLockGrabTransformer_t607B7577937EE7AD454A59499B6266FBA4832DD7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10697,7 +11510,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotationAxisLockGrabTransformer__ctor_mB
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75225
+// Method Definition Index: 93672
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* TeleportVolumeAnchorAffordanceStateLink_get_containingTeleportVolume_m50181BF3B3149557E0CF16F51990B1976E2C8201 (TeleportVolumeAnchorAffordanceStateLink_t7DA616C919D93B9F3BAE4A646B8A1C035DE7C4AD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10706,7 +11519,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TeleportationMultiAnchorVolume_t98D1407484A7F
 		return L_0;
 	}
 }
-// Method Definition Index: 75226
+// Method Definition Index: 93673
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TeleportVolumeAnchorAffordanceStateLink_set_containingTeleportVolume_mF08BFFB658A0712D01C9EB600025553B72692499 (TeleportVolumeAnchorAffordanceStateLink_t7DA616C919D93B9F3BAE4A646B8A1C035DE7C4AD* __this, TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -10717,7 +11530,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TeleportVolumeAnchorAffordanceStateLink_
 		return;
 	}
 }
-// Method Definition Index: 75227
+// Method Definition Index: 93674
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TeleportVolumeAnchorAffordanceStateLink_OnEnable_mD1762BF5B5F0755A68582819FB7DD085A8C84424 (TeleportVolumeAnchorAffordanceStateLink_t7DA616C919D93B9F3BAE4A646B8A1C035DE7C4AD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10738,6 +11551,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TeleportVolumeAnchorAffordanceStateLink_
 	}
 	Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* V_0 = NULL;
 	RuntimeObject* V_1 = NULL;
+	bool V_2 = false;
+	bool V_3 = false;
+	bool V_4 = false;
 	TeleportVolumeAnchorAffordanceStateLink_t7DA616C919D93B9F3BAE4A646B8A1C035DE7C4AD* G_B6_0 = NULL;
 	TeleportVolumeAnchorAffordanceStateLink_t7DA616C919D93B9F3BAE4A646B8A1C035DE7C4AD* G_B5_0 = NULL;
 	TeleportVolumeAnchorAffordanceStateLink_t7DA616C919D93B9F3BAE4A646B8A1C035DE7C4AD* G_B7_0 = NULL;
@@ -10754,119 +11570,125 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TeleportVolumeAnchorAffordanceStateLink_
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
 		L_2 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_2)
+		V_2 = L_2;
+		bool L_3 = V_2;
+		if (!L_3)
 		{
-			goto IL_0042;
+			goto IL_004c;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/TeleportVolumeAnchorAffordanceStateLink.cs:42>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
-		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
-		NullCheck(L_3);
-		String_t* L_4;
-		L_4 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_3, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
+		L_4 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		NullCheck(L_4);
 		String_t* L_5;
-		L_5 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteralF94527EDAE64E94D774AA53AC792C267D77F2755, L_4, _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D, NULL);
+		L_5 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_4, NULL);
+		String_t* L_6;
+		L_6 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteralF94527EDAE64E94D774AA53AC792C267D77F2755, L_5, _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogError_m94F967AB31244EACE68C3BE1DD85B69ED3334C0E(L_5, __this, NULL);
+		Debug_LogError_m94F967AB31244EACE68C3BE1DD85B69ED3334C0E(L_6, __this, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/TeleportVolumeAnchorAffordanceStateLink.cs:43>
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/TeleportVolumeAnchorAffordanceStateLink.cs:44>
-		return;
+		goto IL_00f9;
 	}
 
-IL_0042:
+IL_004c:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/TeleportVolumeAnchorAffordanceStateLink.cs:47>
-		TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* L_6 = __this->___m_ContainingTeleportVolume;
+		TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* L_7 = __this->___m_ContainingTeleportVolume;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_7;
-		L_7 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_6, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_7)
+		bool L_8;
+		L_8 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_7, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_3 = L_8;
+		bool L_9 = V_3;
+		if (!L_9)
 		{
-			goto IL_0078;
+			goto IL_0088;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/TeleportVolumeAnchorAffordanceStateLink.cs:49>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8;
-		L_8 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
-		NullCheck(L_8);
-		String_t* L_9;
-		L_9 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_8, NULL);
-		String_t* L_10;
-		L_10 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteral8283638E5854A54022BF2CFA5BA3EBEC021A10DF, L_9, _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10;
+		L_10 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		NullCheck(L_10);
+		String_t* L_11;
+		L_11 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_10, NULL);
+		String_t* L_12;
+		L_12 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteral8283638E5854A54022BF2CFA5BA3EBEC021A10DF, L_11, _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogError_m94F967AB31244EACE68C3BE1DD85B69ED3334C0E(L_10, __this, NULL);
+		Debug_LogError_m94F967AB31244EACE68C3BE1DD85B69ED3334C0E(L_12, __this, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/TeleportVolumeAnchorAffordanceStateLink.cs:50>
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/TeleportVolumeAnchorAffordanceStateLink.cs:51>
-		return;
+		goto IL_00f9;
 	}
 
-IL_0078:
+IL_0088:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/TeleportVolumeAnchorAffordanceStateLink.cs:54>
-		XRInteractableAffordanceStateProvider_tBF33F0A41B1960C8FE2CCAFC6228E07D8A459C98* L_11 = __this->___m_AffordanceStateProvider;
-		NullCheck(L_11);
-		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_12;
-		L_12 = XRInteractableAffordanceStateProvider_get_interactableSource_m43E4BAA09BD771994E184DD45418EA28916B7FAE_inline(L_11, NULL);
-		V_0 = L_12;
+		XRInteractableAffordanceStateProvider_tBF33F0A41B1960C8FE2CCAFC6228E07D8A459C98* L_13 = __this->___m_AffordanceStateProvider;
+		NullCheck(L_13);
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_14;
+		L_14 = XRInteractableAffordanceStateProvider_get_interactableSource_m43E4BAA09BD771994E184DD45418EA28916B7FAE_inline(L_13, NULL);
+		V_0 = L_14;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/TeleportVolumeAnchorAffordanceStateLink.cs:55>
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/TeleportVolumeAnchorAffordanceStateLink.cs:56>
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/TeleportVolumeAnchorAffordanceStateLink.cs:57>
-		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_13 = V_0;
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_15 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_14;
-		L_14 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_13, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_14)
+		bool L_16;
+		L_16 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_15, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_16)
 		{
 			G_B6_0 = __this;
-			goto IL_0098;
+			goto IL_00a8;
 		}
 		G_B5_0 = __this;
 	}
 	{
-		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_15 = V_0;
-		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)L_15, IXRInteractable_t094DA697CF40A061C2820FDE5B5838D08D7E9609_il2cpp_TypeInfo_var));
-		RuntimeObject* L_16 = V_1;
-		if (L_16)
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_17 = V_0;
+		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)L_17, IXRInteractable_t094DA697CF40A061C2820FDE5B5838D08D7E9609_il2cpp_TypeInfo_var));
+		RuntimeObject* L_18 = V_1;
+		if (L_18)
 		{
 			G_B7_0 = G_B5_0;
-			goto IL_00a5;
+			goto IL_00b5;
 		}
 		G_B6_0 = G_B5_0;
 	}
 
-IL_0098:
+IL_00a8:
 	{
-		XRInteractableAffordanceStateProvider_tBF33F0A41B1960C8FE2CCAFC6228E07D8A459C98* L_17 = __this->___m_AffordanceStateProvider;
-		NullCheck(L_17);
-		RuntimeObject* L_18;
-		L_18 = Component_GetComponentInParent_TisIXRInteractable_t094DA697CF40A061C2820FDE5B5838D08D7E9609_m1731D74F9EAB2EA20BB46A90D325A9B50C7E2DFC(L_17, Component_GetComponentInParent_TisIXRInteractable_t094DA697CF40A061C2820FDE5B5838D08D7E9609_m1731D74F9EAB2EA20BB46A90D325A9B50C7E2DFC_RuntimeMethod_var);
-		G_B8_0 = L_18;
+		XRInteractableAffordanceStateProvider_tBF33F0A41B1960C8FE2CCAFC6228E07D8A459C98* L_19 = __this->___m_AffordanceStateProvider;
+		NullCheck(L_19);
+		RuntimeObject* L_20;
+		L_20 = Component_GetComponentInParent_TisIXRInteractable_t094DA697CF40A061C2820FDE5B5838D08D7E9609_m1731D74F9EAB2EA20BB46A90D325A9B50C7E2DFC(L_19, Component_GetComponentInParent_TisIXRInteractable_t094DA697CF40A061C2820FDE5B5838D08D7E9609_m1731D74F9EAB2EA20BB46A90D325A9B50C7E2DFC_RuntimeMethod_var);
+		G_B8_0 = L_20;
 		G_B8_1 = G_B6_0;
-		goto IL_00a6;
+		goto IL_00b6;
 	}
 
-IL_00a5:
+IL_00b5:
 	{
-		RuntimeObject* L_19 = V_1;
-		G_B8_0 = L_19;
+		RuntimeObject* L_21 = V_1;
+		G_B8_0 = L_21;
 		G_B8_1 = G_B7_0;
 	}
 
-IL_00a6:
+IL_00b6:
 	{
 		NullCheck(G_B8_1);
 		G_B8_1->___m_Interactable = G_B8_0;
 		Il2CppCodeGenWriteBarrier((void**)(&G_B8_1->___m_Interactable), (void*)G_B8_0);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/TeleportVolumeAnchorAffordanceStateLink.cs:59>
-		RuntimeObject* L_20 = __this->___m_Interactable;
-		if (L_20)
+		RuntimeObject* L_22 = __this->___m_Interactable;
+		V_4 = (bool)((((RuntimeObject*)(RuntimeObject*)L_22) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		bool L_23 = V_4;
+		if (!L_23)
 		{
-			goto IL_00c6;
+			goto IL_00e1;
 		}
 	}
 	{
@@ -10876,22 +11698,26 @@ IL_00a6:
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/TeleportVolumeAnchorAffordanceStateLink.cs:62>
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/TeleportVolumeAnchorAffordanceStateLink.cs:63>
-		return;
+		goto IL_00f9;
 	}
 
-IL_00c6:
+IL_00e1:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/TeleportVolumeAnchorAffordanceStateLink.cs:66>
-		TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* L_21 = __this->___m_ContainingTeleportVolume;
-		Action_1_t3F0A0FBA4DF1005A2F3BF6F5A9AD5645222F8D31* L_22 = (Action_1_t3F0A0FBA4DF1005A2F3BF6F5A9AD5645222F8D31*)il2cpp_codegen_object_new(Action_1_t3F0A0FBA4DF1005A2F3BF6F5A9AD5645222F8D31_il2cpp_TypeInfo_var);
-		Action_1__ctor_m119FC84288B3E5166500AB8D976F6135420BCAEC(L_22, __this, (intptr_t)((void*)TeleportVolumeAnchorAffordanceStateLink_OnDestinationAnchorChanged_m4185B70F82A1436A3AFCEC0262D6D99F647FA737_RuntimeMethod_var), NULL);
-		NullCheck(L_21);
-		TeleportationMultiAnchorVolume_add_destinationAnchorChanged_mFB365E430B9DF8C9F48465905563E149030C8C80(L_21, L_22, NULL);
+		TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* L_24 = __this->___m_ContainingTeleportVolume;
+		Action_1_t3F0A0FBA4DF1005A2F3BF6F5A9AD5645222F8D31* L_25 = (Action_1_t3F0A0FBA4DF1005A2F3BF6F5A9AD5645222F8D31*)il2cpp_codegen_object_new(Action_1_t3F0A0FBA4DF1005A2F3BF6F5A9AD5645222F8D31_il2cpp_TypeInfo_var);
+		Action_1__ctor_m119FC84288B3E5166500AB8D976F6135420BCAEC(L_25, __this, (intptr_t)((void*)TeleportVolumeAnchorAffordanceStateLink_OnDestinationAnchorChanged_m4185B70F82A1436A3AFCEC0262D6D99F647FA737_RuntimeMethod_var), NULL);
+		NullCheck(L_24);
+		TeleportationMultiAnchorVolume_add_destinationAnchorChanged_mFB365E430B9DF8C9F48465905563E149030C8C80(L_24, L_25, NULL);
+	}
+
+IL_00f9:
+	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/TeleportVolumeAnchorAffordanceStateLink.cs:67>
 		return;
 	}
 }
-// Method Definition Index: 75228
+// Method Definition Index: 93675
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TeleportVolumeAnchorAffordanceStateLink_OnDisable_m58CA83A985DC823547932982151C1558C3159903 (TeleportVolumeAnchorAffordanceStateLink_t7DA616C919D93B9F3BAE4A646B8A1C035DE7C4AD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10902,54 +11728,60 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TeleportVolumeAnchorAffordanceStateLink_
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TeleportVolumeAnchorAffordanceStateLink_OnDestinationAnchorChanged_m4185B70F82A1436A3AFCEC0262D6D99F647FA737_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/TeleportVolumeAnchorAffordanceStateLink.cs:74>
 		TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* L_0 = __this->___m_ContainingTeleportVolume;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_1)
+		V_0 = L_1;
+		bool L_2 = V_0;
+		if (!L_2)
 		{
-			goto IL_0025;
+			goto IL_0029;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/TeleportVolumeAnchorAffordanceStateLink.cs:75>
-		TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* L_2 = __this->___m_ContainingTeleportVolume;
-		Action_1_t3F0A0FBA4DF1005A2F3BF6F5A9AD5645222F8D31* L_3 = (Action_1_t3F0A0FBA4DF1005A2F3BF6F5A9AD5645222F8D31*)il2cpp_codegen_object_new(Action_1_t3F0A0FBA4DF1005A2F3BF6F5A9AD5645222F8D31_il2cpp_TypeInfo_var);
-		Action_1__ctor_m119FC84288B3E5166500AB8D976F6135420BCAEC(L_3, __this, (intptr_t)((void*)TeleportVolumeAnchorAffordanceStateLink_OnDestinationAnchorChanged_m4185B70F82A1436A3AFCEC0262D6D99F647FA737_RuntimeMethod_var), NULL);
-		NullCheck(L_2);
-		TeleportationMultiAnchorVolume_remove_destinationAnchorChanged_mD878285F1E46919DDE67A207280D713F637E52E9(L_2, L_3, NULL);
+		TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* L_3 = __this->___m_ContainingTeleportVolume;
+		Action_1_t3F0A0FBA4DF1005A2F3BF6F5A9AD5645222F8D31* L_4 = (Action_1_t3F0A0FBA4DF1005A2F3BF6F5A9AD5645222F8D31*)il2cpp_codegen_object_new(Action_1_t3F0A0FBA4DF1005A2F3BF6F5A9AD5645222F8D31_il2cpp_TypeInfo_var);
+		Action_1__ctor_m119FC84288B3E5166500AB8D976F6135420BCAEC(L_4, __this, (intptr_t)((void*)TeleportVolumeAnchorAffordanceStateLink_OnDestinationAnchorChanged_m4185B70F82A1436A3AFCEC0262D6D99F647FA737_RuntimeMethod_var), NULL);
+		NullCheck(L_3);
+		TeleportationMultiAnchorVolume_remove_destinationAnchorChanged_mD878285F1E46919DDE67A207280D713F637E52E9(L_3, L_4, NULL);
 	}
 
-IL_0025:
+IL_0029:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/TeleportVolumeAnchorAffordanceStateLink.cs:77>
-		XRInteractableAffordanceStateProvider_tBF33F0A41B1960C8FE2CCAFC6228E07D8A459C98* L_4 = __this->___m_AffordanceStateProvider;
+		XRInteractableAffordanceStateProvider_tBF33F0A41B1960C8FE2CCAFC6228E07D8A459C98* L_5 = __this->___m_AffordanceStateProvider;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_5;
-		L_5 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_5)
+		bool L_6;
+		L_6 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_1 = L_6;
+		bool L_7 = V_1;
+		if (!L_7)
 		{
-			goto IL_0045;
+			goto IL_004b;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/TeleportVolumeAnchorAffordanceStateLink.cs:78>
-		XRInteractableAffordanceStateProvider_tBF33F0A41B1960C8FE2CCAFC6228E07D8A459C98* L_6 = __this->___m_AffordanceStateProvider;
-		RuntimeObject* L_7 = __this->___m_Interactable;
-		NullCheck(L_6);
-		bool L_8;
-		L_8 = XRInteractableAffordanceStateProvider_SetBoundInteractionReceiver_m8BB7E035F18464884B8849E420F483F3FFCF537F(L_6, L_7, NULL);
+		XRInteractableAffordanceStateProvider_tBF33F0A41B1960C8FE2CCAFC6228E07D8A459C98* L_8 = __this->___m_AffordanceStateProvider;
+		RuntimeObject* L_9 = __this->___m_Interactable;
+		NullCheck(L_8);
+		bool L_10;
+		L_10 = XRInteractableAffordanceStateProvider_SetBoundInteractionReceiver_m8BB7E035F18464884B8849E420F483F3FFCF537F(L_8, L_9, NULL);
 	}
 
-IL_0045:
+IL_004b:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/TeleportVolumeAnchorAffordanceStateLink.cs:79>
 		return;
 	}
 }
-// Method Definition Index: 75229
+// Method Definition Index: 93676
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TeleportVolumeAnchorAffordanceStateLink_OnDestinationAnchorChanged_m4185B70F82A1436A3AFCEC0262D6D99F647FA737 (TeleportVolumeAnchorAffordanceStateLink_t7DA616C919D93B9F3BAE4A646B8A1C035DE7C4AD* __this, TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* ___0_anchorVolume, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10960,7 +11792,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TeleportVolumeAnchorAffordanceStateLink_
 		s_Il2CppMethodInitialized = true;
 	}
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_0 = NULL;
-	RuntimeObject* V_1 = NULL;
+	bool V_1 = false;
+	RuntimeObject* V_2 = NULL;
 	XRInteractableAffordanceStateProvider_tBF33F0A41B1960C8FE2CCAFC6228E07D8A459C98* G_B4_0 = NULL;
 	XRInteractableAffordanceStateProvider_tBF33F0A41B1960C8FE2CCAFC6228E07D8A459C98* G_B3_0 = NULL;
 	RuntimeObject* G_B5_0 = NULL;
@@ -10977,70 +11810,76 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TeleportVolumeAnchorAffordanceStateLink_
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
 		L_3 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_3)
+		V_1 = L_3;
+		bool L_4 = V_1;
+		if (!L_4)
 		{
-			goto IL_0023;
+			goto IL_0028;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/TeleportVolumeAnchorAffordanceStateLink.cs:86>
-		XRInteractableAffordanceStateProvider_tBF33F0A41B1960C8FE2CCAFC6228E07D8A459C98* L_4 = __this->___m_AffordanceStateProvider;
-		RuntimeObject* L_5 = __this->___m_Interactable;
-		NullCheck(L_4);
-		bool L_6;
-		L_6 = XRInteractableAffordanceStateProvider_SetBoundInteractionReceiver_m8BB7E035F18464884B8849E420F483F3FFCF537F(L_4, L_5, NULL);
+		XRInteractableAffordanceStateProvider_tBF33F0A41B1960C8FE2CCAFC6228E07D8A459C98* L_5 = __this->___m_AffordanceStateProvider;
+		RuntimeObject* L_6 = __this->___m_Interactable;
+		NullCheck(L_5);
+		bool L_7;
+		L_7 = XRInteractableAffordanceStateProvider_SetBoundInteractionReceiver_m8BB7E035F18464884B8849E420F483F3FFCF537F(L_5, L_6, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/TeleportVolumeAnchorAffordanceStateLink.cs:87>
-		return;
+		goto IL_0057;
 	}
 
-IL_0023:
+IL_0028:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/TeleportVolumeAnchorAffordanceStateLink.cs:91>
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/TeleportVolumeAnchorAffordanceStateLink.cs:92>
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/TeleportVolumeAnchorAffordanceStateLink.cs:93>
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/TeleportVolumeAnchorAffordanceStateLink.cs:94>
-		XRInteractableAffordanceStateProvider_tBF33F0A41B1960C8FE2CCAFC6228E07D8A459C98* L_7 = __this->___m_AffordanceStateProvider;
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8 = V_0;
-		RuntimeObject* L_9 = __this->___m_Interactable;
+		XRInteractableAffordanceStateProvider_tBF33F0A41B1960C8FE2CCAFC6228E07D8A459C98* L_8 = __this->___m_AffordanceStateProvider;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9 = V_0;
+		RuntimeObject* L_10 = __this->___m_Interactable;
+		NullCheck(L_10);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11;
+		L_11 = InterfaceFuncInvoker0< Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* >::Invoke(6, IXRInteractable_t094DA697CF40A061C2820FDE5B5838D08D7E9609_il2cpp_TypeInfo_var, L_10);
 		NullCheck(L_9);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10;
-		L_10 = InterfaceFuncInvoker0< Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* >::Invoke(6, IXRInteractable_t094DA697CF40A061C2820FDE5B5838D08D7E9609_il2cpp_TypeInfo_var, L_9);
-		NullCheck(L_8);
-		bool L_11;
-		L_11 = Transform_IsChildOf_mFE071BE1E775E825401FE0A9B9BE49E39D256CEA(L_8, L_10, NULL);
-		if (L_11)
+		bool L_12;
+		L_12 = Transform_IsChildOf_mFE071BE1E775E825401FE0A9B9BE49E39D256CEA(L_9, L_11, NULL);
+		if (L_12)
 		{
-			G_B4_0 = L_7;
-			goto IL_0044;
+			G_B4_0 = L_8;
+			goto IL_0049;
 		}
-		G_B3_0 = L_7;
+		G_B3_0 = L_8;
 	}
 	{
-		RuntimeObject* L_12 = __this->___m_Interactable;
-		G_B5_0 = L_12;
+		RuntimeObject* L_13 = __this->___m_Interactable;
+		G_B5_0 = L_13;
 		G_B5_1 = G_B3_0;
-		goto IL_004c;
+		goto IL_0051;
 	}
 
-IL_0044:
+IL_0049:
 	{
-		TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* L_13 = __this->___m_ContainingTeleportVolume;
-		V_1 = L_13;
-		RuntimeObject* L_14 = V_1;
-		G_B5_0 = L_14;
+		TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* L_14 = __this->___m_ContainingTeleportVolume;
+		V_2 = L_14;
+		RuntimeObject* L_15 = V_2;
+		G_B5_0 = L_15;
 		G_B5_1 = G_B4_0;
 	}
 
-IL_004c:
+IL_0051:
 	{
 		NullCheck(G_B5_1);
-		bool L_15;
-		L_15 = XRInteractableAffordanceStateProvider_SetBoundInteractionReceiver_m8BB7E035F18464884B8849E420F483F3FFCF537F(G_B5_1, G_B5_0, NULL);
+		bool L_16;
+		L_16 = XRInteractableAffordanceStateProvider_SetBoundInteractionReceiver_m8BB7E035F18464884B8849E420F483F3FFCF537F(G_B5_1, G_B5_0, NULL);
+	}
+
+IL_0057:
+	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/TeleportVolumeAnchorAffordanceStateLink.cs:95>
 		return;
 	}
 }
-// Method Definition Index: 75230
+// Method Definition Index: 93677
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TeleportVolumeAnchorAffordanceStateLink__ctor_m940235326D23C91873B1F556E7ACBBF8BEB4CD7E (TeleportVolumeAnchorAffordanceStateLink_t7DA616C919D93B9F3BAE4A646B8A1C035DE7C4AD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11056,7 +11895,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TeleportVolumeAnchorAffordanceStateLink_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75231
+// Method Definition Index: 93678
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ToggleColorToggler_get_onColor_m1B9F86E2415ADC1ACBA3563F7E3F355FC0D63FE0 (ToggleColorToggler_t0CC60D1811588FFAB083A86EB0690742673F64C0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11065,7 +11904,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 		return L_0;
 	}
 }
-// Method Definition Index: 75232
+// Method Definition Index: 93679
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ToggleColorToggler_set_onColor_mBB35C1DA5B1516CE188C99E0170E34DA02F476F7 (ToggleColorToggler_t0CC60D1811588FFAB083A86EB0690742673F64C0* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -11075,7 +11914,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ToggleColorToggler_set_onColor_mBB35C1DA
 		return;
 	}
 }
-// Method Definition Index: 75233
+// Method Definition Index: 93680
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ToggleColorToggler_get_offColor_m42EA24E204FF491A885C9E45131CCC5264DD76F6 (ToggleColorToggler_t0CC60D1811588FFAB083A86EB0690742673F64C0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11084,7 +11923,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 		return L_0;
 	}
 }
-// Method Definition Index: 75234
+// Method Definition Index: 93681
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ToggleColorToggler_set_offColor_m6174D3F68E2DD0CF39811CA4D06548BF84FE062F (ToggleColorToggler_t0CC60D1811588FFAB083A86EB0690742673F64C0* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -11094,7 +11933,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ToggleColorToggler_set_offColor_m6174D3F
 		return;
 	}
 }
-// Method Definition Index: 75235
+// Method Definition Index: 93682
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ToggleColorToggler_Awake_mAE29C1DFE732531F9E6B9C4B402EB6C9AF5FBA87 (ToggleColorToggler_t0CC60D1811588FFAB083A86EB0690742673F64C0* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11113,7 +11952,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ToggleColorToggler_Awake_mAE29C1DFE73253
 		return;
 	}
 }
-// Method Definition Index: 75236
+// Method Definition Index: 93683
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ToggleColorToggler_OnEnable_mFCE0951337FC17BF5DDD47E457C3F3752E49DE63 (ToggleColorToggler_t0CC60D1811588FFAB083A86EB0690742673F64C0* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11137,7 +11976,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ToggleColorToggler_OnEnable_mFCE0951337F
 		return;
 	}
 }
-// Method Definition Index: 75237
+// Method Definition Index: 93684
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ToggleColorToggler_OnDisable_m23DEEB2C38DE8D0915EFA737456F8C5CAED24841 (ToggleColorToggler_t0CC60D1811588FFAB083A86EB0690742673F64C0* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11161,7 +12000,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ToggleColorToggler_OnDisable_m23DEEB2C38
 		return;
 	}
 }
-// Method Definition Index: 75238
+// Method Definition Index: 93685
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ToggleColorToggler_OnToggleValueChanged_m5FEC8CF2DCEA60962CAB76C8A903695321D22451 (ToggleColorToggler_t0CC60D1811588FFAB083A86EB0690742673F64C0* __this, bool ___0_isOn, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11182,14 +12021,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ToggleColorToggler_OnToggleValueChanged_
 		Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* L_0 = __this->___m_TargetToggle;
 		NullCheck(L_0);
 		ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11 L_1;
-		L_1 = Selectable_get_colors_mB53E365D02351D4B64084295C4B2A7AF2DEC4750_inline(L_0, NULL);
+		L_1 = Selectable_get_colors_mB53E365D02351D4B64084295C4B2A7AF2DEC4750(L_0, NULL);
 		V_0 = L_1;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ToggleColorToggler.cs:66>
 		bool L_2 = ___0_isOn;
 		if (L_2)
 		{
 			G_B2_0 = (&V_0);
-			goto IL_0019;
+			goto IL_001a;
 		}
 		G_B1_0 = (&V_0);
 	}
@@ -11197,20 +12036,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ToggleColorToggler_OnToggleValueChanged_
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3 = __this->___m_OffColor;
 		G_B3_0 = L_3;
 		G_B3_1 = G_B1_0;
-		goto IL_001f;
+		goto IL_0020;
 	}
 
-IL_0019:
+IL_001a:
 	{
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_4 = __this->___m_OnColor;
 		G_B3_0 = L_4;
 		G_B3_1 = G_B2_0;
 	}
 
-IL_001f:
+IL_0020:
 	{
 		il2cpp_codegen_runtime_class_init_inline(ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11_il2cpp_TypeInfo_var);
-		ColorBlock_set_normalColor_m3EBF594F6FA2C6494ACA9FCB9B458807D85B96F8_inline(G_B3_1, G_B3_0, NULL);
+		ColorBlock_set_normalColor_m3EBF594F6FA2C6494ACA9FCB9B458807D85B96F8(G_B3_1, G_B3_0, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/ToggleColorToggler.cs:67>
 		Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* L_5 = __this->___m_TargetToggle;
 		ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11 L_6 = V_0;
@@ -11220,7 +12059,7 @@ IL_001f:
 		return;
 	}
 }
-// Method Definition Index: 75239
+// Method Definition Index: 93686
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ToggleColorToggler__ctor_mEA78FCBF790CA78D9FEDF4F26C96E31BA5DA050E (ToggleColorToggler_t0CC60D1811588FFAB083A86EB0690742673F64C0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11246,7 +12085,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ToggleColorToggler__ctor_mEA78FCBF790CA7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75240
+// Method Definition Index: 93687
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* XRPokeFollowAffordance_get_pokeFollowTransform_m73344435C2867D159F2F7E02F49376F558087F1E (XRPokeFollowAffordance_t008BF5185DB23D6AA9F9E39C265BE9B8AEF64DAC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11255,7 +12094,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99
 		return L_0;
 	}
 }
-// Method Definition Index: 75241
+// Method Definition Index: 93688
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPokeFollowAffordance_set_pokeFollowTransform_m349E957CDD31FC13ABF0136717A3CACDD1451546 (XRPokeFollowAffordance_t008BF5185DB23D6AA9F9E39C265BE9B8AEF64DAC* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -11266,7 +12105,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPokeFollowAffordance_set_pokeFollowTra
 		return;
 	}
 }
-// Method Definition Index: 75242
+// Method Definition Index: 93689
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRPokeFollowAffordance_get_smoothingSpeed_m6DA02413915676F5754E172BAF1C07C0C517BB75 (XRPokeFollowAffordance_t008BF5185DB23D6AA9F9E39C265BE9B8AEF64DAC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11275,7 +12114,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRPokeFollowAffordance_get_smoothingSpe
 		return L_0;
 	}
 }
-// Method Definition Index: 75243
+// Method Definition Index: 93690
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPokeFollowAffordance_set_smoothingSpeed_m6F6EDC78B71DE4F9223FB1DC41EA3EB1FBEC210D (XRPokeFollowAffordance_t008BF5185DB23D6AA9F9E39C265BE9B8AEF64DAC* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -11285,7 +12124,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPokeFollowAffordance_set_smoothingSpee
 		return;
 	}
 }
-// Method Definition Index: 75244
+// Method Definition Index: 93691
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRPokeFollowAffordance_get_returnToInitialPosition_m8D6FC7BDF8A2419ACEAF06B9E46321416A22412A (XRPokeFollowAffordance_t008BF5185DB23D6AA9F9E39C265BE9B8AEF64DAC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11294,7 +12133,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRPokeFollowAffordance_get_returnToIniti
 		return L_0;
 	}
 }
-// Method Definition Index: 75245
+// Method Definition Index: 93692
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPokeFollowAffordance_set_returnToInitialPosition_m77573EFC79B33125B097570F60A87EBA1BA1BA91 (XRPokeFollowAffordance_t008BF5185DB23D6AA9F9E39C265BE9B8AEF64DAC* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -11304,7 +12143,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPokeFollowAffordance_set_returnToIniti
 		return;
 	}
 }
-// Method Definition Index: 75246
+// Method Definition Index: 93693
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRPokeFollowAffordance_get_applyIfChildIsTarget_m1023FE2DD7E8622125AB3E6261B00B38DC1CA302 (XRPokeFollowAffordance_t008BF5185DB23D6AA9F9E39C265BE9B8AEF64DAC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11313,7 +12152,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRPokeFollowAffordance_get_applyIfChildI
 		return L_0;
 	}
 }
-// Method Definition Index: 75247
+// Method Definition Index: 93694
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPokeFollowAffordance_set_applyIfChildIsTarget_mBBE196D3022D66890463276AAFDFB54444A0BFE2 (XRPokeFollowAffordance_t008BF5185DB23D6AA9F9E39C265BE9B8AEF64DAC* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -11323,7 +12162,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPokeFollowAffordance_set_applyIfChildI
 		return;
 	}
 }
-// Method Definition Index: 75248
+// Method Definition Index: 93695
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRPokeFollowAffordance_get_clampToMaxDistance_m6F811E71D7755E06CC1F40B6566FACE71EADC78C (XRPokeFollowAffordance_t008BF5185DB23D6AA9F9E39C265BE9B8AEF64DAC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11332,7 +12171,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRPokeFollowAffordance_get_clampToMaxDis
 		return L_0;
 	}
 }
-// Method Definition Index: 75249
+// Method Definition Index: 93696
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPokeFollowAffordance_set_clampToMaxDistance_mD0D40453025EF106A1D04AD65A8FC4315B83AA2E (XRPokeFollowAffordance_t008BF5185DB23D6AA9F9E39C265BE9B8AEF64DAC* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -11342,7 +12181,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPokeFollowAffordance_set_clampToMaxDis
 		return;
 	}
 }
-// Method Definition Index: 75250
+// Method Definition Index: 93697
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRPokeFollowAffordance_get_maxDistance_m72B9FC2D76C8CE120CAFA3C35A30CB7E61711F5D (XRPokeFollowAffordance_t008BF5185DB23D6AA9F9E39C265BE9B8AEF64DAC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11351,7 +12190,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRPokeFollowAffordance_get_maxDistance_
 		return L_0;
 	}
 }
-// Method Definition Index: 75251
+// Method Definition Index: 93698
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPokeFollowAffordance_set_maxDistance_m10822A5C3A8814B606594E089B6E8CBB4268AC49 (XRPokeFollowAffordance_t008BF5185DB23D6AA9F9E39C265BE9B8AEF64DAC* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -11361,7 +12200,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPokeFollowAffordance_set_maxDistance_m
 		return;
 	}
 }
-// Method Definition Index: 75252
+// Method Definition Index: 93699
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 XRPokeFollowAffordance_get_initialPosition_m2076FCE50726A24B4A56CEA94A5AE7CC2BFE7401 (XRPokeFollowAffordance_t008BF5185DB23D6AA9F9E39C265BE9B8AEF64DAC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11370,7 +12209,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		return L_0;
 	}
 }
-// Method Definition Index: 75253
+// Method Definition Index: 93700
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPokeFollowAffordance_set_initialPosition_mDEC89AA206367BCE6753B8BB9DAC0D3272B3947A (XRPokeFollowAffordance_t008BF5185DB23D6AA9F9E39C265BE9B8AEF64DAC* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -11380,7 +12219,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPokeFollowAffordance_set_initialPositi
 		return;
 	}
 }
-// Method Definition Index: 75254
+// Method Definition Index: 93701
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPokeFollowAffordance_Awake_m610BBBA2BD47341BB933845C9C005C3C5211F342 (XRPokeFollowAffordance_t008BF5185DB23D6AA9F9E39C265BE9B8AEF64DAC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11390,6 +12229,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPokeFollowAffordance_Awake_m610BBBA2BD
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponentInParent_TisIPokeStateDataProvider_t14F2B731F2979D1138EB70A11E36F274A23DC91C_m56533D22EBBEEE60BD440ECE3B5EF450D8F5DE62_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	bool V_0 = false;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:134>
 		RuntimeObject* L_0;
@@ -11398,26 +12238,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPokeFollowAffordance_Awake_m610BBBA2BD
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_MultiPokeStateDataProvider), (void*)L_0);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:135>
 		RuntimeObject* L_1 = __this->___m_MultiPokeStateDataProvider;
-		if (L_1)
+		V_0 = (bool)((((RuntimeObject*)(RuntimeObject*)L_1) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		bool L_2 = V_0;
+		if (!L_2)
 		{
-			goto IL_0020;
+			goto IL_0026;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:136>
-		RuntimeObject* L_2;
-		L_2 = Component_GetComponentInParent_TisIPokeStateDataProvider_t14F2B731F2979D1138EB70A11E36F274A23DC91C_m56533D22EBBEEE60BD440ECE3B5EF450D8F5DE62(__this, Component_GetComponentInParent_TisIPokeStateDataProvider_t14F2B731F2979D1138EB70A11E36F274A23DC91C_m56533D22EBBEEE60BD440ECE3B5EF450D8F5DE62_RuntimeMethod_var);
-		__this->___m_PokeDataProvider = L_2;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_PokeDataProvider), (void*)L_2);
+		RuntimeObject* L_3;
+		L_3 = Component_GetComponentInParent_TisIPokeStateDataProvider_t14F2B731F2979D1138EB70A11E36F274A23DC91C_m56533D22EBBEEE60BD440ECE3B5EF450D8F5DE62(__this, Component_GetComponentInParent_TisIPokeStateDataProvider_t14F2B731F2979D1138EB70A11E36F274A23DC91C_m56533D22EBBEEE60BD440ECE3B5EF450D8F5DE62_RuntimeMethod_var);
+		__this->___m_PokeDataProvider = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_PokeDataProvider), (void*)L_3);
 	}
 
-IL_0020:
+IL_0026:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:137>
 		return;
 	}
 }
-// Method Definition Index: 75255
+// Method Definition Index: 93702
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPokeFollowAffordance_Start_m4499F1A6DA2148644B4AE565B55C82612943C8F9 (XRPokeFollowAffordance_t008BF5185DB23D6AA9F9E39C265BE9B8AEF64DAC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11435,104 +12277,117 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPokeFollowAffordance_Start_m4499F1A6DA
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral675D495E61C139628601D1F560A558803C58CB67);
 		s_Il2CppMethodInitialized = true;
 	}
+	bool V_0 = false;
+	bool V_1 = false;
+	bool V_2 = false;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:144>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___m_PokeFollowTransform;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_1)
+		V_0 = L_1;
+		bool L_2 = V_0;
+		if (!L_2)
 		{
-			goto IL_00ab;
+			goto IL_00bf;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:146>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->___m_PokeFollowTransform;
-		NullCheck(L_2);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
-		L_3 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_2, NULL);
-		__this->___m_InitialPosition = L_3;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = __this->___m_PokeFollowTransform;
+		NullCheck(L_3);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_3, NULL);
+		__this->___m_InitialPosition = L_4;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:147>
-		BindingsGroup_tD5EC90BB10F9D310FE467A7E3A4CAE2E32D0397A* L_4 = __this->___m_BindingsGroup;
-		Vector3TweenableVariable_t0DF651B487F89825D0D459293C4A862C62C0EBD5* L_5 = __this->___m_TransformTweenableVariable;
-		Action_1_t81CC87F0365077EC678FAF69B68180DC9750249B* L_6 = (Action_1_t81CC87F0365077EC678FAF69B68180DC9750249B*)il2cpp_codegen_object_new(Action_1_t81CC87F0365077EC678FAF69B68180DC9750249B_il2cpp_TypeInfo_var);
-		Action_1__ctor_mB233B0C3B645B249C912144F3F6EA0B343C5E5F0(L_6, __this, (intptr_t)((void*)GetVirtualMethodInfo(__this, 4)), NULL);
+		BindingsGroup_tD5EC90BB10F9D310FE467A7E3A4CAE2E32D0397A* L_5 = __this->___m_BindingsGroup;
+		Vector3TweenableVariable_t0DF651B487F89825D0D459293C4A862C62C0EBD5* L_6 = __this->___m_TransformTweenableVariable;
+		Action_1_t81CC87F0365077EC678FAF69B68180DC9750249B* L_7 = (Action_1_t81CC87F0365077EC678FAF69B68180DC9750249B*)il2cpp_codegen_object_new(Action_1_t81CC87F0365077EC678FAF69B68180DC9750249B_il2cpp_TypeInfo_var);
+		Action_1__ctor_mB233B0C3B645B249C912144F3F6EA0B343C5E5F0(L_7, __this, (intptr_t)((void*)GetVirtualMethodInfo(__this, 4)), NULL);
+		NullCheck(L_6);
+		RuntimeObject* L_8;
+		L_8 = BindableVariableBase_1_Subscribe_mC4E18EDA53B1AF95B57D4D6976353EC198EA6608(L_6, L_7, BindableVariableBase_1_Subscribe_mC4E18EDA53B1AF95B57D4D6976353EC198EA6608_RuntimeMethod_var);
 		NullCheck(L_5);
-		RuntimeObject* L_7;
-		L_7 = BindableVariableBase_1_Subscribe_mC4E18EDA53B1AF95B57D4D6976353EC198EA6608(L_5, L_6, BindableVariableBase_1_Subscribe_mC4E18EDA53B1AF95B57D4D6976353EC198EA6608_RuntimeMethod_var);
-		NullCheck(L_4);
-		BindingsGroup_AddBinding_m18697E73861A1C67DE0674F162B43CCE9E67C89B(L_4, L_7, NULL);
+		BindingsGroup_AddBinding_m18697E73861A1C67DE0674F162B43CCE9E67C89B(L_5, L_8, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:149>
-		RuntimeObject* L_8 = __this->___m_MultiPokeStateDataProvider;
-		if (!L_8)
+		RuntimeObject* L_9 = __this->___m_MultiPokeStateDataProvider;
+		V_1 = (bool)((!(((RuntimeObject*)(RuntimeObject*)L_9) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_10 = V_1;
+		if (!L_10)
 		{
-			goto IL_007b;
+			goto IL_0087;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:150>
-		BindingsGroup_tD5EC90BB10F9D310FE467A7E3A4CAE2E32D0397A* L_9 = __this->___m_BindingsGroup;
-		RuntimeObject* L_10 = __this->___m_MultiPokeStateDataProvider;
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11;
-		L_11 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
-		NullCheck(L_10);
-		RuntimeObject* L_12;
-		L_12 = InterfaceFuncInvoker1< RuntimeObject*, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* >::Invoke(0, IMultiPokeStateDataProvider_tD966DFBE873FAF8D39E820B94A6795B4A2EFA73F_il2cpp_TypeInfo_var, L_10, L_11);
-		Action_1_t1FB720A83B3555E719F665FB0110E7C51487F3F8* L_13 = (Action_1_t1FB720A83B3555E719F665FB0110E7C51487F3F8*)il2cpp_codegen_object_new(Action_1_t1FB720A83B3555E719F665FB0110E7C51487F3F8_il2cpp_TypeInfo_var);
-		Action_1__ctor_m51E8C8F6D6AAA447F906F82CBA1114C86E69FF54(L_13, __this, (intptr_t)((void*)XRPokeFollowAffordance_OnPokeStateDataUpdated_m47E524438FBC3D238855A42C176A43355387137F_RuntimeMethod_var), NULL);
+		BindingsGroup_tD5EC90BB10F9D310FE467A7E3A4CAE2E32D0397A* L_11 = __this->___m_BindingsGroup;
+		RuntimeObject* L_12 = __this->___m_MultiPokeStateDataProvider;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13;
+		L_13 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_12);
 		RuntimeObject* L_14;
-		L_14 = InterfaceFuncInvoker1< RuntimeObject*, Action_1_t1FB720A83B3555E719F665FB0110E7C51487F3F8* >::Invoke(0, IReadOnlyBindableVariable_1_tD608177C44612AEF9CD25AEDCA15F1734DD0E073_il2cpp_TypeInfo_var, L_12, L_13);
-		NullCheck(L_9);
-		BindingsGroup_AddBinding_m18697E73861A1C67DE0674F162B43CCE9E67C89B(L_9, L_14, NULL);
-		return;
+		L_14 = InterfaceFuncInvoker1< RuntimeObject*, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* >::Invoke(0, IMultiPokeStateDataProvider_tD966DFBE873FAF8D39E820B94A6795B4A2EFA73F_il2cpp_TypeInfo_var, L_12, L_13);
+		Action_1_t1FB720A83B3555E719F665FB0110E7C51487F3F8* L_15 = (Action_1_t1FB720A83B3555E719F665FB0110E7C51487F3F8*)il2cpp_codegen_object_new(Action_1_t1FB720A83B3555E719F665FB0110E7C51487F3F8_il2cpp_TypeInfo_var);
+		Action_1__ctor_m51E8C8F6D6AAA447F906F82CBA1114C86E69FF54(L_15, __this, (intptr_t)((void*)XRPokeFollowAffordance_OnPokeStateDataUpdated_m47E524438FBC3D238855A42C176A43355387137F_RuntimeMethod_var), NULL);
+		NullCheck(L_14);
+		RuntimeObject* L_16;
+		L_16 = InterfaceFuncInvoker1< RuntimeObject*, Action_1_t1FB720A83B3555E719F665FB0110E7C51487F3F8* >::Invoke(0, IReadOnlyBindableVariable_1_tD608177C44612AEF9CD25AEDCA15F1734DD0E073_il2cpp_TypeInfo_var, L_14, L_15);
+		NullCheck(L_11);
+		BindingsGroup_AddBinding_m18697E73861A1C67DE0674F162B43CCE9E67C89B(L_11, L_16, NULL);
+		goto IL_00bc;
 	}
 
-IL_007b:
+IL_0087:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:151>
-		RuntimeObject* L_15 = __this->___m_PokeDataProvider;
-		if (!L_15)
+		RuntimeObject* L_17 = __this->___m_PokeDataProvider;
+		V_2 = (bool)((!(((RuntimeObject*)(RuntimeObject*)L_17) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_18 = V_2;
+		if (!L_18)
 		{
-			goto IL_00c3;
+			goto IL_00bc;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:152>
-		BindingsGroup_tD5EC90BB10F9D310FE467A7E3A4CAE2E32D0397A* L_16 = __this->___m_BindingsGroup;
-		RuntimeObject* L_17 = __this->___m_PokeDataProvider;
-		NullCheck(L_17);
-		RuntimeObject* L_18;
-		L_18 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0, IPokeStateDataProvider_t14F2B731F2979D1138EB70A11E36F274A23DC91C_il2cpp_TypeInfo_var, L_17);
-		Action_1_t1FB720A83B3555E719F665FB0110E7C51487F3F8* L_19 = (Action_1_t1FB720A83B3555E719F665FB0110E7C51487F3F8*)il2cpp_codegen_object_new(Action_1_t1FB720A83B3555E719F665FB0110E7C51487F3F8_il2cpp_TypeInfo_var);
-		Action_1__ctor_m51E8C8F6D6AAA447F906F82CBA1114C86E69FF54(L_19, __this, (intptr_t)((void*)XRPokeFollowAffordance_OnPokeStateDataUpdated_m47E524438FBC3D238855A42C176A43355387137F_RuntimeMethod_var), NULL);
-		NullCheck(L_18);
-		RuntimeObject* L_20;
-		L_20 = InterfaceFuncInvoker1< RuntimeObject*, Action_1_t1FB720A83B3555E719F665FB0110E7C51487F3F8* >::Invoke(1, IReadOnlyBindableVariable_1_tD608177C44612AEF9CD25AEDCA15F1734DD0E073_il2cpp_TypeInfo_var, L_18, L_19);
-		NullCheck(L_16);
-		BindingsGroup_AddBinding_m18697E73861A1C67DE0674F162B43CCE9E67C89B(L_16, L_20, NULL);
-		return;
+		BindingsGroup_tD5EC90BB10F9D310FE467A7E3A4CAE2E32D0397A* L_19 = __this->___m_BindingsGroup;
+		RuntimeObject* L_20 = __this->___m_PokeDataProvider;
+		NullCheck(L_20);
+		RuntimeObject* L_21;
+		L_21 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0, IPokeStateDataProvider_t14F2B731F2979D1138EB70A11E36F274A23DC91C_il2cpp_TypeInfo_var, L_20);
+		Action_1_t1FB720A83B3555E719F665FB0110E7C51487F3F8* L_22 = (Action_1_t1FB720A83B3555E719F665FB0110E7C51487F3F8*)il2cpp_codegen_object_new(Action_1_t1FB720A83B3555E719F665FB0110E7C51487F3F8_il2cpp_TypeInfo_var);
+		Action_1__ctor_m51E8C8F6D6AAA447F906F82CBA1114C86E69FF54(L_22, __this, (intptr_t)((void*)XRPokeFollowAffordance_OnPokeStateDataUpdated_m47E524438FBC3D238855A42C176A43355387137F_RuntimeMethod_var), NULL);
+		NullCheck(L_21);
+		RuntimeObject* L_23;
+		L_23 = InterfaceFuncInvoker1< RuntimeObject*, Action_1_t1FB720A83B3555E719F665FB0110E7C51487F3F8* >::Invoke(1, IReadOnlyBindableVariable_1_tD608177C44612AEF9CD25AEDCA15F1734DD0E073_il2cpp_TypeInfo_var, L_21, L_22);
+		NullCheck(L_19);
+		BindingsGroup_AddBinding_m18697E73861A1C67DE0674F162B43CCE9E67C89B(L_19, L_23, NULL);
 	}
 
-IL_00ab:
+IL_00bc:
+	{
+		goto IL_00db;
+	}
+
+IL_00bf:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:156>
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:157>
-		String_t* L_21;
-		L_21 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral675D495E61C139628601D1F560A558803C58CB67, __this, NULL);
+		String_t* L_24;
+		L_24 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral675D495E61C139628601D1F560A558803C58CB67, __this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogWarning_m23033D7E2F0F298BE465B7F3A63CDF40A4EB70EB(L_21, __this, NULL);
+		Debug_LogWarning_m23033D7E2F0F298BE465B7F3A63CDF40A4EB70EB(L_24, __this, NULL);
 	}
 
-IL_00c3:
+IL_00db:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:159>
 		return;
 	}
 }
-// Method Definition Index: 75256
+// Method Definition Index: 93703
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPokeFollowAffordance_OnDestroy_mE345311D68D5D9E9877A7384691B230B1B0073FB (XRPokeFollowAffordance_t008BF5185DB23D6AA9F9E39C265BE9B8AEF64DAC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11554,23 +12409,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPokeFollowAffordance_OnDestroy_mE34531
 		if (L_2)
 		{
 			G_B2_0 = L_2;
-			goto IL_0016;
+			goto IL_0019;
 		}
 		G_B1_0 = L_2;
 	}
 	{
-		return;
+		goto IL_001f;
 	}
 
-IL_0016:
+IL_0019:
 	{
 		NullCheck(G_B2_0);
 		TweenableVariableAsyncBase_1_Dispose_m7D9825BEBF868FFDC835F08406D9E9AD17F53E32(G_B2_0, TweenableVariableAsyncBase_1_Dispose_m7D9825BEBF868FFDC835F08406D9E9AD17F53E32_RuntimeMethod_var);
+	}
+
+IL_001f:
+	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:168>
 		return;
 	}
 }
-// Method Definition Index: 75257
+// Method Definition Index: 93704
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPokeFollowAffordance_LateUpdate_m4C59B8156DE2AF9D63A61A9E523A059A41DD9099 (XRPokeFollowAffordance_t008BF5185DB23D6AA9F9E39C265BE9B8AEF64DAC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11579,6 +12438,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPokeFollowAffordance_LateUpdate_m4C59B
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TweenableVariableBase_1_HandleTween_m61752C0D7316DD05AB1C8E10319F47902D4CDCD9_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	bool V_0 = false;
 	Vector3TweenableVariable_t0DF651B487F89825D0D459293C4A862C62C0EBD5* G_B4_0 = NULL;
 	Vector3TweenableVariable_t0DF651B487F89825D0D459293C4A862C62C0EBD5* G_B3_0 = NULL;
 	float G_B5_0 = 0.0f;
@@ -11586,58 +12446,64 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPokeFollowAffordance_LateUpdate_m4C59B
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:175>
 		bool L_0 = __this->___m_IsFirstFrame;
-		if (!L_0)
+		V_0 = L_0;
+		bool L_1 = V_0;
+		if (!L_1)
 		{
-			goto IL_0020;
+			goto IL_0026;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:177>
-		Vector3TweenableVariable_t0DF651B487F89825D0D459293C4A862C62C0EBD5* L_1 = __this->___m_TransformTweenableVariable;
-		NullCheck(L_1);
-		TweenableVariableBase_1_HandleTween_m61752C0D7316DD05AB1C8E10319F47902D4CDCD9(L_1, (1.0f), TweenableVariableBase_1_HandleTween_m61752C0D7316DD05AB1C8E10319F47902D4CDCD9_RuntimeMethod_var);
+		Vector3TweenableVariable_t0DF651B487F89825D0D459293C4A862C62C0EBD5* L_2 = __this->___m_TransformTweenableVariable;
+		NullCheck(L_2);
+		TweenableVariableBase_1_HandleTween_m61752C0D7316DD05AB1C8E10319F47902D4CDCD9(L_2, (1.0f), TweenableVariableBase_1_HandleTween_m61752C0D7316DD05AB1C8E10319F47902D4CDCD9_RuntimeMethod_var);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:178>
 		__this->___m_IsFirstFrame = (bool)0;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:179>
-		return;
+		goto IL_0052;
 	}
 
-IL_0020:
+IL_0026:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:182>
-		Vector3TweenableVariable_t0DF651B487F89825D0D459293C4A862C62C0EBD5* L_2 = __this->___m_TransformTweenableVariable;
-		float L_3 = __this->___m_SmoothingSpeed;
-		if ((((float)L_3) > ((float)(0.0f))))
+		Vector3TweenableVariable_t0DF651B487F89825D0D459293C4A862C62C0EBD5* L_3 = __this->___m_TransformTweenableVariable;
+		float L_4 = __this->___m_SmoothingSpeed;
+		if ((((float)L_4) > ((float)(0.0f))))
 		{
-			G_B4_0 = L_2;
-			goto IL_003a;
+			G_B4_0 = L_3;
+			goto IL_0040;
 		}
-		G_B3_0 = L_2;
+		G_B3_0 = L_3;
 	}
 	{
 		G_B5_0 = (1.0f);
 		G_B5_1 = G_B3_0;
-		goto IL_0046;
+		goto IL_004c;
 	}
 
-IL_003a:
+IL_0040:
 	{
-		float L_4;
-		L_4 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
-		float L_5 = __this->___m_SmoothingSpeed;
-		G_B5_0 = ((float)il2cpp_codegen_multiply(L_4, L_5));
+		float L_5;
+		L_5 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		float L_6 = __this->___m_SmoothingSpeed;
+		G_B5_0 = ((float)il2cpp_codegen_multiply(L_5, L_6));
 		G_B5_1 = G_B4_0;
 	}
 
-IL_0046:
+IL_004c:
 	{
 		NullCheck(G_B5_1);
 		TweenableVariableBase_1_HandleTween_m61752C0D7316DD05AB1C8E10319F47902D4CDCD9(G_B5_1, G_B5_0, TweenableVariableBase_1_HandleTween_m61752C0D7316DD05AB1C8E10319F47902D4CDCD9_RuntimeMethod_var);
+	}
+
+IL_0052:
+	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:183>
 		return;
 	}
 }
-// Method Definition Index: 75258
+// Method Definition Index: 93705
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPokeFollowAffordance_OnTransformTweenableVariableUpdated_m45F75BBA331A940327AD949A7C0939F24F6B57B2 (XRPokeFollowAffordance_t008BF5185DB23D6AA9F9E39C265BE9B8AEF64DAC* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_position, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11646,49 +12512,56 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPokeFollowAffordance_OnTransformTweena
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
-	memset((&V_0), 0, sizeof(V_0));
+	bool V_0 = false;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:188>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___m_PokeFollowTransform;
-		if (!((RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5*)IsInstSealed((RuntimeObject*)L_0, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_il2cpp_TypeInfo_var)))
+		V_0 = (bool)((!(((RuntimeObject*)(RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5*)((RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5*)IsInstSealed((RuntimeObject*)L_0, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_il2cpp_TypeInfo_var))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
 		{
-			goto IL_0033;
+			goto IL_003d;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:190>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1 = __this->___m_PokeFollowTransform;
-		NullCheck(L_1);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
-		L_2 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_1, NULL);
-		V_0 = L_2;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->___m_PokeFollowTransform;
+		NullCheck(L_2);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		L_3 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_2, NULL);
+		V_1 = L_3;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:191>
-		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_3 = ___0_position;
-		float L_4 = L_3.___z;
-		(&V_0)->___z = L_4;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___0_position;
+		float L_5 = L_4.___z;
+		(&V_1)->___z = L_5;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:192>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = __this->___m_PokeFollowTransform;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = V_0;
-		NullCheck(L_5);
-		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_5, L_6, NULL);
-		return;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = __this->___m_PokeFollowTransform;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = V_1;
+		NullCheck(L_6);
+		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_6, L_7, NULL);
+		goto IL_0051;
 	}
 
-IL_0033:
+IL_003d:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:196>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7 = __this->___m_PokeFollowTransform;
-		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_8 = ___0_position;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
-		L_9 = float3_op_Implicit_m9CC301DFD67EEFAA15CA05E91913E862B22326F6(L_8, NULL);
-		NullCheck(L_7);
-		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_7, L_9, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8 = __this->___m_PokeFollowTransform;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_9 = ___0_position;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
+		L_10 = float3_op_Implicit_m9CC301DFD67EEFAA15CA05E91913E862B22326F6(L_9, NULL);
+		NullCheck(L_8);
+		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_8, L_10, NULL);
+	}
+
+IL_0051:
+	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:198>
 		return;
 	}
 }
-// Method Definition Index: 75259
+// Method Definition Index: 93706
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPokeFollowAffordance_OnPokeStateDataUpdated_m47E524438FBC3D238855A42C176A43355387137F (XRPokeFollowAffordance_t008BF5185DB23D6AA9F9E39C265BE9B8AEF64DAC* __this, PokeStateData_t87D34716C1C477FC04D9344710D09399FE6F5032 ___0_data, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11699,9 +12572,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPokeFollowAffordance_OnPokeStateDataUp
 		s_Il2CppMethodInitialized = true;
 	}
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_0 = NULL;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
-	memset((&V_1), 0, sizeof(V_1));
+	bool V_1 = false;
+	bool V_2 = false;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	bool V_4 = false;
+	bool V_5 = false;
 	int32_t G_B5_0 = 0;
+	int32_t G_B9_0 = 0;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:202>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
@@ -11713,7 +12591,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPokeFollowAffordance_OnPokeStateDataUp
 		bool L_1 = __this->___m_ApplyIfChildIsTarget;
 		if (L_1)
 		{
-			goto IL_001e;
+			goto IL_001f;
 		}
 	}
 	{
@@ -11724,10 +12602,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPokeFollowAffordance_OnPokeStateDataUp
 		bool L_4;
 		L_4 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_2, L_3, NULL);
 		G_B5_0 = ((int32_t)(L_4));
-		goto IL_0036;
+		goto IL_0037;
 	}
 
-IL_001e:
+IL_001f:
 	{
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -11735,7 +12613,7 @@ IL_001e:
 		L_6 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (!L_6)
 		{
-			goto IL_0035;
+			goto IL_0036;
 		}
 	}
 	{
@@ -11746,95 +12624,114 @@ IL_001e:
 		bool L_9;
 		L_9 = Transform_IsChildOf_mFE071BE1E775E825401FE0A9B9BE49E39D256CEA(L_7, L_8, NULL);
 		G_B5_0 = ((int32_t)(L_9));
-		goto IL_0036;
-	}
-
-IL_0035:
-	{
-		G_B5_0 = 0;
+		goto IL_0037;
 	}
 
 IL_0036:
 	{
+		G_B5_0 = 0;
+	}
+
+IL_0037:
+	{
+		V_1 = (bool)G_B5_0;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:207>
-		if (!G_B5_0)
+		bool L_10 = V_1;
+		V_2 = L_10;
+		bool L_11 = V_2;
+		if (!L_11)
 		{
-			goto IL_0083;
+			goto IL_0095;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:209>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10 = V_0;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
-		L_11 = PokeStateData_get_axisAlignedPokeInteractionPoint_mC3B4E6D1232B8A2E2A98374B3AA9976E29E67D43_inline((&___0_data), NULL);
-		NullCheck(L_10);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
-		L_12 = Transform_InverseTransformPoint_m18CD395144D9C78F30E15A5B82B6670E792DBA5D(L_10, L_11, NULL);
-		V_1 = L_12;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
+		L_13 = PokeStateData_get_axisAlignedPokeInteractionPoint_mC3B4E6D1232B8A2E2A98374B3AA9976E29E67D43_inline((&___0_data), NULL);
+		NullCheck(L_12);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
+		L_14 = Transform_InverseTransformPoint_m18CD395144D9C78F30E15A5B82B6670E792DBA5D(L_12, L_13, NULL);
+		V_3 = L_14;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:210>
-		bool L_13 = __this->___m_ClampToMaxDistance;
-		if (!L_13)
+		bool L_15 = __this->___m_ClampToMaxDistance;
+		if (!L_15)
 		{
-			goto IL_0071;
+			goto IL_006c;
 		}
 	}
 	{
-		float L_14;
-		L_14 = Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline((&V_1), NULL);
-		float L_15 = __this->___m_MaxDistance;
-		float L_16 = __this->___m_MaxDistance;
-		if ((!(((float)L_14) > ((float)((float)il2cpp_codegen_multiply(L_15, L_16))))))
+		float L_16;
+		L_16 = Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline((&V_3), NULL);
+		float L_17 = __this->___m_MaxDistance;
+		float L_18 = __this->___m_MaxDistance;
+		G_B9_0 = ((((float)L_16) > ((float)((float)il2cpp_codegen_multiply(L_17, L_18))))? 1 : 0);
+		goto IL_006d;
+	}
+
+IL_006c:
+	{
+		G_B9_0 = 0;
+	}
+
+IL_006d:
+	{
+		V_4 = (bool)G_B9_0;
+		bool L_19 = V_4;
+		if (!L_19)
 		{
-			goto IL_0071;
+			goto IL_0080;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:211>
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = V_1;
-		float L_18 = __this->___m_MaxDistance;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19;
-		L_19 = Vector3_ClampMagnitude_mF83675F19744F58E97CF24D8359A810634DC031F_inline(L_17, L_18, NULL);
-		V_1 = L_19;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = V_3;
+		float L_21 = __this->___m_MaxDistance;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22;
+		L_22 = Vector3_ClampMagnitude_mF83675F19744F58E97CF24D8359A810634DC031F_inline(L_20, L_21, NULL);
+		V_3 = L_22;
 	}
 
-IL_0071:
+IL_0080:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:213>
-		Vector3TweenableVariable_t0DF651B487F89825D0D459293C4A862C62C0EBD5* L_20 = __this->___m_TransformTweenableVariable;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21 = V_1;
-		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_22;
-		L_22 = float3_op_Implicit_mE1831A3AC179B7EB3236F8202EC8DD5CE05376AB(L_21, NULL);
-		NullCheck(L_20);
-		TweenableVariableBase_1_set_target_m3127A21F0C2EF40FA4604D603803BA53DE604337(L_20, L_22, TweenableVariableBase_1_set_target_m3127A21F0C2EF40FA4604D603803BA53DE604337_RuntimeMethod_var);
-		return;
+		Vector3TweenableVariable_t0DF651B487F89825D0D459293C4A862C62C0EBD5* L_23 = __this->___m_TransformTweenableVariable;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = V_3;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_25;
+		L_25 = float3_op_Implicit_mE1831A3AC179B7EB3236F8202EC8DD5CE05376AB(L_24, NULL);
+		NullCheck(L_23);
+		TweenableVariableBase_1_set_target_m3127A21F0C2EF40FA4604D603803BA53DE604337(L_23, L_25, TweenableVariableBase_1_set_target_m3127A21F0C2EF40FA4604D603803BA53DE604337_RuntimeMethod_var);
+		goto IL_00ba;
 	}
 
-IL_0083:
+IL_0095:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:215>
-		bool L_23 = __this->___m_ReturnToInitialPosition;
-		if (!L_23)
+		bool L_26 = __this->___m_ReturnToInitialPosition;
+		V_5 = L_26;
+		bool L_27 = V_5;
+		if (!L_27)
 		{
-			goto IL_00a1;
+			goto IL_00ba;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:217>
-		Vector3TweenableVariable_t0DF651B487F89825D0D459293C4A862C62C0EBD5* L_24 = __this->___m_TransformTweenableVariable;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25 = __this->___m_InitialPosition;
-		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_26;
-		L_26 = float3_op_Implicit_mE1831A3AC179B7EB3236F8202EC8DD5CE05376AB(L_25, NULL);
-		NullCheck(L_24);
-		TweenableVariableBase_1_set_target_m3127A21F0C2EF40FA4604D603803BA53DE604337(L_24, L_26, TweenableVariableBase_1_set_target_m3127A21F0C2EF40FA4604D603803BA53DE604337_RuntimeMethod_var);
+		Vector3TweenableVariable_t0DF651B487F89825D0D459293C4A862C62C0EBD5* L_28 = __this->___m_TransformTweenableVariable;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_29 = __this->___m_InitialPosition;
+		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_30;
+		L_30 = float3_op_Implicit_mE1831A3AC179B7EB3236F8202EC8DD5CE05376AB(L_29, NULL);
+		NullCheck(L_28);
+		TweenableVariableBase_1_set_target_m3127A21F0C2EF40FA4604D603803BA53DE604337(L_28, L_30, TweenableVariableBase_1_set_target_m3127A21F0C2EF40FA4604D603803BA53DE604337_RuntimeMethod_var);
 	}
 
-IL_00a1:
+IL_00ba:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:219>
 		return;
 	}
 }
-// Method Definition Index: 75260
+// Method Definition Index: 93707
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPokeFollowAffordance_ResetFollowTransform_m56E4E198D3EBA4057BD93763D169309CF7910E80 (XRPokeFollowAffordance_t008BF5185DB23D6AA9F9E39C265BE9B8AEF64DAC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11843,12 +12740,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPokeFollowAffordance_ResetFollowTransf
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	bool V_0 = false;
+	int32_t G_B3_0 = 0;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:223>
 		bool L_0 = __this->___m_ClampToMaxDistance;
 		if (!L_0)
 		{
-			goto IL_0016;
+			goto IL_0017;
 		}
 	}
 	{
@@ -11856,67 +12755,89 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPokeFollowAffordance_ResetFollowTransf
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
 		L_2 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_2)
-		{
-			goto IL_0017;
-		}
-	}
-
-IL_0016:
-	{
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:224>
-		return;
+		G_B3_0 = ((int32_t)(L_2));
+		goto IL_0018;
 	}
 
 IL_0017:
 	{
+		G_B3_0 = 1;
+	}
+
+IL_0018:
+	{
+		V_0 = (bool)G_B3_0;
+		bool L_3 = V_0;
+		if (!L_3)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:224>
+		goto IL_0030;
+	}
+
+IL_001e:
+	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:226>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = __this->___m_PokeFollowTransform;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = __this->___m_InitialPosition;
-		NullCheck(L_3);
-		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_3, L_4, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = __this->___m_PokeFollowTransform;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = __this->___m_InitialPosition;
+		NullCheck(L_4);
+		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_4, L_5, NULL);
+	}
+
+IL_0030:
+	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:227>
 		return;
 	}
 }
-// Method Definition Index: 75261
+// Method Definition Index: 93708
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPokeFollowAffordance_OnDrawGizmos_m3C681A89459BB1954540AE8E93295524A4678804 (XRPokeFollowAffordance_t008BF5185DB23D6AA9F9E39C265BE9B8AEF64DAC* __this, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	bool V_1 = false;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:231>
 		bool L_0;
 		L_0 = XRPokeFollowAffordance_TryGetTargetEndPoint_m3F602D85D1586537B5D2343E12B9E848F3EBFB6E(__this, (&V_0), NULL);
-		if (L_0)
+		V_1 = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
+		bool L_1 = V_1;
+		if (!L_1)
 		{
-			goto IL_000b;
+			goto IL_0012;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:232>
-		return;
+		goto IL_002f;
 	}
 
-IL_000b:
+IL_0012:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:234>
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1;
-		L_1 = Color_get_yellow_m66637FA14383E8D74F24AE256B577CE1D55D469F_inline(NULL);
-		Gizmos_set_color_m53927A2741937484180B20B55F7F20F8F60C5797(L_1, NULL);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2;
+		L_2 = Color_get_yellow_m66637FA14383E8D74F24AE256B577CE1D55D469F_inline(NULL);
+		Gizmos_set_color_m53927A2741937484180B20B55F7F20F8F60C5797(L_2, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:235>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
-		L_2 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
-		NullCheck(L_2);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
-		L_3 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_2, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = V_0;
-		Gizmos_DrawLine_mB139054F55D615637A39A3127AADB16043387F8A(L_3, L_4, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
+		L_3 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_3);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_3, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = V_0;
+		Gizmos_DrawLine_mB139054F55D615637A39A3127AADB16043387F8A(L_4, L_5, NULL);
+	}
+
+IL_002f:
+	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:236>
 		return;
 	}
 }
-// Method Definition Index: 75262
+// Method Definition Index: 93709
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRPokeFollowAffordance_TryGetTargetEndPoint_m3F602D85D1586537B5D2343E12B9E848F3EBFB6E (XRPokeFollowAffordance_t008BF5185DB23D6AA9F9E39C265BE9B8AEF64DAC* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_endPoint, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11930,12 +12851,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRPokeFollowAffordance_TryGetTargetEndPo
 	memset((&V_0), 0, sizeof(V_0));
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
 	memset((&V_1), 0, sizeof(V_1));
+	bool V_2 = false;
+	bool V_3 = false;
+	int32_t G_B3_0 = 0;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:240>
 		bool L_0 = __this->___m_ClampToMaxDistance;
 		if (!L_0)
 		{
-			goto IL_0016;
+			goto IL_0017;
 		}
 	}
 	{
@@ -11943,190 +12867,240 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRPokeFollowAffordance_TryGetTargetEndPo
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
 		L_2 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_2)
-		{
-			goto IL_0023;
-		}
+		G_B3_0 = ((int32_t)(L_2));
+		goto IL_0018;
 	}
 
-IL_0016:
+IL_0017:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_0018:
+	{
+		V_2 = (bool)G_B3_0;
+		bool L_3 = V_2;
+		if (!L_3)
+		{
+			goto IL_002c;
+		}
+	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:242>
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_3 = ___0_endPoint;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
-		L_4 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
-		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_3 = L_4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_4 = ___0_endPoint;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
+		L_5 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_4 = L_5;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:243>
-		return (bool)0;
+		V_3 = (bool)0;
+		goto IL_0071;
 	}
 
-IL_0023:
+IL_002c:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:246>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
-		L_5 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
-		NullCheck(L_5);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
-		L_6 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_5, NULL);
-		V_0 = L_6;
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:247>
-		XRPokeFilter_tC756187569A8DFE55C540B756688000609B89AC8* L_7 = __this->___m_PokeFilter;
-		NullCheck(L_7);
-		PokeThresholdDatumProperty_t367C8AA0927AD55629D9EF7297FCCEB814F6BB30* L_8;
-		L_8 = XRPokeFilter_get_pokeConfiguration_mBB3BE69FB8596158A7501A42370BDECB138A77D1_inline(L_7, NULL);
-		PokeThresholdData_tC809C4316CFB80EE765C84948E489D6AD09F7546* L_9;
-		L_9 = DatumProperty_2_op_Implicit_mFB5E9FEA50E2FE8F27CC8745ACB9EA2686E27AC9(L_8, DatumProperty_2_op_Implicit_mFB5E9FEA50E2FE8F27CC8745ACB9EA2686E27AC9_RuntimeMethod_var);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
-		L_10 = XRPokeFollowAffordance_ComputeRotatedDepthEvaluationAxis_m623F0711B299F819F9F6AA789CE33D9F766F565B(__this, L_9, NULL);
-		V_1 = L_10;
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:248>
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_11 = ___0_endPoint;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = V_0;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
-		L_13 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_1), NULL);
-		float L_14 = __this->___m_MaxDistance;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15;
-		L_15 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_13, L_14, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16;
-		L_16 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_12, L_15, NULL);
-		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_11 = L_16;
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:249>
-		return (bool)1;
-	}
-}
-// Method Definition Index: 75263
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 XRPokeFollowAffordance_ComputeRotatedDepthEvaluationAxis_m623F0711B299F819F9F6AA789CE33D9F766F565B (XRPokeFollowAffordance_t008BF5185DB23D6AA9F9E39C265BE9B8AEF64DAC* __this, PokeThresholdData_tC809C4316CFB80EE765C84948E489D6AD09F7546* ___0_pokeThresholdData, const RuntimeMethod* method) 
-{
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	int32_t V_1 = 0;
-	{
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:254>
-		PokeThresholdData_tC809C4316CFB80EE765C84948E489D6AD09F7546* L_0 = ___0_pokeThresholdData;
-		if (L_0)
-		{
-			goto IL_0009;
-		}
-	}
-	{
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:255>
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
-		L_1 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
-		return L_1;
-	}
-
-IL_0009:
-	{
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:257>
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
-		L_2 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
-		V_0 = L_2;
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:258>
-		PokeThresholdData_tC809C4316CFB80EE765C84948E489D6AD09F7546* L_3 = ___0_pokeThresholdData;
-		NullCheck(L_3);
-		int32_t L_4;
-		L_4 = PokeThresholdData_get_pokeDirection_m1C06A443E150B85B2CD6D5A7CFC494B9FF1FF1F1_inline(L_3, NULL);
-		V_1 = L_4;
-		int32_t L_5 = V_1;
-		switch (((int32_t)il2cpp_codegen_subtract((int32_t)L_5, 1)))
-		{
-			case 0:
-			{
-				goto IL_0038;
-			}
-			case 1:
-			{
-				goto IL_0046;
-			}
-			case 2:
-			{
-				goto IL_0054;
-			}
-			case 3:
-			{
-				goto IL_0038;
-			}
-			case 4:
-			{
-				goto IL_0046;
-			}
-			case 5:
-			{
-				goto IL_0054;
-			}
-		}
-	}
-	{
-		goto IL_0060;
-	}
-
-IL_0038:
-	{
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:262>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
 		L_6 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_6);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
-		L_7 = Transform_get_right_mC6DC057C23313802E2186A9E0DB760D795A758A4(L_6, NULL);
+		L_7 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_6, NULL);
 		V_0 = L_7;
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:263>
-		goto IL_0060;
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:247>
+		XRPokeFilter_tC756187569A8DFE55C540B756688000609B89AC8* L_8 = __this->___m_PokeFilter;
+		NullCheck(L_8);
+		PokeThresholdDatumProperty_t367C8AA0927AD55629D9EF7297FCCEB814F6BB30* L_9;
+		L_9 = XRPokeFilter_get_pokeConfiguration_mBB3BE69FB8596158A7501A42370BDECB138A77D1_inline(L_8, NULL);
+		PokeThresholdData_tC809C4316CFB80EE765C84948E489D6AD09F7546* L_10;
+		L_10 = DatumProperty_2_op_Implicit_mFB5E9FEA50E2FE8F27CC8745ACB9EA2686E27AC9(L_9, DatumProperty_2_op_Implicit_mFB5E9FEA50E2FE8F27CC8745ACB9EA2686E27AC9_RuntimeMethod_var);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
+		L_11 = XRPokeFollowAffordance_ComputeRotatedDepthEvaluationAxis_m623F0711B299F819F9F6AA789CE33D9F766F565B(__this, L_10, NULL);
+		V_1 = L_11;
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:248>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_12 = ___0_endPoint;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
+		L_14 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_1), NULL);
+		float L_15 = __this->___m_MaxDistance;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16;
+		L_16 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_14, L_15, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17;
+		L_17 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_13, L_16, NULL);
+		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_12 = L_17;
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:249>
+		V_3 = (bool)1;
+		goto IL_0071;
 	}
 
-IL_0046:
+IL_0071:
 	{
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:266>
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:250>
+		bool L_18 = V_3;
+		return L_18;
+	}
+}
+// Method Definition Index: 93710
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 XRPokeFollowAffordance_ComputeRotatedDepthEvaluationAxis_m623F0711B299F819F9F6AA789CE33D9F766F565B (XRPokeFollowAffordance_t008BF5185DB23D6AA9F9E39C265BE9B8AEF64DAC* __this, PokeThresholdData_tC809C4316CFB80EE765C84948E489D6AD09F7546* ___0_pokeThresholdData, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	bool V_1 = false;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	int32_t V_6 = 0;
+	{
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:254>
+		PokeThresholdData_tC809C4316CFB80EE765C84948E489D6AD09F7546* L_0 = ___0_pokeThresholdData;
+		V_1 = (bool)((((RuntimeObject*)(PokeThresholdData_tC809C4316CFB80EE765C84948E489D6AD09F7546*)L_0) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		bool L_1 = V_1;
+		if (!L_1)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:255>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
+		L_2 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		V_2 = L_2;
+		goto IL_0090;
+	}
+
+IL_0011:
+	{
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:257>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		L_3 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		V_0 = L_3;
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:258>
+		PokeThresholdData_tC809C4316CFB80EE765C84948E489D6AD09F7546* L_4 = ___0_pokeThresholdData;
+		NullCheck(L_4);
+		int32_t L_5;
+		L_5 = PokeThresholdData_get_pokeDirection_m1C06A443E150B85B2CD6D5A7CFC494B9FF1FF1F1_inline(L_4, NULL);
+		V_4 = L_5;
+		int32_t L_6 = V_4;
+		V_3 = L_6;
+		int32_t L_7 = V_3;
+		switch (((int32_t)il2cpp_codegen_subtract((int32_t)L_7, 1)))
+		{
+			case 0:
+			{
+				goto IL_0044;
+			}
+			case 1:
+			{
+				goto IL_0052;
+			}
+			case 2:
+			{
+				goto IL_0060;
+			}
+			case 3:
+			{
+				goto IL_0044;
+			}
+			case 4:
+			{
+				goto IL_0052;
+			}
+			case 5:
+			{
+				goto IL_0060;
+			}
+		}
+	}
+	{
+		goto IL_006e;
+	}
+
+IL_0044:
+	{
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:262>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
 		L_8 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_8);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
-		L_9 = Transform_get_up_mE47A9D9D96422224DD0539AA5524DA5440145BB2(L_8, NULL);
+		L_9 = Transform_get_right_mC6DC057C23313802E2186A9E0DB760D795A758A4(L_8, NULL);
 		V_0 = L_9;
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:267>
-		goto IL_0060;
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:263>
+		goto IL_006e;
 	}
 
-IL_0054:
+IL_0052:
 	{
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:270>
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:266>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10;
 		L_10 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_10);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
-		L_11 = Transform_get_forward_mFCFACF7165FDAB21E80E384C494DF278386CEE2F(L_10, NULL);
+		L_11 = Transform_get_up_mE47A9D9D96422224DD0539AA5524DA5440145BB2(L_10, NULL);
 		V_0 = L_11;
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:267>
+		goto IL_006e;
 	}
 
 IL_0060:
 	{
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:274>
-		PokeThresholdData_tC809C4316CFB80EE765C84948E489D6AD09F7546* L_12 = ___0_pokeThresholdData;
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:270>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12;
+		L_12 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_12);
-		int32_t L_13;
-		L_13 = PokeThresholdData_get_pokeDirection_m1C06A443E150B85B2CD6D5A7CFC494B9FF1FF1F1_inline(L_12, NULL);
-		V_1 = L_13;
-		int32_t L_14 = V_1;
-		if ((!(((uint32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_14, 1))) <= ((uint32_t)2))))
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
+		L_13 = Transform_get_forward_mFCFACF7165FDAB21E80E384C494DF278386CEE2F(L_12, NULL);
+		V_0 = L_13;
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:271>
+		goto IL_006e;
+	}
+
+IL_006e:
+	{
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:274>
+		PokeThresholdData_tC809C4316CFB80EE765C84948E489D6AD09F7546* L_14 = ___0_pokeThresholdData;
+		NullCheck(L_14);
+		int32_t L_15;
+		L_15 = PokeThresholdData_get_pokeDirection_m1C06A443E150B85B2CD6D5A7CFC494B9FF1FF1F1_inline(L_14, NULL);
+		V_6 = L_15;
+		int32_t L_16 = V_6;
+		V_5 = L_16;
+		int32_t L_17 = V_5;
+		if ((!(((uint32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_17, 1))) > ((uint32_t)2))))
 		{
-			goto IL_0074;
+			goto IL_0083;
 		}
 	}
 	{
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:279>
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15 = V_0;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16;
-		L_16 = Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_inline(L_15, NULL);
-		V_0 = L_16;
+		goto IL_008c;
 	}
 
-IL_0074:
+IL_0083:
+	{
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:279>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19;
+		L_19 = Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_inline(L_18, NULL);
+		V_0 = L_19;
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:280>
+		goto IL_008c;
+	}
+
+IL_008c:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:283>
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = V_0;
-		return L_17;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = V_0;
+		V_2 = L_20;
+		goto IL_0090;
+	}
+
+IL_0090:
+	{
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:284>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21 = V_2;
+		return L_21;
 	}
 }
-// Method Definition Index: 75264
+// Method Definition Index: 93711
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPokeFollowAffordance_OnValidate_mC79F56174D02EB0559922275434A379ED8C11960 (XRPokeFollowAffordance_t008BF5185DB23D6AA9F9E39C265BE9B8AEF64DAC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12138,60 +13112,78 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPokeFollowAffordance_OnValidate_mC79F5
 	}
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	bool V_1 = false;
+	bool V_2 = false;
+	int32_t G_B5_0 = 0;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:288>
 		XRPokeFilter_tC756187569A8DFE55C540B756688000609B89AC8* L_0 = __this->___m_PokeFilter;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_1)
+		V_1 = L_1;
+		bool L_2 = V_1;
+		if (!L_2)
 		{
-			goto IL_001a;
+			goto IL_001f;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:290>
-		XRPokeFilter_tC756187569A8DFE55C540B756688000609B89AC8* L_2;
-		L_2 = Component_GetComponentInParent_TisXRPokeFilter_tC756187569A8DFE55C540B756688000609B89AC8_mF1987B4F495C2DE57F525F460FAE0DCB62662416(__this, Component_GetComponentInParent_TisXRPokeFilter_tC756187569A8DFE55C540B756688000609B89AC8_mF1987B4F495C2DE57F525F460FAE0DCB62662416_RuntimeMethod_var);
-		__this->___m_PokeFilter = L_2;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_PokeFilter), (void*)L_2);
+		XRPokeFilter_tC756187569A8DFE55C540B756688000609B89AC8* L_3;
+		L_3 = Component_GetComponentInParent_TisXRPokeFilter_tC756187569A8DFE55C540B756688000609B89AC8_mF1987B4F495C2DE57F525F460FAE0DCB62662416(__this, Component_GetComponentInParent_TisXRPokeFilter_tC756187569A8DFE55C540B756688000609B89AC8_mF1987B4F495C2DE57F525F460FAE0DCB62662416_RuntimeMethod_var);
+		__this->___m_PokeFilter = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_PokeFilter), (void*)L_3);
 	}
 
-IL_001a:
+IL_001f:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:294>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = __this->___m_PokeFollowTransform;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = __this->___m_PokeFollowTransform;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_4;
-		L_4 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_4)
+		bool L_5;
+		L_5 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_5)
 		{
-			goto IL_003e;
+			goto IL_0037;
 		}
 	}
 	{
-		bool L_5;
-		L_5 = XRPokeFollowAffordance_TryGetTargetEndPoint_m3F602D85D1586537B5D2343E12B9E848F3EBFB6E(__this, (&V_0), NULL);
-		if (!L_5)
+		bool L_6;
+		L_6 = XRPokeFollowAffordance_TryGetTargetEndPoint_m3F602D85D1586537B5D2343E12B9E848F3EBFB6E(__this, (&V_0), NULL);
+		G_B5_0 = ((int32_t)(L_6));
+		goto IL_0038;
+	}
+
+IL_0037:
+	{
+		G_B5_0 = 0;
+	}
+
+IL_0038:
+	{
+		V_2 = (bool)G_B5_0;
+		bool L_7 = V_2;
+		if (!L_7)
 		{
-			goto IL_003e;
+			goto IL_0049;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:295>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = __this->___m_PokeFollowTransform;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = V_0;
-		NullCheck(L_6);
-		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_6, L_7, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8 = __this->___m_PokeFollowTransform;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = V_0;
+		NullCheck(L_8);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_8, L_9, NULL);
 	}
 
-IL_003e:
+IL_0049:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:296>
 		return;
 	}
 }
-// Method Definition Index: 75265
+// Method Definition Index: 93712
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPokeFollowAffordance__ctor_mCBB6E96BA2E8B60AE508F619BFDBC0BAAD5CEBE5 (XRPokeFollowAffordance_t008BF5185DB23D6AA9F9E39C265BE9B8AEF64DAC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12218,6 +13210,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPokeFollowAffordance__ctor_mCBB6E96BA2
 		BindingsGroup__ctor_m1EFD3F405050571D3A66F9B95E8FBC296866A716(L_1, NULL);
 		__this->___m_BindingsGroup = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_BindingsGroup), (void*)L_1);
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs:127>
+		__this->___m_PokeFilter = (XRPokeFilter_tC756187569A8DFE55C540B756688000609B89AC8*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_PokeFilter), (void*)(XRPokeFilter_tC756187569A8DFE55C540B756688000609B89AC8*)NULL);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}
@@ -12249,7 +13244,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRPokeFollowAffordance__ctor_mCBB6E96BA2
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 23475
+// Method Definition Index: 32388
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* TeleportationMultiAnchorVolume_get_destinationAnchor_m8867AD0C9F209FBEAC8E14A53887547329C4D1E8_inline (TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12258,7 +13253,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A
 		return L_0;
 	}
 }
-// Method Definition Index: 23473
+// Method Definition Index: 32386
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float TeleportationMultiAnchorVolume_get_destinationEvaluationProgress_mA00FA8BCF4AC4B9A68AEA8A12B38C90AC35B4021_inline (TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12267,7 +13262,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float TeleportationMultiAnchorVol
 		return L_0;
 	}
 }
-// Method Definition Index: 23470
+// Method Definition Index: 32383
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TeleportVolumeDestinationSettingsDatumProperty_tDD5453B35B45AEB0427BCD5BE987332B3CD14347* TeleportationMultiAnchorVolume_get_destinationEvaluationSettings_m7173078EC07F832CB26FFA81BDF531C3F6BC0D11_inline (TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12276,7 +13271,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TeleportVolumeDestinationSettings
 		return L_0;
 	}
 }
-// Method Definition Index: 23519
+// Method Definition Index: 32432
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TeleportVolumeDestinationSettings_get_pollForDestinationChange_m8B84DAB7771B97C759D574E6BF02CA1A6B79AAD9_inline (TeleportVolumeDestinationSettings_t997F47ECBFA0D750BC9F96D8EF12222BD9F332C2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12285,7 +13280,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TeleportVolumeDestinationSet
 		return L_0;
 	}
 }
-// Method Definition Index: 23469
+// Method Definition Index: 32382
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* TeleportationMultiAnchorVolume_get_anchorTransforms_m0D5B37776E774893D31FB4BCE7A5159814E352F9_inline (TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12294,7 +13289,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_t991BBC5A1D51F59A450367DF9
 		return L_0;
 	}
 }
-// Method Definition Index: 44432
+// Method Definition Index: 60060
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -12325,7 +13320,7 @@ IL_0030:
 		return L_13;
 	}
 }
-// Method Definition Index: 24394
+// Method Definition Index: 33307
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR HoverEnterEvent_t2BDBCA14FF94DA18C9AC12B43297F6C1641788AB* XRBaseInteractor_get_hoverEntered_m513A1A0A4F630E37B1C72C0AEAC851EAF9252EE1_inline (XRBaseInteractor_t4AF6FC9A7611B9417B4A43E11704AFF85B4A0FB4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12334,7 +13329,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR HoverEnterEvent_t2BDBCA14FF94DA18
 		return L_0;
 	}
 }
-// Method Definition Index: 24396
+// Method Definition Index: 33309
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR HoverExitEvent_t256704BC79FE0AA61EB2DE3FDDF43A1FC97F5832* XRBaseInteractor_get_hoverExited_m06044A674CF3046BC7538BBB86A387C03D8AE459_inline (XRBaseInteractor_t4AF6FC9A7611B9417B4A43E11704AFF85B4A0FB4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12343,7 +13338,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR HoverExitEvent_t256704BC79FE0AA61
 		return L_0;
 	}
 }
-// Method Definition Index: 23407
+// Method Definition Index: 32320
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TeleportationProvider_t3FAF889EFC7631ED0DA49A1E0C4CAD650002A9E5* BaseTeleportationInteractable_get_teleportationProvider_m80FF22AB2B013021B56E36C74FA82EA819222E5D_inline (BaseTeleportationInteractable_t56762CCCEAD36A86FD0B296FBC7CFBC261DEAB71* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12352,7 +13347,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TeleportationProvider_t3FAF889EFC
 		return L_0;
 	}
 }
-// Method Definition Index: 23237
+// Method Definition Index: 32150
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR LocomotionMediator_tFF0E600A153C909C211466942B7D4C3DA6105AD6* LocomotionProvider_get_mediator_m7ED478A25CC3F307D84C6A1F81ACC26231E94B5D_inline (LocomotionProvider_t359A39ECDB2224E3FF09583CF055A3D19A3557BD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12361,7 +13356,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR LocomotionMediator_tFF0E600A153C9
 		return L_0;
 	}
 }
-// Method Definition Index: 74511
+// Method Definition Index: 92408
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* XROrigin_get_Camera_m8959027D616F5BD9AEAE3E41ADEE23BBC2CE3629_inline (XROrigin_t5E534A6D886991AF3C1C64127E19A3A510009CFE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12370,7 +13365,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC
 		return L_0;
 	}
 }
-// Method Definition Index: 44409
+// Method Definition Index: 60037
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -12389,7 +13384,7 @@ IL_000f:
 		return L_2;
 	}
 }
-// Method Definition Index: 44434
+// Method Definition Index: 60062
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -12417,7 +13412,7 @@ IL_0021:
 		return L_10;
 	}
 }
-// Method Definition Index: 44433
+// Method Definition Index: 60061
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -12442,7 +13437,7 @@ IL_001e:
 		return L_7;
 	}
 }
-// Method Definition Index: 44466
+// Method Definition Index: 60095
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline (float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
 {
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
@@ -12468,7 +13463,7 @@ IL_001b:
 		return L_6;
 	}
 }
-// Method Definition Index: 44523
+// Method Definition Index: 60152
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline (float ___0_a, float ___1_b, float ___2_t, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -12489,7 +13484,7 @@ IL_0010:
 		return L_5;
 	}
 }
-// Method Definition Index: 44400
+// Method Definition Index: 60026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
 {
 	{
@@ -12502,7 +13497,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999E
 		return;
 	}
 }
-// Method Definition Index: 44543
+// Method Definition Index: 60173
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -12513,7 +13508,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFF
 		return;
 	}
 }
-// Method Definition Index: 24164
+// Method Definition Index: 33077
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR UIHoverEnterEvent_t4C957A3405A5D9CB867C5EC446620BB4BA7E7298* NearFarInteractor_get_uiHoverEntered_m65F1C9ACE7F1CB3BB9ED747BADFA954AB92547C3_inline (NearFarInteractor_t43B1C14C2D72CB717E3624B0759E265F5D215E9C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12522,7 +13517,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR UIHoverEnterEvent_t4C957A3405A5D9
 		return L_0;
 	}
 }
-// Method Definition Index: 24166
+// Method Definition Index: 33079
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR UIHoverExitEvent_t63E5E9C921AFB8E2CB9CA4D32882DD4F62CD509B* NearFarInteractor_get_uiHoverExited_m3AB20DCF61C075D2138CD150711808D13F0CD5E0_inline (NearFarInteractor_t43B1C14C2D72CB717E3624B0759E265F5D215E9C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12531,7 +13526,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR UIHoverExitEvent_t63E5E9C921AFB8E
 		return L_0;
 	}
 }
-// Method Definition Index: 24174
+// Method Definition Index: 33087
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* NearFarInteractor_get_selectionRegion_mAF70B4BAD5B46F12A8EE31F17313A82A7BE93394_inline (NearFarInteractor_t43B1C14C2D72CB717E3624B0759E265F5D215E9C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12540,7 +13535,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* NearFarInteractor_
 		return L_0;
 	}
 }
-// Method Definition Index: 24398
+// Method Definition Index: 33311
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SelectEnterEvent_tBA2614C8C25D8794D5804C4F66195D74E64FC5D0* XRBaseInteractor_get_selectEntered_mC85EF4187B4575CF00CE7E0957DE5D0E11FAA524_inline (XRBaseInteractor_t4AF6FC9A7611B9417B4A43E11704AFF85B4A0FB4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12549,7 +13544,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SelectEnterEvent_tBA2614C8C25D879
 		return L_0;
 	}
 }
-// Method Definition Index: 24400
+// Method Definition Index: 33313
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SelectExitEvent_t15DC0A39F9657BA9E6BAE6250D8D64C9671201F6* XRBaseInteractor_get_selectExited_m680D2E90A7CAA747EB07AAE7427A287E7D49A370_inline (XRBaseInteractor_t4AF6FC9A7611B9417B4A43E11704AFF85B4A0FB4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12558,7 +13553,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SelectExitEvent_t15DC0A39F9657BA9
 		return L_0;
 	}
 }
-// Method Definition Index: 24791
+// Method Definition Index: 33704
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR UIHoverEnterEvent_t4C957A3405A5D9CB867C5EC446620BB4BA7E7298* XRRayInteractor_get_uiHoverEntered_m22CB14AC1A11633A125A0EA0EC0099EC1476F03E_inline (XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12567,7 +13562,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR UIHoverEnterEvent_t4C957A3405A5D9
 		return L_0;
 	}
 }
-// Method Definition Index: 24793
+// Method Definition Index: 33706
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR UIHoverExitEvent_t63E5E9C921AFB8E2CB9CA4D32882DD4F62CD509B* XRRayInteractor_get_uiHoverExited_m33429ECD32C826D9FA13A0E87C37B44CD63FDBB1_inline (XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12576,7 +13571,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR UIHoverExitEvent_t63E5E9C921AFB8E
 		return L_0;
 	}
 }
-// Method Definition Index: 26274
+// Method Definition Index: 35187
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool InteractionAttachController_get_useManipulationInput_m9D6280BB32EEA011C3C6C83D52F0AEECB7C66F2A_inline (InteractionAttachController_t72A735C43786F8A10DA7BC2A04D65F14FB31F994* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12585,7 +13580,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool InteractionAttachController_
 		return L_0;
 	}
 }
-// Method Definition Index: 26276
+// Method Definition Index: 35189
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* InteractionAttachController_get_manipulationInput_mB9209EA1D995F0D376BABDBA69A7C77C3F0673B4_inline (InteractionAttachController_t72A735C43786F8A10DA7BC2A04D65F14FB31F994* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12594,7 +13589,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRInputValueReader_1_t6B311BAB920
 		return L_0;
 	}
 }
-// Method Definition Index: 27317
+// Method Definition Index: 36230
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRInputValueReader_get_inputSourceMode_m6D12A254104BBE6F3945ACFE6CAC42DC51CDD5E0_inline (XRInputValueReader_t0A220D04F7D6F5BC7E5A253F5AF8A9C3AB430D59* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12603,7 +13598,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRInputValueReader_get_in
 		return L_0;
 	}
 }
-// Method Definition Index: 27321
+// Method Definition Index: 36234
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* XRInputValueReader_get_inputActionReference_m036C2AB2D67FE6B570B59492E071643A6EC5CB50_inline (XRInputValueReader_t0A220D04F7D6F5BC7E5A253F5AF8A9C3AB430D59* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12612,7 +13607,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR InputActionReference_t64730C6B412
 		return L_0;
 	}
 }
-// Method Definition Index: 24779
+// Method Definition Index: 33692
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool XRRayInteractor_get_manipulateAttachTransform_m1B52220691D700AEFFE0B8E8AEDD9BAA15DE960A_inline (XRRayInteractor_tDB7FC857A50F0B25DE4CEC0EE930242BB7380649* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12621,7 +13616,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool XRRayInteractor_get_manipula
 		return L_0;
 	}
 }
-// Method Definition Index: 23032
+// Method Definition Index: 31945
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TrackedDeviceModel_t38B1BA171F5602138D487005E134580213B4DBE8 UIHoverEventArgs_get_deviceModel_m89E4A51B73B17932351940327599EC37D74BCE95_inline (UIHoverEventArgs_tC712F3F829391F25C89B9951234415D4C354DC39* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12630,7 +13625,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TrackedDeviceModel_t38B1BA171F560
 		return L_0;
 	}
 }
-// Method Definition Index: 22897
+// Method Definition Index: 31810
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TrackedDeviceModel_get_isScrollable_m2ADDFD1E1BD1F28CDBD07D6970C5325FCD62A505_inline (TrackedDeviceModel_t38B1BA171F5602138D487005E134580213B4DBE8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12639,7 +13634,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TrackedDeviceModel_get_isScr
 		return L_0;
 	}
 }
-// Method Definition Index: 44556
+// Method Definition Index: 60187
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -12658,7 +13653,7 @@ IL_001f:
 		return L_4;
 	}
 }
-// Method Definition Index: 44423
+// Method Definition Index: 60051
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12681,7 +13676,7 @@ IL_0009:
 		return L_1;
 	}
 }
-// Method Definition Index: 44456
+// Method Definition Index: 60085
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12704,7 +13699,7 @@ IL_0009:
 		return L_1;
 	}
 }
-// Method Definition Index: 23559
+// Method Definition Index: 32472
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ContinuousMoveProvider_set_forwardSource_m16B2571E7A28F8A79802D12165950AD59C9A5490_inline (ContinuousMoveProvider_t1F9AD0924053780B7CF1F5C80D672C5D850C47B9* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -12715,7 +13710,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ContinuousMoveProvider_set_f
 		return;
 	}
 }
-// Method Definition Index: 44572
+// Method Definition Index: 60203
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12738,7 +13733,7 @@ IL_0009:
 		return L_1;
 	}
 }
-// Method Definition Index: 44568
+// Method Definition Index: 60199
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector2_op_Equality_m6F2E069A50E787D131261E5CB25FC9E03F95B5E1_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_lhs, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_rhs, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -12769,7 +13764,7 @@ IL_002e:
 		return L_12;
 	}
 }
-// Method Definition Index: 23562
+// Method Definition Index: 32475
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* ContinuousMoveProvider_get_leftHandMoveInput_m2B7F6358E442942C20D0667A234A29BE0CBAEB8E_inline (ContinuousMoveProvider_t1F9AD0924053780B7CF1F5C80D672C5D850C47B9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12778,7 +13773,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRInputValueReader_1_t6B311BAB920
 		return L_0;
 	}
 }
-// Method Definition Index: 23564
+// Method Definition Index: 32477
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* ContinuousMoveProvider_get_rightHandMoveInput_mAA26C39B1CC43915801850C74CF96888DA4CBB7B_inline (ContinuousMoveProvider_t1F9AD0924053780B7CF1F5C80D672C5D850C47B9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12787,7 +13782,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRInputValueReader_1_t6B311BAB920
 		return L_0;
 	}
 }
-// Method Definition Index: 44393
+// Method Definition Index: 60019
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, float ___2_t, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -12831,7 +13826,7 @@ IL_0053:
 		return L_24;
 	}
 }
-// Method Definition Index: 44427
+// Method Definition Index: 60055
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12854,7 +13849,7 @@ IL_0009:
 		return L_1;
 	}
 }
-// Method Definition Index: 44465
+// Method Definition Index: 60094
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Quaternion_get_eulerAngles_m2DB5158B5C3A71FD60FC8A6EE43D3AAA1CFED122_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* __this, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -12877,7 +13872,7 @@ IL_001e:
 		return L_4;
 	}
 }
-// Method Definition Index: 44467
+// Method Definition Index: 60096
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Euler_m5BCCC19216CFAD2426F15BC51A30421880D27B73_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_euler, const RuntimeMethod* method) 
 {
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
@@ -12898,7 +13893,7 @@ IL_0014:
 		return L_3;
 	}
 }
-// Method Definition Index: 27697
+// Method Definition Index: 36610
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* XRInteractableAffordanceStateProvider_get_interactableSource_m43E4BAA09BD771994E184DD45418EA28916B7FAE_inline (XRInteractableAffordanceStateProvider_tBF33F0A41B1960C8FE2CCAFC6228E07D8A459C98* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12907,27 +13902,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Object_tC12DECB6760A7F2CBF65D9DCF
 		return L_0;
 	}
 }
-// Method Definition Index: 66877
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11 Selectable_get_colors_mB53E365D02351D4B64084295C4B2A7AF2DEC4750_inline (Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* __this, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:./Library/PackageCache/com.unity.ugui@38c58105e446/Runtime/UGUI/UI/Core/Selectable.cs:264>
-		ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11 L_0 = __this->___m_Colors;
-		return L_0;
-	}
-}
-// Method Definition Index: 65860
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ColorBlock_set_normalColor_m3EBF594F6FA2C6494ACA9FCB9B458807D85B96F8_inline (ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_value, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:./Library/PackageCache/com.unity.ugui@38c58105e446/Runtime/UGUI/UI/Core/ColorBlock.cs:66>
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = ___0_value;
-		__this->___m_NormalColor = L_0;
-		//<source_info:./Library/PackageCache/com.unity.ugui@38c58105e446/Runtime/UGUI/UI/Core/ColorBlock.cs:66>
-		return;
-	}
-}
-// Method Definition Index: 44258
+// Method Definition Index: 59877
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, const RuntimeMethod* method) 
 {
 	{
@@ -12941,7 +13916,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_mCD6889CDE39F187
 		return;
 	}
 }
-// Method Definition Index: 26019
+// Method Definition Index: 34932
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* PokeStateData_get_target_m464672F352B73F0010B9829CA5C692505783091C_inline (PokeStateData_t87D34716C1C477FC04D9344710D09399FE6F5032* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12950,7 +13925,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A
 		return L_0;
 	}
 }
-// Method Definition Index: 26013
+// Method Definition Index: 34926
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 PokeStateData_get_axisAlignedPokeInteractionPoint_mC3B4E6D1232B8A2E2A98374B3AA9976E29E67D43_inline (PokeStateData_t87D34716C1C477FC04D9344710D09399FE6F5032* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12959,7 +13934,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_0;
 	}
 }
-// Method Definition Index: 44420
+// Method Definition Index: 60048
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -12980,7 +13955,7 @@ IL_002d:
 		return L_6;
 	}
 }
-// Method Definition Index: 44416
+// Method Definition Index: 60044
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_ClampMagnitude_mF83675F19744F58E97CF24D8359A810634DC031F_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_vector, float ___1_maxLength, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13055,7 +14030,7 @@ IL_0053:
 		return L_24;
 	}
 }
-// Method Definition Index: 44291
+// Method Definition Index: 59912
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_yellow_m66637FA14383E8D74F24AE256B577CE1D55D469F_inline (const RuntimeMethod* method) 
 {
 	{
@@ -13065,7 +14040,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED02
 		return L_0;
 	}
 }
-// Method Definition Index: 26041
+// Method Definition Index: 34954
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR PokeThresholdDatumProperty_t367C8AA0927AD55629D9EF7297FCCEB814F6BB30* XRPokeFilter_get_pokeConfiguration_mBB3BE69FB8596158A7501A42370BDECB138A77D1_inline (XRPokeFilter_tC756187569A8DFE55C540B756688000609B89AC8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13074,7 +14049,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR PokeThresholdDatumProperty_t367C8
 		return L_0;
 	}
 }
-// Method Definition Index: 44431
+// Method Definition Index: 60059
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -13105,7 +14080,7 @@ IL_0030:
 		return L_13;
 	}
 }
-// Method Definition Index: 26024
+// Method Definition Index: 34937
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PokeThresholdData_get_pokeDirection_m1C06A443E150B85B2CD6D5A7CFC494B9FF1FF1F1_inline (PokeThresholdData_tC809C4316CFB80EE765C84948E489D6AD09F7546* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13114,7 +14089,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PokeThresholdData_get_pok
 		return L_0;
 	}
 }
-// Method Definition Index: 8978
+// Method Definition Index: 17614
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13122,7 +14097,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C
 		return L_0;
 	}
 }
-// Method Definition Index: 75484
+// Method Definition Index: 93091
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t HashSet_1_get_Count_m41CC85EEB7855CEFA3BC7A32F115387939318ED3_gshared_inline (HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13130,7 +14105,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t HashSet_1_get_Count_m41CC
 		return L_0;
 	}
 }
-// Method Definition Index: 8978
+// Method Definition Index: 17614
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m9C3EC7FE1A9401268B3C9761A4D96A37197AD0E7_gshared_inline (List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13138,7 +14113,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m9C3EC7F
 		return L_0;
 	}
 }
-// Method Definition Index: 9037
+// Method Definition Index: 17674
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13146,13 +14121,13 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Cur
 		return L_0;
 	}
 }
-// Method Definition Index: 599
+// Method Definition Index: 7668
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_obj, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 8988
+// Method Definition Index: 17624
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
 {
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
@@ -13190,7 +14165,7 @@ IL_0034:
 		return;
 	}
 }
-// Method Definition Index: 44407
+// Method Definition Index: 60035
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Normalize_mEF8349CC39674236CFC694189AFD36E31F89AC8F_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -13233,7 +14208,7 @@ IL_0026:
 		return L_8;
 	}
 }
-// Method Definition Index: 44522
+// Method Definition Index: 60151
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -13281,7 +14256,7 @@ IL_002d:
 		return L_5;
 	}
 }
-// Method Definition Index: 44257
+// Method Definition Index: 59876
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, float ___3_a, const RuntimeMethod* method) 
 {
 	{
@@ -13296,7 +14271,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9C
 		return;
 	}
 }
-// Method Definition Index: 44417
+// Method Definition Index: 60045
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Magnitude_m21652D951393A3D7CE92CE40049A0E7F76544D1B_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_vector, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13332,7 +14307,7 @@ IL_0034:
 		return L_13;
 	}
 }
-// Method Definition Index: 44436
+// Method Definition Index: 60064
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;

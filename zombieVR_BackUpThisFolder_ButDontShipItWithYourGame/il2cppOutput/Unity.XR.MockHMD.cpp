@@ -392,7 +392,7 @@ IL2CPP_EXTERN_C int32_t DEFAULT_CALL NativeConfig_SetFoveationMode(int32_t, uint
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78066
+// Method Definition Index: 96768
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tAAAAB6B4082D087855A02A37C594883EEC3D5518 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m4AD7B54AA93456B0083B2DFD885138FDC4D88677 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -405,6 +405,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tAAAAB6B4082D087855A02A37C5948
 	}
 	MonoScriptData_tAAAAB6B4082D087855A02A37C594883EEC3D5518 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	MonoScriptData_tAAAAB6B4082D087855A02A37C594883EEC3D5518 V_1;
+	memset((&V_1), 0, sizeof(V_1));
 	{
 		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_tAAAAB6B4082D087855A02A37C594883EEC3D5518));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)268));
@@ -423,10 +425,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tAAAAB6B4082D087855A02A37C5948
 		(&V_0)->___TotalTypes = 3;
 		(&V_0)->___IsEditorOnly = (bool)0;
 		MonoScriptData_tAAAAB6B4082D087855A02A37C594883EEC3D5518 L_6 = V_0;
-		return L_6;
+		V_1 = L_6;
+		goto IL_005a;
+	}
+
+IL_005a:
+	{
+		MonoScriptData_tAAAAB6B4082D087855A02A37C594883EEC3D5518 L_7 = V_1;
+		return L_7;
 	}
 }
-// Method Definition Index: 78067
+// Method Definition Index: 96769
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m646CFBFC6B25349809E9D342C39BE1F42EBD8B95 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t83352C8A089019026C7C2B2C3E44B4620CBC7AF0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -512,7 +521,7 @@ IL2CPP_EXTERN_C void MonoScriptData_tAAAAB6B4082D087855A02A37C594883EEC3D5518_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78068
+// Method Definition Index: 96770
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MockHMD_SetRenderMode_mABBB2BDD5EAB1E9D496D95273E2746080E9E1C83 (int32_t ___0_renderMode, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
@@ -534,7 +543,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MockHMD_SetRenderMode_mABBB2BDD5EAB1E9D4
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 78069
+// Method Definition Index: 96771
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MockHMD_SetEyeResolution_m764DF2CA790AE606448696FE00418A7051844F07 (int32_t ___0_width, int32_t ___1_height, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t);
@@ -556,7 +565,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MockHMD_SetEyeResolution_m764DF2CA790AE6
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 78070
+// Method Definition Index: 96772
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MockHMD_SetMirrorViewCrop_m0B7BD579EF711AFF70E8431C6C5DE7F83344EC90 (float ___0_crop, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (float);
@@ -578,7 +587,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MockHMD_SetMirrorViewCrop_m0B7BD579EF711
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 78071
+// Method Definition Index: 96773
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MockHMD_SetFoveationMode_mDC16BF186EFEF22B1F3836850CAD81688C4C1DCF (bool ___0_enable, uint32_t ___1_gazeSimulatorMode, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, uint32_t);
@@ -608,7 +617,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MockHMD_SetFoveationMode_mDC16BF186EFEF2
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78072
+// Method Definition Index: 96774
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MockHMDBuildSettings_t04FF4AEA668276CF3FF947D1C57CB4F4CE3DA235* MockHMDBuildSettings_get_Instance_mD0DD3EF157A4BB01A1DCFD88BF52574B14FDF7AC (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -619,6 +628,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MockHMDBuildSettings_t04FF4AEA668276CF3FF947D
 		s_Il2CppMethodInitialized = true;
 	}
 	MockHMDBuildSettings_t04FF4AEA668276CF3FF947D1C57CB4F4CE3DA235* V_0 = NULL;
+	bool V_1 = false;
+	MockHMDBuildSettings_t04FF4AEA668276CF3FF947D1C57CB4F4CE3DA235* V_2 = NULL;
 	{
 		//<source_info:./Library/PackageCache/com.unity.xr.mock-hmd@edddfee48079/Runtime/MockHMDBuildSettings.cs:91>
 		V_0 = (MockHMDBuildSettings_t04FF4AEA668276CF3FF947D1C57CB4F4CE3DA235*)NULL;
@@ -630,26 +641,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MockHMDBuildSettings_t04FF4AEA668276CF3FF947D
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
 		L_2 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_2)
+		V_1 = L_2;
+		bool L_3 = V_1;
+		if (!L_3)
 		{
-			goto IL_0017;
+			goto IL_001a;
 		}
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.xr.mock-hmd@edddfee48079/Runtime/MockHMDBuildSettings.cs:101>
-		MockHMDBuildSettings_t04FF4AEA668276CF3FF947D1C57CB4F4CE3DA235* L_3 = (MockHMDBuildSettings_t04FF4AEA668276CF3FF947D1C57CB4F4CE3DA235*)il2cpp_codegen_object_new(MockHMDBuildSettings_t04FF4AEA668276CF3FF947D1C57CB4F4CE3DA235_il2cpp_TypeInfo_var);
-		MockHMDBuildSettings__ctor_mEAC99755E1DECC727F534B2AC153866931E50F16(L_3, NULL);
-		V_0 = L_3;
+		MockHMDBuildSettings_t04FF4AEA668276CF3FF947D1C57CB4F4CE3DA235* L_4 = (MockHMDBuildSettings_t04FF4AEA668276CF3FF947D1C57CB4F4CE3DA235*)il2cpp_codegen_object_new(MockHMDBuildSettings_t04FF4AEA668276CF3FF947D1C57CB4F4CE3DA235_il2cpp_TypeInfo_var);
+		MockHMDBuildSettings__ctor_mEAC99755E1DECC727F534B2AC153866931E50F16(L_4, NULL);
+		V_0 = L_4;
 	}
 
-IL_0017:
+IL_001a:
 	{
 		//<source_info:./Library/PackageCache/com.unity.xr.mock-hmd@edddfee48079/Runtime/MockHMDBuildSettings.cs:103>
-		MockHMDBuildSettings_t04FF4AEA668276CF3FF947D1C57CB4F4CE3DA235* L_4 = V_0;
-		return L_4;
+		MockHMDBuildSettings_t04FF4AEA668276CF3FF947D1C57CB4F4CE3DA235* L_5 = V_0;
+		V_2 = L_5;
+		goto IL_001e;
+	}
+
+IL_001e:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.mock-hmd@edddfee48079/Runtime/MockHMDBuildSettings.cs:104>
+		MockHMDBuildSettings_t04FF4AEA668276CF3FF947D1C57CB4F4CE3DA235* L_6 = V_2;
+		return L_6;
 	}
 }
-// Method Definition Index: 78073
+// Method Definition Index: 96775
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockHMDBuildSettings_OnEnable_m2916B0764AC3A3E45102FA57C180B5DA70171AE6 (MockHMDBuildSettings_t04FF4AEA668276CF3FF947D1C57CB4F4CE3DA235* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -666,10 +687,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockHMDBuildSettings_OnEnable_m2916B0764
 		return;
 	}
 }
-// Method Definition Index: 78074
+// Method Definition Index: 96776
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockHMDBuildSettings__ctor_mEAC99755E1DECC727F534B2AC153866931E50F16 (MockHMDBuildSettings_t04FF4AEA668276CF3FF947D1C57CB4F4CE3DA235* __this, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:./Library/PackageCache/com.unity.xr.mock-hmd@edddfee48079/Runtime/MockHMDBuildSettings.cs:73>
+		__this->___foveationEnabled = (bool)0;
+		//<source_info:./Library/PackageCache/com.unity.xr.mock-hmd@edddfee48079/Runtime/MockHMDBuildSettings.cs:82>
+		__this->___gazeSimulationMode = 0;
 		ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF(__this, NULL);
 		return;
 	}
@@ -698,7 +723,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockHMDBuildSettings__ctor_mEAC99755E1DE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78075
+// Method Definition Index: 96777
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MockHMDLoader_Initialize_m9D399A6BB46197884D77861CC1AF7F56EC9AF2C4 (MockHMDLoader_tD907BB7814BF34F5BC755B09DA674C27C8070984* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -713,6 +738,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MockHMDLoader_Initialize_m9D399A6BB46197
 		s_Il2CppMethodInitialized = true;
 	}
 	MockHMDBuildSettings_t04FF4AEA668276CF3FF947D1C57CB4F4CE3DA235* V_0 = NULL;
+	bool V_1 = false;
+	bool V_2 = false;
 	{
 		//<source_info:./Library/PackageCache/com.unity.xr.mock-hmd@edddfee48079/Runtime/MockHMDLoader.cs:21>
 		il2cpp_codegen_runtime_class_init_inline(MockHMDLoader_tD907BB7814BF34F5BC755B09DA674C27C8070984_il2cpp_TypeInfo_var);
@@ -730,37 +757,47 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MockHMDLoader_Initialize_m9D399A6BB46197
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
 		L_4 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_4)
+		V_1 = L_4;
+		bool L_5 = V_1;
+		if (!L_5)
 		{
-			goto IL_004d;
+			goto IL_0054;
 		}
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.xr.mock-hmd@edddfee48079/Runtime/MockHMDLoader.cs:27>
-		MockHMDBuildSettings_t04FF4AEA668276CF3FF947D1C57CB4F4CE3DA235* L_5 = V_0;
-		NullCheck(L_5);
-		int32_t L_6 = L_5->___renderMode;
-		bool L_7;
-		L_7 = MockHMD_SetRenderMode_mABBB2BDD5EAB1E9D496D95273E2746080E9E1C83(L_6, NULL);
+		MockHMDBuildSettings_t04FF4AEA668276CF3FF947D1C57CB4F4CE3DA235* L_6 = V_0;
+		NullCheck(L_6);
+		int32_t L_7 = L_6->___renderMode;
+		bool L_8;
+		L_8 = MockHMD_SetRenderMode_mABBB2BDD5EAB1E9D496D95273E2746080E9E1C83(L_7, NULL);
 		//<source_info:./Library/PackageCache/com.unity.xr.mock-hmd@edddfee48079/Runtime/MockHMDLoader.cs:28>
 		//<source_info:./Library/PackageCache/com.unity.xr.mock-hmd@edddfee48079/Runtime/MockHMDLoader.cs:29>
-		MockHMDBuildSettings_t04FF4AEA668276CF3FF947D1C57CB4F4CE3DA235* L_8 = V_0;
-		NullCheck(L_8);
-		bool L_9 = L_8->___foveationEnabled;
-		MockHMDBuildSettings_t04FF4AEA668276CF3FF947D1C57CB4F4CE3DA235* L_10 = V_0;
-		NullCheck(L_10);
-		int32_t L_11 = L_10->___gazeSimulationMode;
-		bool L_12;
-		L_12 = MockHMD_SetFoveationMode_mDC16BF186EFEF22B1F3836850CAD81688C4C1DCF(L_9, L_11, NULL);
+		MockHMDBuildSettings_t04FF4AEA668276CF3FF947D1C57CB4F4CE3DA235* L_9 = V_0;
+		NullCheck(L_9);
+		bool L_10 = L_9->___foveationEnabled;
+		MockHMDBuildSettings_t04FF4AEA668276CF3FF947D1C57CB4F4CE3DA235* L_11 = V_0;
+		NullCheck(L_11);
+		int32_t L_12 = L_11->___gazeSimulationMode;
+		bool L_13;
+		L_13 = MockHMD_SetFoveationMode_mDC16BF186EFEF22B1F3836850CAD81688C4C1DCF(L_10, L_12, NULL);
 	}
 
-IL_004d:
+IL_0054:
 	{
 		//<source_info:./Library/PackageCache/com.unity.xr.mock-hmd@edddfee48079/Runtime/MockHMDLoader.cs:32>
-		return (bool)1;
+		V_2 = (bool)1;
+		goto IL_0058;
+	}
+
+IL_0058:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.mock-hmd@edddfee48079/Runtime/MockHMDLoader.cs:33>
+		bool L_14 = V_2;
+		return L_14;
 	}
 }
-// Method Definition Index: 78076
+// Method Definition Index: 96778
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MockHMDLoader_Start_m7905D3DCEFE46ED0BE2C4F15F5D65483CE661FAD (MockHMDLoader_tD907BB7814BF34F5BC755B09DA674C27C8070984* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -770,16 +807,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MockHMDLoader_Start_m7905D3DCEFE46ED0BE2
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRLoaderHelper_StartSubsystem_TisXRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34_m08AC127201FE89396BD81BEA52D40790BC0CA3FA_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	bool V_0 = false;
 	{
 		//<source_info:./Library/PackageCache/com.unity.xr.mock-hmd@edddfee48079/Runtime/MockHMDLoader.cs:38>
 		XRLoaderHelper_StartSubsystem_TisXRDisplaySubsystem_t4B00B0BF1894A039ACFA8DDC2C2EB9301118C1F1_mC1643794A5D3CC32BF1EE9C976CE5F23A6BB8962(__this, XRLoaderHelper_StartSubsystem_TisXRDisplaySubsystem_t4B00B0BF1894A039ACFA8DDC2C2EB9301118C1F1_mC1643794A5D3CC32BF1EE9C976CE5F23A6BB8962_RuntimeMethod_var);
 		//<source_info:./Library/PackageCache/com.unity.xr.mock-hmd@edddfee48079/Runtime/MockHMDLoader.cs:39>
 		XRLoaderHelper_StartSubsystem_TisXRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34_m08AC127201FE89396BD81BEA52D40790BC0CA3FA(__this, XRLoaderHelper_StartSubsystem_TisXRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34_m08AC127201FE89396BD81BEA52D40790BC0CA3FA_RuntimeMethod_var);
 		//<source_info:./Library/PackageCache/com.unity.xr.mock-hmd@edddfee48079/Runtime/MockHMDLoader.cs:40>
-		return (bool)1;
+		V_0 = (bool)1;
+		goto IL_0013;
+	}
+
+IL_0013:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.mock-hmd@edddfee48079/Runtime/MockHMDLoader.cs:41>
+		bool L_0 = V_0;
+		return L_0;
 	}
 }
-// Method Definition Index: 78077
+// Method Definition Index: 96779
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MockHMDLoader_Stop_m8DC4B74EC9C4300655940D8C8A908495D1981D34 (MockHMDLoader_tD907BB7814BF34F5BC755B09DA674C27C8070984* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -789,16 +835,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MockHMDLoader_Stop_m8DC4B74EC9C430065594
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRLoaderHelper_StopSubsystem_TisXRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34_mE6F3E85E0C64666EE9A517CD7CF3669FB7BAC750_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	bool V_0 = false;
 	{
 		//<source_info:./Library/PackageCache/com.unity.xr.mock-hmd@edddfee48079/Runtime/MockHMDLoader.cs:46>
 		XRLoaderHelper_StopSubsystem_TisXRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34_mE6F3E85E0C64666EE9A517CD7CF3669FB7BAC750(__this, XRLoaderHelper_StopSubsystem_TisXRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34_mE6F3E85E0C64666EE9A517CD7CF3669FB7BAC750_RuntimeMethod_var);
 		//<source_info:./Library/PackageCache/com.unity.xr.mock-hmd@edddfee48079/Runtime/MockHMDLoader.cs:47>
 		XRLoaderHelper_StopSubsystem_TisXRDisplaySubsystem_t4B00B0BF1894A039ACFA8DDC2C2EB9301118C1F1_m00A3A82597D484DE2EBB03EA9A2430AFDE44DE24(__this, XRLoaderHelper_StopSubsystem_TisXRDisplaySubsystem_t4B00B0BF1894A039ACFA8DDC2C2EB9301118C1F1_m00A3A82597D484DE2EBB03EA9A2430AFDE44DE24_RuntimeMethod_var);
 		//<source_info:./Library/PackageCache/com.unity.xr.mock-hmd@edddfee48079/Runtime/MockHMDLoader.cs:48>
-		return (bool)1;
+		V_0 = (bool)1;
+		goto IL_0013;
+	}
+
+IL_0013:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.mock-hmd@edddfee48079/Runtime/MockHMDLoader.cs:49>
+		bool L_0 = V_0;
+		return L_0;
 	}
 }
-// Method Definition Index: 78078
+// Method Definition Index: 96780
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MockHMDLoader_Deinitialize_mD6F8BA7F4E6F5E697D0D80406EA459CE1B934347 (MockHMDLoader_tD907BB7814BF34F5BC755B09DA674C27C8070984* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -808,16 +863,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MockHMDLoader_Deinitialize_mD6F8BA7F4E6F
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRLoaderHelper_DestroySubsystem_TisXRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34_m22B2454EB0F4E32155EEE6022768B9781DB0085F_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	bool V_0 = false;
 	{
 		//<source_info:./Library/PackageCache/com.unity.xr.mock-hmd@edddfee48079/Runtime/MockHMDLoader.cs:54>
 		XRLoaderHelper_DestroySubsystem_TisXRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34_m22B2454EB0F4E32155EEE6022768B9781DB0085F(__this, XRLoaderHelper_DestroySubsystem_TisXRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34_m22B2454EB0F4E32155EEE6022768B9781DB0085F_RuntimeMethod_var);
 		//<source_info:./Library/PackageCache/com.unity.xr.mock-hmd@edddfee48079/Runtime/MockHMDLoader.cs:55>
 		XRLoaderHelper_DestroySubsystem_TisXRDisplaySubsystem_t4B00B0BF1894A039ACFA8DDC2C2EB9301118C1F1_m8E2572BB5610CCE3B1DBA87453CFE09BB4B2B606(__this, XRLoaderHelper_DestroySubsystem_TisXRDisplaySubsystem_t4B00B0BF1894A039ACFA8DDC2C2EB9301118C1F1_m8E2572BB5610CCE3B1DBA87453CFE09BB4B2B606_RuntimeMethod_var);
 		//<source_info:./Library/PackageCache/com.unity.xr.mock-hmd@edddfee48079/Runtime/MockHMDLoader.cs:56>
-		return (bool)1;
+		V_0 = (bool)1;
+		goto IL_0013;
+	}
+
+IL_0013:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.mock-hmd@edddfee48079/Runtime/MockHMDLoader.cs:57>
+		bool L_0 = V_0;
+		return L_0;
 	}
 }
-// Method Definition Index: 78079
+// Method Definition Index: 96781
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockHMDLoader__ctor_m14746E03259E49EB8DF3BCAEEFAC6D641D9814F3 (MockHMDLoader_tD907BB7814BF34F5BC755B09DA674C27C8070984* __this, const RuntimeMethod* method) 
 {
 	{
@@ -825,7 +889,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockHMDLoader__ctor_m14746E03259E49EB8DF
 		return;
 	}
 }
-// Method Definition Index: 78080
+// Method Definition Index: 96782
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockHMDLoader__cctor_m818FB6B7AF53EC71BB0C2411B29B864FF991F2F0 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

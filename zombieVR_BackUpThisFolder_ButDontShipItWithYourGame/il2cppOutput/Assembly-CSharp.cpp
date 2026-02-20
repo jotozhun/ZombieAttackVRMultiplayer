@@ -72,6 +72,8 @@ struct UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA;
 struct ControlBitRangeNodeU5BU5D_t912A404149DE6D350D1735A026182C409C510F27;
 struct SectionU5BU5D_t9D3017555FFF42E71BE91904A2486EAF429F24C4;
 struct AButtonAttribute_t70BE8954D6C30A4E0468123268B79DBF4ECCF8D7;
+struct AnimateHandOnInput_tA9C05EB723ADD1EBE533839D67AD3A3A82F68156;
+struct Animator_t8A52E42AE54F76681838FE9E632683EF3952E883;
 struct AnyKeyControl_t88E59A594CAF1E3A432C3BEC2634C0CA462D8A14;
 struct ArrayArrangement_tAA91FFCFD891F429A1298B215116C4A06B959016;
 struct Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA;
@@ -96,6 +98,7 @@ struct InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD;
 struct InputActionMap_tFCE82E0E014319D4DED9F8962B06655DD0420A09;
 struct InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1;
 struct InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B;
+struct InputTest_t7E37142ACC101267C13A2AC892569C03E47ABCBD;
 struct InvokableCallList_t309E1C8C7CE885A0D2F98C84CEA77A8935688382;
 struct KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0;
 struct Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43;
@@ -145,10 +148,14 @@ IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_tDEA1438B03C59CCBF3CD1B82435E133D9720B979_
 IL2CPP_EXTERN_C RuntimeClass* UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____408A7F83136CCC5CE964B4BCBD3D1825B3A46B24F731CD2E0F4D7BD13B337AD1_FieldInfo_var;
-IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____6BA44F1EA5F52C362BD94AB43B06A95882645864B1CDFAD410D70158897B318A_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____5D3134547ADA0A82CC784C0940F9DD12A72D981A591B9FC1FB6751D0FE0876B7_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____CB73B28CA0AAF7A8E46DF777B2B7C0E88037D6B25DF14C646CE148C8C4EDCB54_FieldInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral151AAC6CF4712631AF03355792B6BD782A3818D2;
+IL2CPP_EXTERN_C String_t* _stringLiteral3A63407C65D8B53201DF0F34DE43BCCC36A35002;
 IL2CPP_EXTERN_C String_t* _stringLiteral41861ECF6F805BA4AD11A3BA32DB1C7505AC6418;
 IL2CPP_EXTERN_C String_t* _stringLiteral72D498F039FD562896966E064E8315EA0BCE68C5;
+IL2CPP_EXTERN_C String_t* _stringLiteralB4FE860573CD6E03F0D1A4378C1F330A3820D8C9;
+IL2CPP_EXTERN_C String_t* _stringLiteralB85E78C75EF1A6F636689BD88A9D6C2A3B2B0A1B;
 IL2CPP_EXTERN_C String_t* _stringLiteralB92EF51E45166C91E2762DB6C9F27C8BD6EBE466;
 IL2CPP_EXTERN_C String_t* _stringLiteralD6BCFD215FD76D17E815EC475CE1E006A79B3695;
 IL2CPP_EXTERN_C String_t* _stringLiteralEE7B3214E4DF0BD24ACD40DC64BAC290B6BC27C5;
@@ -168,6 +175,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_MoveNext_m88B534D4BF89CBC13DC19E
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_m118363646DFAA871294FCBE80296C961544385BD_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_m39CCE0FD2380760C609209D13FC46916BEBD174F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisFriesManagerBRP_tC1F289EB4595A4E3BCFEED5B7CD91D409884F0F3_mD589161C161A12D1E6571E0E66B02347417217E6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* InputAction_ReadValue_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m37FC749080A83C05777D1F779F38B8A27BAFA97B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* InputAction_ReadValue_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m8D02BA85303ABD48D9963369E106B0C83A393FBF_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* InputControl_1_ReadValue_m362E05F00FE8CF8FC52F0D673291907EC7FA6541_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* KiiValuePair_2__ctor_m95837CEFF6241097F46B23D28D871A0B6F48BCE7_RuntimeMethod_var;
@@ -535,7 +543,7 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915
 	};
 };
 #pragma pack(push, tp, 1)
-struct __StaticArrayInitTypeSizeU3D1297_t85243A3819136FC758B1CC3DF386B859E73340D4 
+struct __StaticArrayInitTypeSizeU3D1362_t185E2D9D9C0AADCA63F79C1078C99BAB1DAA0140 
 {
 	union
 	{
@@ -545,12 +553,12 @@ struct __StaticArrayInitTypeSizeU3D1297_t85243A3819136FC758B1CC3DF386B859E73340D
 			{
 			};
 		};
-		uint8_t __StaticArrayInitTypeSizeU3D1297_t85243A3819136FC758B1CC3DF386B859E73340D4__padding[1297];
+		uint8_t __StaticArrayInitTypeSizeU3D1362_t185E2D9D9C0AADCA63F79C1078C99BAB1DAA0140__padding[1362];
 	};
 };
 #pragma pack(pop, tp)
 #pragma pack(push, tp, 1)
-struct __StaticArrayInitTypeSizeU3D884_tAFB41EDA0C12DD968E385C6606B5B7F9AE06AC0C 
+struct __StaticArrayInitTypeSizeU3D923_tB50391FB033B2C15511E1D5FF62E425DACB3C63F 
 {
 	union
 	{
@@ -560,7 +568,7 @@ struct __StaticArrayInitTypeSizeU3D884_tAFB41EDA0C12DD968E385C6606B5B7F9AE06AC0C
 			{
 			};
 		};
-		uint8_t __StaticArrayInitTypeSizeU3D884_tAFB41EDA0C12DD968E385C6606B5B7F9AE06AC0C__padding[884];
+		uint8_t __StaticArrayInitTypeSizeU3D923_tB50391FB033B2C15511E1D5FF62E425DACB3C63F__padding[923];
 	};
 };
 #pragma pack(pop, tp)
@@ -1350,6 +1358,9 @@ struct InputControl_1_tC164085710F2FAA9161295C9B7FE273AF893CF66  : public InputC
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_UnprocessedCachedValue;
 	bool ___evaluateProcessorsEveryRead;
 };
+struct Animator_t8A52E42AE54F76681838FE9E632683EF3952E883  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+};
 struct InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD  : public RuntimeObject
 {
 	String_t* ___m_Name;
@@ -1403,6 +1414,14 @@ struct MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE  : public Renderer
 struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
 {
 	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___m_CancellationTokenSource;
+};
+struct AnimateHandOnInput_tA9C05EB723ADD1EBE533839D67AD3A3A82F68156  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD ___triggerValue;
+	InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD ___gripValue;
+	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ___handAnimator;
+	float ___triggerFloat;
+	float ___gripFloat;
 };
 struct ArrayArrangement_tAA91FFCFD891F429A1298B215116C4A06B959016  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -1471,6 +1490,11 @@ struct GlowLight_tAE22C7284993C7B5A3FF5008ACEDA687D320474A  : public MonoBehavio
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___activeLightSourceSurfaceColor;
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___inactiveLightSourceSurfaceColor;
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___lightEmissionColor;
+};
+struct InputTest_t7E37142ACC101267C13A2AC892569C03E47ABCBD  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD ___testActionValue;
+	InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD ___testActionButton;
 };
 struct Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43  : public InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B
 {
@@ -1567,8 +1591,8 @@ struct List_1_t7DDDCD556D8547EE78B1888FEBA05CE5F8582A1D_StaticFields
 };
 struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA_StaticFields
 {
-	__StaticArrayInitTypeSizeU3D884_tAFB41EDA0C12DD968E385C6606B5B7F9AE06AC0C ___408A7F83136CCC5CE964B4BCBD3D1825B3A46B24F731CD2E0F4D7BD13B337AD1;
-	__StaticArrayInitTypeSizeU3D1297_t85243A3819136FC758B1CC3DF386B859E73340D4 ___6BA44F1EA5F52C362BD94AB43B06A95882645864B1CDFAD410D70158897B318A;
+	__StaticArrayInitTypeSizeU3D923_tB50391FB033B2C15511E1D5FF62E425DACB3C63F ___5D3134547ADA0A82CC784C0940F9DD12A72D981A591B9FC1FB6751D0FE0876B7;
+	__StaticArrayInitTypeSizeU3D1362_t185E2D9D9C0AADCA63F79C1078C99BAB1DAA0140 ___CB73B28CA0AAF7A8E46DF777B2B7C0E88037D6B25DF14C646CE148C8C4EDCB54;
 };
 struct String_t_StaticFields
 {
@@ -1683,6 +1707,7 @@ struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031  : public RuntimeArr
 };
 
 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float InputAction_ReadValue_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m37FC749080A83C05777D1F779F38B8A27BAFA97B_gshared (InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 InputAction_ReadValue_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m8D02BA85303ABD48D9963369E106B0C83A393FBF_gshared (InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 InputControl_1_ReadValue_m362E05F00FE8CF8FC52F0D673291907EC7FA6541_gshared (InputControl_1_tC164085710F2FAA9161295C9B7FE273AF893CF66* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
@@ -1702,10 +1727,19 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___0_index, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
 
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* InputActionProperty_get_action_mABF2197D9CC6586E5DFB0481CF9C1B2586F41A47 (InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD* __this, const RuntimeMethod* method) ;
+inline float InputAction_ReadValue_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m37FC749080A83C05777D1F779F38B8A27BAFA97B (InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* __this, const RuntimeMethod* method)
+{
+	return ((  float (*) (InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD*, const RuntimeMethod*))InputAction_ReadValue_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m37FC749080A83C05777D1F779F38B8A27BAFA97B_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Animator_SetFloat_m10C78733FAFC7AFEDBDACC48B7C66D3A35A0A7FE (Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* __this, String_t* ___0_name, float ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972 (float* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputAction_IsPressed_m40DF920F0E7D18170B62666DA2A2131AD336A301 (InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Boolean_ToString_m6646C8026B1DF381A1EE8CD13549175E9703CC63 (bool* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputAction_get_enabled_mA1E3523D89FCD4649E787A4BFE9D5863674846FA (InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* __this, const RuntimeMethod* method) ;
 inline Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 InputAction_ReadValue_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m8D02BA85303ABD48D9963369E106B0C83A393FBF (InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* __this, const RuntimeMethod* method)
 {
@@ -1908,7 +1942,146 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GameObject_get_layer_m108902B9C89E9F8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 77833
+// Method Definition Index: 96503
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimateHandOnInput_Start_mDFB567101BCB7DCE653AE7E320015E93D3609592 (AnimateHandOnInput_tA9C05EB723ADD1EBE533839D67AD3A3A82F68156* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/AnimateHandOnInput.cs:18>
+		return;
+	}
+}
+// Method Definition Index: 96504
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimateHandOnInput_Update_mC03CF4BE3804324BBC246D79B71F83B1A8848CDD (AnimateHandOnInput_tA9C05EB723ADD1EBE533839D67AD3A3A82F68156* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputAction_ReadValue_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m37FC749080A83C05777D1F779F38B8A27BAFA97B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB4FE860573CD6E03F0D1A4378C1F330A3820D8C9);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB85E78C75EF1A6F636689BD88A9D6C2A3B2B0A1B);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/AnimateHandOnInput.cs:23>
+		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD* L_0 = (InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD*)(&__this->___triggerValue);
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_1;
+		L_1 = InputActionProperty_get_action_mABF2197D9CC6586E5DFB0481CF9C1B2586F41A47(L_0, NULL);
+		NullCheck(L_1);
+		float L_2;
+		L_2 = InputAction_ReadValue_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m37FC749080A83C05777D1F779F38B8A27BAFA97B(L_1, InputAction_ReadValue_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m37FC749080A83C05777D1F779F38B8A27BAFA97B_RuntimeMethod_var);
+		__this->___triggerFloat = L_2;
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/AnimateHandOnInput.cs:24>
+		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD* L_3 = (InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD*)(&__this->___gripValue);
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_4;
+		L_4 = InputActionProperty_get_action_mABF2197D9CC6586E5DFB0481CF9C1B2586F41A47(L_3, NULL);
+		NullCheck(L_4);
+		float L_5;
+		L_5 = InputAction_ReadValue_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m37FC749080A83C05777D1F779F38B8A27BAFA97B(L_4, InputAction_ReadValue_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m37FC749080A83C05777D1F779F38B8A27BAFA97B_RuntimeMethod_var);
+		__this->___gripFloat = L_5;
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/AnimateHandOnInput.cs:26>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_6 = __this->___handAnimator;
+		float L_7 = __this->___triggerFloat;
+		NullCheck(L_6);
+		Animator_SetFloat_m10C78733FAFC7AFEDBDACC48B7C66D3A35A0A7FE(L_6, _stringLiteralB85E78C75EF1A6F636689BD88A9D6C2A3B2B0A1B, L_7, NULL);
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/AnimateHandOnInput.cs:27>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_8 = __this->___handAnimator;
+		float L_9 = __this->___gripFloat;
+		NullCheck(L_8);
+		Animator_SetFloat_m10C78733FAFC7AFEDBDACC48B7C66D3A35A0A7FE(L_8, _stringLiteralB4FE860573CD6E03F0D1A4378C1F330A3820D8C9, L_9, NULL);
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/AnimateHandOnInput.cs:28>
+		return;
+	}
+}
+// Method Definition Index: 96505
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimateHandOnInput__ctor_mEA43A853FB1CB874A55072BFBF7A8B78BEF60F1C (AnimateHandOnInput_tA9C05EB723ADD1EBE533839D67AD3A3A82F68156* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 96506
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputTest_Start_m0A5A16951C72B004ADDB2727C4983225DCFCE084 (InputTest_t7E37142ACC101267C13A2AC892569C03E47ABCBD* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/InputTest.cs:14>
+		return;
+	}
+}
+// Method Definition Index: 96507
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputTest_Update_m5B89BDED89B27048C08B6056A3FC45EA1C76B59C (InputTest_t7E37142ACC101267C13A2AC892569C03E47ABCBD* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputAction_ReadValue_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m37FC749080A83C05777D1F779F38B8A27BAFA97B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral151AAC6CF4712631AF03355792B6BD782A3818D2);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3A63407C65D8B53201DF0F34DE43BCCC36A35002);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	bool V_1 = false;
+	{
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/InputTest.cs:18>
+		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD* L_0 = (InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD*)(&__this->___testActionValue);
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_1;
+		L_1 = InputActionProperty_get_action_mABF2197D9CC6586E5DFB0481CF9C1B2586F41A47(L_0, NULL);
+		NullCheck(L_1);
+		float L_2;
+		L_2 = InputAction_ReadValue_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m37FC749080A83C05777D1F779F38B8A27BAFA97B(L_1, InputAction_ReadValue_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m37FC749080A83C05777D1F779F38B8A27BAFA97B_RuntimeMethod_var);
+		V_0 = L_2;
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/InputTest.cs:19>
+		String_t* L_3;
+		L_3 = Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972((&V_0), NULL);
+		String_t* L_4;
+		L_4 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral3A63407C65D8B53201DF0F34DE43BCCC36A35002, L_3, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_4, NULL);
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/InputTest.cs:21>
+		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD* L_5 = (InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD*)(&__this->___testActionValue);
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_6;
+		L_6 = InputActionProperty_get_action_mABF2197D9CC6586E5DFB0481CF9C1B2586F41A47(L_5, NULL);
+		NullCheck(L_6);
+		bool L_7;
+		L_7 = InputAction_IsPressed_m40DF920F0E7D18170B62666DA2A2131AD336A301(L_6, NULL);
+		V_1 = L_7;
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/InputTest.cs:22>
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.boolean_class);
+		String_t* L_8;
+		L_8 = Boolean_ToString_m6646C8026B1DF381A1EE8CD13549175E9703CC63((&V_1), NULL);
+		String_t* L_9;
+		L_9 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral151AAC6CF4712631AF03355792B6BD782A3818D2, L_8, NULL);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_9, NULL);
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/InputTest.cs:23>
+		return;
+	}
+}
+// Method Definition Index: 96508
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputTest__ctor_m460512F74E070DF321EEC1EA3F4D77C177EEFCF7 (InputTest_t7E37142ACC101267C13A2AC892569C03E47ABCBD* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 96509
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Start_m87A71D65F3171A58DBDDBFB03832ADA65643D0E2 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1926,7 +2099,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Start_m87A71D65F3171A58DBDDB
 		return;
 	}
 }
-// Method Definition Index: 77834
+// Method Definition Index: 96510
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Update_m7F29D8E933B8D21D2E67507979C0F12ACF87BB41 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1934,7 +2107,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Update_m7F29D8E933B8D21D2E67
 		return;
 	}
 }
-// Method Definition Index: 77835
+// Method Definition Index: 96511
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager__ctor_mF453CED520617BFB65C52405A964E06CF17DB368 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1950,7 +2123,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager__ctor_mF453CED520617BFB65C52
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 77836
+// Method Definition Index: 96512
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_Start_m1D83076E8B136A71051F2F02545EE04947D3A8CF (PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1958,7 +2131,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_Start_m1D83076E8B136A71
 		return;
 	}
 }
-// Method Definition Index: 77837
+// Method Definition Index: 96513
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_Update_m1F4051EB5BCBCCE5EEE2E3E49B7E278C3B14EC33 (PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1966,7 +2139,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_Update_m1F4051EB5BCBCCE
 		return;
 	}
 }
-// Method Definition Index: 77838
+// Method Definition Index: 96514
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_FixedUpdate_m6D906D8B13844542B81CC49BA19760F747CEC8C0 (PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1978,10 +2151,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_FixedUpdate_m6D906D8B13
 	}
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
-	memset((&V_1), 0, sizeof(V_1));
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
-	memset((&V_2), 0, sizeof(V_2));
+	bool V_1 = false;
+	bool V_2 = false;
+	bool V_3 = false;
+	bool V_4 = false;
+	bool V_5 = false;
+	bool V_6 = false;
+	bool V_7 = false;
+	bool V_8 = false;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int32_t G_B3_0 = 0;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Scripts/PlayerController.cs:27>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0;
@@ -1994,7 +2176,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_FixedUpdate_m6D906D8B13
 		L_3 = InputActionProperty_get_action_mABF2197D9CC6586E5DFB0481CF9C1B2586F41A47(L_2, NULL);
 		if (!L_3)
 		{
-			goto IL_0042;
+			goto IL_002d;
 		}
 	}
 	{
@@ -2004,203 +2186,234 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_FixedUpdate_m6D906D8B13
 		NullCheck(L_5);
 		bool L_6;
 		L_6 = InputAction_get_enabled_mA1E3523D89FCD4649E787A4BFE9D5863674846FA(L_5, NULL);
-		if (!L_6)
+		G_B3_0 = ((int32_t)(L_6));
+		goto IL_002e;
+	}
+
+IL_002d:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_002e:
+	{
+		V_1 = (bool)G_B3_0;
+		bool L_7 = V_1;
+		if (!L_7)
 		{
-			goto IL_0042;
+			goto IL_004a;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Scripts/PlayerController.cs:31>
-		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD* L_7 = (InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD*)(&__this->___moveAction);
-		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_8;
-		L_8 = InputActionProperty_get_action_mABF2197D9CC6586E5DFB0481CF9C1B2586F41A47(L_7, NULL);
-		NullCheck(L_8);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_9;
-		L_9 = InputAction_ReadValue_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m8D02BA85303ABD48D9963369E106B0C83A393FBF(L_8, InputAction_ReadValue_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m8D02BA85303ABD48D9963369E106B0C83A393FBF_RuntimeMethod_var);
-		V_0 = L_9;
-		goto IL_00ec;
+		InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD* L_8 = (InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD*)(&__this->___moveAction);
+		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_9;
+		L_9 = InputActionProperty_get_action_mABF2197D9CC6586E5DFB0481CF9C1B2586F41A47(L_8, NULL);
+		NullCheck(L_9);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_10;
+		L_10 = InputAction_ReadValue_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m8D02BA85303ABD48D9963369E106B0C83A393FBF(L_9, InputAction_ReadValue_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m8D02BA85303ABD48D9963369E106B0C83A393FBF_RuntimeMethod_var);
+		V_0 = L_10;
+		goto IL_0112;
 	}
 
-IL_0042:
+IL_004a:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Scripts/PlayerController.cs:33>
-		Gamepad_tA8C0E40B4F0828615C6C6E1A69AAEBE5AA643A4C* L_10;
-		L_10 = Gamepad_get_current_mAC9BE72710676EA54E760FFBA15404A81D7DEEB6_inline(NULL);
-		if (!L_10)
+		Gamepad_tA8C0E40B4F0828615C6C6E1A69AAEBE5AA643A4C* L_11;
+		L_11 = Gamepad_get_current_mAC9BE72710676EA54E760FFBA15404A81D7DEEB6_inline(NULL);
+		V_2 = (bool)((!(((RuntimeObject*)(Gamepad_tA8C0E40B4F0828615C6C6E1A69AAEBE5AA643A4C*)L_11) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_12 = V_2;
+		if (!L_12)
 		{
-			goto IL_005e;
+			goto IL_006d;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Scripts/PlayerController.cs:35>
-		Gamepad_tA8C0E40B4F0828615C6C6E1A69AAEBE5AA643A4C* L_11;
-		L_11 = Gamepad_get_current_mAC9BE72710676EA54E760FFBA15404A81D7DEEB6_inline(NULL);
-		NullCheck(L_11);
-		StickControl_t2608D1388A5015029123635B4B589AC7EE20C50B* L_12;
-		L_12 = Gamepad_get_leftStick_m76F9D7D8766C9450C5E720ED481BDC4C3BFAE619_inline(L_11, NULL);
-		NullCheck(L_12);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_13;
-		L_13 = InputControl_1_ReadValue_m362E05F00FE8CF8FC52F0D673291907EC7FA6541(L_12, InputControl_1_ReadValue_m362E05F00FE8CF8FC52F0D673291907EC7FA6541_RuntimeMethod_var);
-		V_0 = L_13;
-		goto IL_00ec;
+		Gamepad_tA8C0E40B4F0828615C6C6E1A69AAEBE5AA643A4C* L_13;
+		L_13 = Gamepad_get_current_mAC9BE72710676EA54E760FFBA15404A81D7DEEB6_inline(NULL);
+		NullCheck(L_13);
+		StickControl_t2608D1388A5015029123635B4B589AC7EE20C50B* L_14;
+		L_14 = Gamepad_get_leftStick_m76F9D7D8766C9450C5E720ED481BDC4C3BFAE619_inline(L_13, NULL);
+		NullCheck(L_14);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_15;
+		L_15 = InputControl_1_ReadValue_m362E05F00FE8CF8FC52F0D673291907EC7FA6541(L_14, InputControl_1_ReadValue_m362E05F00FE8CF8FC52F0D673291907EC7FA6541_RuntimeMethod_var);
+		V_0 = L_15;
+		goto IL_0112;
 	}
 
-IL_005e:
+IL_006d:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Scripts/PlayerController.cs:37>
-		Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* L_14;
-		L_14 = Keyboard_get_current_mDE773B54C9975CEFEAA469AD091C49E150A3FEC3_inline(NULL);
-		if (!L_14)
-		{
-			goto IL_00ec;
-		}
-	}
-	{
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Scripts/PlayerController.cs:39>
-		Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* L_15;
-		L_15 = Keyboard_get_current_mDE773B54C9975CEFEAA469AD091C49E150A3FEC3_inline(NULL);
-		NullCheck(L_15);
-		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_16;
-		L_16 = Keyboard_get_wKey_m007A60195D3D483BA82BFD9B8650F326E2C58805(L_15, NULL);
-		NullCheck(L_16);
-		bool L_17;
-		L_17 = ButtonControl_get_isPressed_m947621402F6EC1B957C2DE984806A6500D422EA6(L_16, NULL);
+		Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* L_16;
+		L_16 = Keyboard_get_current_mDE773B54C9975CEFEAA469AD091C49E150A3FEC3_inline(NULL);
+		V_3 = (bool)((!(((RuntimeObject*)(Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43*)L_16) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_17 = V_3;
 		if (!L_17)
 		{
-			goto IL_0089;
+			goto IL_0112;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Scripts/PlayerController.cs:39>
-		float* L_18 = (float*)(&(&V_0)->___y);
-		float* L_19 = L_18;
-		float L_20 = *((float*)L_19);
-		*((float*)L_19) = (float)((float)il2cpp_codegen_add(L_20, (1.0f)));
+		Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* L_18;
+		L_18 = Keyboard_get_current_mDE773B54C9975CEFEAA469AD091C49E150A3FEC3_inline(NULL);
+		NullCheck(L_18);
+		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_19;
+		L_19 = Keyboard_get_wKey_m007A60195D3D483BA82BFD9B8650F326E2C58805(L_18, NULL);
+		NullCheck(L_19);
+		bool L_20;
+		L_20 = ButtonControl_get_isPressed_m947621402F6EC1B957C2DE984806A6500D422EA6(L_19, NULL);
+		V_4 = L_20;
+		bool L_21 = V_4;
+		if (!L_21)
+		{
+			goto IL_00a2;
+		}
+	}
+	{
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Scripts/PlayerController.cs:39>
+		float* L_22 = (float*)(&(&V_0)->___y);
+		float* L_23 = L_22;
+		float L_24 = *((float*)L_23);
+		*((float*)L_23) = (float)((float)il2cpp_codegen_add(L_24, (1.0f)));
 	}
 
-IL_0089:
+IL_00a2:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Scripts/PlayerController.cs:40>
-		Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* L_21;
-		L_21 = Keyboard_get_current_mDE773B54C9975CEFEAA469AD091C49E150A3FEC3_inline(NULL);
-		NullCheck(L_21);
-		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_22;
-		L_22 = Keyboard_get_sKey_m2830A1BAA36CADA4783EFD815216A637363F1AB4(L_21, NULL);
-		NullCheck(L_22);
-		bool L_23;
-		L_23 = ButtonControl_get_isPressed_m947621402F6EC1B957C2DE984806A6500D422EA6(L_22, NULL);
-		if (!L_23)
+		Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* L_25;
+		L_25 = Keyboard_get_current_mDE773B54C9975CEFEAA469AD091C49E150A3FEC3_inline(NULL);
+		NullCheck(L_25);
+		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_26;
+		L_26 = Keyboard_get_sKey_m2830A1BAA36CADA4783EFD815216A637363F1AB4(L_25, NULL);
+		NullCheck(L_26);
+		bool L_27;
+		L_27 = ButtonControl_get_isPressed_m947621402F6EC1B957C2DE984806A6500D422EA6(L_26, NULL);
+		V_5 = L_27;
+		bool L_28 = V_5;
+		if (!L_28)
 		{
-			goto IL_00aa;
+			goto IL_00c7;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Scripts/PlayerController.cs:40>
-		float* L_24 = (float*)(&(&V_0)->___y);
-		float* L_25 = L_24;
-		float L_26 = *((float*)L_25);
-		*((float*)L_25) = (float)((float)il2cpp_codegen_subtract(L_26, (1.0f)));
+		float* L_29 = (float*)(&(&V_0)->___y);
+		float* L_30 = L_29;
+		float L_31 = *((float*)L_30);
+		*((float*)L_30) = (float)((float)il2cpp_codegen_subtract(L_31, (1.0f)));
 	}
 
-IL_00aa:
+IL_00c7:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Scripts/PlayerController.cs:41>
-		Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* L_27;
-		L_27 = Keyboard_get_current_mDE773B54C9975CEFEAA469AD091C49E150A3FEC3_inline(NULL);
-		NullCheck(L_27);
-		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_28;
-		L_28 = Keyboard_get_aKey_m532122A52C670F95ADC84B56A4DD32160DD1E7CB(L_27, NULL);
-		NullCheck(L_28);
-		bool L_29;
-		L_29 = ButtonControl_get_isPressed_m947621402F6EC1B957C2DE984806A6500D422EA6(L_28, NULL);
-		if (!L_29)
-		{
-			goto IL_00cb;
-		}
-	}
-	{
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Scripts/PlayerController.cs:41>
-		float* L_30 = (float*)(&(&V_0)->___x);
-		float* L_31 = L_30;
-		float L_32 = *((float*)L_31);
-		*((float*)L_31) = (float)((float)il2cpp_codegen_subtract(L_32, (1.0f)));
-	}
-
-IL_00cb:
-	{
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Scripts/PlayerController.cs:42>
-		Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* L_33;
-		L_33 = Keyboard_get_current_mDE773B54C9975CEFEAA469AD091C49E150A3FEC3_inline(NULL);
+		Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* L_32;
+		L_32 = Keyboard_get_current_mDE773B54C9975CEFEAA469AD091C49E150A3FEC3_inline(NULL);
+		NullCheck(L_32);
+		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_33;
+		L_33 = Keyboard_get_aKey_m532122A52C670F95ADC84B56A4DD32160DD1E7CB(L_32, NULL);
 		NullCheck(L_33);
-		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_34;
-		L_34 = Keyboard_get_dKey_m0973269D5752E5EEA607BAFB24B39AD9F45122DC(L_33, NULL);
-		NullCheck(L_34);
-		bool L_35;
-		L_35 = ButtonControl_get_isPressed_m947621402F6EC1B957C2DE984806A6500D422EA6(L_34, NULL);
+		bool L_34;
+		L_34 = ButtonControl_get_isPressed_m947621402F6EC1B957C2DE984806A6500D422EA6(L_33, NULL);
+		V_6 = L_34;
+		bool L_35 = V_6;
 		if (!L_35)
 		{
 			goto IL_00ec;
 		}
 	}
 	{
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Scripts/PlayerController.cs:42>
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Scripts/PlayerController.cs:41>
 		float* L_36 = (float*)(&(&V_0)->___x);
 		float* L_37 = L_36;
 		float L_38 = *((float*)L_37);
-		*((float*)L_37) = (float)((float)il2cpp_codegen_add(L_38, (1.0f)));
+		*((float*)L_37) = (float)((float)il2cpp_codegen_subtract(L_38, (1.0f)));
 	}
 
 IL_00ec:
 	{
-		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Scripts/PlayerController.cs:45>
-		float L_39;
-		L_39 = Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline((&V_0), NULL);
-		if ((!(((float)L_39) > ((float)(9.99999975E-05f)))))
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Scripts/PlayerController.cs:42>
+		Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* L_39;
+		L_39 = Keyboard_get_current_mDE773B54C9975CEFEAA469AD091C49E150A3FEC3_inline(NULL);
+		NullCheck(L_39);
+		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_40;
+		L_40 = Keyboard_get_dKey_m0973269D5752E5EEA607BAFB24B39AD9F45122DC(L_39, NULL);
+		NullCheck(L_40);
+		bool L_41;
+		L_41 = ButtonControl_get_isPressed_m947621402F6EC1B957C2DE984806A6500D422EA6(L_40, NULL);
+		V_7 = L_41;
+		bool L_42 = V_7;
+		if (!L_42)
 		{
-			goto IL_014b;
+			goto IL_0111;
+		}
+	}
+	{
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Scripts/PlayerController.cs:42>
+		float* L_43 = (float*)(&(&V_0)->___x);
+		float* L_44 = L_43;
+		float L_45 = *((float*)L_44);
+		*((float*)L_44) = (float)((float)il2cpp_codegen_add(L_45, (1.0f)));
+	}
+
+IL_0111:
+	{
+	}
+
+IL_0112:
+	{
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Scripts/PlayerController.cs:45>
+		float L_46;
+		L_46 = Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline((&V_0), NULL);
+		V_8 = (bool)((((float)L_46) > ((float)(9.99999975E-05f)))? 1 : 0);
+		bool L_47 = V_8;
+		if (!L_47)
+		{
+			goto IL_017d;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Scripts/PlayerController.cs:47>
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_40 = V_0;
-		float L_41 = L_40.___x;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_42 = V_0;
-		float L_43 = L_42.___y;
-		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_1), L_41, (0.0f), L_43, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_48 = V_0;
+		float L_49 = L_48.___x;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_50 = V_0;
+		float L_51 = L_50.___y;
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_9), L_49, (0.0f), L_51, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Scripts/PlayerController.cs:48>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_44 = __this->___vrTransform;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_45 = V_1;
-		NullCheck(L_44);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_46;
-		L_46 = Transform_TransformDirection_m9BE1261DF2D48B7A4A27D31EE24D2D97F89E7757(L_44, L_45, NULL);
-		float L_47 = __this->___moveSpeed;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_48;
-		L_48 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_46, L_47, NULL);
-		float L_49;
-		L_49 = Time_get_fixedDeltaTime_m43136893D00AF5D5FE80AD05609558F6E2381381(NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_50;
-		L_50 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_48, L_49, NULL);
-		V_2 = L_50;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_52 = __this->___vrTransform;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_53 = V_9;
+		NullCheck(L_52);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_54;
+		L_54 = Transform_TransformDirection_m9BE1261DF2D48B7A4A27D31EE24D2D97F89E7757(L_52, L_53, NULL);
+		float L_55 = __this->___moveSpeed;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_56;
+		L_56 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_54, L_55, NULL);
+		float L_57;
+		L_57 = Time_get_fixedDeltaTime_m43136893D00AF5D5FE80AD05609558F6E2381381(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_58;
+		L_58 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_56, L_57, NULL);
+		V_10 = L_58;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Scripts/PlayerController.cs:49>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_51 = __this->___vrTransform;
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_52 = L_51;
-		NullCheck(L_52);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_53;
-		L_53 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_52, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_54 = V_2;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_55;
-		L_55 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_53, L_54, NULL);
-		NullCheck(L_52);
-		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_52, L_55, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_59 = __this->___vrTransform;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_60 = L_59;
+		NullCheck(L_60);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_61;
+		L_61 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_60, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_62 = V_10;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_63;
+		L_63 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_61, L_62, NULL);
+		NullCheck(L_60);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_60, L_63, NULL);
 	}
 
-IL_014b:
+IL_017d:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Scripts/PlayerController.cs:51>
 		return;
 	}
 }
-// Method Definition Index: 77839
+// Method Definition Index: 96515
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController__ctor_mDDAB7C7D82E1A5B3E6C197B1AB9D653DFE554F33 (PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2218,7 +2431,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController__ctor_mDDAB7C7D82E1A5B3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 77840
+// Method Definition Index: 96516
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (Readme_tE17B99201D0F52BD5727638AD3F41072A65B3BBB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2234,7 +2447,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Readme__ctor_m69C325C4C171DCB0312B646A90
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 77841
+// Method Definition Index: 96517
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2250,41 +2463,50 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Section__ctor_m5F732533E4DFC0167D965E5F5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 77842
+// Method Definition Index: 96518
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____408A7F83136CCC5CE964B4BCBD3D1825B3A46B24F731CD2E0F4D7BD13B337AD1_FieldInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____6BA44F1EA5F52C362BD94AB43B06A95882645864B1CDFAD410D70158897B318A_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____5D3134547ADA0A82CC784C0940F9DD12A72D981A591B9FC1FB6751D0FE0876B7_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____CB73B28CA0AAF7A8E46DF777B2B7C0E88037D6B25DF14C646CE148C8C4EDCB54_FieldInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E V_1;
+	memset((&V_1), 0, sizeof(V_1));
 	{
 		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E));
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)1297));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)1362));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
-		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____6BA44F1EA5F52C362BD94AB43B06A95882645864B1CDFAD410D70158897B318A_FieldInfo_var) };
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____CB73B28CA0AAF7A8E46DF777B2B7C0E88037D6B25DF14C646CE148C8C4EDCB54_FieldInfo_var) };
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
 		(&V_0)->___FilePathsData = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)884));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)923));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = L_3;
-		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____408A7F83136CCC5CE964B4BCBD3D1825B3A46B24F731CD2E0F4D7BD13B337AD1_FieldInfo_var) };
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____5D3134547ADA0A82CC784C0940F9DD12A72D981A591B9FC1FB6751D0FE0876B7_FieldInfo_var) };
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_4, L_5, NULL);
 		(&V_0)->___TypesData = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___TypesData), (void*)L_4);
-		(&V_0)->___TotalFiles = ((int32_t)17);
-		(&V_0)->___TotalTypes = ((int32_t)21);
+		(&V_0)->___TotalFiles = ((int32_t)19);
+		(&V_0)->___TotalTypes = ((int32_t)23);
 		(&V_0)->___IsEditorOnly = (bool)0;
 		MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E L_6 = V_0;
-		return L_6;
+		V_1 = L_6;
+		goto IL_005f;
+	}
+
+IL_005f:
+	{
+		MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E L_7 = V_1;
+		return L_7;
 	}
 }
-// Method Definition Index: 77843
+// Method Definition Index: 96519
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2370,7 +2592,7 @@ IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 77844
+// Method Definition Index: 96520
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AButtonAttribute_get_text_m81E22CE1DD088A14D2D0287944D0AC2F9FAF1B0F (AButtonAttribute_t70BE8954D6C30A4E0468123268B79DBF4ECCF8D7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2379,7 +2601,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AButtonAttribute_get_text_m81E22CE1
 		return L_0;
 	}
 }
-// Method Definition Index: 77845
+// Method Definition Index: 96521
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AButtonAttribute_set_text_mCE4D7BD518864D292BA45A5D68550030EB2A167C (AButtonAttribute_t70BE8954D6C30A4E0468123268B79DBF4ECCF8D7* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -2390,10 +2612,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AButtonAttribute_set_text_mCE4D7BD518864
 		return;
 	}
 }
-// Method Definition Index: 77846
+// Method Definition Index: 96522
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AButtonAttribute__ctor_mBFA636793B17E6A64C073C1BB12CD96323429BAA (AButtonAttribute_t70BE8954D6C30A4E0468123268B79DBF4ECCF8D7* __this, String_t* ___0_buttonText, const RuntimeMethod* method) 
 {
 	{
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/Inspector/AButtonAttribute.cs:6>
+		__this->___U3CtextU3Ek__BackingField = (String_t*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CtextU3Ek__BackingField), (void*)(String_t*)NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/Inspector/AButtonAttribute.cs:8>
 		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/Inspector/AButtonAttribute.cs:9>
@@ -2411,7 +2636,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AButtonAttribute__ctor_mBFA636793B17E6A6
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 77847
+// Method Definition Index: 96523
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IgnoreInInspectorAttribute__ctor_m84483C6A0A4FCDBEF4FD6B0835D1990FA47CA445 (IgnoreInInspectorAttribute_tD2E97B4C3E3F015B7F466D947C71EE0C84077605* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2427,7 +2652,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IgnoreInInspectorAttribute__ctor_m84483C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 77848
+// Method Definition Index: 96524
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KiiValuePair__ctor_mB8266925F97C124BF8297B27AF8F1CFC3D8A924F (KiiValuePair_t2359BF3A45339CBF86761DA2E3D889536C31D19B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2451,7 +2676,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KiiValuePair__ctor_mB8266925F97C124BF829
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 77850
+// Method Definition Index: 96526
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayArrangement__ctor_m25DB3E27E2FD61EA82CEA9D232A18C18203157E7 (ArrayArrangement_tAA91FFCFD891F429A1298B215116C4A06B959016* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2467,9 +2692,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayArrangement__ctor_m25DB3E27E2FD61EA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 77851
+// Method Definition Index: 96527
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 FenceData_getStartWorldPos_m968701219286C3CF7A2BAEDD3B0C6786698748E5 (FenceData_t00C2903A85980C7E18679A277BFB0C8239422343* __this, const RuntimeMethod* method) 
 {
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/FenceData.cs:9>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
@@ -2478,12 +2705,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
 		L_2 = Transform_TransformPoint_m05BFF013DB830D7BFE44A007703694AE1062EE44(L_0, L_1, NULL);
-		return L_2;
+		V_0 = L_2;
+		goto IL_0015;
+	}
+
+IL_0015:
+	{
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/FenceData.cs:10>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = V_0;
+		return L_3;
 	}
 }
-// Method Definition Index: 77852
+// Method Definition Index: 96528
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 FenceData_getEndWorldPos_m6611C56F7699613ACB044A314ACC346728215E51 (FenceData_t00C2903A85980C7E18679A277BFB0C8239422343* __this, const RuntimeMethod* method) 
 {
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/FenceData.cs:13>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
@@ -2492,14 +2729,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
 		L_2 = Transform_TransformPoint_m05BFF013DB830D7BFE44A007703694AE1062EE44(L_0, L_1, NULL);
-		return L_2;
+		V_0 = L_2;
+		goto IL_0015;
+	}
+
+IL_0015:
+	{
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/FenceData.cs:14>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = V_0;
+		return L_3;
 	}
 }
-// Method Definition Index: 77853
+// Method Definition Index: 96529
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FenceData_getLength_m9DE94A6CC0EB89B27592AA81C96571619DFADEBD (FenceData_t00C2903A85980C7E18679A277BFB0C8239422343* __this, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	float V_1 = 0.0f;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/FenceData.cs:17>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = __this->___start;
@@ -2515,14 +2761,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FenceData_getLength_m9DE94A6CC0EB89B275
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
 		L_5 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_4, NULL);
 		float L_6 = L_5.___x;
-		return ((float)(L_3/L_6));
+		V_1 = ((float)(L_3/L_6));
+		goto IL_002e;
+	}
+
+IL_002e:
+	{
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/FenceData.cs:18>
+		float L_7 = V_1;
+		return L_7;
 	}
 }
-// Method Definition Index: 77854
+// Method Definition Index: 96530
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FenceData_getWorldSpaceLength_mEBF5F66EF467642FDC0293921F6EF2FC3F407F81 (FenceData_t00C2903A85980C7E18679A277BFB0C8239422343* __this, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	float V_1 = 0.0f;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/FenceData.cs:21>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
@@ -2534,10 +2789,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FenceData_getWorldSpaceLength_mEBF5F66E
 		V_0 = L_2;
 		float L_3;
 		L_3 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline((&V_0), NULL);
-		return L_3;
+		V_1 = L_3;
+		goto IL_001d;
+	}
+
+IL_001d:
+	{
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/FenceData.cs:22>
+		float L_4 = V_1;
+		return L_4;
 	}
 }
-// Method Definition Index: 77855
+// Method Definition Index: 96531
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FenceData_OnDrawGizmos_m7D8B22E1E8B94BD6DEFFB334BF3A3B90C17AD285 (FenceData_t00C2903A85980C7E18679A277BFB0C8239422343* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2563,7 +2826,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FenceData_OnDrawGizmos_m7D8B22E1E8B94BD6
 		return;
 	}
 }
-// Method Definition Index: 77856
+// Method Definition Index: 96532
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FenceData__ctor_m5787E2614A219CD4B9C812B7CEF55C37AA8E05A4 (FenceData_t00C2903A85980C7E18679A277BFB0C8239422343* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2587,7 +2850,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FenceData__ctor_m5787E2614A219CD4B9C812B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 77857
+// Method Definition Index: 96533
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FencePlacement__ctor_m9AFED020B1228EA1557AEF4CC5B2E39B72F3C631 (FencePlacement_t2EDF75059088647EFA12CBCA96469D9FA4524D6F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2603,7 +2866,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FencePlacement__ctor_m9AFED020B1228EA155
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 77858
+// Method Definition Index: 96534
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GlowLight_Awake_mF8175213CE5E9268CB3F418DACA1B983BEE69C46 (GlowLight_tAE22C7284993C7B5A3FF5008ACEDA687D320474A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2624,7 +2887,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GlowLight_Awake_mF8175213CE5E9268CB3F418
 		return;
 	}
 }
-// Method Definition Index: 77859
+// Method Definition Index: 96535
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GlowLight_turnOn_m96251E4AD604E2798E0D7EA4AF5A6268CA127771 (GlowLight_tAE22C7284993C7B5A3FF5008ACEDA687D320474A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2652,7 +2915,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GlowLight_turnOn_m96251E4AD604E2798E0D7E
 		{
 			G_B2_0 = L_2;
 			G_B2_1 = L_0;
-			goto IL_0025;
+			goto IL_0026;
 		}
 		G_B1_0 = L_2;
 		G_B1_1 = L_0;
@@ -2669,7 +2932,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GlowLight_turnOn_m96251E4AD604E2798E0D7E
 		G_B2_1 = G_B1_1;
 	}
 
-IL_0025:
+IL_0026:
 	{
 		NullCheck(G_B2_1);
 		List_1_ForEach_m22E0CE8783B1678C47108EB9C2070696F99D930E(G_B2_1, G_B2_0, List_1_ForEach_m22E0CE8783B1678C47108EB9C2070696F99D930E_RuntimeMethod_var);
@@ -2700,7 +2963,7 @@ IL_0025:
 		return;
 	}
 }
-// Method Definition Index: 77860
+// Method Definition Index: 96536
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GlowLight_turnOff_m86FF5F98D83B444244A7C20537A584C3798F0970 (GlowLight_tAE22C7284993C7B5A3FF5008ACEDA687D320474A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2727,7 +2990,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GlowLight_turnOff_m86FF5F98D83B444244A7C
 		{
 			G_B2_0 = L_2;
 			G_B2_1 = L_0;
-			goto IL_0025;
+			goto IL_0026;
 		}
 		G_B1_0 = L_2;
 		G_B1_1 = L_0;
@@ -2744,7 +3007,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GlowLight_turnOff_m86FF5F98D83B444244A7C
 		G_B2_1 = G_B1_1;
 	}
 
-IL_0025:
+IL_0026:
 	{
 		NullCheck(G_B2_1);
 		List_1_ForEach_m22E0CE8783B1678C47108EB9C2070696F99D930E(G_B2_1, G_B2_0, List_1_ForEach_m22E0CE8783B1678C47108EB9C2070696F99D930E_RuntimeMethod_var);
@@ -2767,7 +3030,7 @@ IL_0025:
 		return;
 	}
 }
-// Method Definition Index: 77861
+// Method Definition Index: 96537
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GlowLight_turnOn_m2E4438CECC7CD425A09F4FAA86AECE56D804A248 (GlowLight_tAE22C7284993C7B5A3FF5008ACEDA687D320474A* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_lightSourceSurfaceColor, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___1_lightEmissionColor, float ___2_lightEmissionIntensity, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2808,7 +3071,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GlowLight_turnOn_m2E4438CECC7CD425A09F4F
 		return;
 	}
 }
-// Method Definition Index: 77862
+// Method Definition Index: 96538
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GlowLight_turnOff_m7736EE1B66A2948648DF20458AD5AD7ADD7EA3F1 (GlowLight_tAE22C7284993C7B5A3FF5008ACEDA687D320474A* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_inactiveLightSourceSurfaceColor, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2837,7 +3100,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GlowLight_turnOff_m7736EE1B66A2948648DF2
 		return;
 	}
 }
-// Method Definition Index: 77863
+// Method Definition Index: 96539
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GlowLight__ctor_m4738EF5D5389BE189CA4A52D6505E8C2F60C07F5 (GlowLight_tAE22C7284993C7B5A3FF5008ACEDA687D320474A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2853,7 +3116,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GlowLight__ctor_m4738EF5D5389BE189CA4A52
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 77864
+// Method Definition Index: 96540
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_mC6CB8315147B4DE650E652D97DB7FB585978670C (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2870,7 +3133,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_mC6CB8315147B4DE650E652D9
 		return;
 	}
 }
-// Method Definition Index: 77865
+// Method Definition Index: 96541
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m2D9EE4F4D4359DC56FB00A55F64BFCC59C7A8571 (U3CU3Ec_tDEA1438B03C59CCBF3CD1B82435E133D9720B979* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2878,7 +3141,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m2D9EE4F4D4359DC56FB00A55F
 		return;
 	}
 }
-// Method Definition Index: 77866
+// Method Definition Index: 96542
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CturnOnU3Eb__6_0_mFE7A27D056295CFD35F18C5C3A6A4B1DF4C1CF85 (U3CU3Ec_tDEA1438B03C59CCBF3CD1B82435E133D9720B979* __this, Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* ___0_ls, const RuntimeMethod* method) 
 {
 	{
@@ -2889,7 +3152,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CturnOnU3Eb__6_0_mFE7A27D05629
 		return;
 	}
 }
-// Method Definition Index: 77867
+// Method Definition Index: 96543
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CturnOffU3Eb__7_0_mD41FE36A17051D7FCE02518AD6699DE1E58B9463 (U3CU3Ec_tDEA1438B03C59CCBF3CD1B82435E133D9720B979* __this, Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* ___0_ls, const RuntimeMethod* method) 
 {
 	{
@@ -2908,7 +3171,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CturnOffU3Eb__7_0_mD41FE36A170
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 77868
+// Method Definition Index: 96544
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void String2GlowLight__ctor_mBA968757BF852C615CDF2A166832EC34A7CAAD4E (String2GlowLight_t738C21CFD9F4BA58700F818B19C8B0BFA0870F39* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2930,7 +3193,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void String2GlowLight__ctor_mBA968757BF852C61
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 77869
+// Method Definition Index: 96545
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LightSourceObject_Start_m5BEB13B0214ACD08AD06F3050C875DEF42693A03 (LightSourceObject_tE7EEDD4230838213F02CC571932E77F8A1C3AB6D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2944,6 +3207,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LightSourceObject_Start_m5BEB13B0214ACD0
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	bool V_0 = false;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/LightSourceObject.cs:24>
 		List_1_t35C6CE7229CC89A8A489F71AA080AF1895B9DE03* L_0 = __this->___lights;
@@ -2965,9 +3229,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LightSourceObject_Start_m5BEB13B0214ACD0
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_4, L_5, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/LightSourceObject.cs:28>
 		bool L_6 = __this->___isOn;
-		if (!L_6)
+		V_0 = L_6;
+		bool L_7 = V_0;
+		if (!L_7)
 		{
-			goto IL_0053;
+			goto IL_005a;
 		}
 	}
 	{
@@ -2975,13 +3241,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LightSourceObject_Start_m5BEB13B0214ACD0
 		LightSourceObject_turnOnAll_m31F33B65EE4C9C6361D87674D976A11CF3A71E59(__this, NULL);
 	}
 
-IL_0053:
+IL_005a:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/LightSourceObject.cs:29>
 		return;
 	}
 }
-// Method Definition Index: 77870
+// Method Definition Index: 96546
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LightSourceObject_turnOnAll_m31F33B65EE4C9C6361D87674D976A11CF3A71E59 (LightSourceObject_tE7EEDD4230838213F02CC571932E77F8A1C3AB6D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2996,6 +3262,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LightSourceObject_turnOnAll_m31F33B65EE4
 	}
 	Enumerator_t190E063CC3921B3C2D584ED3521A343480FD6F0E V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	GlowLight_tAE22C7284993C7B5A3FF5008ACEDA687D320474A* V_1 = NULL;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/LightSourceObject.cs:32>
 		Dictionary_2_tF00DCF379203C42DCE5872F73366E0746306647D* L_0 = __this->___lightMap;
@@ -3011,7 +3278,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LightSourceObject_turnOnAll_m31F33B65EE4
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_002a:
+FINALLY_002f:
 			{
 				Enumerator_Dispose_m39526A4E007193FA33EEF9EFEDF02A569A2C6A06((&V_0), Enumerator_Dispose_m39526A4E007193FA33EEF9EFEDF02A569A2C6A06_RuntimeMethod_var);
 				return;
@@ -3020,31 +3287,33 @@ FINALLY_002a:
 		try
 		{
 			{
-				goto IL_001f_1;
+				goto IL_0024_1;
 			}
 
-IL_0013_1:
+IL_0015_1:
 			{
 				//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/LightSourceObject.cs:32>
 				GlowLight_tAE22C7284993C7B5A3FF5008ACEDA687D320474A* L_3;
 				L_3 = Enumerator_get_Current_m39CCE0FD2380760C609209D13FC46916BEBD174F_inline((&V_0), Enumerator_get_Current_m39CCE0FD2380760C609209D13FC46916BEBD174F_RuntimeMethod_var);
+				V_1 = L_3;
 				//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/LightSourceObject.cs:32>
-				NullCheck(L_3);
-				VirtualActionInvoker0::Invoke(4, L_3);
+				GlowLight_tAE22C7284993C7B5A3FF5008ACEDA687D320474A* L_4 = V_1;
+				NullCheck(L_4);
+				VirtualActionInvoker0::Invoke(4, L_4);
 			}
 
-IL_001f_1:
+IL_0024_1:
 			{
 				//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/LightSourceObject.cs:32>
-				bool L_4;
-				L_4 = Enumerator_MoveNext_m88B534D4BF89CBC13DC19EDC4BA0C38004A6F5C8((&V_0), Enumerator_MoveNext_m88B534D4BF89CBC13DC19EDC4BA0C38004A6F5C8_RuntimeMethod_var);
-				if (L_4)
+				bool L_5;
+				L_5 = Enumerator_MoveNext_m88B534D4BF89CBC13DC19EDC4BA0C38004A6F5C8((&V_0), Enumerator_MoveNext_m88B534D4BF89CBC13DC19EDC4BA0C38004A6F5C8_RuntimeMethod_var);
+				if (L_5)
 				{
-					goto IL_0013_1;
+					goto IL_0015_1;
 				}
 			}
 			{
-				goto IL_0038;
+				goto IL_003e;
 			}
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -3053,13 +3322,13 @@ IL_001f_1:
 		}
 	}
 
-IL_0038:
+IL_003e:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/LightSourceObject.cs:33>
 		return;
 	}
 }
-// Method Definition Index: 77871
+// Method Definition Index: 96547
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LightSourceObject_turnOffAll_mDD333890CA6919D428AA3C34E69C3E7D61D35CAF (LightSourceObject_tE7EEDD4230838213F02CC571932E77F8A1C3AB6D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3074,6 +3343,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LightSourceObject_turnOffAll_mDD333890CA
 	}
 	Enumerator_t190E063CC3921B3C2D584ED3521A343480FD6F0E V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	GlowLight_tAE22C7284993C7B5A3FF5008ACEDA687D320474A* V_1 = NULL;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/LightSourceObject.cs:36>
 		Dictionary_2_tF00DCF379203C42DCE5872F73366E0746306647D* L_0 = __this->___lightMap;
@@ -3089,7 +3359,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LightSourceObject_turnOffAll_mDD333890CA
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_002a:
+FINALLY_002f:
 			{
 				Enumerator_Dispose_m39526A4E007193FA33EEF9EFEDF02A569A2C6A06((&V_0), Enumerator_Dispose_m39526A4E007193FA33EEF9EFEDF02A569A2C6A06_RuntimeMethod_var);
 				return;
@@ -3098,31 +3368,33 @@ FINALLY_002a:
 		try
 		{
 			{
-				goto IL_001f_1;
+				goto IL_0024_1;
 			}
 
-IL_0013_1:
+IL_0015_1:
 			{
 				//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/LightSourceObject.cs:36>
 				GlowLight_tAE22C7284993C7B5A3FF5008ACEDA687D320474A* L_3;
 				L_3 = Enumerator_get_Current_m39CCE0FD2380760C609209D13FC46916BEBD174F_inline((&V_0), Enumerator_get_Current_m39CCE0FD2380760C609209D13FC46916BEBD174F_RuntimeMethod_var);
+				V_1 = L_3;
 				//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/LightSourceObject.cs:36>
-				NullCheck(L_3);
-				VirtualActionInvoker0::Invoke(5, L_3);
+				GlowLight_tAE22C7284993C7B5A3FF5008ACEDA687D320474A* L_4 = V_1;
+				NullCheck(L_4);
+				VirtualActionInvoker0::Invoke(5, L_4);
 			}
 
-IL_001f_1:
+IL_0024_1:
 			{
 				//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/LightSourceObject.cs:36>
-				bool L_4;
-				L_4 = Enumerator_MoveNext_m88B534D4BF89CBC13DC19EDC4BA0C38004A6F5C8((&V_0), Enumerator_MoveNext_m88B534D4BF89CBC13DC19EDC4BA0C38004A6F5C8_RuntimeMethod_var);
-				if (L_4)
+				bool L_5;
+				L_5 = Enumerator_MoveNext_m88B534D4BF89CBC13DC19EDC4BA0C38004A6F5C8((&V_0), Enumerator_MoveNext_m88B534D4BF89CBC13DC19EDC4BA0C38004A6F5C8_RuntimeMethod_var);
+				if (L_5)
 				{
-					goto IL_0013_1;
+					goto IL_0015_1;
 				}
 			}
 			{
-				goto IL_0038;
+				goto IL_003e;
 			}
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -3131,13 +3403,13 @@ IL_001f_1:
 		}
 	}
 
-IL_0038:
+IL_003e:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/LightSourceObject.cs:37>
 		return;
 	}
 }
-// Method Definition Index: 77872
+// Method Definition Index: 96548
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LightSourceObject_turnOn_m559C44B01444FF8609EFD715D96B8B4ABDA534D7 (LightSourceObject_tE7EEDD4230838213F02CC571932E77F8A1C3AB6D* __this, String_t* ___0_key, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3159,7 +3431,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LightSourceObject_turnOn_m559C44B01444FF
 		return;
 	}
 }
-// Method Definition Index: 77873
+// Method Definition Index: 96549
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LightSourceObject_turnOff_mEBAE654310792B12E0BD94B4EF2786806498BFB7 (LightSourceObject_tE7EEDD4230838213F02CC571932E77F8A1C3AB6D* __this, String_t* ___0_key, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3181,7 +3453,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LightSourceObject_turnOff_mEBAE654310792
 		return;
 	}
 }
-// Method Definition Index: 77874
+// Method Definition Index: 96550
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LightSourceObject__ctor_mC7AF11E80C2C1DD6DCF61818EBE76A312ED61282 (LightSourceObject_tE7EEDD4230838213F02CC571932E77F8A1C3AB6D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3208,7 +3480,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LightSourceObject__ctor_mC7AF11E80C2C1DD
 		return;
 	}
 }
-// Method Definition Index: 77875
+// Method Definition Index: 96551
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LightSourceObject_U3CStartU3Eb__5_0_mCFDDE4392B4BBBE666CE5AAB8EC65B067A9E09CA (LightSourceObject_tE7EEDD4230838213F02CC571932E77F8A1C3AB6D* __this, String2GlowLight_t738C21CFD9F4BA58700F818B19C8B0BFA0870F39* ___0_light, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3239,7 +3511,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LightSourceObject_U3CStartU3Eb__5_0_mCFD
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 77876
+// Method Definition Index: 96552
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* PrefabGroup_getRandomPrefab_m050AE0ED86E81F25143D7D8AF45DCBE2AE8FE733 (PrefabGroup_t01D59A3FB48779A2B9B32EBAAE0CEA06B5B6674A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3250,6 +3522,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_1 = NULL;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/PrefabGroup.cs:8>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_0 = __this->___prefabs;
@@ -3265,10 +3538,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		NullCheck(L_3);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
 		L_5 = List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979(L_3, L_4, List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
-		return L_5;
+		V_1 = L_5;
+		goto IL_0022;
+	}
+
+IL_0022:
+	{
+		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/PrefabGroup.cs:10>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = V_1;
+		return L_6;
 	}
 }
-// Method Definition Index: 77877
+// Method Definition Index: 96553
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrefabGroup__ctor_m2747C94C9D857491233D6083B77367C6D3DE47D8 (PrefabGroup_t01D59A3FB48779A2B9B32EBAAE0CEA06B5B6674A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3292,33 +3573,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrefabGroup__ctor_m2747C94C9D857491233D6
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 77878
+// Method Definition Index: 96554
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rotatable_Start_m4C39065174471CCC97915688CBEC3D030D12EEA6 (Rotatable_t0135FFE4D0FB4E3E678AF27A02F1CDE7DAD74731* __this, const RuntimeMethod* method) 
 {
-	float V_0 = 0.0f;
+	bool V_0 = false;
 	float V_1 = 0.0f;
+	float V_2 = 0.0f;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/Rotatable.cs:22>
 		float L_0 = __this->___startAngle;
 		float L_1 = __this->___endAngle;
-		if ((!(((float)L_0) > ((float)L_1))))
+		V_0 = (bool)((((float)L_0) > ((float)L_1))? 1 : 0);
+		bool L_2 = V_0;
+		if (!L_2)
 		{
-			goto IL_002a;
+			goto IL_002f;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/Rotatable.cs:22>
-		float L_2 = __this->___startAngle;
-		V_0 = L_2;
-		float L_3 = __this->___endAngle;
+		float L_3 = __this->___startAngle;
 		V_1 = L_3;
-		float L_4 = V_0;
-		__this->___endAngle = L_4;
+		float L_4 = __this->___endAngle;
+		V_2 = L_4;
 		float L_5 = V_1;
-		__this->___startAngle = L_5;
+		__this->___endAngle = L_5;
+		float L_6 = V_2;
+		__this->___startAngle = L_6;
 	}
 
-IL_002a:
+IL_002f:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/Rotatable.cs:23>
 		Rotatable_updateAngle_m462C036A06C938335485F65826121CC21072A82F(__this, NULL);
@@ -3326,52 +3610,62 @@ IL_002a:
 		return;
 	}
 }
-// Method Definition Index: 77879
+// Method Definition Index: 96555
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rotatable_FixedUpdate_m6A08787E7F91EF5F5C2A0ABF1CFB8AEABBB6540F (Rotatable_t0135FFE4D0FB4E3E678AF27A02F1CDE7DAD74731* __this, const RuntimeMethod* method) 
 {
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/Rotatable.cs:28>
 		float L_0 = __this->___lastRotation;
-		if ((!(((float)L_0) == ((float)(-1.0f)))))
+		V_0 = (bool)((((float)L_0) == ((float)(-1.0f)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
 		{
-			goto IL_001a;
+			goto IL_0021;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/Rotatable.cs:29>
-		float L_1 = __this->___rotation;
-		__this->___lastRotation = L_1;
+		float L_2 = __this->___rotation;
+		__this->___lastRotation = L_2;
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/Rotatable.cs:30>
-		return;
+		goto IL_0048;
 	}
 
-IL_001a:
+IL_0021:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/Rotatable.cs:33>
-		float L_2 = __this->___lastRotation;
-		float L_3 = __this->___rotation;
-		if ((!(((float)L_2) == ((float)L_3))))
+		float L_3 = __this->___lastRotation;
+		float L_4 = __this->___rotation;
+		V_1 = (bool)((((float)L_3) == ((float)L_4))? 1 : 0);
+		bool L_5 = V_1;
+		if (!L_5)
 		{
-			goto IL_0029;
+			goto IL_0035;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/Rotatable.cs:33>
-		return;
+		goto IL_0048;
 	}
 
-IL_0029:
+IL_0035:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/Rotatable.cs:34>
 		Rotatable_updateAngle_m462C036A06C938335485F65826121CC21072A82F(__this, NULL);
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/Rotatable.cs:35>
-		float L_4 = __this->___rotation;
-		__this->___lastRotation = L_4;
+		float L_6 = __this->___rotation;
+		__this->___lastRotation = L_6;
+	}
+
+IL_0048:
+	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/Rotatable.cs:36>
 		return;
 	}
 }
-// Method Definition Index: 77880
+// Method Definition Index: 96556
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rotatable_OnValidate_m1DBC9B0B5E645172D3692DEC09475590395F7326 (Rotatable_t0135FFE4D0FB4E3E678AF27A02F1CDE7DAD74731* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3384,7 +3678,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rotatable_OnValidate_m1DBC9B0B5E645172D3
 		return;
 	}
 }
-// Method Definition Index: 77881
+// Method Definition Index: 96557
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rotatable_updateAngle_m462C036A06C938335485F65826121CC21072A82F (Rotatable_t0135FFE4D0FB4E3E678AF27A02F1CDE7DAD74731* __this, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -3413,63 +3707,84 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rotatable_updateAngle_m462C036A06C938335
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/Rotatable.cs:51>
 		int32_t L_6 = __this->___rotationAxis;
 		V_3 = L_6;
+		if (1)
+		{
+			goto IL_0039;
+		}
+	}
+	{
+	}
+
+IL_0039:
+	{
 		int32_t L_7 = V_3;
 		switch (L_7)
 		{
 			case 0:
 			{
-				goto IL_0048;
+				goto IL_004d;
 			}
 			case 1:
 			{
-				goto IL_0050;
+				goto IL_0055;
 			}
 			case 2:
 			{
-				goto IL_0058;
+				goto IL_005d;
 			}
 		}
 	}
 	{
-		goto IL_0060;
+		goto IL_0065;
 	}
 
-IL_0048:
+IL_004d:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/Rotatable.cs:47>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
 		L_8 = Vector3_get_right_mFF573AFBBB2186E7AFA1BA7CA271A78DF67E4EA0_inline(NULL);
 		V_2 = L_8;
-		goto IL_0066;
+		goto IL_006d;
 	}
 
-IL_0050:
+IL_0055:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/Rotatable.cs:48>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
 		L_9 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
 		V_2 = L_9;
-		goto IL_0066;
+		goto IL_006d;
 	}
 
-IL_0058:
+IL_005d:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/Rotatable.cs:49>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
 		L_10 = Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_inline(NULL);
 		V_2 = L_10;
-		goto IL_0066;
+		goto IL_006d;
 	}
 
-IL_0060:
+IL_0065:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/Rotatable.cs:50>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
 		L_11 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		V_2 = L_11;
+		goto IL_006d;
 	}
 
-IL_0066:
+IL_006d:
+	{
+		if (1)
+		{
+			goto IL_0071;
+		}
+	}
+	{
+	}
+
+IL_0071:
 	{
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = V_2;
 		V_1 = L_12;
@@ -3486,7 +3801,7 @@ IL_0066:
 		return;
 	}
 }
-// Method Definition Index: 77882
+// Method Definition Index: 96558
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rotatable__ctor_m5740E0D2A83E8B8093FEC03190396AEE01F4002D (Rotatable_t0135FFE4D0FB4E3E678AF27A02F1CDE7DAD74731* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3504,7 +3819,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rotatable__ctor_m5740E0D2A83E8B8093FEC03
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 77883
+// Method Definition Index: 96559
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void String2Rotatable__ctor_mA5D80547888ECF08D71CC2969B03B0EBE1BFADE4 (String2Rotatable_tBD66C3E1819EA0E2D9F330DBB6FE8118F3EC75AA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3526,7 +3841,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void String2Rotatable__ctor_mA5D80547888ECF08
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 77884
+// Method Definition Index: 96560
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotatableObject_Awake_m11DDF2AA434502CCE9DF0A580566D1A9501AAFE8 (RotatableObject_tB6C7E173EE969BD464E32ED9CB305BF953110636* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3548,7 +3863,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotatableObject_Awake_m11DDF2AA434502CCE
 		return;
 	}
 }
-// Method Definition Index: 77885
+// Method Definition Index: 96561
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotatableObject_rotate_mE8EECE4951FA13D6CA335D6AE1D64B01813B81D3 (RotatableObject_tB6C7E173EE969BD464E32ED9CB305BF953110636* __this, String_t* ___0_id, float ___1_rotation01, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3576,7 +3891,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotatableObject_rotate_mE8EECE4951FA13D6
 		return;
 	}
 }
-// Method Definition Index: 77886
+// Method Definition Index: 96562
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotatableObject_rotate_m3DCA5AD4B0ADDB8EF9961235DF468A14196CCA3A (RotatableObject_tB6C7E173EE969BD464E32ED9CB305BF953110636* __this, float ___0_rotation01, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3591,6 +3906,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotatableObject_rotate_m3DCA5AD4B0ADDB8E
 	}
 	Enumerator_t3783C5AD0A2F1004FACDE1F56146ED6F5431AB42 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	Rotatable_t0135FFE4D0FB4E3E678AF27A02F1CDE7DAD74731* V_1 = NULL;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/RotatableObject.cs:28>
 		float L_0 = ___0_rotation01;
@@ -3611,7 +3927,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotatableObject_rotate_m3DCA5AD4B0ADDB8E
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_0033:
+FINALLY_0037:
 			{
 				Enumerator_Dispose_m1B9E495E6403A3D53B2671E2B8D3722EA12AC09A((&V_0), Enumerator_Dispose_m1B9E495E6403A3D53B2671E2B8D3722EA12AC09A_RuntimeMethod_var);
 				return;
@@ -3620,32 +3936,34 @@ FINALLY_0033:
 		try
 		{
 			{
-				goto IL_0028_1;
+				goto IL_002c_1;
 			}
 
-IL_001b_1:
+IL_001d_1:
 			{
 				//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/RotatableObject.cs:29>
 				Rotatable_t0135FFE4D0FB4E3E678AF27A02F1CDE7DAD74731* L_5;
 				L_5 = Enumerator_get_Current_m118363646DFAA871294FCBE80296C961544385BD_inline((&V_0), Enumerator_get_Current_m118363646DFAA871294FCBE80296C961544385BD_RuntimeMethod_var);
+				V_1 = L_5;
 				//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/RotatableObject.cs:30>
-				float L_6 = ___0_rotation01;
-				NullCheck(L_5);
-				L_5->___rotation = L_6;
+				Rotatable_t0135FFE4D0FB4E3E678AF27A02F1CDE7DAD74731* L_6 = V_1;
+				float L_7 = ___0_rotation01;
+				NullCheck(L_6);
+				L_6->___rotation = L_7;
 			}
 
-IL_0028_1:
+IL_002c_1:
 			{
 				//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/RotatableObject.cs:29>
-				bool L_7;
-				L_7 = Enumerator_MoveNext_m297455BD8A6D28001CFBDE0E02A92C0A4BE800D5((&V_0), Enumerator_MoveNext_m297455BD8A6D28001CFBDE0E02A92C0A4BE800D5_RuntimeMethod_var);
-				if (L_7)
+				bool L_8;
+				L_8 = Enumerator_MoveNext_m297455BD8A6D28001CFBDE0E02A92C0A4BE800D5((&V_0), Enumerator_MoveNext_m297455BD8A6D28001CFBDE0E02A92C0A4BE800D5_RuntimeMethod_var);
+				if (L_8)
 				{
-					goto IL_001b_1;
+					goto IL_001d_1;
 				}
 			}
 			{
-				goto IL_0041;
+				goto IL_0046;
 			}
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -3654,13 +3972,13 @@ IL_0028_1:
 		}
 	}
 
-IL_0041:
+IL_0046:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/RotatableObject.cs:31>
 		return;
 	}
 }
-// Method Definition Index: 77887
+// Method Definition Index: 96563
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotatableObject__ctor_m093C4CE2045905AC539B399A57901D7F40AA7AEB (RotatableObject_tB6C7E173EE969BD464E32ED9CB305BF953110636* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3687,7 +4005,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotatableObject__ctor_m093C4CE2045905AC5
 		return;
 	}
 }
-// Method Definition Index: 77888
+// Method Definition Index: 96564
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotatableObject_U3CAwakeU3Eb__2_0_mD00711CC48B647E5D47184E3E2E74EA88AC5C571 (RotatableObject_tB6C7E173EE969BD464E32ED9CB305BF953110636* __this, String2Rotatable_tBD66C3E1819EA0E2D9F330DBB6FE8118F3EC75AA* ___0_rot, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3718,7 +4036,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotatableObject_U3CAwakeU3Eb__2_0_mD0071
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 77889
+// Method Definition Index: 96565
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriesManagerBRP_setupLight_m1400D860DD26B2A28C6B3080C1CF338457ECE65D (const RuntimeMethod* method) 
 {
 	{
@@ -3726,7 +4044,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriesManagerBRP_setupLight_m1400D860DD26
 		return;
 	}
 }
-// Method Definition Index: 77890
+// Method Definition Index: 96566
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriesManagerBRP_unsetLight_m359CF870FE0FFF55DDBE356565AE0FD67A4CD116 (const RuntimeMethod* method) 
 {
 	{
@@ -3734,7 +4052,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriesManagerBRP_unsetLight_m359CF870FE0F
 		return;
 	}
 }
-// Method Definition Index: 77891
+// Method Definition Index: 96567
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriesManagerBRP__ctor_m6C6021CA01CA05C0540533C67CAFF462E0424BB7 (FriesManagerBRP_tC1F289EB4595A4E3BCFEED5B7CD91D409884F0F3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3764,7 +4082,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriesManagerBRP__ctor_m6C6021CA01CA05C05
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 77892
+// Method Definition Index: 96568
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriesManagerURP_setupLight_m01D85A1D7125AC3522B615D7A785B92ACA1624A8 (const RuntimeMethod* method) 
 {
 	{
@@ -3772,7 +4090,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriesManagerURP_setupLight_m01D85A1D7125
 		return;
 	}
 }
-// Method Definition Index: 77893
+// Method Definition Index: 96569
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriesManagerURP_unsetLight_m0F1393919E476F820AA5E1A3EA07A660531EC814 (const RuntimeMethod* method) 
 {
 	{
@@ -3780,7 +4098,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriesManagerURP_unsetLight_m0F1393919E47
 		return;
 	}
 }
-// Method Definition Index: 77894
+// Method Definition Index: 96570
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriesManagerURP__ctor_mC4A0AFA0949152E249A4F0EEA66B2908B9B42563 (FriesManagerURP_tB8FD4077C646CCB8F0B1CDE9C55B3295EA7648A3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3796,7 +4114,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriesManagerURP__ctor_mC4A0AFA0949152E24
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 77895
+// Method Definition Index: 96571
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriesPostProcessorIdentifier_Start_m750D402404CF449E8A961DBE92E2064F6857CE43 (FriesPostProcessorIdentifier_tA855DE07AD3D645630CB7EC500F2B9C11058E1A0* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3833,7 +4151,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriesPostProcessorIdentifier_Start_m750D
 		return;
 	}
 }
-// Method Definition Index: 77896
+// Method Definition Index: 96572
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriesPostProcessorIdentifier_FixedUpdate_mD49FAED62F2DE3791AFA9588FD11FCE892FF4458 (FriesPostProcessorIdentifier_tA855DE07AD3D645630CB7EC500F2B9C11058E1A0* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3842,6 +4160,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriesPostProcessorIdentifier_FixedUpdate
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral41861ECF6F805BA4AD11A3BA32DB1C7505AC6418);
 		s_Il2CppMethodInitialized = true;
 	}
+	bool V_0 = false;
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/Setup/FriesPostProcessorIdentifier.cs:15>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
@@ -3857,29 +4176,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriesPostProcessorIdentifier_FixedUpdate
 		FriesManagerBRP_tC1F289EB4595A4E3BCFEED5B7CD91D409884F0F3* L_3 = __this->___friesManagerBrp;
 		NullCheck(L_3);
 		int32_t L_4 = L_3->___postProcessLayer;
-		if ((((int32_t)L_2) == ((int32_t)L_4)))
+		V_0 = (bool)((((int32_t)((((int32_t)L_2) == ((int32_t)L_4))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_5 = V_0;
+		if (!L_5)
 		{
-			goto IL_003e;
+			goto IL_0048;
 		}
 	}
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/Setup/FriesPostProcessorIdentifier.cs:16>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
-		L_5 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
-		FriesManagerBRP_tC1F289EB4595A4E3BCFEED5B7CD91D409884F0F3* L_6 = __this->___friesManagerBrp;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
+		L_6 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		FriesManagerBRP_tC1F289EB4595A4E3BCFEED5B7CD91D409884F0F3* L_7 = __this->___friesManagerBrp;
+		NullCheck(L_7);
+		int32_t L_8 = L_7->___postProcessLayer;
 		NullCheck(L_6);
-		int32_t L_7 = L_6->___postProcessLayer;
-		NullCheck(L_5);
-		GameObject_set_layer_m6E1AF478A2CC86BD222B96317BEB78B7D89B18D0(L_5, L_7, NULL);
+		GameObject_set_layer_m6E1AF478A2CC86BD222B96317BEB78B7D89B18D0(L_6, L_8, NULL);
 	}
 
-IL_003e:
+IL_0048:
 	{
 		//<source_info:/Users/maccrackjoel/ZombiesAttackVRMultiplayer/Assets/Fries and Seagull/City 03/Scene Props/Scripts/Setup/FriesPostProcessorIdentifier.cs:17>
 		return;
 	}
 }
-// Method Definition Index: 77897
+// Method Definition Index: 96573
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriesPostProcessorIdentifier__ctor_mB9576F2A75E9264DBC8564E5F7F7F8316E821B44 (FriesPostProcessorIdentifier_tA855DE07AD3D645630CB7EC500F2B9C11058E1A0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3914,7 +4235,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriesPostProcessorIdentifier__ctor_mB957
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 44572
+// Method Definition Index: 60203
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3937,7 +4258,7 @@ IL_0009:
 		return L_1;
 	}
 }
-// Method Definition Index: 29614
+// Method Definition Index: 38538
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Gamepad_tA8C0E40B4F0828615C6C6E1A69AAEBE5AA643A4C* Gamepad_get_current_mAC9BE72710676EA54E760FFBA15404A81D7DEEB6_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3952,7 +4273,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Gamepad_tA8C0E40B4F0828615C6C6E1A
 		return L_0;
 	}
 }
-// Method Definition Index: 29597
+// Method Definition Index: 38521
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR StickControl_t2608D1388A5015029123635B4B589AC7EE20C50B* Gamepad_get_leftStick_m76F9D7D8766C9450C5E720ED481BDC4C3BFAE619_inline (Gamepad_tA8C0E40B4F0828615C6C6E1A69AAEBE5AA643A4C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3961,7 +4282,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR StickControl_t2608D1388A501502912
 		return L_0;
 	}
 }
-// Method Definition Index: 29854
+// Method Definition Index: 38778
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* Keyboard_get_current_mDE773B54C9975CEFEAA469AD091C49E150A3FEC3_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3976,7 +4297,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Keyboard_t015BD1A6508137D20B43952
 		return L_0;
 	}
 }
-// Method Definition Index: 44556
+// Method Definition Index: 60187
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -3995,7 +4316,7 @@ IL_001f:
 		return L_4;
 	}
 }
-// Method Definition Index: 44400
+// Method Definition Index: 60026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
 {
 	{
@@ -4008,7 +4329,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999E
 		return;
 	}
 }
-// Method Definition Index: 44434
+// Method Definition Index: 60062
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -4036,7 +4357,7 @@ IL_0021:
 		return L_10;
 	}
 }
-// Method Definition Index: 44431
+// Method Definition Index: 60059
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -4067,7 +4388,7 @@ IL_0030:
 		return L_13;
 	}
 }
-// Method Definition Index: 77845
+// Method Definition Index: 96521
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AButtonAttribute_set_text_mCE4D7BD518864D292BA45A5D68550030EB2A167C_inline (AButtonAttribute_t70BE8954D6C30A4E0468123268B79DBF4ECCF8D7* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -4078,7 +4399,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AButtonAttribute_set_text_mC
 		return;
 	}
 }
-// Method Definition Index: 44432
+// Method Definition Index: 60060
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -4109,7 +4430,7 @@ IL_0030:
 		return L_13;
 	}
 }
-// Method Definition Index: 44418
+// Method Definition Index: 60046
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4139,7 +4460,7 @@ IL_0034:
 		return L_7;
 	}
 }
-// Method Definition Index: 44257
+// Method Definition Index: 59876
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, float ___3_a, const RuntimeMethod* method) 
 {
 	{
@@ -4154,7 +4475,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9C
 		return;
 	}
 }
-// Method Definition Index: 44265
+// Method Definition Index: 59885
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_op_Multiply_m379B20A820266ACF82A21425B9CAE8DCD773CFBB_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_a, float ___1_b, const RuntimeMethod* method) 
 {
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_0;
@@ -4185,7 +4506,7 @@ IL_0029:
 		return L_13;
 	}
 }
-// Method Definition Index: 44522
+// Method Definition Index: 60151
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -4233,7 +4554,7 @@ IL_002d:
 		return L_5;
 	}
 }
-// Method Definition Index: 44430
+// Method Definition Index: 60058
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_right_mFF573AFBBB2186E7AFA1BA7CA271A78DF67E4EA0_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4256,7 +4577,7 @@ IL_0009:
 		return L_1;
 	}
 }
-// Method Definition Index: 44427
+// Method Definition Index: 60055
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4279,7 +4600,7 @@ IL_0009:
 		return L_1;
 	}
 }
-// Method Definition Index: 44425
+// Method Definition Index: 60053
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4302,7 +4623,7 @@ IL_0009:
 		return L_1;
 	}
 }
-// Method Definition Index: 44423
+// Method Definition Index: 60051
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4325,7 +4646,7 @@ IL_0009:
 		return L_1;
 	}
 }
-// Method Definition Index: 8935
+// Method Definition Index: 17563
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_mB407E755F3B4C51C54D24338D00A352E5B16E7F3_gshared_inline (Enumerator_t44124D16E0B2F7308FF4069BE06369B5A83896EB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4333,7 +4654,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Cur
 		return L_0;
 	}
 }
-// Method Definition Index: 8978
+// Method Definition Index: 17614
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
 {
 	{
