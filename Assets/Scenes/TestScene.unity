@@ -5851,6 +5851,7 @@ GameObject:
   - component: {fileID: 1680413084}
   - component: {fileID: 1680413083}
   - component: {fileID: 1680413086}
+  - component: {fileID: 1680413087}
   m_Layer: 0
   m_Name: VR Player
   m_TagString: Player
@@ -5930,6 +5931,27 @@ CharacterController:
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 1, z: 0}
+--- !u!65 &1680413087
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1680413082}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.23, y: 2, z: 0.24}
   m_Center: {x: 0, y: 1, z: 0}
 --- !u!1001 &1683455431
 PrefabInstance:
@@ -16444,7 +16466,7 @@ MonoBehaviour:
   stopAtDistance: 0.5
   detectionRange: 5
   viewAngle: 90
-  losePlayerTime: 3
+  losePlayerTime: 5
   _state: 0
 --- !u!135 &7389507112358817793
 SphereCollider:
@@ -16477,7 +16499,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.32
-  m_Speed: 0.5
+  m_Speed: 1
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -19148,9 +19170,9 @@ SceneRoots:
   - {fileID: 2147287901}
   - {fileID: 154034123}
   - {fileID: 94339080}
+  - {fileID: 578376449170997893}
   - {fileID: 1680413085}
   - {fileID: 1812999069}
-  - {fileID: 578376449170997893}
   - {fileID: 1484975957}
   - {fileID: 2142320416}
   - {fileID: 1536306307}

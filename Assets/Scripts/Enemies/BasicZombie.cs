@@ -41,12 +41,12 @@ public class BasicZombie : MonoBehaviour
 
     void Update()
     {
-        var distanceToPlayer = Vector3.Distance(transform.position, player.position);
+        var distanceToPlayer = Vector3.Distance(player.position, transform.position);
         switch (_state)
         {
             case EnemyState.Patrolling:
                 Patrol();
-                if (distanceToPlayer < detectionRange && CanSeePlayer())
+                if (distanceToPlayer <= detectionRange && CanSeePlayer())
                 {
                     _state = EnemyState.Following;
                 }
@@ -88,7 +88,8 @@ public class BasicZombie : MonoBehaviour
         }
 
         _currentPatrolIndex = closestIndex;
-        GoToNextPatrolPoint();
+        // GoToNextPatrolPoint();
+        _agent.SetDestination(patrolPoints[_currentPatrolIndex].position);
     }
 
     private void FollowPlayer()
@@ -144,7 +145,8 @@ public class BasicZombie : MonoBehaviour
     {
         var dirToPlayer = (player.position - transform.position).normalized;
         var angle = Vector3.Angle(transform.forward, dirToPlayer);
-        return angle <= viewAngle / 2f;
+        var isFacing = angle <= viewAngle / 2f;
+        return isFacing;
     }
 
     private bool HasClearPathToPlayer()
