@@ -5851,7 +5851,7 @@ GameObject:
   - component: {fileID: 1680413084}
   - component: {fileID: 1680413083}
   - component: {fileID: 1680413086}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: VR Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -16435,12 +16435,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e3f8f2fed1354e0db9012e7e9f3c094, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BasicZombie
+  player: {fileID: 1680413085}
   patrolPoints:
   - {fileID: 570159854}
   - {fileID: 1532556330}
   - {fileID: 175476612}
   patrolWaitTime: 2
   stopAtDistance: 0.5
+  detectionRange: 5
+  viewAngle: 90
+  losePlayerTime: 3
+  _state: 0
 --- !u!135 &7389507112358817793
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -16472,7 +16477,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.32
-  m_Speed: 3.5
+  m_Speed: 0.5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
