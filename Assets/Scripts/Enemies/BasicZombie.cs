@@ -5,7 +5,8 @@ using UnityEngine.AI;
 public enum EnemyState
 {
     Patrolling,
-    Following
+    Following,
+    Attacking
 }
 
 public class BasicZombie : MonoBehaviour
@@ -20,6 +21,7 @@ public class BasicZombie : MonoBehaviour
     [SerializeField] private float detectionRange = 5f;
     [SerializeField] private float viewAngle = 90f;
     [SerializeField] private float losePlayerTime = 3f;
+    [SerializeField] private float attackRange = 1.2f;
 
     private NavMeshAgent _agent;
     private Animator zombieAnimator;
@@ -27,6 +29,7 @@ public class BasicZombie : MonoBehaviour
     private int _currentPatrolIndex;
     private bool _isWaiting;
     private float _timeSinceLostPlayer;
+    private bool _isBitting;
 
     void Awake()
     {
@@ -52,7 +55,12 @@ public class BasicZombie : MonoBehaviour
                 }
                 break;
             case EnemyState.Following:
-                FollowPlayer(); 
+                FollowPlayer();
+                if (distanceToPlayer <= attackRange)
+                {
+                    _state = EnemyState.Attacking;
+                    StartAttack();
+                }
                 if (!CanSeePlayer())
                 {
                     _timeSinceLostPlayer += Time.deltaTime;
@@ -67,8 +75,40 @@ public class BasicZombie : MonoBehaviour
                     _timeSinceLostPlayer = 0f;
                 }
                 break;
+            case EnemyState.Attacking:
+                Attack();
+                if (!_isBitting && distanceToPlayer > attackRange)
+                {
+                    _state = EnemyState.Following;
+                    _agent.isStopped = false;
+                }
+                break;
         }
         UpdateAnimations();
+    }
+
+    private void StartAttack()
+    {
+        _agent.isStopped = true;
+        _isBitting = true;
+        zombieAnimator.SetTrigger("attack");
+    }
+
+    private void Attack()
+    {
+        _agent.isStopped = true;
+        var direction = (player.position - transform.position).normalized;
+        direction.y = 0;
+        if (direction != Vector3.zero)
+        {
+            transform.rotation = Quaternion.LookRotation(direction);
+        }
+    }
+
+    // Used by animation event
+    private void OnBiteAnimationEnd()
+    {
+        _isBitting = false;
     }
 
     private void GoToClosesPatrolPoint()
