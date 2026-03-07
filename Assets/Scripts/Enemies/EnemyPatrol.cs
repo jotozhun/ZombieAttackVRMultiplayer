@@ -30,6 +30,7 @@ public class EnemyPatrol : MonoBehaviour
     [SerializeField] private float _losePlayerTime = 3f;
     [SerializeField] private float _patrolPointOffset = 1.5f;  // Offset aleatorio para evitar que se agrupen exactamente
     [SerializeField] private float _stuckTimeout = 5f;  // Tiempo máximo sin movimiento antes de resetear
+    [SerializeField] private float _closeProximityRange = 3f;  // Si está tan cerca, sigue en Following aunque no lo vea
 
     private NavMeshAgent _navAgent;
     private Animator _zombieAnimator;
@@ -78,26 +79,38 @@ public class EnemyPatrol : MonoBehaviour
     {
         if (Time.time >= _nextCheckTimeForPlayer)
         {
-            Debug.Log("Checking for player...");
+
             _nextCheckTimeForPlayer = Time.time + _checkFrequency;
             if (ExecuteVisionCheck())
             {
                 _state = EnemyState.Following;
+                _timeSinceLostPlayer = 0f;  // Resetea el timer cuando lo ve
             }
             else
             {
-                if (_state == EnemyState.Following)
+                // Si está en Following, verifica si está muy cerca del player
+                if (_state == EnemyState.Following && _targetActual != null)
                 {
-                    _timeSinceLostPlayer += Time.deltaTime;
-                    if (_timeSinceLostPlayer >= _losePlayerTime)
+                    float distanceToPlayer = Vector3.Distance(transform.position, _targetActual.position);
+                    
+                    // Si está muy cerca, mantiene el estado Following y resetea el timer
+                    if (distanceToPlayer <= _closeProximityRange)
                     {
-                        Debug.Log("Lost sight of player, returning to patrol.");
-                        _state = EnemyState.Patrolling;
-                        _targetActual = null;
-                        GoToClosesPatrolPoint();
+                        _timeSinceLostPlayer = 0f;  // Resetea el timer
+                    }
+                    else
+                    {
+                        // Si está lejos y no lo ve, inicia el contador para perderlo
+                        _timeSinceLostPlayer += Time.deltaTime;
+                        if (_timeSinceLostPlayer >= _losePlayerTime)
+                        {
+                            _state = EnemyState.Patrolling;
+                            _targetActual = null;
+                            GoToClosesPatrolPoint();
+                        }
                     }
                 }
-                else
+                else if (_state != EnemyState.Following)
                 {
                     _timeSinceLostPlayer = 0f;
                 }
@@ -113,22 +126,53 @@ public class EnemyPatrol : MonoBehaviour
                 break;
             case EnemyState.Following:
                 FollowPlayer();
-                // if (distanceToPlayer <= _attackRange)
-                // {
-                //     _state = EnemyState.Attacking;
-                //     StartAttack();
-                // }
+                // Verifica si está lo suficientemente cerca para atacar
+                if (_targetActual != null && Vector3.Distance(transform.position, _targetActual.position) <= _enemyAttack._attackRange)
+                {
+                    _state = EnemyState.Attacking;
+                }
                 break;
-        //     case EnemyState.Attacking:
-        //         _enemyAttack.Attack();
-        //         if (distanceToPlayer > _enemyAttack._attackRange)
-        //         {
-        //             _state = EnemyState.Following;
-        //             _navAgent.isStopped = false;
-        //         }
-        //         break;
+            case EnemyState.Attacking:
+                _enemyAttack.Attack(_zombieAnimator);
+                // Si el player se aleja, vuelve a Following
+                if (_targetActual != null && Vector3.Distance(transform.position, _targetActual.position) > _enemyAttack._attackRange)
+                {
+                    _state = EnemyState.Following;
+                    _navAgent.isStopped = false;
+                }
+                break;
         }
         // UpdateAnimations();
+        UpdateAnimations();
+    }
+
+    /// <summary>
+    /// Actualiza los parámetros del Animator basados en el estado actual del enemy.
+    /// Se ejecuta cada frame para mantener las animaciones sincronizadas.
+    /// </summary>
+    private void UpdateAnimations()
+    {
+        if (_zombieAnimator == null) return;
+
+        // isFollowing: true cuando está siguiendo al player
+        _zombieAnimator.SetBool("isFollowing", _state == EnemyState.Following);
+
+        // attack: true cuando está atacando (estado comentado, pero preparado)
+        // _zombieAnimator.SetBool("attack", _state == EnemyState.Attacking);
+
+        // isWalking: true cuando se está moviendo (patrullando sin esperar, o siguiendo)
+        bool isMoving = false;
+        if (_state == EnemyState.Patrolling && !_isWaiting)
+        {
+            isMoving = true;
+        }
+        else if (_state == EnemyState.Following)
+        {
+            isMoving = true;
+        }
+        // En Attacking podría ser false si está quieto atacando
+
+        _zombieAnimator.SetBool("isWalking", isMoving);
     }
 
     /// <summary>
@@ -245,7 +289,6 @@ public class EnemyPatrol : MonoBehaviour
             // Si lleva mucho tiempo stuck, intenta ir al siguiente punto
             if (_stuckTimer >= _stuckTimeout)
             {
-                Debug.Log("Enemy stuck! Moving to next patrol point.");
                 _isWaiting = false;
                 GoToNextPatrolPoint();
                 _navAgent.isStopped = false;
