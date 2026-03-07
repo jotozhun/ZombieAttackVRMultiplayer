@@ -28,7 +28,7 @@ public class EnemyPatrol : MonoBehaviour
     private int _currentPatrolIndex;
     private float _timeSinceLostPlayer;
 
-    private bool _isWaiting;
+    private bool _isWaiting = false;
     private float _startWaitingPatrolTime;
 
     void Awake()
@@ -41,12 +41,17 @@ public class EnemyPatrol : MonoBehaviour
     void Start()
     {
         _startWaitingPatrolTime = 0.0f;
+        GoToNextPatrolPoint();
     }
 
     // Update is called once per frame
     void Update()
     {
-        var distanceToPlayer = Vector3.Distance(_player.position, transform.position);
+        if (_player != null)
+        {
+            var distanceToPlayer = Vector3.Distance(_player.position, transform.position);
+        }
+        
         switch (_state)
         {
             case EnemyState.Patrolling:
@@ -122,6 +127,7 @@ public class EnemyPatrol : MonoBehaviour
         {
             _startWaitingPatrolTime = 0.0f;
             _navAgent.isStopped = true;
+            _isWaiting = true;
         }
     }
 

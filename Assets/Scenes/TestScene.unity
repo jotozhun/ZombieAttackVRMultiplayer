@@ -19178,9 +19178,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 578376449170997893}
+  - component: {fileID: 7389507112358817796}
+  - component: {fileID: 7389507112358817795}
   - component: {fileID: 7389507112358817792}
   - component: {fileID: 7389507112358817791}
-  - component: {fileID: 7389507112358817793}
   - component: {fileID: 7389507112358817794}
   m_Layer: 0
   m_Name: Zombie1
@@ -24802,7 +24803,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4493914613571448982}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5e3f8f2fed1354e0db9012e7e9f3c094, type: 3}
   m_Name: 
@@ -24819,27 +24820,6 @@ MonoBehaviour:
   losePlayerTime: 5
   attackRange: 1.2
   _state: 0
---- !u!135 &7389507112358817793
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4493914613571448982}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Radius: 1.34
-  m_Center: {x: 0, y: 1.13, z: 0}
 --- !u!195 &7389507112358817794
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -24850,7 +24830,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.32
-  m_Speed: 1
+  m_Speed: 2
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -24862,6 +24842,42 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &7389507112358817795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4493914613571448982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7531a0452e72c47cca372441a79c314e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyAttack
+--- !u!114 &7389507112358817796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4493914613571448982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c7e8c8c4d7e34a979b893c4c3808c7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyPatrol
+  _player: {fileID: 0}
+  _patrolPoints:
+  - {fileID: 570159854}
+  - {fileID: 1532556330}
+  - {fileID: 175476612}
+  _enemyAttack: {fileID: 0}
+  _patrolWaitTime: 2
+  _stopAtDistance: 0.5
+  _detectionRange: 5
+  _viewAngle: 120
+  _losePlayerTime: 3
+  _state: 0
 --- !u!1 &7419288926630614699
 GameObject:
   m_ObjectHideFlags: 0
