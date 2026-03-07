@@ -2,12 +2,12 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
 
-public enum EnemyState
-{
-    Patrolling,
-    Following,
-    Attacking
-}
+// public enum EnemyState
+// {
+//     Patrolling,
+//     Following,
+//     Attacking
+// }
 
 public class BasicZombie : MonoBehaviour
 {
