@@ -24,10 +24,12 @@ public class EnemyPatrol : MonoBehaviour
     [Header("Patrol stats")]
     [SerializeField] private float _checkFrequency = 0.2f;
     [SerializeField] private float _patrolWaitTime = 2f;
-    [SerializeField] private float _stopAtDistance = 0.5f;
+    [SerializeField] private float _stopAtDistance = 1.5f;  // Aumentado para evitar stuck en amontonamiento
     [SerializeField] private float _detectionRange = 10f;
     [SerializeField] private float _viewAngle = 90f;
     [SerializeField] private float _losePlayerTime = 3f;
+    [SerializeField] private float _patrolPointOffset = 1.5f;  // Offset aleatorio para evitar que se agrupen exactamente
+    [SerializeField] private float _stuckTimeout = 5f;  // Tiempo máximo sin movimiento antes de resetear
 
     private NavMeshAgent _navAgent;
     private Animator _zombieAnimator;
@@ -38,6 +40,9 @@ public class EnemyPatrol : MonoBehaviour
     private bool _isWaiting = false;
     private float _startWaitingPatrolTime;
     private float _distanceToPlayer;
+    private float _stuckTimer = 0f;
+    private Vector3 _lastPosition;
+    private Vector3 _currentPatrolOffset = Vector3.zero;  // Offset aleatorio del punto actual
 
     void Awake()
     {
@@ -50,6 +55,21 @@ public class EnemyPatrol : MonoBehaviour
     {
         _startWaitingPatrolTime = 0.0f;
         _cosHalfViewAngle = Mathf.Cos(_viewAngle * 0.5f * Mathf.Deg2Rad);
+        _lastPosition = transform.position;
+        
+        // Inicializa cada enemigo en un índice aleatorio para evitar que todos vayan al mismo punto
+        if (_patrolPoints.Length > 0)
+        {
+            _currentPatrolIndex = Random.Range(0, _patrolPoints.Length);
+        }
+        
+        // Configura mejor el NavMeshAgent para evitar amontonamiento
+        if (_navAgent != null)
+        {
+            _navAgent.stoppingDistance = _stopAtDistance * 0.8f;
+            // _navAgent.obstacleAvoidanceType = ObstacleAvoidanceType.LowQualityObstacleAvoidance;
+        }
+        
         GoToNextPatrolPoint();
     }
 
@@ -83,6 +103,9 @@ public class EnemyPatrol : MonoBehaviour
                 }
             }
         }
+        // Detecta si el enemigo está stuck (no se mueve por mucho tiempo)
+        DetectStuckEnemy();
+        
         switch (_state)
         {
             case EnemyState.Patrolling:
@@ -145,7 +168,8 @@ public class EnemyPatrol : MonoBehaviour
     /// </summary>
     private void Patrol()
     {
-        if (!_navAgent.pathPending && _navAgent.remainingDistance < _stopAtDistance)
+        // Verifica si llegó al punto de patrulla o si está suficientemente cerca
+        if (!_navAgent.pathPending && _navAgent.hasPath && _navAgent.remainingDistance <= _stopAtDistance)
         {
             WaitAtPatrolPoint();
         }
@@ -180,14 +204,53 @@ public class EnemyPatrol : MonoBehaviour
     /// <summary>
     /// This method sets the next patrol point to the NavMeshAgent attached to the enemy.
     /// It also updates the current patrol index to loop through the patrol points.
+    /// Agrega offset aleatorio para evitar que los enemigos se agrupen exactamente en el mismo punto.
     /// </summary>
     private void GoToNextPatrolPoint()
     {
         if (_patrolPoints.Length == 0) return;
 
-        _navAgent.SetDestination(_patrolPoints[_currentPatrolIndex].position);
+        // Genera offset aleatorio en un círculo alrededor del punto de patrulla
+        Vector2 randomCircle = Random.insideUnitCircle * _patrolPointOffset;
+        _currentPatrolOffset = new Vector3(randomCircle.x, 0f, randomCircle.y);
+        
+        Vector3 targetPosition = _patrolPoints[_currentPatrolIndex].position + _currentPatrolOffset;
+        _navAgent.SetDestination(targetPosition);
+        _stuckTimer = 0f;  // Resetea el contador de stuck
+        
         // If no more points, change to first point
         _currentPatrolIndex = (_currentPatrolIndex + 1) % _patrolPoints.Length;
+    }
+
+    /// <summary>
+    /// Detecta si el enemigo está stuck (atrapado sin poder moverse).
+    /// Si lleva mucho tiempo sin moverse significativamente, resetea el destino.
+    /// </summary>
+    private void DetectStuckEnemy()
+    {
+        if (_state != EnemyState.Patrolling) return;
+        
+        float distanceMoved = Vector3.Distance(transform.position, _lastPosition);
+        
+        // Si se movió suficiente distancia, resetea el timer
+        if (distanceMoved > 0.1f)
+        {
+            _stuckTimer = 0f;
+            _lastPosition = transform.position;
+        }
+        else
+        {
+            _stuckTimer += Time.deltaTime;
+            
+            // Si lleva mucho tiempo stuck, intenta ir al siguiente punto
+            if (_stuckTimer >= _stuckTimeout)
+            {
+                Debug.Log("Enemy stuck! Moving to next patrol point.");
+                _isWaiting = false;
+                GoToNextPatrolPoint();
+                _navAgent.isStopped = false;
+            }
+        }
     }
 
     private bool ExecuteVisionCheck() {
