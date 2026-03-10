@@ -3448,7 +3448,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.32
-  m_Speed: 2
+  m_Speed: 0.5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -3518,6 +3518,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7531a0452e72c47cca372441a79c314e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAttack
+  _gapBetweenAttacks: 1.5
 --- !u!114 &299259806
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8571,7 +8572,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.32
-  m_Speed: 2
+  m_Speed: 0.5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -8641,6 +8642,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7531a0452e72c47cca372441a79c314e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAttack
+  _gapBetweenAttacks: 1.5
 --- !u!114 &667830273
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9250,7 +9252,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Locomotion.Movement.ContinuousMoveProvider
   m_Mediator: {fileID: 444444776}
   m_TransformationPriority: 0
-  m_MoveSpeed: 5
+  m_MoveSpeed: 3
   m_InAirControlModifier: 0.5
   m_EnableStrafe: 1
   m_EnableFly: 0
@@ -14070,7 +14072,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.32
-  m_Speed: 2
+  m_Speed: 0.5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -14140,6 +14142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7531a0452e72c47cca372441a79c314e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAttack
+  _gapBetweenAttacks: 1.5
 --- !u!114 &1146210893
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16767,7 +16770,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.32
-  m_Speed: 2
+  m_Speed: 0.5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -16837,6 +16840,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7531a0452e72c47cca372441a79c314e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAttack
+  _gapBetweenAttacks: 1.5
 --- !u!114 &1348851431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20663,6 +20667,7 @@ GameObject:
   - component: {fileID: 1680413083}
   - component: {fileID: 1680413086}
   - component: {fileID: 1680413087}
+  - component: {fileID: 1680413088}
   m_Layer: 6
   m_Name: VR Player
   m_TagString: Player
@@ -20710,7 +20715,7 @@ Transform:
   m_GameObject: {fileID: 1680413082}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.65, y: 4.21, z: -10.33}
+  m_LocalPosition: {x: 2.94, y: 4.21, z: -10.33}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -20764,6 +20769,33 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.23, y: 2, z: 0.24}
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!54 &1680413088
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1680413082}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 9
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 122
+  m_CollisionDetection: 2
 --- !u!1001 &1683455431
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31600,7 +31632,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &3547707238594111167
 GameObject:
   m_ObjectHideFlags: 0
@@ -31617,7 +31649,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &3563063071003648021
 GameObject:
   m_ObjectHideFlags: 0
@@ -38342,7 +38374,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.32
-  m_Speed: 2
+  m_Speed: 0.5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -38366,6 +38398,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7531a0452e72c47cca372441a79c314e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAttack
+  _gapBetweenAttacks: 1.5
 --- !u!114 &7389507112358817796
 MonoBehaviour:
   m_ObjectHideFlags: 0
