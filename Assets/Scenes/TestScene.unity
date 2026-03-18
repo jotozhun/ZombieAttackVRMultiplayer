@@ -563,7 +563,7 @@ Transform:
   m_GameObject: {fileID: 36743805}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.5, y: -0.5, z: -0.5}
+  m_LocalPosition: {x: -1.92, y: -0.5, z: -1.07}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1670,14 +1670,14 @@ MonoBehaviour:
   leftHand:
     vrTarget: {fileID: 232503037}
     ikTarget: {fileID: 167830624}
-    trackingPositionOffset: {x: -0.06, y: -0.28, z: -0.08}
+    trackingPositionOffset: {x: 0, y: -0.24, z: 0}
     trackingRotationOffset: {x: 0, y: 0, z: 0}
   rightHand:
     vrTarget: {fileID: 1424548523}
     ikTarget: {fileID: 1207645290}
-    trackingPositionOffset: {x: 0, y: -0.3, z: 0}
+    trackingPositionOffset: {x: 0, y: -0.24, z: 0}
     trackingRotationOffset: {x: 0, y: 0, z: 0}
-  headBodyPositionOffset: {x: 0, y: -0.7, z: 0}
+  headBodyPositionOffset: {x: -0.01, y: -0.51, z: 0.15}
   headBodyYawOffset: 0
 --- !u!1 &140668560
 GameObject:
@@ -2007,6 +2007,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 017db9fac0b844a9cbd7b69f79d23463, type: 3}
       propertyPath: m_Name
       value: VR Character IK
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 017db9fac0b844a9cbd7b69f79d23463, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3123,8 +3127,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 232503036}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.52001065, y: 0.48126194, z: 0.5699878, w: 0.41604075}
-  m_LocalPosition: {x: -0.05799999, y: -0.022000026, z: -0.12100011}
+  m_LocalRotation: {x: 0.52001137, y: 0.48126546, z: 0.5699871, w: 0.41603673}
+  m_LocalPosition: {x: -0.052, y: -0.067, z: 0.111}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9735,7 +9739,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Locomotion.Movement.ContinuousMoveProvider
   m_Mediator: {fileID: 444444776}
   m_TransformationPriority: 0
-  m_MoveSpeed: 3
+  m_MoveSpeed: 2.5
   m_InAirControlModifier: 0.5
   m_EnableStrafe: 1
   m_EnableFly: 0
@@ -15797,8 +15801,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1207645289}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.63552356, y: -0.57563573, z: -0.23366408, w: 0.45842612}
-  m_LocalPosition: {x: 1.59, y: 2.984, z: -0.124}
+  m_LocalRotation: {x: 0.52001065, y: 0.48126194, z: 0.5699878, w: 0.41604075}
+  m_LocalPosition: {x: 1.63, y: 3.013, z: -0.010000229}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16832,7 +16836,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1243837774
 Transform:
   m_ObjectHideFlags: 0
@@ -18693,13 +18697,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1424548522}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.63552356, y: -0.57563573, z: -0.23366408, w: 0.45842612}
-  m_LocalPosition: {x: 0.08799996, y: -0.041, z: -0.12100011}
+  m_LocalRotation: {x: -0.5443217, y: 0.4673753, z: 0.47014606, w: -0.5140398}
+  m_LocalPosition: {x: 0.05, y: -0.035, z: 0.14}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2050290183}
-  m_LocalEulerAnglesHint: {x: 161.719, y: 60.296997, z: 95.016}
+  m_LocalEulerAnglesHint: {x: -186.9, y: 88.3, z: 88}
 --- !u!1 &1426146574
 GameObject:
   m_ObjectHideFlags: 0
@@ -20263,7 +20267,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Locomotion.Turning.ContinuousTurnProvider
   m_Mediator: {fileID: 444444776}
   m_TransformationPriority: 0
-  m_TurnSpeed: 60
+  m_TurnSpeed: 45
   m_EnableTurnLeftRight: 1
   m_EnableTurnAround: 0
   m_LeftHandTurnInput:
@@ -21503,7 +21507,6 @@ GameObject:
   - component: {fileID: 1680413084}
   - component: {fileID: 1680413083}
   - component: {fileID: 1680413086}
-  - component: {fileID: 1680413087}
   m_Layer: 6
   m_Name: VR Player
   m_TagString: Player
@@ -21541,7 +21544,7 @@ MonoBehaviour:
   m_OriginBaseGameObject: {fileID: 1680413082}
   m_CameraFloorOffsetObject: {fileID: 411352264}
   m_RequestedTrackingOriginMode: 2
-  m_CameraYOffset: 1.1176
+  m_CameraYOffset: 1.8
 --- !u!4 &1680413085
 Transform:
   m_ObjectHideFlags: 0
@@ -21575,36 +21578,15 @@ CharacterController:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
-  m_Height: 2
+  m_Height: 1.8
   m_Radius: 0.1
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: -0.5, z: 0}
---- !u!65 &1680413087
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1680413082}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Size: {x: 0.23, y: 2, z: 0.24}
-  m_Center: {x: 0, y: -0.66, z: 0}
+  m_Center: {x: 0, y: 0.7, z: 0}
 --- !u!114 &1684624343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27269,7 +27251,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2109963659
 Transform:
   m_ObjectHideFlags: 0
@@ -27297,9 +27279,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3cd49dc1a38aff4fa00676ddd64cf4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Locomotion.Jump.JumpProvider
-  m_Mediator: {fileID: 0}
+  m_Mediator: {fileID: 444444776}
   m_TransformationPriority: 0
-  m_DisableGravityDuringJump: 0
+  m_DisableGravityDuringJump: 1
   m_UnlimitedInAirJumps: 0
   m_InAirJumpCount: 1
   m_JumpForgivenessWindow: 0.25
