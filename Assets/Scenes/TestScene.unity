@@ -6617,6 +6617,118 @@ Transform:
   - {fileID: 2050290183}
   m_Father: {fileID: 1680413085}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &411958839
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 411958843}
+  - component: {fileID: 411958842}
+  - component: {fileID: 411958841}
+  - component: {fileID: 411958840}
+  m_Layer: 0
+  m_Name: Plane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!64 &411958840
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 411958839}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &411958841
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 411958839}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &411958842
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 411958839}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &411958843
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 411958839}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.96836, y: 0.01775, z: 13.81}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &415686100
 GameObject:
   m_ObjectHideFlags: 0
@@ -6933,6 +7045,7 @@ Transform:
   - {fileID: 1537189522}
   - {fileID: 1243837774}
   - {fileID: 2109963659}
+  - {fileID: 1196369448}
   m_Father: {fileID: 1680413085}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &444444776
@@ -15717,6 +15830,62 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.3393405, y: 0.022505248, z: -0.030084394}
     m_Extent: {x: 0.13558848, y: 0.0846305, z: 0.08334193}
   m_DirtyAABB: 0
+--- !u!1 &1196369447
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1196369448}
+  - component: {fileID: 1196369449}
+  m_Layer: 6
+  m_Name: Climb
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1196369448
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1196369447}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 444444775}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1196369449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1196369447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 496880615cd240be960d436c1c8ae570, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Locomotion.Climbing.ClimbProvider
+  m_Mediator: {fileID: 444444776}
+  m_TransformationPriority: 0
+  m_ProvidersToDisable:
+  - {fileID: 2109963660}
+  m_EnableGravityOnClimbEnd: 1
+  m_ClimbSettings:
+    m_UseConstant: 1
+    m_ConstantValue:
+      m_AllowFreeXMovement: 1
+      m_AllowFreeYMovement: 1
+      m_AllowFreeZMovement: 1
+    m_Variable: {fileID: 0}
 --- !u!1 &1202177628
 GameObject:
   m_ObjectHideFlags: 0
@@ -16836,7 +17005,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1243837774
 Transform:
   m_ObjectHideFlags: 0
@@ -16868,14 +17037,14 @@ MonoBehaviour:
   m_TransformationPriority: 10
   m_UseGravity: 1
   m_UseLocalSpaceGravity: 1
-  m_TerminalVelocity: 90
+  m_TerminalVelocity: 5
   m_GravityAccelerationModifier: 1
   m_UpdateCharacterControllerCenterEachFrame: 1
   m_SphereCastRadius: 0.09
   m_SphereCastDistanceBuffer: -0.05
   m_SphereCastLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967291
+    m_Bits: 4294967219
   m_SphereCastTriggerInteraction: 1
   m_OnGravityLockChanged:
     m_PersistentCalls:
@@ -20105,74 +20274,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.33271068, y: 0.07449715, z: -0.014274962}
     m_Extent: {x: 0.19994229, y: 0.16534746, z: 0.08456549}
   m_DirtyAABB: 0
---- !u!1 &1536306305
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1536306307}
-  - component: {fileID: 1536306306}
-  m_Layer: 0
-  m_Name: Input Test
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1536306306
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1536306305}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f982c2ec3f60540fbaff120c65f8bfc9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  testActionValue:
-    m_UseReference: 1
-    m_Action:
-      m_Name: Test Action Value
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: e876a186-fbab-4939-b58a-bd94c987ad0b
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
-      m_Flags: 0
-    m_Reference: {fileID: 6558622148059887818, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  testActionButton:
-    m_UseReference: 0
-    m_Action:
-      m_Name: Test Action Button
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: 0207bb02-d594-4ada-8bcc-d412fba17f74
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
-      m_Flags: 0
-    m_Reference: {fileID: 0}
---- !u!4 &1536306307
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1536306305}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -18.39983, y: 0, z: 1.21137}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1537189521
 GameObject:
   m_ObjectHideFlags: 0
@@ -20223,7 +20324,7 @@ MonoBehaviour:
   m_TurnAmount: 45
   m_DebounceTime: 0.5
   m_EnableTurnLeftRight: 1
-  m_EnableTurnAround: 1
+  m_EnableTurnAround: 0
   m_DelayTime: 0
   m_LeftHandTurnInput:
     m_InputSourceMode: 0
@@ -21554,7 +21655,7 @@ Transform:
   m_GameObject: {fileID: 1680413082}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.221, y: 5.095, z: -10.33}
+  m_LocalPosition: {x: 4.21, y: 4.516, z: -10.542}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -27251,7 +27352,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2109963659
 Transform:
   m_ObjectHideFlags: 0
@@ -27281,12 +27382,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Locomotion.Jump.JumpProvider
   m_Mediator: {fileID: 444444776}
   m_TransformationPriority: 0
-  m_DisableGravityDuringJump: 1
+  m_DisableGravityDuringJump: 0
   m_UnlimitedInAirJumps: 0
   m_InAirJumpCount: 1
   m_JumpForgivenessWindow: 0.25
   m_JumpHeight: 1.25
-  m_VariableHeightJump: 1
+  m_VariableHeightJump: 0
   m_MinJumpHoldTime: 0.1
   m_MaxJumpHoldTime: 0.5
   m_EarlyOutDecelerationSpeed: 0.1
@@ -27311,7 +27412,7 @@ MonoBehaviour:
       m_SingletonActionBindings: []
       m_Flags: 0
     m_InputActionReferencePerformed: {fileID: -3875704489234743591, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-    m_InputActionReferenceValue: {fileID: -3875704489234743591, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    m_InputActionReferenceValue: {fileID: 0}
     m_ObjectReferenceObject: {fileID: 0}
     m_ManualPerformed: 0
     m_ManualValue: 0
@@ -199269,7 +199370,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 2147287901}
   - {fileID: 154034123}
-  - {fileID: 1536306307}
   - {fileID: 578376449170997893}
   - {fileID: 299259807}
   - {fileID: 667830274}
@@ -199285,3 +199385,4 @@ SceneRoots:
   - {fileID: 404863152}
   - {fileID: 1414378946}
   - {fileID: 162939793}
+  - {fileID: 411958843}
