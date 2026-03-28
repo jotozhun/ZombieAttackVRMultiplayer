@@ -4692,7 +4692,7 @@ MonoBehaviour:
   shootAction:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: Shoot
       m_Type: 0
       m_ExpectedControlType: 
       m_Id: f4cb4900-3d65-44a9-8492-7f53596002d2
