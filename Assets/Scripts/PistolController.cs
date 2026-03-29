@@ -15,9 +15,11 @@ public class PistolController : MonoBehaviour
     [SerializeField] private float criticalChance = 0.1f;
     [SerializeField] private float criticalMultiplier = 1.5f;
     [SerializeField] private float fireRate = 0.5f;
+
+    private RaycastHit hit;
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
@@ -31,7 +33,15 @@ public class PistolController : MonoBehaviour
 
     private void Shoot()
     {
-        muzzleFlash.Play();
+        if (Physics.Raycast(shootMuzzle.position, shootMuzzle.forward, out hit, float.PositiveInfinity))
+        {
+            // 1. Obtener el número de la capa (ej: 0, 8, 31)
+            int capaNumero = hit.collider.gameObject.layer;
 
+            // 2. Convertir ese número al nombre que pusiste en Unity (ej: "Enemigo")
+            string capaNombre = LayerMask.LayerToName(capaNumero);
+
+            Debug.Log("Impacto en: " + hit.collider.name + " | Capa: " + capaNombre + " (ID: " + capaNumero + ")");
+        }
     }
 }
