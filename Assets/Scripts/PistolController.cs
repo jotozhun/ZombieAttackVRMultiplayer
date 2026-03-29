@@ -7,6 +7,7 @@ public class PistolController : MonoBehaviour
     [Header("References")]
     [SerializeField] private Transform shootMuzzle;
     [SerializeField] private InputActionProperty shootAction;
+    [SerializeField] private AudioSource audioSource;
     [SerializeField] private AudioClip shootSound;
     [SerializeField] private ParticleSystem muzzleFlash;
 
@@ -33,6 +34,7 @@ public class PistolController : MonoBehaviour
 
     private void Shoot()
     {
+        audioSource.PlayOneShot(shootSound);
         if (Physics.Raycast(shootMuzzle.position, shootMuzzle.forward, out hit, float.PositiveInfinity))
         {
             // 1. Obtener el número de la capa (ej: 0, 8, 31)
