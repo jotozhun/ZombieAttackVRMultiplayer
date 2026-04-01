@@ -12063,6 +12063,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5964581213273079904, guid: db96fefecd98ddd4ab021d320c7e2848, type: 3}
+      propertyPath: looping
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9030833621854539494, guid: db96fefecd98ddd4ab021d320c7e2848, type: 3}
       propertyPath: m_Name
       value: ShootExplosionVFX
