@@ -9,6 +9,7 @@ public class RifleController : MonoBehaviour
     [SerializeField] private AudioSource audioSource;
 
     [SerializeField] private AudioClip shootSound;
+    [SerializeField] private ParticleSystem[] shootParticles;
     
     public Transform puntaDelCañon;
     public float intervaloDisparo = 0.3f;
@@ -48,6 +49,9 @@ public class RifleController : MonoBehaviour
     void Disparar()
     {
         audioSource.PlayOneShot(shootSound);
+        foreach (var ps in shootParticles) {
+            ps.Play();
+        }
         // 1. Raycast
         RaycastHit hit;
         if (Physics.Raycast(puntaDelCañon.position, puntaDelCañon.forward, out hit, float.PositiveInfinity))
