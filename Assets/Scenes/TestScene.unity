@@ -2215,18 +2215,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PistolController
   shootMuzzle: {fileID: 250972868}
-  shootAction:
-    m_UseReference: 1
-    m_Action:
-      m_Name: Shoot
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: f4cb4900-3d65-44a9-8492-7f53596002d2
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
-      m_Flags: 0
-    m_Reference: {fileID: 83097790271614945, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   audioSource: {fileID: 322285378}
   shootSound: {fileID: 8300000, guid: 2203773368e4340d98c114f55c2dd7fd, type: 3}
   muzzleFlash: {fileID: 0}
@@ -7248,6 +7236,7 @@ MonoBehaviour:
   - {fileID: 1510915264}
   - {fileID: 2027857838}
   - {fileID: 1713027222}
+  ammoAmount: 15
   "puntaDelCa\xF1on": {fileID: 1083522098}
   intervaloDisparo: 0.14
 --- !u!114 &1235753837

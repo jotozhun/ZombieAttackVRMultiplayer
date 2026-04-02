@@ -1,12 +1,12 @@
-using Unity.VisualScripting;
+
 using UnityEngine;
-using UnityEngine.InputSystem;
+using UnityEngine.XR.Interaction.Toolkit.Interactables;
+using UnityEngine.XR.Interaction.Toolkit.Interactors;
 
 public class PistolController : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] private Transform shootMuzzle;
-    [SerializeField] private InputActionProperty shootAction;
     [SerializeField] private AudioSource audioSource;
     [SerializeField] private AudioClip shootSound;
     [SerializeField] private ParticleSystem muzzleFlash;
@@ -17,16 +17,33 @@ public class PistolController : MonoBehaviour
     [SerializeField] private float criticalMultiplier = 1.5f;
     [SerializeField] private float fireRate = 0.5f;
 
+    private bool isTriggerPressed = false;
+    private XRBaseInteractable interactable;
+    // Guardamos la referencia al interactor (mano) que activó el arma
+    private IXRActivateInteractor actualActivator;
     private RaycastHit hit;
-    void Start()
+
+    private void Awake()
     {
+        interactable = GetComponent<XRBaseInteractable>();
         
+        interactable.activated.AddListener(args =>
+        {
+            isTriggerPressed = true;
+            actualActivator = args.interactorObject;
+        });
+        
+        interactable.activated.AddListener(args =>
+        {
+            isTriggerPressed = false;
+            actualActivator = null;
+        });
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (shootAction.action.triggered)
+        if (isTriggerPressed)
         {
             Shoot();
         }

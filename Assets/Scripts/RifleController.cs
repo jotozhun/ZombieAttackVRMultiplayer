@@ -11,6 +11,9 @@ public class RifleController : MonoBehaviour
     [SerializeField] private AudioClip shootSound;
     [SerializeField] private ParticleSystem[] shootParticles;
     
+    [Header("References")]
+    [SerializeField] private int ammoAmount;
+    
     public Transform puntaDelCañon;
     public float intervaloDisparo = 0.3f;
     
