@@ -9,13 +9,20 @@ public class PistolController : MonoBehaviour
     [SerializeField] private Transform shootMuzzle;
     [SerializeField] private AudioSource audioSource;
     [SerializeField] private AudioClip shootSound;
-    [SerializeField] private ParticleSystem muzzleFlash;
+    [SerializeField] private AudioClip reloadSound;
+    [SerializeField] private ParticleSystem[] shootParticles;
 
     [Header("Stats")]
     [SerializeField] private float weaponDamage = 10f;
     [SerializeField] private float criticalChance = 0.1f;
     [SerializeField] private float criticalMultiplier = 1.5f;
     [SerializeField] private float fireRate = 0.5f;
+
+    [Header("Ammo")]
+    [SerializeField] private int magazineMaxAmmo = 10;
+    [SerializeField] private int magazineCurrentAmmo = 5;
+    [SerializeField] private int currentAmmo = 10;
+    [SerializeField] private int maxAmmo = 40;
 
     private bool isTriggerPressed = false;
     private XRBaseInteractable interactable;
@@ -49,9 +56,38 @@ public class PistolController : MonoBehaviour
         }
     }
 
+    private void Reload()
+    {
+        if (magazineCurrentAmmo == magazineMaxAmmo || currentAmmo == 0)
+        {
+            return;
+        }
+
+        int bulletsToFullyReload = magazineMaxAmmo - magazineCurrentAmmo;
+        if (bulletsToFullyReload <= currentAmmo)
+        {
+            magazineCurrentAmmo = magazineMaxAmmo;
+            currentAmmo -= bulletsToFullyReload;
+        }
+        else
+        {
+            magazineCurrentAmmo += currentAmmo;
+            currentAmmo = 0;
+        }
+        audioSource.PlayOneShot(reloadSound);
+    }
+
     private void Shoot()
     {
+        if (magazineCurrentAmmo == 0)
+        {
+            return;
+        }
+        magazineCurrentAmmo -= 1;
         audioSource.PlayOneShot(shootSound);
+        foreach (var ps in shootParticles) {
+            ps.Play();
+        }
         if (Physics.Raycast(shootMuzzle.position, shootMuzzle.forward, out hit, float.PositiveInfinity))
         {
             // 1. Obtener el número de la capa (ej: 0, 8, 31)
