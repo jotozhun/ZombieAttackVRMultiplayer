@@ -101,3 +101,13 @@ InitTestScene*.unity*
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
 *DoNotShip/
 *ButDontShipItWithYourGame/
+
+# Claude Code internal data (worktrees, sessions, plans)
+.claude/
+
+# Unity crash recovery folder
+/[Aa]ssets/_Recovery/
+/[Aa]ssets/_Recovery.meta
+
+# Unity AI Assistant per-user settings
+/ProjectSettings/Packages/com.unity.ai.assistant/

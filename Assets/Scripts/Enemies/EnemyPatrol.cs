@@ -133,7 +133,7 @@ public class EnemyPatrol : MonoBehaviour
                 }
                 break;
             case EnemyState.Attacking:
-                _enemyAttack.Attack(_zombieAnimator);
+                _enemyAttack.Attack(_zombieAnimator, _targetActual);
                 // Si el player se aleja, vuelve a Following
                 if (_targetActual != null && Vector3.Distance(transform.position, _targetActual.position) > _enemyAttack._attackRange)
                 {

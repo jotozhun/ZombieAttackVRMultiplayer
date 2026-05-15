@@ -1,10 +1,7 @@
 fileFormatVersion: 2
 guid: 06cb2b131fe009c47a523671a8fa9ed8
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
+labels:
+- FusionPrefab
 AssetOrigin:
   serializedVersion: 1
   productId: 30232
@@ -12,3 +9,8 @@ AssetOrigin:
   packageVersion: Draft 1.2
   assetPath: Assets/Zombie/Prefabs/Zombie3.prefab
   uploadId: 334764
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

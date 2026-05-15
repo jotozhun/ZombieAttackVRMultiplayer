@@ -885,6 +885,7 @@ GameObject:
   - component: {fileID: 6906141105208389942}
   - component: {fileID: 5843073485659005514}
   - component: {fileID: 2926989059145000889}
+  - component: {fileID: 7224550784035358672}
   m_Layer: 6
   m_Name: VR Player
   m_TagString: Player
@@ -981,8 +982,36 @@ MonoBehaviour:
   ObjectInterest: 1
   Flags: 262145
   NestedObjects: []
-  NetworkedBehaviours: []
+  NetworkedBehaviours:
+  - {fileID: 7224550784035358672}
   ForceRemoteRenderTimeframe: 0
+--- !u!114 &7224550784035358672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4502607273994961409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d42bf541ca3e092419e7c1f7aece595b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ZombieAttackVR.Weapons.Health
+  maxHealth: 100
+  destroyOnDeath: 0
+  destroyDelay: 3
+  OnHealthChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDeath:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDamaged:
+    m_PersistentCalls:
+      m_Calls: []
+  _CurrentHealth: 0
+  _IsDead:
+    _value: 0
 --- !u!1 &5591562605178515267
 GameObject:
   m_ObjectHideFlags: 0
